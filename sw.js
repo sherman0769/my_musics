@@ -7,7 +7,7 @@ const ASSETS_TO_CACHE = [
   './index.html',
   './style.css',
   './albumData.js',
-  './app.js',
+  './app.js?v=2',
   './manifest.json',
   './assets/images/singer_3.jpg',
   './assets/images/icon-192.png',
