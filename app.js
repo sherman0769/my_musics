@@ -225,20 +225,23 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // 3. 變更故事頁插圖、歌詞背景浮水印與網頁背景底圖 (唱片頭像固定，不在此更新)
     const photoName = trackImages[track.id];
-    if (storyImage) storyImage.style.opacity = 0;
-    
-    setTimeout(() => {
-      if (storyImage) {
-        storyImage.src = `assets/images/${photoName}`;
+    const photoUrl = `assets/images/${photoName}`;
+    if (storyImage) {
+      storyImage.style.opacity = 0;
+      storyImage.onload = () => {
+        storyImage.style.opacity = 1;
+      };
+      storyImage.src = photoUrl;
+      if (storyImage.complete) {
         storyImage.style.opacity = 1;
       }
-      if (lyricsWatermarkBg) {
-        lyricsWatermarkBg.style.backgroundImage = `url('assets/images/${photoName}')`;
-      }
-      if (pageBgImage) {
-        pageBgImage.style.backgroundImage = `url('assets/images/${photoName}')`;
-      }
-    }, 200);
+    }
+    if (lyricsWatermarkBg) {
+      lyricsWatermarkBg.style.backgroundImage = `url('${photoUrl}')`;
+    }
+    if (pageBgImage) {
+      pageBgImage.style.backgroundImage = `url('${photoUrl}')`;
+    }
 
     // 4. 動態更換背景流動漸層 (極佳沉浸感)
     const palette = moodPalettes[currentIndex];
