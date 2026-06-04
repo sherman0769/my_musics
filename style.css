@@ -1,0 +1,1224 @@
+/* ==========================================================================
+   李詩民 —《微光邊界》音樂故事專輯 核心樣式表
+   設計風格：日系極簡與北歐現代結合，強調溫暖色調、擬物互動與排版美學。
+   ========================================================================== */
+
+/* 自訂 CSS 變數定義 (色彩系統與字型) */
+:root {
+  /* 動態背景漸變色 - 預設深暖色 */
+  --bg-color-1: #120f0e;
+  --bg-color-2: #1a1411;
+  --bg-color-3: #090807;
+  
+  /* 品牌與字體色彩 (深色系優化) */
+  --color-text-primary: #F4F4F6;   /* 溫潤白 */
+  --color-text-secondary: #D4D4D8; /* 淺灰 */
+  --color-text-muted: #787880;     /* 暗灰 */
+  --color-accent: #B0BC9C;         /* 溫暖鼠尾草綠 (深色對比度提升) */
+  --color-accent-hover: #96A282;
+  --color-accent-light: rgba(176, 188, 156, 0.15);
+  
+  /* 實體擬物色彩 (深色系) */
+  --color-card: rgba(20, 20, 22, 0.65);    /* 磨砂玻璃卡片 */
+  --color-paper: #16161a;                  /* 深灰色日記紙張 */
+  --color-paper-line: rgba(255, 255, 255, 0.03); /* 日記本橫線 */
+  --color-shadow: rgba(0, 0, 0, 0.4);       /* 顯著的深色陰影 */
+  --color-border: rgba(255, 255, 255, 0.08); /* 細白邊框 */
+  
+  /* 字型定義 */
+  --font-serif: 'Noto Serif TC', 'Noto Serif CJK TC', Georgia, serif;
+  --font-sans: 'Outfit', 'Noto Sans TC', sans-serif;
+  
+  /* 動畫時間 */
+  --transition-smooth: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --transition-play: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* ==========================================================================
+   基礎設定與重設 (Reset & Base)
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  background-color: var(--bg-color-1);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 1.5s ease;
+}
+
+/* 隱藏滾動條但保持功能 (對於日記本長頁面) */
+.scrollable-page::-webkit-scrollbar {
+  width: 4px;
+}
+.scrollable-page::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollable-page::-webkit-scrollbar-thumb {
+  background: var(--color-accent-light);
+  border-radius: 4px;
+}
+.scrollable-page::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   動態流動背景 (Dynamic Fluid Background Blobs)
+   ========================================================================== */
+.bg-blobs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.25; /* 降低深色模式下的微光亮度以維持沉穩 */
+  transition: background-color 2s ease, transform 2s ease;
+  mix-blend-mode: screen; /* 深色模式使用 screen 進行自然發光混合 */
+}
+
+.blob-1 {
+  top: -10%;
+  left: -10%;
+  width: 60vw;
+  height: 60vw;
+  background-color: var(--bg-color-1);
+  animation: float-blob-1 25s infinite alternate ease-in-out;
+}
+
+.blob-2 {
+  bottom: -10%;
+  right: -10%;
+  width: 50vw;
+  height: 50vw;
+  background-color: var(--bg-color-2);
+  animation: float-blob-2 20s infinite alternate ease-in-out;
+}
+
+.blob-3 {
+  top: 40%;
+  left: 50%;
+  width: 40vw;
+  height: 40vw;
+  background-color: var(--bg-color-3);
+  animation: float-blob-3 30s infinite alternate ease-in-out;
+}
+
+@keyframes float-blob-1 {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(10%, 15%) scale(1.1); }
+}
+@keyframes float-blob-2 {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-15%, -10%) scale(1.2); }
+}
+@keyframes float-blob-3 {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-10%, 10%) scale(0.9); }
+}
+
+/* ==========================================================================
+   網頁結構佈局 (App Container & Layout)
+   ========================================================================== */
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 90vh;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+/* 頂部 Header */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 25px 10px;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 25px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  color: var(--color-text-primary);
+}
+
+.album-info-header {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  display: flex;
+  gap: 10px;
+}
+
+.album-info-header .artist-name {
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.album-info-header .divider {
+  color: var(--color-text-muted);
+}
+
+/* 主內容區塊 (左右分欄) */
+.main-content {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 40px;
+  align-items: start;
+  flex-grow: 1;
+}
+
+/* ==========================================================================
+   左側：復古黑膠唱片機 (Vinyl Player Panel)
+   ========================================================================== */
+.player-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-card {
+  background: linear-gradient(135deg, rgba(28, 28, 30, 0.7) 0%, rgba(18, 18, 18, 0.8) 100%);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 35px 30px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transition: var(--transition-smooth);
+}
+
+.player-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* 黑膠碟片和唱針容器 */
+.vinyl-wrapper {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* 唱針容器 */
+.tone-arm-container {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  width: 120px;
+  height: 220px;
+  z-index: 10;
+  pointer-events: none; /* 避免擋住唱片點擊 */
+}
+
+/* 唱針 SVG 旋轉動畫 */
+.tone-arm {
+  transform-origin: 80px 30px; /* 以轉軸為圓心 */
+  transform: rotate(0deg);
+  transition: var(--transition-play);
+}
+
+.tone-arm.playing {
+  transform: rotate(23deg); /* 播放時移到黑膠軌道上 */
+}
+
+/* 黑膠唱片實體 */
+.vinyl-record {
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #242424 0%, #121212 25%, #181818 30%, #0d0d0d 100%);
+  position: relative;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4), inset 0 0 12px rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.5s ease-out;
+}
+
+/* 仿製黑膠細密音軌溝槽 */
+.vinyl-grooves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: repeating-radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.025) 0px,
+    rgba(255, 255, 255, 0.025) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  pointer-events: none;
+}
+
+/* 仿製黑膠折光反射效果 */
+.vinyl-record::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* 圓錐形反光 */
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(255, 255, 255, 0.08) 35deg,
+    transparent 70deg,
+    transparent 180deg,
+    rgba(255, 255, 255, 0.08) 215deg,
+    transparent 250deg,
+    transparent 360deg
+  );
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* 黑膠旋轉動畫 */
+@keyframes spin-vinyl {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.vinyl-record.rotating {
+  animation: spin-vinyl 20s linear infinite;
+}
+
+/* 唱片中央貼紙 Label */
+.vinyl-label {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #e9dfd3 0%, #c4b6a4 100%); /* 仿復古米色唱片標籤紙質 */
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+  border: 4px solid #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.label-image {
+  position: absolute;
+  top: 8px; /* 偏上擺放，避開中央唱片孔，防臉部被遮罩 */
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1.5px solid #111;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: opacity 0.5s ease;
+}
+
+.vinyl-label-title {
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 6.5px;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 0.05em;
+  transform: scale(0.9);
+  pointer-events: none;
+}
+
+.vinyl-label-artist {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 5.5px;
+  font-weight: 600;
+  color: #555;
+  letter-spacing: 0.08em;
+  transform: scale(0.85);
+  pointer-events: none;
+}
+
+/* 唱片中央孔洞 */
+.vinyl-hole {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px; /* 微縮孔洞尺寸，更加逼真 */
+  height: 14px;
+  border-radius: 50%;
+  background-color: #120f0e; /* 穿透看到底部的暗色 */
+  border: 1.5px solid #111;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+  z-index: 4;
+}
+
+/* 當前曲目資訊 */
+.track-details {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.track-index {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.track-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+  transition: opacity 0.3s ease;
+}
+
+/* 網頁背景寫真底圖 */
+.page-bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+  filter: brightness(0.18) blur(6px); /* 降低亮度、微微模糊，確保前景文字100%清晰且融為底圖 */
+  transition: background-image 1.5s ease-in-out;
+}
+
+/* 歌名下方 Poetic 短文 */
+.track-short-quote {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  max-width: 320px;
+  margin: 10px auto 0 auto;
+  font-style: italic;
+  opacity: 0.85;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 10px;
+  transition: opacity 0.3s ease;
+}
+
+/* 音樂播放進度條 */
+.progress-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.time-display {
+  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  color: var(--color-text-secondary);
+  min-width: 32px;
+}
+
+/* 滑動條包裝器 */
+.slider-wrapper {
+  flex-grow: 1;
+  position: relative;
+  height: 4px;
+  display: flex;
+  align-items: center;
+}
+
+/* 進度條/音量條本體 (隱藏原生樣式並做美化) */
+.progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.12); /* 提高深色卡片上的進度條軌道對比度 */
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 3;
+}
+
+/* 進度填充條 */
+.progress-fill {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--color-accent);
+  width: 0%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* 滑塊 (Thumb) 自訂 */
+.progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-text-primary);
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.progress-bar::-webkit-slider-thumb:hover {
+  transform: scale(1.3);
+  background: var(--color-accent);
+}
+
+.progress-bar::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-text-primary);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.progress-bar::-moz-range-thumb:hover {
+  transform: scale(1.3);
+  background: var(--color-accent);
+}
+
+/* 音訊控制面板 */
+.player-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.ctrl-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: var(--transition-smooth);
+}
+
+.ctrl-btn:active, .tab-btn:active, .track-item:active {
+  transform: scale(0.94); /* 點擊時微縮，提供極佳的實體觸覺回饋 */
+}
+
+.ctrl-btn:hover {
+  color: var(--color-text-primary);
+  background-color: rgba(44, 42, 41, 0.05);
+}
+
+.ctrl-btn.active {
+  color: var(--color-accent);
+}
+
+/* 播放/暫停主按鈕 */
+.btn-play-pause {
+  background-color: var(--color-text-primary);
+  color: var(--color-paper);
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 4px 15px rgba(44, 42, 41, 0.2);
+}
+
+.btn-play-pause:hover {
+  background-color: var(--color-accent);
+  color: var(--color-paper);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(143, 151, 121, 0.3);
+}
+
+.btn-play-pause svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* 播放按鈕圖示的微調位移 */
+.btn-play-pause svg.icon-play {
+  transform: translateX(2px);
+}
+
+/* 音量控制 */
+.volume-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.volume-slider {
+  max-width: 120px;
+}
+
+/* ==========================================================================
+   右側：故事與歌詞日記本 (Diary / Notebook Panel)
+   ========================================================================== */
+.diary-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.diary-book {
+  background: #141416;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  height: 610px; /* 固定高度，與左側唱片卡片和諧一致 */
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-smooth);
+}
+
+.diary-book:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* 書籤頁籤 (Diary Tabs) */
+.diary-tabs {
+  display: flex;
+  background-color: rgba(44, 42, 41, 0.03);
+  border-bottom: 1px solid var(--color-border);
+  padding: 0 20px;
+  z-index: 11;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  padding: 16px 24px;
+  cursor: pointer;
+  position: relative;
+  transition: var(--transition-smooth);
+}
+
+.tab-btn:hover {
+  color: var(--color-text-primary);
+}
+
+.tab-btn::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: var(--color-accent);
+  transition: var(--transition-smooth);
+}
+
+.tab-btn.active {
+  color: var(--color-text-primary);
+  font-weight: 700;
+}
+
+.tab-btn.active::after {
+  width: 60%;
+}
+
+/* 日記內頁區域 */
+.diary-pages {
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+/* 書本中線裝訂效果 (深色日記本陰影加深) */
+.diary-binding {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.02) 0%,
+    rgba(0, 0, 0, 0.2) 40%,
+    rgba(0, 0, 0, 0.55) 50%,
+    rgba(0, 0, 0, 0.2) 60%,
+    rgba(0, 0, 0, 0.02) 100%
+  );
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* 故事內頁寫真插圖區 */
+.story-image-wrapper {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--color-border);
+  position: relative;
+  background-color: #121214;
+}
+
+.story-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* 日記本單個分頁面板 */
+.diary-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transform: translateY(10px);
+  z-index: 1;
+}
+
+.diary-content.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+  z-index: 2;
+}
+
+/* 紙張紋理 */
+.page-paper {
+  width: 100%;
+  height: 100%;
+  padding: 40px 45px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: 
+    linear-gradient(rgba(44, 42, 41, 0.03) 1px, transparent 1px);
+  background-size: 100% 32px; /* 模擬日記橫線 */
+  background-attachment: local;
+}
+
+.scrollable-page {
+  background-image: none; /* 清單頁面不需橫線 */
+}
+
+/* 日記本左頁與右頁的左右裝飾留白，防止被 binding 線切斷 */
+.diary-content:not(#pane-tracks) .page-paper {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* 故事頁面特定樣式 */
+.diary-date {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 5px;
+}
+
+.diary-title-h2 {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 25px;
+  letter-spacing: 0.02em;
+}
+
+.story-body {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 2.1; /* 剛好對齊橫線 */
+  color: var(--color-text-secondary);
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.story-body p {
+  margin-bottom: 15px;
+  text-indent: 2em; /* 段落開頭縮排 */
+}
+
+.story-philosophy {
+  margin-top: auto;
+  background-color: var(--color-accent-light);
+  border-left: 4px solid var(--color-accent);
+  padding: 12px 18px;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.philosophy-icon {
+  color: var(--color-accent);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* 歌詞頁面特定樣式 (去除 Suno 與 Prompt，改為極淨質感詩歌版面) */
+.lyrics-paper-view {
+  background-image: none !important; /* 去除日記橫線，使用純淨的深色紙張底色 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 45px !important;
+  padding-bottom: 60px !important;
+  position: relative; /* 支撐背景寫真絕對定位 */
+}
+
+/* 歌詞背景寫真浮水印 */
+.lyrics-watermark-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.05; /* 極低的透明度，確保歌詞極易閱讀 */
+  filter: blur(1px); /* 微弱模糊增加柔和藝術感 */
+  pointer-events: none;
+  z-index: 0;
+  transition: background-image 0.8s ease-in-out;
+}
+
+.lyrics-wrapper {
+  position: relative;
+  z-index: 1; /* 確保歌詞文字浮在背景圖之上 */
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.lyrics-text {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  line-height: 2.4; /* 更寬敞的行高，適合悠然讀詩 */
+  color: #f4f4f5; /* 極具質感的溫潤白 */
+  white-space: pre-wrap;
+  text-align: center;
+  letter-spacing: 0.1em; /* 優雅的字距 */
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* 輕微陰影，增加立體與易讀度 */
+}
+
+/* 專輯與歌手頁面樣式 */
+.artist-profile-card {
+  display: flex;
+  gap: 20px;
+  background-color: var(--color-accent-light);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.artist-avatar-wrapper {
+  width: 95px;
+  height: 120px; /* 移除圓形遮罩，改為優雅的人像黃金比例直式長方卡片 */
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  border: 2px solid var(--color-border);
+}
+
+.artist-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artist-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.artist-name-h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.artist-bio-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+  text-align: justify;
+}
+
+.playlist-section {
+  width: 100%;
+}
+
+.playlist-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.playlist-subtitle {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  margin-bottom: 15px;
+}
+
+.track-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.track-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background-color: rgba(255, 255, 255, 0.02); /* 提高深色主題下的清單行可見度 */
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.track-item:hover {
+  background-color: var(--color-accent-light);
+  border-color: var(--color-accent);
+  transform: translateX(3px);
+}
+
+.track-item.active {
+  background-color: rgba(143, 151, 121, 0.15);
+  border-color: var(--color-accent);
+}
+
+.track-item-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.track-num-badge {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  width: 20px;
+}
+
+.track-item.active .track-num-badge {
+  color: var(--color-accent);
+}
+
+.track-item-title {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.track-filename-badge {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  color: var(--color-text-muted);
+  background-color: rgba(44, 42, 41, 0.05);
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.track-item-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.track-item-duration {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.playing-eq-icon {
+  display: none;
+  width: 14px;
+  height: 12px;
+  gap: 2px;
+}
+
+.track-item.active.playing .playing-eq-icon {
+  display: flex;
+}
+
+.eq-bar {
+  width: 2px;
+  height: 100%;
+  background-color: var(--color-accent);
+  transform-origin: bottom;
+  animation: eq-animation 1s ease-in-out infinite alternate;
+}
+
+.eq-bar-1 { animation-delay: 0.1s; }
+.eq-bar-2 { animation-delay: 0.3s; }
+.eq-bar-3 { animation-delay: 0.5s; }
+
+@keyframes eq-animation {
+  0% { transform: scaleY(0.2); }
+  100% { transform: scaleY(1); }
+}
+
+/* 日記本底部裝飾裝飾 (頁碼) */
+.diary-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-paper);
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  z-index: 10;
+}
+
+.diary-brand {
+  font-family: var(--font-serif);
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+/* ==========================================================================
+   底部版權宣告與操作提示 (App Footer)
+   ========================================================================== */
+.app-footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.guide-tip {
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.copyright {
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   響應式設計 (Responsive Grid Rules)
+   ========================================================================== */
+@media (max-width: 960px) {
+  .app-container {
+    padding: 15px;
+    margin: 10px auto;
+  }
+  
+  .main-content {
+    grid-template-columns: 1fr; /* 單欄排列 */
+    gap: 30px;
+  }
+
+  .player-panel {
+    align-items: center;
+  }
+
+  .player-card {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .diary-book {
+    height: 550px; /* 手機上略縮高度 */
+  }
+  
+  .diary-binding {
+    display: none; /* 行動端取消書本裝訂線 */
+  }
+  
+  .diary-content:not(#pane-tracks) .page-paper {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .page-paper {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding-bottom: 15px;
+  }
+
+  .album-info-header {
+    flex-wrap: wrap;
+    font-size: 0.78rem;
+  }
+
+  .vinyl-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+
+  .vinyl-record {
+    width: 230px;
+    height: 230px;
+  }
+
+  .vinyl-label {
+    width: 75px;
+    height: 75px;
+  }
+
+  .tone-arm-container {
+    width: 90px;
+    height: 170px;
+    top: -5px;
+    right: 0px;
+  }
+
+  .tone-arm.playing {
+    transform: rotate(20deg); /* 碟片變小，唱針旋轉度微調 */
+  }
+
+  .player-card {
+    padding: 25px 15px;
+  }
+
+  .tab-btn {
+    padding: 12px 14px;
+    font-size: 0.78rem;
+  }
+
+  .diary-title-h2 {
+    font-size: 1.3rem;
+  }
+
+  .story-body {
+    font-size: 0.92rem;
+    line-height: 1.9;
+  }
+  
+  .artist-profile-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .artist-avatar-wrapper {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .track-filename-badge {
+    display: none; /* 小螢幕隱藏檔案標籤以防溢出 */
+  }
+}

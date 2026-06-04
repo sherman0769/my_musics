@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>李詩民 —《微光邊界》音樂故事專輯</title>
+  
+  <!-- SEO 優化 -->
+  <meta name="description" content="李詩民全新哲學療癒系個人音樂故事專輯《微光邊界》。14 首首尾相連的原創歌曲與心靈日記，探討都市孤獨、自我追尋與心靈救贖。配合復古黑膠唱片機沉浸式互動體驗。">
+  <meta name="keywords" content="李詩民, 微光邊界, 音樂專輯, 原創歌曲, Suno AI, 療癒系, 哲學, 都市情感, 獨立音樂, 黑膠唱片機">
+  <meta name="author" content="李詩民">
+  
+  <!-- Open Graph / 社群分享預覽圖標記 -->
+  <meta property="og:title" content="李詩民 —《微光邊界》音樂故事專輯">
+  <meta property="og:description" content="14首關於都市孤獨與自我救贖的音樂旅程，搭配復古黑膠沉浸式網頁體驗。">
+  <meta property="og:type" content="music.album">
+  <meta property="og:image" content="assets/images/icon-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="李詩民 —《微光邊界》音樂故事專輯">
+  <meta name="twitter:description" content="14首關於都市孤獨與自我救贖的音樂旅程，搭配復古黑膠沉浸式網頁體驗。">
+  <meta name="twitter:image" content="assets/images/icon-512.png">
+
+  <!-- PWA 手機 App 安裝支援 -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#16161a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="微光邊界">
+  <link rel="apple-touch-icon" href="assets/images/icon-192.png">
+  
+  <!-- Google Fonts 引入 (思源宋體與 Noto Sans TC) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- 本機樣式表 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 網頁背景寫真底圖 (隨著歌曲變換) -->
+  <div class="page-bg-image" id="page-bg-image"></div>
+
+  <!-- 動態流動背景微光 -->
+  <div class="bg-blobs">
+    <div class="blob blob-1" id="blob1"></div>
+    <div class="blob blob-2" id="blob2"></div>
+    <div class="blob blob-3" id="blob3"></div>
+  </div>
+
+  <!-- 主容器 -->
+  <main class="app-container" id="album-app">
+    
+    <!-- 頂部簡約標題列 -->
+    <header class="app-header">
+      <div class="logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text">GLIMMER BOUNDARIES</span>
+      </div>
+      <div class="album-info-header">
+        <span class="artist-name">李詩民</span>
+        <span class="divider">/</span>
+        <span class="album-title">首張音樂故事專輯《微光邊界》</span>
+      </div>
+    </header>
+
+    <!-- 主區塊：左側唱片機，右側日記本 -->
+    <div class="main-content">
+      
+      <!-- 左側：復古黑膠唱片機 -->
+      <section class="player-panel" aria-label="音樂播放器">
+        <div class="player-card">
+          
+          <!-- 黑膠唱片盤與唱針區 -->
+          <div class="vinyl-wrapper">
+            
+            <!-- 唱針 (Tone Arm) SVG -->
+            <div class="tone-arm-container">
+              <svg class="tone-arm" id="tone-arm" viewBox="0 0 100 200" width="100" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- 唱針轉軸底座 -->
+                <circle cx="80" cy="30" r="16" fill="url(#metallic-dark)" stroke="#1a1a1a" stroke-width="2" />
+                <circle cx="80" cy="30" r="6" fill="#c0c0c0" />
+                <!-- 唱針金屬桿身 (包含彎折線條) -->
+                <path d="M 80 30 Q 80 80 50 110 L 40 160" stroke="url(#metallic-light)" stroke-width="4" stroke-linecap="round" />
+                <path d="M 80 30 Q 80 80 50 110 L 40 160" stroke="#111" stroke-width="1" stroke-linecap="round" />
+                <!-- 唱頭與唱針頭 -->
+                <rect x="32" y="160" width="16" height="25" rx="3" transform="rotate(-15, 40, 172)" fill="#333" stroke="#222" stroke-width="1.5" />
+                <rect x="36" y="180" width="8" height="6" transform="rotate(-15, 40, 172)" fill="#888" />
+                <!-- 漸層定義 -->
+                <defs>
+                  <linearGradient id="metallic-light" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ffffff" />
+                    <stop offset="30%" stop-color="#b0b0b0" />
+                    <stop offset="70%" stop-color="#efefef" />
+                    <stop offset="100%" stop-color="#707070" />
+                  </linearGradient>
+                  <linearGradient id="metallic-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#444" />
+                    <stop offset="50%" stop-color="#222" />
+                    <stop offset="100%" stop-color="#111" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+
+            <!-- 黑膠唱片 (Vinyl Record) -->
+            <div class="vinyl-record" id="vinyl-record">
+              <!-- 唱片紋路環 (溝槽效果由CSS實現) -->
+              <div class="vinyl-grooves"></div>
+              <!-- 唱片中央圓標 -->
+              <div class="vinyl-label">
+                <img src="" alt="當前曲目封面" class="label-image" id="label-image">
+                <span class="vinyl-label-title">微光邊界</span>
+                <span class="vinyl-label-artist">李詩民</span>
+                <!-- 唱片中心圓孔 -->
+                <div class="vinyl-hole"></div>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- 當前曲目資訊 -->
+          <div class="track-details">
+            <span class="track-index" id="current-track-index">Track 01 / 14</span>
+            <h1 class="track-title" id="current-track-title">光斑的起點</h1>
+            <p class="track-short-quote" id="current-track-quote">在晨光編織的人潮中，脫下日復一日的社交偽裝。</p>
+          </div>
+
+          <!-- 音樂播放進度條 -->
+          <div class="progress-container">
+            <span class="time-display" id="time-current">0:00</span>
+            <div class="slider-wrapper">
+              <input type="range" class="progress-bar" id="progress-bar" min="0" max="100" value="0" step="0.1">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <span class="time-display" id="time-total">3:15</span>
+          </div>
+
+          <!-- 音訊控制面板 -->
+          <div class="player-actions">
+            <!-- 隨機播放 -->
+            <button class="ctrl-btn" id="btn-shuffle" title="隨機播放" aria-label="隨機播放">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg>
+            </button>
+            <!-- 上一首 -->
+            <button class="ctrl-btn" id="btn-prev" title="上一首" aria-label="上一首">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="19 20 9 12 19 4 19 20"></polygon><line x1="5" y1="19" x2="5" y2="5"></line></svg>
+            </button>
+            <!-- 播放/暫停 (大按鈕) -->
+            <button class="ctrl-btn btn-play-pause" id="btn-play" title="播放" aria-label="播放">
+              <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            </button>
+            <!-- 下一首 -->
+            <button class="ctrl-btn" id="btn-next" title="下一首" aria-label="下一首">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 4 15 12 5 20 5 4"></polygon><line x1="19" y1="5" x2="19" y2="19"></line></svg>
+            </button>
+            <!-- 單曲循環 / 順序播放 -->
+            <button class="ctrl-btn" id="btn-loop" title="重複播放" aria-label="重複播放">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+            </button>
+          </div>
+
+          <!-- 音量控制 -->
+          <div class="volume-container">
+            <button class="ctrl-btn" id="btn-mute" title="靜音" aria-label="靜音">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="svg-volume-icon"><path d="M11 5L6 9H2v6h4l5 4V5z"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+            </button>
+            <div class="slider-wrapper volume-slider">
+              <input type="range" class="progress-bar" id="volume-bar" min="0" max="100" value="80">
+              <div class="progress-fill" id="volume-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 右側：故事與歌詞日記本 -->
+      <section class="diary-panel" aria-label="專輯故事日記">
+        <div class="diary-book">
+          
+          <!-- 日記本頂部頁籤 (像書籤一樣的標籤) -->
+          <nav class="diary-tabs" role="tablist">
+            <button class="tab-btn active" data-tab="story" role="tab" aria-selected="true" aria-controls="pane-story">
+              <span>故事背景</span>
+            </button>
+            <button class="tab-btn" data-tab="lyrics" role="tab" aria-selected="false" aria-controls="pane-lyrics">
+              <span>歌詞手稿</span>
+            </button>
+            <button class="tab-btn" data-tab="tracks" role="tab" aria-selected="false" aria-controls="pane-tracks">
+              <span>專輯與歌手</span>
+            </button>
+          </nav>
+
+          <!-- 日記本內頁 -->
+          <div class="diary-pages">
+            
+            <!-- 日記頁中間的裝訂線效果 -->
+            <div class="diary-binding"></div>
+
+            <!-- 頁面 1: 故事背景 -->
+            <div class="diary-content active" id="pane-story" role="tabpanel">
+              <div class="page-paper page-left-decor">
+                <div class="diary-date" id="diary-date">Chapter 01 / Morning Glow</div>
+                <!-- 歌手寫真插圖區 -->
+                <div class="story-image-wrapper">
+                  <img src="" alt="當前曲目寫真" class="story-image" id="story-image">
+                </div>
+                <h2 class="diary-title-h2" id="story-title">《光斑的起點》故事背景</h2>
+                <div class="story-body" id="story-content">
+                  <!-- 故事內容 JS 動態載入 -->
+                </div>
+                <div class="story-philosophy">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="philosophy-icon"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+                  <span id="story-concept">人生課題：學習在喧囂中，脫下偽裝的面具，誠實地面對內心的迷惘。</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 頁面 2: 歌詞手稿 -->
+            <div class="diary-content" id="pane-lyrics" role="tabpanel">
+              <div class="page-paper scrollable-page lyrics-paper-view">
+                <!-- 浮水印背景寫真 -->
+                <div class="lyrics-watermark-bg" id="lyrics-watermark-bg"></div>
+                <!-- 歌詞顯示 -->
+                <div class="lyrics-wrapper">
+                  <pre class="lyrics-text" id="lyrics-content">
+                    <!-- 歌詞 JS 動態載入 -->
+                  </pre>
+                </div>
+              </div>
+            </div>
+
+            <!-- 頁面 3: 全部曲目與歌手資訊 -->
+            <div class="diary-content" id="pane-tracks" role="tabpanel">
+              <div class="page-paper scrollable-page">
+                
+                <!-- 歌手簡介區 (頂端) -->
+                <div class="artist-profile-card">
+                  <div class="artist-avatar-wrapper">
+                    <img src="assets/images/singer_3.jpg" alt="李詩民 肖像" class="artist-avatar" id="artist-avatar">
+                  </div>
+                  <div class="artist-intro">
+                    <h3 class="artist-name-h3" id="artist-name-title">李詩民</h3>
+                    <p class="artist-bio-text" id="artist-bio">
+                      李詩民，都市裡的聲音觀察者。用溫暖而略帶沙啞的男聲，唱出喧囂中的孤獨、掙扎與最終的自我和解。這是一張關於生命哲學、心靈尋回與自我救贖的音樂日記，陪伴每一個在黑夜中尋找光芒的靈魂。
+                    </p>
+                  </div>
+                </div>
+
+                <!-- 曲目清單 -->
+                <div class="playlist-section">
+                  <h4 class="playlist-title">《微光邊界》專輯軌道清單</h4>
+                  <p class="playlist-subtitle">點擊即可載入黑膠播放 (音檔名對照標示)</p>
+                  <ol class="track-list" id="track-list-ul">
+                    <!-- 由 JS 動態生成曲目列表 -->
+                  </ol>
+                </div>
+                
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 日記本底部裝飾裝飾 (頁碼) -->
+          <footer class="diary-footer">
+            <span class="page-number-left" id="page-num-left">P. 1</span>
+            <span class="diary-brand">李詩民 創作手稿</span>
+            <span class="page-number-right" id="page-num-right">P. 2</span>
+          </footer>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 底部版權宣告與操作提示 -->
+    <footer class="app-footer">
+      <p class="guide-tip">提示：您可以點擊「專輯與歌手」頁籤，在列表中播放任意歌曲。</p>
+    </footer>
+
+  </main>
+
+  <!-- HTML5 Audio 原生播放元件 -->
+  <audio id="audio-player" preload="auto"></audio>
+
+  <!-- 載入資料與控制邏輯 -->
+  <script src="albumData.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

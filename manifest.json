@@ -1,0 +1,22 @@
+{
+  "short_name": "微光邊界",
+  "name": "李詩民 —《微光邊界》音樂故事專輯",
+  "description": "李詩民個人哲學療癒系音樂故事專輯。14 首心靈日記歌曲搭配黑膠沉浸式互動體驗。",
+  "icons": [
+    {
+      "src": "assets/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#120f0e",
+  "theme_color": "#16161a",
+  "display": "standalone",
+  "orientation": "portrait"
+}
