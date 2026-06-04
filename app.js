@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   const artistAvatar = document.getElementById('artist-avatar');
   const trackListUl = document.getElementById('track-list-ul');
+  const visitCounter = document.getElementById('visit-counter');
   
   const pageNumLeft = document.getElementById('page-num-left');
   const pageNumRight = document.getElementById('page-num-right');
@@ -64,6 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
   let isLoop = false;
   let prevVolume = 0.8;
   let playbackStartTimer = null;
+  let trackPlayCounts = {};
+  const VISIT_COUNT_KEY = 'glimmerBoundariesVisitCount';
+  const TRACK_PLAY_COUNTS_KEY = 'glimmerBoundariesTrackPlayCounts';
   
   // 歌手寫真照片輪替映射 (1-14軌道，包含最新生成的寫真，實現高度主題關聯)
   const trackImages = {
@@ -139,6 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- 4. 初始化應用程式 ---
   function init() {
+    loadSavedStats();
+    incrementVisitCount();
     buildPlaylist();
     // 固定唱片中間的頭像為同一張 (singer_3.jpg 正面肖像)
     if (labelImage) labelImage.src = 'assets/images/singer_3.jpg';
@@ -172,6 +178,65 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- 5. 渲染播放清單 (Page 3) ---
+  function readNumberFromStorage(key) {
+    try {
+      const rawValue = localStorage.getItem(key);
+      const parsedValue = Number.parseInt(rawValue || '0', 10);
+      return Number.isFinite(parsedValue) ? parsedValue : 0;
+    } catch {
+      return 0;
+    }
+  }
+
+  function loadSavedStats() {
+    try {
+      const savedCounts = JSON.parse(localStorage.getItem(TRACK_PLAY_COUNTS_KEY) || '{}');
+      trackPlayCounts = savedCounts && typeof savedCounts === 'object' ? savedCounts : {};
+    } catch {
+      trackPlayCounts = {};
+    }
+  }
+
+  function saveTrackPlayCounts() {
+    try {
+      localStorage.setItem(TRACK_PLAY_COUNTS_KEY, JSON.stringify(trackPlayCounts));
+    } catch {
+      // localStorage 可能被隱私設定停用；計數只在本次頁面生命週期顯示。
+    }
+  }
+
+  function incrementVisitCount() {
+    const nextVisitCount = readNumberFromStorage(VISIT_COUNT_KEY) + 1;
+    try {
+      localStorage.setItem(VISIT_COUNT_KEY, String(nextVisitCount));
+    } catch {
+      // localStorage 可能被隱私設定停用；仍顯示本次瀏覽。
+    }
+    if (visitCounter) {
+      visitCounter.textContent = `本機訪問量 ${nextVisitCount.toLocaleString('zh-TW')} 次`;
+    }
+  }
+
+  function getTrackPlayCount(trackId) {
+    const parsedCount = Number.parseInt(trackPlayCounts[String(trackId)] || '0', 10);
+    return Number.isFinite(parsedCount) ? parsedCount : 0;
+  }
+
+  function updateTrackPlayCountDisplay(trackId) {
+    const countText = `播放 ${getTrackPlayCount(trackId).toLocaleString('zh-TW')} 次`;
+    document.querySelectorAll(`[data-play-count-for="${trackId}"]`).forEach((node) => {
+      node.textContent = countText;
+    });
+  }
+
+  function incrementCurrentTrackPlayCount() {
+    const track = window.albumData.tracks[currentIndex];
+    const trackId = String(track.id);
+    trackPlayCounts[trackId] = getTrackPlayCount(track.id) + 1;
+    saveTrackPlayCounts();
+    updateTrackPlayCountDisplay(track.id);
+  }
+
   function buildPlaylist() {
     trackListUl.innerHTML = '';
     window.albumData.tracks.forEach((track, index) => {
@@ -187,6 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <span class="track-filename-badge">${track.filename}</span>
         </div>
         <div class="track-item-right">
+          <span class="track-play-count" data-play-count-for="${track.id}">播放 ${getTrackPlayCount(track.id).toLocaleString('zh-TW')} 次</span>
           <span class="track-item-duration">${track.duration}</span>
           <!-- 動態 EQ 頻譜小動畫 -->
           <div class="playing-eq-icon">
@@ -326,6 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function playAudio() {
     isPlaying = true;
+    incrementCurrentTrackPlayCount();
     if (playbackStartTimer) {
       clearTimeout(playbackStartTimer);
     }

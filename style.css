@@ -1009,6 +1009,13 @@ body {
   color: var(--color-text-muted);
 }
 
+.track-play-count {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
 .playing-eq-icon {
   display: none;
   width: 14px;
@@ -1072,6 +1079,13 @@ body {
   color: var(--color-text-secondary);
   font-weight: 500;
   margin-bottom: 8px;
+}
+
+.visit-counter {
+  color: var(--color-text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
 }
 
 .copyright {
@@ -1491,6 +1505,7 @@ body {
 
   .track-item-left {
     min-width: 0;
+    flex: 1 1 auto;
   }
 
   .track-item-title {
@@ -1505,7 +1520,12 @@ body {
   }
 
   .track-item-right {
+    flex: 0 0 auto;
     gap: 10px;
+  }
+
+  .track-play-count {
+    font-size: 0.68rem;
   }
 }
 
