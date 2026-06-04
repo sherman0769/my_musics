@@ -68,6 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let trackPlayCounts = {};
   const VISIT_COUNT_KEY = 'glimmerBoundariesVisitCount';
   const TRACK_PLAY_COUNTS_KEY = 'glimmerBoundariesTrackPlayCounts';
+  const GLOBAL_STATS_API = '/api/stats';
+  let globalStatsEnabled = false;
   
   // 歌手寫真照片輪替映射 (1-14軌道，包含最新生成的寫真，實現高度主題關聯)
   const trackImages = {
@@ -144,8 +146,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- 4. 初始化應用程式 ---
   function init() {
     loadSavedStats();
-    incrementVisitCount();
     buildPlaylist();
+    incrementVisitCount();
     // 固定唱片中間的頭像為同一張 (singer_3.jpg 正面肖像)
     if (labelImage) labelImage.src = 'assets/images/singer_3.jpg';
     loadTrack(0);
@@ -215,6 +217,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (visitCounter) {
       visitCounter.textContent = `本機訪問量 ${nextVisitCount.toLocaleString('zh-TW')} 次`;
     }
+
+    postGlobalStatsEvent('visit')
+      .then((stats) => applyGlobalStats(stats))
+      .catch(() => {
+        globalStatsEnabled = false;
+      });
   }
 
   function getTrackPlayCount(trackId) {
@@ -229,12 +237,47 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  function updateAllTrackPlayCountDisplays() {
+    window.albumData.tracks.forEach((track) => updateTrackPlayCountDisplay(track.id));
+  }
+
+  function applyGlobalStats(stats) {
+    if (!stats || !stats.configured) return false;
+
+    globalStatsEnabled = true;
+    if (typeof stats.visits === 'number' && visitCounter) {
+      visitCounter.textContent = `全站訪問量 ${stats.visits.toLocaleString('zh-TW')} 次`;
+    }
+    if (stats.tracks && typeof stats.tracks === 'object') {
+      trackPlayCounts = stats.tracks;
+      updateAllTrackPlayCountDisplays();
+    }
+    return true;
+  }
+
+  async function postGlobalStatsEvent(event, trackId) {
+    const response = await fetch(GLOBAL_STATS_API, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(trackId ? { event, trackId } : { event }),
+    });
+
+    if (!response.ok) return null;
+    return response.json();
+  }
+
   function incrementCurrentTrackPlayCount() {
     const track = window.albumData.tracks[currentIndex];
     const trackId = String(track.id);
     trackPlayCounts[trackId] = getTrackPlayCount(track.id) + 1;
     saveTrackPlayCounts();
     updateTrackPlayCountDisplay(track.id);
+
+    postGlobalStatsEvent('play', track.id)
+      .then((stats) => applyGlobalStats(stats))
+      .catch(() => {
+        globalStatsEnabled = false;
+      });
   }
 
   function buildPlaylist() {
