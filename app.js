@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // 播放器控制項
   const btnPlay = document.getElementById('btn-play');
-  const svgPlayIcon = document.getElementById('svg-play-icon');
   const btnPrev = document.getElementById('btn-prev');
   const btnNext = document.getElementById('btn-next');
   const btnShuffle = document.getElementById('btn-shuffle');
@@ -58,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let isShuffle = false;
   let isLoop = false;
   let prevVolume = 0.8;
+  let playbackStartTimer = null;
   
   // 歌手寫真照片輪替映射 (1-14軌道，包含最新生成的寫真，實現高度主題關聯)
   const trackImages = {
@@ -281,35 +281,56 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function setPlayButtonState(playing) {
+    btnPlay.title = playing ? "暫停" : "播放";
+    btnPlay.setAttribute('aria-label', playing ? "暫停" : "播放");
+    const playBtnSvg = document.getElementById('svg-play-icon');
+    if (!playBtnSvg) return;
+
+    playBtnSvg.outerHTML = playing
+      ? `<svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>`
+      : `<svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>`;
+  }
+
+  function startPlayingVisuals() {
+    record.classList.add('rotating');
+    const activeItem = document.querySelector('.track-item.active');
+    if (activeItem) activeItem.classList.add('playing');
+  }
+
   function playAudio() {
     isPlaying = true;
+    if (playbackStartTimer) {
+      clearTimeout(playbackStartTimer);
+    }
     
     // 1. 唱針動畫先落針 (擬物感儀式)
     toneArm.classList.add('playing');
     
     // 更新按鈕圖示為「暫停」
-    btnPlay.title = "暫停";
-    svgPlayIcon.outerHTML = `<svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>`;
+    setPlayButtonState(true);
     
-    // 2. 延遲 1 秒（等唱針落到唱片上後，唱片才開始轉動，聲音才響起）
-    setTimeout(() => {
-      if (isPlaying) { // 避免快速切換的 bug
-        audio.play().then(() => {
-          record.classList.add('rotating');
-          // 更新清單中的 EQ 小動畫
-          const activeItem = document.querySelector('.track-item.active');
-          if (activeItem) activeItem.classList.add('playing');
-        }).catch(err => {
-          console.log("音檔載入中或未找到，網頁運作正常。請替換 SUNO 的 MP3 檔案：", err);
-          // 即使音樂播放失敗（例如沒有檔案），也讓唱片旋轉，以便測試介面
-          record.classList.add('rotating');
-        });
+    // 2. 音訊必須在點擊事件中立即啟動，否則瀏覽器會擋下延遲播放。
+    audio.play().then(() => {
+      playbackStartTimer = setTimeout(() => {
+        if (isPlaying) {
+          startPlayingVisuals();
+        }
+      }, 900);
+    }).catch(err => {
+      console.log("音檔載入中或未找到，網頁運作正常。請替換 SUNO 的 MP3 檔案：", err);
+      if (isPlaying) {
+        startPlayingVisuals();
       }
-    }, 900);
+    });
   }
 
   function pauseAudio() {
     isPlaying = false;
+    if (playbackStartTimer) {
+      clearTimeout(playbackStartTimer);
+      playbackStartTimer = null;
+    }
     audio.pause();
     
     // 唱針回歸原位，唱片停止轉動
@@ -317,11 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
     record.classList.remove('rotating');
     
     // 更新按鈕圖示為「播放」
-    btnPlay.title = "播放";
-    const playBtnSvg = document.getElementById('svg-play-icon');
-    if (playBtnSvg) {
-      playBtnSvg.outerHTML = `<svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>`;
-    }
+    setPlayButtonState(false);
     
     // 停止清單中 active 項目的 EQ 動畫
     const activeItem = document.querySelector('.track-item.active');
