@@ -21,6 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnLoop = document.getElementById('btn-loop');
   const btnMute = document.getElementById('btn-mute');
   const svgVolumeIcon = document.getElementById('svg-volume-icon');
+  const miniBtnPlay = document.getElementById('mini-btn-play');
+  const miniBtnPrev = document.getElementById('mini-btn-prev');
+  const miniBtnNext = document.getElementById('mini-btn-next');
+  const miniTrackIndex = document.getElementById('mini-track-index');
+  const miniTrackTitle = document.getElementById('mini-track-title');
+  const miniProgressFill = document.getElementById('mini-progress-fill');
   
   const progressBar = document.getElementById('progress-bar');
   const progressFill = document.getElementById('progress-fill');
@@ -146,6 +152,9 @@ document.addEventListener('DOMContentLoaded', () => {
     btnShuffle.addEventListener('click', toggleShuffle);
     btnLoop.addEventListener('click', toggleLoop);
     btnMute.addEventListener('click', toggleMute);
+    if (miniBtnPlay) miniBtnPlay.addEventListener('click', togglePlay);
+    if (miniBtnPrev) miniBtnPrev.addEventListener('click', prevTrack);
+    if (miniBtnNext) miniBtnNext.addEventListener('click', nextTrack);
     
     progressBar.addEventListener('input', setProgress);
     volumeBar.addEventListener('input', setVolume);
@@ -257,8 +266,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // 6. 重置播放進度與按鈕狀態
     progressBar.value = 0;
     progressFill.style.width = '0%';
+    if (miniProgressFill) miniProgressFill.style.width = '0%';
     timeCurrent.textContent = '0:00';
     timeTotal.textContent = track.duration;
+    if (miniTrackIndex) miniTrackIndex.textContent = `Track ${String(track.id).padStart(2, '0')}`;
+    if (miniTrackTitle) miniTrackTitle.textContent = track.title;
     
     // 7. 更新歌曲清單的 active 項目
     const trackItems = document.querySelectorAll('.track-item');
@@ -285,11 +297,22 @@ document.addEventListener('DOMContentLoaded', () => {
     btnPlay.title = playing ? "暫停" : "播放";
     btnPlay.setAttribute('aria-label', playing ? "暫停" : "播放");
     const playBtnSvg = document.getElementById('svg-play-icon');
-    if (!playBtnSvg) return;
+    if (playBtnSvg) {
+      playBtnSvg.outerHTML = playing
+        ? `<svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>`
+        : `<svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>`;
+    }
 
-    playBtnSvg.outerHTML = playing
-      ? `<svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>`
-      : `<svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" id="svg-play-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>`;
+    if (miniBtnPlay) {
+      miniBtnPlay.title = playing ? "暫停" : "播放";
+      miniBtnPlay.setAttribute('aria-label', playing ? "暫停" : "播放");
+      const miniPlayBtnSvg = document.getElementById('mini-svg-play-icon');
+      if (miniPlayBtnSvg) {
+        miniPlayBtnSvg.outerHTML = playing
+          ? `<svg class="mini-icon-pause" viewBox="0 0 24 24" fill="currentColor" id="mini-svg-play-icon" aria-hidden="true"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>`
+          : `<svg class="mini-icon-play" viewBox="0 0 24 24" fill="currentColor" id="mini-svg-play-icon" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>`;
+      }
+    }
   }
 
   function startPlayingVisuals() {
@@ -415,6 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const percent = (audio.currentTime / audio.duration) * 100;
       progressBar.value = percent;
       progressFill.style.width = `${percent}%`;
+      if (miniProgressFill) miniProgressFill.style.width = `${percent}%`;
       timeCurrent.textContent = formatTime(audio.currentTime);
     }
   }
@@ -424,6 +448,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const time = (progressBar.value / 100) * audio.duration;
       audio.currentTime = time;
       progressFill.style.width = `${progressBar.value}%`;
+      if (miniProgressFill) miniProgressFill.style.width = `${progressBar.value}%`;
     }
   }
 

@@ -1109,12 +1109,24 @@ body {
 }
 
 /* ==========================================================================
+   手機底部迷你播放器 (Mobile Mini Player)
+   ========================================================================== */
+.mobile-mini-player {
+  display: none;
+}
+
+/* ==========================================================================
    響應式設計 (Responsive Grid Rules)
    ========================================================================== */
 @media (max-width: 960px) {
+  body {
+    justify-content: flex-start;
+  }
+
   .app-container {
-    padding: 15px;
+    padding: 15px 15px calc(92px + env(safe-area-inset-bottom));
     margin: 10px auto;
+    min-height: auto;
   }
   
   .main-content {
@@ -1129,14 +1141,69 @@ body {
   .player-card {
     width: 100%;
     max-width: 480px;
+    border-radius: 18px;
   }
 
   .diary-book {
-    height: 550px; /* 手機上略縮高度 */
+    height: auto;
+    min-height: 0;
+    border-radius: 18px;
+    overflow: visible;
+  }
+
+  .diary-tabs {
+    position: sticky;
+    top: 0;
+    overflow-x: auto;
+    padding: 8px;
+    gap: 6px;
+    border-bottom: 0;
+    border-radius: 18px 18px 0 0;
+    background: rgba(18, 18, 20, 0.92);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    scrollbar-width: none;
+  }
+
+  .diary-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab-btn {
+    min-height: 44px;
+    border-radius: 999px;
+    flex: 1 0 auto;
+    padding: 0 18px;
+    white-space: nowrap;
+  }
+
+  .tab-btn.active {
+    background: rgba(176, 188, 156, 0.16);
+  }
+
+  .tab-btn::after {
+    display: none;
   }
   
   .diary-binding {
     display: none; /* 行動端取消書本裝訂線 */
+  }
+
+  .diary-pages {
+    display: block;
+    overflow: visible;
+  }
+
+  .diary-content {
+    position: static;
+    display: none;
+    height: auto;
+    min-height: 0;
+    transform: none;
+  }
+
+  .diary-content.active {
+    display: block;
   }
   
   .diary-content:not(#pane-tracks) .page-paper {
@@ -1146,6 +1213,150 @@ body {
   
   .page-paper {
     padding: 25px;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .scrollable-page {
+    overflow: visible;
+  }
+
+  .diary-footer {
+    display: none;
+  }
+
+  .ctrl-btn {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .progress-container {
+    gap: 10px;
+  }
+
+  .slider-wrapper,
+  .progress-bar {
+    height: 12px;
+  }
+
+  .progress-fill {
+    height: 5px;
+  }
+
+  .progress-bar::-webkit-slider-thumb {
+    width: 18px;
+    height: 18px;
+  }
+
+  .progress-bar::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+  }
+
+  .volume-container {
+    display: none;
+  }
+
+  .mobile-mini-player {
+    position: fixed;
+    left: max(12px, env(safe-area-inset-left));
+    right: max(12px, env(safe-area-inset-right));
+    bottom: max(12px, env(safe-area-inset-bottom));
+    z-index: 50;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 12px;
+    min-height: 70px;
+    padding: 14px 14px 12px;
+    color: var(--color-text-primary);
+    background: rgba(14, 14, 16, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+  }
+
+  .mini-progress-track {
+    position: absolute;
+    top: 0;
+    left: 14px;
+    right: 14px;
+    height: 3px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .mini-progress-fill {
+    width: 0%;
+    height: 100%;
+    background: var(--color-accent);
+    transition: width 0.2s linear;
+  }
+
+  .mini-player-meta {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .mini-track-index {
+    color: var(--color-accent);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .mini-track-title {
+    overflow: hidden;
+    color: var(--color-text-primary);
+    font-family: var(--font-serif);
+    font-size: 0.98rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .mini-player-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .mini-ctrl-btn {
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-secondary);
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .mini-ctrl-btn:active {
+    transform: scale(0.94);
+  }
+
+  .mini-play-btn {
+    color: #111;
+    background: var(--color-text-primary);
+  }
+
+  .mini-play-btn svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .mini-icon-play {
+    transform: translateX(1px);
   }
 }
 
@@ -1155,21 +1366,24 @@ body {
     gap: 10px;
     align-items: flex-start;
     padding-bottom: 15px;
+    margin-bottom: 18px;
   }
 
   .album-info-header {
     flex-wrap: wrap;
     font-size: 0.78rem;
+    gap: 7px;
   }
 
   .vinyl-wrapper {
-    width: 250px;
-    height: 250px;
+    width: clamp(218px, 68vw, 280px);
+    height: clamp(218px, 68vw, 280px);
+    margin-bottom: 18px;
   }
 
   .vinyl-record {
-    width: 230px;
-    height: 230px;
+    width: clamp(202px, 62vw, 256px);
+    height: clamp(202px, 62vw, 256px);
   }
 
   .vinyl-label {
@@ -1189,21 +1403,80 @@ body {
   }
 
   .player-card {
-    padding: 25px 15px;
+    padding: 22px 16px 20px;
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  .player-actions {
+    margin-bottom: 16px;
+  }
+
+  .btn-play-pause {
+    width: 62px;
+    height: 62px;
+  }
+
+  .track-details {
+    margin-bottom: 18px;
+  }
+
+  .track-title {
+    font-size: 1.36rem;
+  }
+
+  .track-short-quote {
+    max-width: 280px;
+    font-size: 0.82rem;
+    line-height: 1.55;
   }
 
   .tab-btn {
-    padding: 12px 14px;
     font-size: 0.78rem;
   }
 
   .diary-title-h2 {
     font-size: 1.3rem;
+    margin-bottom: 18px;
+  }
+
+  .story-image-wrapper {
+    height: 150px;
+    margin-bottom: 18px;
   }
 
   .story-body {
     font-size: 0.92rem;
     line-height: 1.9;
+    text-align: left;
+  }
+
+  .story-body p {
+    text-indent: 1.4em;
+  }
+
+  .story-philosophy {
+    margin-top: 8px;
+    padding: 12px 14px;
+    font-size: 0.84rem;
+  }
+
+  .lyrics-paper-view {
+    padding-top: 30px !important;
+    padding-bottom: 42px !important;
+  }
+
+  .lyrics-wrapper {
+    max-width: 310px;
+  }
+
+  .lyrics-text {
+    font-size: 1rem;
+    line-height: 2.1;
+    letter-spacing: 0.04em;
+  }
+
+  .lyrics-watermark-bg {
+    opacity: 0.035;
   }
   
   .artist-profile-card {
@@ -1214,11 +1487,78 @@ body {
   }
   
   .artist-avatar-wrapper {
-    width: 75px;
-    height: 75px;
+    width: 92px;
+    height: 116px;
+  }
+
+  .artist-bio-text {
+    text-align: left;
+  }
+
+  .track-list {
+    gap: 10px;
+  }
+
+  .track-item {
+    min-height: 56px;
+    padding: 13px 14px;
+  }
+
+  .track-item:hover {
+    transform: none;
+  }
+
+  .track-item-left {
+    min-width: 0;
+  }
+
+  .track-item-title {
+    overflow: hidden;
+    max-width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   
   .track-filename-badge {
     display: none; /* 小螢幕隱藏檔案標籤以防溢出 */
+  }
+
+  .track-item-right {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .logo-text {
+    font-size: 0.76rem;
+    letter-spacing: 0.1em;
+  }
+
+  .ctrl-btn {
+    padding: 6px;
+  }
+
+  .player-actions {
+    gap: 2px;
+  }
+
+  .mini-track-title {
+    font-size: 0.9rem;
+  }
+
+  .mini-ctrl-btn {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 960px) and (prefers-reduced-motion: reduce) {
+  .blob,
+  .vinyl-record.rotating,
+  .diary-content,
+  .story-image,
+  .lyrics-watermark-bg {
+    animation: none !important;
+    transition: none !important;
   }
 }

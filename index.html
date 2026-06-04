@@ -36,7 +36,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   
   <!-- 本機樣式表 -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
@@ -285,8 +285,30 @@
   <!-- HTML5 Audio 原生播放元件 -->
   <audio id="audio-player" preload="auto"></audio>
 
+  <!-- 手機底部迷你播放器 -->
+  <aside class="mobile-mini-player" id="mobile-mini-player" aria-label="手機迷你播放器">
+    <div class="mini-progress-track" aria-hidden="true">
+      <div class="mini-progress-fill" id="mini-progress-fill"></div>
+    </div>
+    <div class="mini-player-meta">
+      <span class="mini-track-index" id="mini-track-index">Track 01</span>
+      <span class="mini-track-title" id="mini-track-title">光斑的起點</span>
+    </div>
+    <div class="mini-player-actions">
+      <button class="mini-ctrl-btn" id="mini-btn-prev" title="上一首" aria-label="上一首">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="19 20 9 12 19 4 19 20"></polygon><rect x="5" y="5" width="2" height="14"></rect></svg>
+      </button>
+      <button class="mini-ctrl-btn mini-play-btn" id="mini-btn-play" title="播放" aria-label="播放">
+        <svg class="mini-icon-play" viewBox="0 0 24 24" fill="currentColor" id="mini-svg-play-icon" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+      </button>
+      <button class="mini-ctrl-btn" id="mini-btn-next" title="下一首" aria-label="下一首">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 4 15 12 5 20 5 4"></polygon><rect x="17" y="5" width="2" height="14"></rect></svg>
+      </button>
+    </div>
+  </aside>
+
   <!-- 載入資料與控制邏輯 -->
   <script src="albumData.js"></script>
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>
