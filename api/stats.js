@@ -11,8 +11,8 @@ function send(response, statusCode, payload) {
 }
 
 function getRedisConfig() {
-  const url = process.env.UPSTASH_REDIS_REST_URL;
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  const url = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
   return url && token ? { token, url: url.replace(/\/$/, '') } : null;
 }
 
@@ -76,7 +76,7 @@ export default async function handler(request, response) {
   if (!config) {
     return send(response, 200, {
       configured: false,
-      message: 'UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN are not configured.',
+      message: 'KV_REST_API_URL/KV_REST_API_TOKEN or UPSTASH_REDIS_REST_URL/UPSTASH_REDIS_REST_TOKEN are not configured.',
     });
   }
 
