@@ -43,11 +43,21 @@
   padding: 0;
 }
 
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
   font-family: var(--font-sans);
   color: var(--color-text-primary);
   background-color: var(--bg-color-1);
   min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
   position: relative;
   display: flex;
@@ -149,6 +159,7 @@ body {
   justify-content: space-between;
   position: relative;
   z-index: 1;
+  overflow-x: clip;
 }
 
 /* 頂部 Header */
@@ -1108,6 +1119,8 @@ body {
   }
 
   .app-container {
+    width: 100%;
+    max-width: 100%;
     padding: 15px 15px calc(92px + env(safe-area-inset-bottom));
     margin: 10px auto;
     min-height: auto;
@@ -1116,6 +1129,7 @@ body {
   .main-content {
     grid-template-columns: 1fr; /* 單欄排列 */
     gap: 30px;
+    min-width: 0;
   }
 
   .player-panel {
@@ -1129,6 +1143,8 @@ body {
   }
 
   .diary-book {
+    width: 100%;
+    max-width: 100%;
     height: auto;
     min-height: 0;
     border-radius: 18px;
@@ -1138,7 +1154,9 @@ body {
   .diary-tabs {
     position: sticky;
     top: 0;
+    max-width: 100%;
     overflow-x: auto;
+    overscroll-behavior-x: contain;
     padding: 8px;
     gap: 6px;
     border-bottom: 0;
@@ -1156,8 +1174,8 @@ body {
   .tab-btn {
     min-height: 44px;
     border-radius: 999px;
-    flex: 1 0 auto;
-    padding: 0 18px;
+    flex: 0 0 auto;
+    padding: 0 14px;
     white-space: nowrap;
   }
 
@@ -1200,6 +1218,7 @@ body {
     height: auto;
     max-height: none;
     overflow: visible;
+    min-width: 0;
   }
 
   .scrollable-page {
@@ -1345,6 +1364,23 @@ body {
 }
 
 @media (max-width: 480px) {
+  body {
+    min-width: 0;
+    touch-action: pan-y;
+  }
+
+  .app-container {
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+  }
+
+  .player-card,
+  .diary-panel,
+  .diary-book,
+  .page-paper {
+    max-width: 100%;
+  }
+
   .app-header {
     flex-direction: column;
     gap: 10px;
@@ -1421,6 +1457,7 @@ body {
 
   .tab-btn {
     font-size: 0.78rem;
+    padding: 0 12px;
   }
 
   .diary-title-h2 {

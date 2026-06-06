@@ -4,14 +4,16 @@
   "description": "李詩民個人哲學療癒系音樂故事專輯。20 首心靈日記歌曲搭配黑膠沉浸式互動體驗。",
   "icons": [
     {
-      "src": "assets/images/icon-192.png",
+      "src": "assets/images/icon-192.png?v=2",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "assets/images/icon-512.png",
+      "src": "assets/images/icon-512.png?v=2",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "index.html",
