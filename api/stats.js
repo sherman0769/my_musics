@@ -3,7 +3,7 @@ const JSON_HEADERS = {
   'cache-control': 'no-store',
 };
 
-const TRACK_IDS = Array.from({ length: 14 }, (_, index) => String(index + 1));
+const TRACK_IDS = Array.from({ length: 20 }, (_, index) => String(index + 1));
 
 function send(response, statusCode, payload) {
   response.writeHead(statusCode, JSON_HEADERS);

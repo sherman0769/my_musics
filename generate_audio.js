@@ -1,5 +1,5 @@
 // generate_audio.js
-// 建立 14 首佔位的合法靜音音檔，用以測試網頁播放器
+// 建立 20 首佔位的合法靜音音檔，用以測試網頁播放器
 
 const fs = require('fs');
 const path = require('path');
@@ -30,11 +30,15 @@ const header = Buffer.from([
 const data = Buffer.alloc(7936, 128);
 const wavFileContent = Buffer.concat([header, data]);
 
-for (let i = 1; i <= 14; i++) {
+for (let i = 1; i <= 20; i++) {
   const trackNum = String(i).padStart(2, '0');
   const targetFile = path.join(audioDir, `track${trackNum}.mp3`);
-  fs.writeFileSync(targetFile, wavFileContent);
-  console.log(`[成功] 已建立佔位音檔: ${targetFile}`);
+  if (!fs.existsSync(targetFile)) {
+    fs.writeFileSync(targetFile, wavFileContent);
+    console.log(`[成功] 已建立佔位音檔: ${targetFile}`);
+  } else {
+    console.log(`[跳過] 檔案已存在，未覆蓋: ${targetFile}`);
+  }
 }
 
-console.log('所有 14 個佔位音檔已成功生成於 assets/audio/。');
+console.log('所有 20 個佔位音檔已成功生成於 assets/audio/。');
