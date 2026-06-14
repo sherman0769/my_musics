@@ -69,6 +69,20 @@ my_musics/
 
 網址也支援指定專輯與曲目，例如 `index.html?album=glimmer-boundaries&track=1`。
 
+### 第二張專輯音檔覆蓋路徑
+
+《澤國西鄉的女孩》已建立 20 個靜音佔位音檔。SUNO 生成完成後，請將下載的音檔依序命名並覆蓋到：
+
+`assets/audio/zeguoxixiang-girl/`
+
+檔名固定為：
+
+`track01.mp3` 到 `track20.mp3`
+
+專輯可用此網址直接測試：
+
+`index.html?album=zeguoxixiang-girl&track=1`
+
 ---
 
 ## 🎵 如何將 SUNO 生成的歌曲上傳至網頁？
