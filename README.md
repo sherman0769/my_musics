@@ -1,6 +1,6 @@
-# 《微光邊界 (Glimmer Boundaries)》個人音樂故事專輯網頁
+# 《微光邊界 (Glimmer Boundaries)》音樂故事播放器
 
-這是一個專為歌手**李詩民**設計的沉浸式音樂故事專輯網頁。結合了**復古黑膠唱片機的實體互動**與**日記本故事手稿**的雙欄排版，20 首關於生命哲學、自我救贖的歌首尾相連，帶給聽眾都市療癒體驗。
+這是一個專為歌手**李詩民**設計的沉浸式音樂故事播放器。播放器品牌名稱為《微光邊界》，目前預設收錄同名專輯《微光邊界》，並已支援未來加入更多專輯。整體體驗結合了**復古黑膠唱片機的實體互動**與**日記本故事手稿**的雙欄排版，帶給聽眾都市療癒體驗。
 
 ---
 
@@ -23,11 +23,51 @@ my_musics/
 │       └── singer_5.png
 ├── index.html          <- 📄 網頁主結構 (含 SEO 優化、Google Fonts)
 ├── style.css           <- 🎨 精緻毛玻璃、黑膠旋轉與唱針落針動畫樣式
-├── albumData.js        <- 🗃️ 20 首歌曲的歌詞、Suno Prompt 與故事背景資料庫
+├── albumData.js        <- 🗃️ 專輯資料庫；可在 albumsData 中加入更多專輯
 ├── app.js              <- ⚙️ 播放器核心邏輯、落針延遲、流動背景色調控制
 ├── generate_audio.js   <- 🛠️ (選用) 重新生成測試音檔的 Node.js 腳本
 └── README.md           <- 📘 本使用說明文檔
 ```
+
+---
+
+## 💿 如何新增更多專輯？
+
+`albumData.js` 會匯出 `albumsData` 陣列。新增專輯時，建立另一個 album 物件並加入陣列即可；播放器會自動在「作品庫」中顯示新專輯，並根據目前專輯更新 header、黑膠 label、曲目列表、歌詞、故事、播放統計與背景色。
+
+每張專輯建議包含：
+
+```js
+{
+  id: "new-album-id",
+  displayTitle: "新專輯名稱",
+  subtitle: "第二張音樂故事專輯",
+  artist: "李詩民",
+  artistBio: "歌手或本張專輯介紹",
+  coverImage: "assets/images/new-cover.jpg",
+  labelImage: "assets/images/new-cover.jpg",
+  artistImage: "assets/images/new-artist.jpg",
+  audioBasePath: "assets/audio/new-album",
+  tagline: "專輯一句話介紹",
+  tracks: [
+    {
+      id: 1,
+      title: "新歌名",
+      filename: "track01.mp3",
+      duration: "2:30",
+      audioSrc: "assets/audio/new-album/track01.mp3",
+      image: "assets/images/new-track-01.jpg",
+      quote: "播放器歌名下方短句",
+      concept: "人生課題或創作概念",
+      palette: { bg1: "#101010", bg2: "#182018", bg3: "#070707" },
+      story: "創作背景文字",
+      lyrics: "完整歌詞"
+    }
+  ]
+}
+```
+
+網址也支援指定專輯與曲目，例如 `index.html?album=glimmer-boundaries&track=1`。
 
 ---
 

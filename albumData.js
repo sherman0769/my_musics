@@ -671,9 +671,132 @@ const albumData = {
   ]
 };
 
-// 匯出資料庫，供 app.js 使用
+const glimmerTrackImages = {
+  1: 'singer_3.jpg',
+  2: 'singer_1.png',
+  3: 'singer_2.jpg',
+  4: 'singer_4.png',
+  5: 'singer_5.png',
+  6: 'singer_6.png',
+  7: 'singer_9.png',
+  8: 'singer_7.png',
+  9: 'singer_9.png',
+  10: 'singer_8.png',
+  11: 'singer_10.png',
+  12: 'singer_1.png',
+  13: 'singer_5.png',
+  14: 'singer_3.jpg',
+  15: 'singer_2.jpg',
+  16: 'singer_4.png',
+  17: 'singer_6.png',
+  18: 'singer_7.png',
+  19: 'singer_8.png',
+  20: 'singer_3.jpg'
+};
+
+const glimmerMoodPalettes = [
+  { bg1: '#120f0e', bg2: '#1a1411', bg3: '#090807' },
+  { bg1: '#0e120f', bg2: '#121914', bg3: '#070908' },
+  { bg1: '#0e1214', bg2: '#12181d', bg3: '#070809' },
+  { bg1: '#140f12', bg2: '#1b1216', bg3: '#090708' },
+  { bg1: '#14130e', bg2: '#1a1912', bg3: '#080807' },
+  { bg1: '#0f1214', bg2: '#14181c', bg3: '#080909' },
+  { bg1: '#16100e', bg2: '#1f130f', bg3: '#0a0808' },
+  { bg1: '#130e14', bg2: '#1a111b', bg3: '#080709' },
+  { bg1: '#0d1412', bg2: '#101a17', bg3: '#060908' },
+  { bg1: '#0d0f14', bg2: '#10131b', bg3: '#060709' },
+  { bg1: '#15140e', bg2: '#1b1a11', bg3: '#090907' },
+  { bg1: '#111111', bg2: '#181818', bg3: '#080808' },
+  { bg1: '#0f140f', bg2: '#131b13', bg3: '#070907' },
+  { bg1: '#18110e', bg2: '#231611', bg3: '#0a0807' },
+  { bg1: '#0a0b10', bg2: '#111528', bg3: '#040509' },
+  { bg1: '#0c1214', bg2: '#101c20', bg3: '#050709' },
+  { bg1: '#1a120f', bg2: '#2b1e19', bg3: '#0c0908' },
+  { bg1: '#15110f', bg2: '#201915', bg3: '#080606' },
+  { bg1: '#110f17', bg2: '#1c1828', bg3: '#08070b' },
+  { bg1: '#1d160f', bg2: '#2e2114', bg3: '#0e0b08' }
+];
+
+const glimmerLifeConcepts = [
+  "人生課題：學習在喧囂中，脫下偽裝的面具，誠實地面對內心的迷惘。",
+  "人生課題：接納與自己相處的時光，發現孤獨是心靈最深沉的自由。",
+  "人生課題：放下與他人比較的焦慮，接納自己也是不完美的平凡人。",
+  "人生課題：釋懷人際關係中的淡出，理解無言的告別也是一種體貼。",
+  "人生課題：學會在繁忙中短暫放空，無所事事也是靈魂的呼吸。",
+  "人生課題：擁抱回憶中的遺憾，感激曾交會的溫暖光芒。",
+  "人生課題：不以社會標準定義自己，失敗與心碎是塑造人格的勛章。",
+  "人生課題：在喧囂與歸途中，找尋屬於自我的緩衝邊界。",
+  "人生課題：珍惜城市角落中細微的善意，在冰冷中看見微小的微光。",
+  "人生課題：在黑夜中允許自己軟弱，與過去的後悔握手言和。",
+  "人生課題：尋回遺忘的童心，感謝那個一直勇敢守護純真的自己。",
+  "人生課題：接納時光的刻痕，在歲月的流逝中活出優雅與從容。",
+  "人生課題：將生命所有的傷口化為力量，重新披上堅韌的盔甲。",
+  "人生課題：在黑夜的盡頭迎來黎明，靈魂在此刻獲得徹底的和解與新生。",
+  "人生課題：學會接納人與人之間的距離，有些沉默是彼此最溫柔的界線。",
+  "人生課題：短暫的停滯並非放棄，而是給予靈魂在雨後重新出發的契機。",
+  "人生課題：釋懷生命中的擦身而過，感恩每一次短暫而溫暖的相遇。",
+  "人生課題：不被過去的遺憾所束縛，將回憶化為滋養當下人生的溫暖養分。",
+  "人生課題：在夜深人靜時與自己坦誠相對，學會擁抱自己所有的不完美。",
+  "人生課題：歷經都市喧囂與心靈重塑後，在微光中尋得內心永恆的寧靜與安全感。"
+];
+
+const glimmerShortQuotes = {
+  1: "在晨光編織的人潮中，脫下日復一日的社交偽裝。",
+  2: "手沖咖啡的香氣裡，遇見不需要迎合任何人的安靜。",
+  3: "在顛簸的捷運車廂，看穿每一個堅強外表下的脆弱。",
+  4: "那些被默默刪除的文字，是我們給彼此最溫柔的釋懷。",
+  5: "關掉手機震動的十分鐘，把時間還給樹蔭下的微風。",
+  6: "一場突然其來的午後雷雨，收錄了青春裡最溫馨的遺憾。",
+  7: "那些沒有被寫進履歷的挫敗，才是塑造真實自我的靈魂。",
+  8: "在光與暗交界的巴士末排，做一個自由漂浮的都市塵埃。",
+  9: "凌晨兩點的溫熱關東煮，是深夜裡無聲卻溫暖的陪伴。",
+  10: "不再與回憶的黑夜對抗，允許自己在此刻安然軟弱。",
+  11: "翻開舊相冊的角落，對那個小時候的自己說聲謝謝。",
+  12: "眼角悄然浮現的細紋，是歲月贈予生命最優雅的勛章。",
+  13: "當我們能夠笑著談論傷痛，那些結痂早已化為無畏的盔甲。",
+  14: "當第一縷曙光穿透夜幕，帶上傷痕，早安，新的一天。",
+  15: "螢幕上亮起的那個名字，最終還是隱沒在寂靜的深夜。",
+  16: "看著屋簷滴落的雨滴，在停滯的時間裡找回呼吸的節奏。",
+  17: "綠燈亮起的人潮中，一個默契的點頭便是最美好的道別。",
+  18: "舊旋律在耳邊盤旋，將斑駁的往事溫柔地縫補進當下。",
+  19: "晚風吹過空曠的陽台，那些對自己說的真心話，夜空都聽見了。",
+  20: "穿過長夜的曲折邊界，我們終將在最溫暖的微光中安然降落。"
+};
+
+albumData.id = 'glimmer-boundaries';
+albumData.displayTitle = '微光邊界';
+albumData.subtitle = '首張音樂故事專輯';
+albumData.releaseDate = '2026-06-06';
+albumData.status = 'available';
+albumData.audioBasePath = 'assets/audio';
+albumData.tagline = '20 首關於都市孤獨、自我追尋與心靈救贖的音樂旅程。';
+albumData.coverImage = albumData.coverImage || 'assets/images/singer_3.jpg';
+albumData.labelImage = 'assets/images/singer_3.jpg';
+albumData.artistImage = 'assets/images/singer_3.jpg';
+albumData.changelogTitle = 'Album Diary / 專輯更新日記';
+albumData.changelogIntro = '歡迎來到《微光邊界》特別增量版！為了讓這趟都市療癒旅程更加完整，我們為您追加了六首全新設計的生命哲學歌曲。整張專輯現在擴充至 20 首曲目，陪伴您度過每一個角落的晴雨晝夜。';
+
+albumData.tracks = albumData.tracks.map((track, index) => {
+  const imageName = glimmerTrackImages[track.id] || 'singer_3.jpg';
+  return {
+    ...track,
+    audioSrc: track.audioSrc || `${albumData.audioBasePath}/${track.filename}`,
+    image: track.image || `assets/images/${imageName}`,
+    quote: track.quote || glimmerShortQuotes[track.id] || '',
+    concept: track.concept || glimmerLifeConcepts[index] || '',
+    palette: track.palette || glimmerMoodPalettes[index] || glimmerMoodPalettes[0]
+  };
+});
+
+const albumsData = [
+  albumData
+];
+
+// 匯出資料庫，供 app.js 使用。新增專輯時，將 album 物件加入 albumsData 即可。
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = albumData;
+  module.exports.albumsData = albumsData;
 } else {
   window.albumData = albumData;
+  window.albumsData = albumsData;
 }

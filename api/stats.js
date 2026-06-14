@@ -3,7 +3,8 @@ const JSON_HEADERS = {
   'cache-control': 'no-store',
 };
 
-const TRACK_IDS = Array.from({ length: 20 }, (_, index) => String(index + 1));
+const DEFAULT_ALBUM_ID = 'glimmer-boundaries';
+const DEFAULT_TRACK_IDS = Array.from({ length: 20 }, (_, index) => String(index + 1));
 
 function send(response, statusCode, payload) {
   response.writeHead(statusCode, JSON_HEADERS);
@@ -30,39 +31,60 @@ async function redisRequest(config, path) {
   return redisResponse.json();
 }
 
-async function getStats(config) {
-  const visitsResult = await redisRequest(config, '/get/glimmer:visits');
+function sanitizeAlbumId(albumId) {
+  const normalized = String(albumId || DEFAULT_ALBUM_ID).trim().toLowerCase();
+  return normalized.replace(/[^a-z0-9-]/g, '-') || DEFAULT_ALBUM_ID;
+}
+
+function normalizeTrackIds(trackIds) {
+  const requestedTrackIds = typeof trackIds === 'string' ? trackIds.split(',') : trackIds;
+  const ids = Array.isArray(requestedTrackIds) && requestedTrackIds.length > 0 ? requestedTrackIds : DEFAULT_TRACK_IDS;
+  return [...new Set(ids.map((trackId) => String(trackId)).filter((trackId) => /^\d{1,3}$/.test(trackId)))];
+}
+
+function getStatsKeyPrefix(albumId) {
+  const safeAlbumId = sanitizeAlbumId(albumId);
+  return safeAlbumId === DEFAULT_ALBUM_ID ? 'glimmer' : `glimmer:${safeAlbumId}`;
+}
+
+async function getStats(config, albumId, trackIds) {
+  const keyPrefix = getStatsKeyPrefix(albumId);
+  const normalizedTrackIds = normalizeTrackIds(trackIds);
+  const visitsResult = await redisRequest(config, `/get/${keyPrefix}:visits`);
   const trackResults = await Promise.all(
-    TRACK_IDS.map((trackId) => redisRequest(config, `/get/glimmer:track:${trackId}`))
+    normalizedTrackIds.map((trackId) => redisRequest(config, `/get/${keyPrefix}:track:${trackId}`))
   );
 
   return {
     configured: true,
     visits: Number(visitsResult.result || 0),
     tracks: Object.fromEntries(
-      TRACK_IDS.map((trackId, index) => [trackId, Number(trackResults[index].result || 0)])
+      normalizedTrackIds.map((trackId, index) => [trackId, Number(trackResults[index].result || 0)])
     ),
   };
 }
 
-async function incrementVisit(config) {
-  await redisRequest(config, '/incr/glimmer:visits');
-  return getStats(config);
+async function incrementVisit(config, albumId, trackIds) {
+  const keyPrefix = getStatsKeyPrefix(albumId);
+  await redisRequest(config, `/incr/${keyPrefix}:visits`);
+  return getStats(config, albumId, trackIds);
 }
 
-async function incrementTrack(config, trackId) {
-  if (!TRACK_IDS.includes(String(trackId))) {
+async function incrementTrack(config, albumId, trackId, trackIds) {
+  const normalizedTrackIds = normalizeTrackIds(trackIds);
+  if (!normalizedTrackIds.includes(String(trackId))) {
     return { error: 'Invalid trackId' };
   }
 
-  await redisRequest(config, `/incr/glimmer:track:${trackId}`);
-  return getStats(config);
+  const keyPrefix = getStatsKeyPrefix(albumId);
+  await redisRequest(config, `/incr/${keyPrefix}:track:${trackId}`);
+  return getStats(config, albumId, normalizedTrackIds);
 }
 
 function readBody(request) {
   if (!request.body) return {};
   if (typeof request.body === 'string') {
-    try {
+  try {
       return JSON.parse(request.body);
     } catch {
       return {};
@@ -80,9 +102,9 @@ export default async function handler(request, response) {
     });
   }
 
-  try {
+    try {
     if (request.method === 'GET') {
-      return send(response, 200, await getStats(config));
+      return send(response, 200, await getStats(config, request.query?.albumId, request.query?.trackIds));
     }
 
     if (request.method !== 'POST') {
@@ -91,11 +113,11 @@ export default async function handler(request, response) {
 
     const body = readBody(request);
     if (body.event === 'visit') {
-      return send(response, 200, await incrementVisit(config));
+      return send(response, 200, await incrementVisit(config, body.albumId, body.trackIds));
     }
 
     if (body.event === 'play') {
-      const result = await incrementTrack(config, body.trackId);
+      const result = await incrementTrack(config, body.albumId, body.trackId, body.trackIds);
       return send(response, result.error ? 400 : 200, result);
     }
 

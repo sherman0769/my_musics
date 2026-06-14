@@ -9,9 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const record = document.getElementById('vinyl-record');
   const toneArm = document.getElementById('tone-arm');
   const labelImage = document.getElementById('label-image');
+  const vinylLabelTitle = document.getElementById('vinyl-label-title');
+  const vinylLabelArtist = document.getElementById('vinyl-label-artist');
   const storyImage = document.getElementById('story-image');
   const lyricsWatermarkBg = document.getElementById('lyrics-watermark-bg');
   const pageBgImage = document.getElementById('page-bg-image');
+  const headerArtistName = document.getElementById('header-artist-name');
+  const headerAlbumTitle = document.getElementById('header-album-title');
+  const btnAlbumLibrary = document.getElementById('btn-album-library');
   
   // 播放器控制項
   const btnPlay = document.getElementById('btn-play');
@@ -51,13 +56,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const lyricsContent = document.getElementById('lyrics-content');
   
   const artistAvatar = document.getElementById('artist-avatar');
+  const artistNameTitle = document.getElementById('artist-name-title');
+  const artistBio = document.getElementById('artist-bio');
+  const albumReleaseLine = document.getElementById('album-release-line');
+  const playlistTitle = document.getElementById('playlist-title');
+  const playlistSubtitle = document.getElementById('playlist-subtitle');
   const trackListUl = document.getElementById('track-list-ul');
+  const albumLibraryGrid = document.getElementById('album-library-grid');
+  const changelogDateTitle = document.getElementById('changelog-date-title');
+  const changelogDesc = document.getElementById('changelog-desc');
+  const diaryBrand = document.getElementById('diary-brand');
   const visitCounter = document.getElementById('visit-counter');
   
   const pageNumLeft = document.getElementById('page-num-left');
   const pageNumRight = document.getElementById('page-num-right');
 
   // --- 2. 狀態變數 ---
+  const albums = Array.isArray(window.albumsData) && window.albumsData.length > 0
+    ? window.albumsData
+    : [window.albumData].filter(Boolean);
+  const DEFAULT_ALBUM_ID = albums[0]?.id || 'glimmer-boundaries';
+  const LAST_ALBUM_KEY = 'glimmerBoundariesCurrentAlbum';
+  const PLAYER_VISIT_COUNT_KEY = 'glimmerBoundariesVisitCount';
+  const PLAYER_TRACK_PLAY_COUNTS_KEY = 'glimmerBoundariesTrackPlayCounts';
+  let currentAlbumIndex = getInitialAlbumIndex();
+  let currentAlbum = albums[currentAlbumIndex];
   let currentIndex = 0;
   let isPlaying = false;
   let isMuted = false;
@@ -66,115 +89,18 @@ document.addEventListener('DOMContentLoaded', () => {
   let prevVolume = 0.8;
   let playbackStartTimer = null;
   let trackPlayCounts = {};
-  const VISIT_COUNT_KEY = 'glimmerBoundariesVisitCount';
-  const TRACK_PLAY_COUNTS_KEY = 'glimmerBoundariesTrackPlayCounts';
   const GLOBAL_STATS_API = '/api/stats';
   let globalStatsEnabled = false;
   
-  // 歌手寫真照片輪替映射 (1-20軌道，包含最新生成的寫真，實現高度主題關聯)
-  const trackImages = {
-    1: 'singer_3.jpg',  // 正面主打
-    2: 'singer_1.png',  // 側臉溫暖
-    3: 'singer_2.jpg',  // 側面柔和
-    4: 'singer_4.png',  // 黑白自省
-    5: 'singer_5.png',  // 黑白哲學
-    6: 'singer_6.png',  // 雨中咖啡館 (雨天收音機)
-    7: 'singer_9.png',  // 暗夜街燈下 (被隱藏的履歷)
-    8: 'singer_7.png',  // 黃昏街道行走 (黃昏的夾縫)
-    9: 'singer_9.png',  // 暗夜街燈下 (便利商店的微光)
-    10: 'singer_8.png',  // 深夜臥室燈光下 (失眠三點半)
-    11: 'singer_10.png', // 復古書房手稿桌前 (給內心小孩的信)
-    12: 'singer_1.png',  // 時間的刻度
-    13: 'singer_5.png',  // 傷疤與盔甲
-    14: 'singer_3.jpg',  // 晨曦的預演 (主打封面)
-    15: 'singer_2.jpg',  // 深夜自處 (未撥通的電話)
-    16: 'singer_4.png',  // 雨後自省 (下過雨的屋簷)
-    17: 'singer_6.png',  // 都市偶遇 (重逢的十字路口)
-    18: 'singer_7.png',  // 懷舊氛圍 (收音機裡的舊情歌)
-    19: 'singer_8.png',  // 陽台獨處 (自言自語的陽台)
-    20: 'singer_3.jpg'   // 安全降落 (在微光中降落)
-  };
-
-  // 20首曲目對應的深色流動微光背景調色盤 (CSS 變數動態切換，極致高級感)
-  const moodPalettes = [
-    { bg1: '#120f0e', bg2: '#1a1411', bg3: '#090807' }, // T1: 暖黑金
-    { bg1: '#0e120f', bg2: '#121914', bg3: '#070908' }, // T2: 森林幽暗
-    { bg1: '#0e1214', bg2: '#12181d', bg3: '#070809' }, // T3: 捷運夜空
-    { bg1: '#140f12', bg2: '#1b1216', bg3: '#090708' }, // T4: 曖昧暗紫
-    { bg1: '#14130e', bg2: '#1a1912', bg3: '#080807' }, // T5: 昏黃沙丘
-    { bg1: '#0f1214', bg2: '#14181c', bg3: '#080909' }, // T6: 雨夜灰藍
-    { bg1: '#16100e', bg2: '#1f130f', bg3: '#0a0808' }, // T7: 暗橘鐵鏽
-    { bg1: '#130e14', bg2: '#1a111b', bg3: '#080709' }, // T8: 暮色幽紫
-    { bg1: '#0d1412', bg2: '#101a17', bg3: '#060908' }, // T9: 超商冷綠
-    { bg1: '#0d0f14', bg2: '#10131b', bg3: '#060709' }, // T10: 深夜邃藍
-    { bg1: '#15140e', bg2: '#1b1a11', bg3: '#090907' }, // T11: 童話昏黃
-    { bg1: '#111111', bg2: '#181818', bg3: '#080808' }, // T12: 歲月暗灰
-    { bg1: '#0f140f', bg2: '#131b13', bg3: '#070907' }, // T13: 盔甲深綠
-    { bg1: '#18110e', bg2: '#231611', bg3: '#0a0807' }, // T14: 黎明暗金
-    { bg1: '#0a0b10', bg2: '#111528', bg3: '#040509' }, // T15: 深夜藍紫 (未撥通的電話)
-    { bg1: '#0c1214', bg2: '#101c20', bg3: '#050709' }, // T16: 雨簷灰綠 (下過雨的屋簷)
-    { bg1: '#1a120f', bg2: '#2b1e19', bg3: '#0c0908' }, // T17: 重逢暖橘 (重逢的十字路口)
-    { bg1: '#15110f', bg2: '#201915', bg3: '#080606' }, // T18: 爵士咖褐 (收音機裡的舊情歌)
-    { bg1: '#110f17', bg2: '#1c1828', bg3: '#08070b' }, // T19: 陽台暗紫 (自言自語的陽台)
-    { bg1: '#1d160f', bg2: '#2e2114', bg3: '#0e0b08' }  // T20: 曙光金橘 (在微光中降落)
-  ];
-
-  // 20首曲目對應的人生課題標題
-  const lifeConcepts = [
-    "人生課題：學習在喧囂中，脫下偽裝的面具，誠實地面對內心的迷惘。",
-    "人生課題：接納與自己相處的時光，發現孤獨是心靈最深沉的自由。",
-    "人生課題：放下與他人比較的焦慮，接納自己也是不完美的平凡人。",
-    "人生課題：釋懷人際關係中的淡出，理解無言的告別也是一種體貼。",
-    "人生課題：學會在繁忙中短暫放空，無所事事也是靈魂的呼吸。",
-    "人生課題：擁抱回憶中的遺憾，感激曾交會的溫暖光芒。",
-    "人生課題：不以社會標準定義自己，失敗與心碎是塑造人格的勛章。",
-    "人生課題：在喧囂與歸途中，找尋屬於自我的緩衝邊界。",
-    "人生課題：珍惜城市角落中細微的善意，在冰冷中看見微小的微光。",
-    "人生課題：在黑夜中允許自己軟弱，與過去的後悔握手言和。",
-    "人生課題：尋回遺忘的童心，感謝那個一直勇敢守護純真的自己。",
-    "人生課題：接納時光的刻痕，在歲月的流逝中活出優雅與從容。",
-    "人生課題：將生命所有的傷口化為力量，重新披上堅韌的盔甲。",
-    "人生課題：在黑夜的盡頭迎來黎明，靈魂在此刻獲得徹底的和解與新生。",
-    "人生課題：學會接納人與人之間的距離，有些沉默是彼此最溫柔的界線。",
-    "人生課題：短暫的停滯並非放棄，而是給予靈魂在雨後重新出發的契機。",
-    "人生課題：釋懷生命中的擦身而過，感恩每一次短暫而溫暖的相遇。",
-    "人生課題：不被過去的遺憾所束縛，將回憶化為滋養當下人生的溫暖養分。",
-    "人生課題：在夜深人靜時與自己坦誠相對，學會擁抱自己所有的不完美。",
-    "人生課題：歷經都市喧囂與心靈重塑後，在微光中尋得內心永恆的寧靜與安全感。"
-  ];
-
-  // 20首曲目對應的歌名下方 Poetic 短文 (人生哲理短語)
-  const shortQuotes = {
-    1: "在晨光編織的人潮中，脫下日復一日的社交偽裝。",
-    2: "手沖咖啡的香氣裡，遇見不需要迎合任何人的安靜。",
-    3: "在顛簸的捷運車廂，看穿每一個堅強外表下的脆弱。",
-    4: "那些被默默刪除的文字，是我們給彼此最溫柔的釋懷。",
-    5: "關掉手機震動的十分鐘，把時間還給樹蔭下的微風。",
-    6: "一場突然其來的午後雷雨，收錄了青春裡最溫馨的遺憾。",
-    7: "那些沒有被寫進履歷的挫敗，才是塑造真實自我的靈魂。",
-    8: "在光與暗交界的巴士末排，做一個自由漂浮的都市塵埃。",
-    9: "凌晨兩點的溫熱關東煮，是深夜裡無聲卻溫暖的陪伴。",
-    10: "不再與回憶的黑夜對抗，允許自己在此刻安然軟弱。",
-    11: "翻開舊相冊的角落，對那個小時候的自己說聲謝謝。",
-    12: "眼角悄然浮現的細紋，是歲月贈予生命最優雅的勛章。",
-    13: "當我們能夠笑著談論傷痛，那些結痂早已化為無畏的盔甲。",
-    14: "當第一縷曙光穿透夜幕，帶上傷痕，早安，新的一天。",
-    15: "螢幕上亮起的那個名字，最終還是隱沒在寂靜的深夜。",
-    16: "看著屋簷滴落的雨滴，在停滯的時間裡找回呼吸的節奏。",
-    17: "綠燈亮起的人潮中，一個默契的點頭便是最美好的道別。",
-    18: "舊旋律在耳邊盤旋，將斑駁的往事溫柔地縫補進當下。",
-    19: "晚風吹過空曠的陽台，那些對自己說的真心話，夜空都聽見了。",
-    20: "穿過長夜的曲折邊界，我們終將在最溫暖的微光中安然降落。"
-  };
-
   // --- 4. 初始化應用程式 ---
   function init() {
+    if (!currentAlbum) return;
     loadSavedStats();
+    renderAlbumChrome();
+    buildAlbumLibrary();
     buildPlaylist();
     incrementVisitCount();
-    // 固定唱片中間的頭像為同一張 (singer_3.jpg 正面肖像)
-    if (labelImage) labelImage.src = 'assets/images/singer_3.jpg';
-    loadTrack(0);
+    loadTrack(getInitialTrackIndex());
     audio.volume = 0.8;
     
     // 初始化事件監聽
@@ -201,9 +127,86 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // 頁籤切換
     initTabs();
+    if (btnAlbumLibrary) {
+      btnAlbumLibrary.addEventListener('click', () => activateTab('library'));
+    }
   }
 
   // --- 5. 渲染播放清單 (Page 3) ---
+  function getInitialAlbumIndex() {
+    const params = new URLSearchParams(window.location.search);
+    const albumIdFromUrl = params.get('album');
+    let savedAlbumId = '';
+    try {
+      savedAlbumId = localStorage.getItem(LAST_ALBUM_KEY) || '';
+    } catch {
+      savedAlbumId = '';
+    }
+
+    const targetAlbumId = albumIdFromUrl || savedAlbumId || DEFAULT_ALBUM_ID;
+    const foundIndex = albums.findIndex((album) => album.id === targetAlbumId);
+    return foundIndex >= 0 ? foundIndex : 0;
+  }
+
+  function getInitialTrackIndex() {
+    const params = new URLSearchParams(window.location.search);
+    const trackParam = params.get('track');
+    if (!trackParam) return 0;
+
+    const byTrackId = currentAlbum.tracks.findIndex((track) => String(track.id) === trackParam);
+    if (byTrackId >= 0) return byTrackId;
+
+    const byIndex = Number.parseInt(trackParam, 10) - 1;
+    return Number.isInteger(byIndex) && byIndex >= 0 && byIndex < currentAlbum.tracks.length ? byIndex : 0;
+  }
+
+  function getAlbumStorageKey(baseKey) {
+    return `${baseKey}:${currentAlbum.id || DEFAULT_ALBUM_ID}`;
+  }
+
+  function persistCurrentAlbum() {
+    try {
+      localStorage.setItem(LAST_ALBUM_KEY, currentAlbum.id || DEFAULT_ALBUM_ID);
+    } catch {
+      // localStorage 可能被隱私設定停用；專輯仍可在本次頁面切換。
+    }
+  }
+
+  function getAlbumTitle(album = currentAlbum) {
+    return album.displayTitle || album.albumTitle || album.title || '未命名專輯';
+  }
+
+  function getAlbumDisplayLine(album = currentAlbum) {
+    const title = getAlbumTitle(album);
+    return `${album.subtitle || '音樂故事專輯'}《${title}》`;
+  }
+
+  function renderAlbumChrome() {
+    const albumTitle = getAlbumTitle();
+    document.title = `微光邊界 - ${currentAlbum.artist}《${albumTitle}》`;
+
+    if (headerArtistName) headerArtistName.textContent = currentAlbum.artist;
+    if (headerAlbumTitle) headerAlbumTitle.textContent = getAlbumDisplayLine();
+    if (vinylLabelTitle) vinylLabelTitle.textContent = albumTitle;
+    if (vinylLabelArtist) vinylLabelArtist.textContent = currentAlbum.artist;
+    if (labelImage) labelImage.src = currentAlbum.labelImage || currentAlbum.coverImage;
+    if (artistAvatar) {
+      artistAvatar.src = currentAlbum.artistImage || currentAlbum.coverImage;
+      artistAvatar.alt = `${currentAlbum.artist} 肖像`;
+    }
+    if (artistNameTitle) artistNameTitle.textContent = currentAlbum.artist;
+    if (artistBio) artistBio.textContent = currentAlbum.artistBio || currentAlbum.tagline || '';
+    if (albumReleaseLine) {
+      const releaseText = currentAlbum.releaseDate ? `發行日 ${currentAlbum.releaseDate}` : '';
+      albumReleaseLine.textContent = [getAlbumDisplayLine(), releaseText].filter(Boolean).join(' / ');
+    }
+    if (playlistTitle) playlistTitle.textContent = `《${albumTitle}》專輯軌道清單`;
+    if (playlistSubtitle) playlistSubtitle.textContent = `${currentAlbum.tracks.length} 首作品，點擊即可載入黑膠播放`;
+    if (changelogDateTitle) changelogDateTitle.textContent = currentAlbum.changelogTitle || 'Album Diary / 專輯更新日記';
+    if (changelogDesc) changelogDesc.textContent = currentAlbum.changelogIntro || currentAlbum.tagline || '';
+    if (diaryBrand) diaryBrand.textContent = `${currentAlbum.artist} 創作手稿`;
+  }
+
   function readNumberFromStorage(key) {
     try {
       const rawValue = localStorage.getItem(key);
@@ -216,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function loadSavedStats() {
     try {
-      const savedCounts = JSON.parse(localStorage.getItem(TRACK_PLAY_COUNTS_KEY) || '{}');
+      const savedCounts = JSON.parse(localStorage.getItem(getAlbumStorageKey(PLAYER_TRACK_PLAY_COUNTS_KEY)) || '{}');
       trackPlayCounts = savedCounts && typeof savedCounts === 'object' ? savedCounts : {};
     } catch {
       trackPlayCounts = {};
@@ -225,16 +228,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function saveTrackPlayCounts() {
     try {
-      localStorage.setItem(TRACK_PLAY_COUNTS_KEY, JSON.stringify(trackPlayCounts));
+      localStorage.setItem(getAlbumStorageKey(PLAYER_TRACK_PLAY_COUNTS_KEY), JSON.stringify(trackPlayCounts));
     } catch {
       // localStorage 可能被隱私設定停用；計數只在本次頁面生命週期顯示。
     }
   }
 
   function incrementVisitCount() {
-    const nextVisitCount = readNumberFromStorage(VISIT_COUNT_KEY) + 1;
+    const visitCountKey = getAlbumStorageKey(PLAYER_VISIT_COUNT_KEY);
+    const nextVisitCount = readNumberFromStorage(visitCountKey) + 1;
     try {
-      localStorage.setItem(VISIT_COUNT_KEY, String(nextVisitCount));
+      localStorage.setItem(visitCountKey, String(nextVisitCount));
     } catch {
       // localStorage 可能被隱私設定停用；仍顯示本次瀏覽。
     }
@@ -262,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function updateAllTrackPlayCountDisplays() {
-    window.albumData.tracks.forEach((track) => updateTrackPlayCountDisplay(track.id));
+    currentAlbum.tracks.forEach((track) => updateTrackPlayCountDisplay(track.id));
   }
 
   function applyGlobalStats(stats) {
@@ -280,10 +284,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function postGlobalStatsEvent(event, trackId) {
+    const trackIds = currentAlbum.tracks.map((track) => String(track.id));
+    const payload = trackId
+      ? { event, albumId: currentAlbum.id, trackId, trackIds }
+      : { event, albumId: currentAlbum.id, trackIds };
     const response = await fetch(GLOBAL_STATS_API, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(trackId ? { event, trackId } : { event }),
+      body: JSON.stringify(payload),
     });
 
     if (!response.ok) return null;
@@ -291,7 +299,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function incrementCurrentTrackPlayCount() {
-    const track = window.albumData.tracks[currentIndex];
+    const track = currentAlbum.tracks[currentIndex];
     const trackId = String(track.id);
     trackPlayCounts[trackId] = getTrackPlayCount(track.id) + 1;
     saveTrackPlayCounts();
@@ -304,9 +312,69 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   }
 
+  function escapeHtml(value) {
+    return String(value || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function buildAlbumLibrary() {
+    if (!albumLibraryGrid) return;
+
+    albumLibraryGrid.innerHTML = '';
+    albums.forEach((album, index) => {
+      const isActive = index === currentAlbumIndex;
+      const isPlayable = album.status !== 'coming-soon' && Array.isArray(album.tracks) && album.tracks.length > 0;
+      const card = document.createElement('button');
+      card.type = 'button';
+      card.className = `album-library-card${isActive ? ' active' : ''}${isPlayable ? '' : ' disabled'}`;
+      card.disabled = !isPlayable;
+      card.dataset.albumId = album.id;
+      card.innerHTML = `
+        <img class="album-library-cover" src="${escapeHtml(album.coverImage || '')}" alt="${escapeHtml(getAlbumTitle(album))} 專輯封面">
+        <span class="album-library-kicker">${escapeHtml(isPlayable ? '可播放' : '即將收錄')}</span>
+        <span class="album-library-title">《${escapeHtml(getAlbumTitle(album))}》</span>
+        <span class="album-library-artist">${escapeHtml(album.artist)} / ${escapeHtml((album.tracks || []).length)} 首</span>
+        <span class="album-library-desc">${escapeHtml(album.tagline || album.artistBio || '')}</span>
+      `;
+      card.addEventListener('click', () => switchAlbum(index));
+      albumLibraryGrid.appendChild(card);
+    });
+  }
+
+  function switchAlbum(albumIndex) {
+    const nextAlbum = albums[albumIndex];
+    if (albumIndex === currentAlbumIndex || !nextAlbum) {
+      activateTab('tracks');
+      return;
+    }
+    if (!Array.isArray(nextAlbum.tracks) || nextAlbum.tracks.length === 0) return;
+
+    pauseAudio();
+    currentAlbumIndex = albumIndex;
+    currentAlbum = nextAlbum;
+    currentIndex = 0;
+    trackPlayCounts = {};
+    persistCurrentAlbum();
+    loadSavedStats();
+    renderAlbumChrome();
+    buildAlbumLibrary();
+    buildPlaylist();
+    loadTrack(0);
+    activateTab('tracks');
+
+    const url = new URL(window.location.href);
+    url.searchParams.set('album', currentAlbum.id);
+    url.searchParams.delete('track');
+    window.history.replaceState({}, '', url);
+  }
+
   function buildPlaylist() {
     trackListUl.innerHTML = '';
-    window.albumData.tracks.forEach((track, index) => {
+    currentAlbum.tracks.forEach((track, index) => {
       const li = document.createElement('li');
       li.className = 'track-item';
       li.dataset.index = index;
@@ -315,8 +383,8 @@ document.addEventListener('DOMContentLoaded', () => {
       li.innerHTML = `
         <div class="track-item-left">
           <span class="track-num-badge">${String(track.id).padStart(2, '0')}</span>
-          <span class="track-item-title">${track.title}</span>
-          <span class="track-filename-badge">${track.filename}</span>
+          <span class="track-item-title">${escapeHtml(track.title)}</span>
+          <span class="track-filename-badge">${escapeHtml(track.filename || track.audioSrc || '')}</span>
         </div>
         <div class="track-item-right">
           <span class="track-play-count" data-play-count-for="${track.id}">播放 ${getTrackPlayCount(track.id).toLocaleString('zh-TW')} 次</span>
@@ -345,20 +413,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- 6. 載入曲目資料 ---
   function loadTrack(index) {
-    currentIndex = index;
-    const track = window.albumData.tracks[currentIndex];
+    currentIndex = Math.max(0, Math.min(index, currentAlbum.tracks.length - 1));
+    const track = currentAlbum.tracks[currentIndex];
+    const url = new URL(window.location.href);
+    url.searchParams.set('album', currentAlbum.id);
+    url.searchParams.set('track', String(track.id));
+    window.history.replaceState({}, '', url);
     
     // 1. 設定音訊源 (指向本地 audio 資料夾)
-    audio.src = `assets/audio/${track.filename}`;
+    audio.src = track.audioSrc || `${currentAlbum.audioBasePath || 'assets/audio'}/${track.filename}`;
     
     // 2. 更新播放器介面資訊
-    trackIndexText.textContent = `Track ${String(track.id).padStart(2, '0')} / ${window.albumData.tracks.length}`;
+    trackIndexText.textContent = `Track ${String(track.id).padStart(2, '0')} / ${currentAlbum.tracks.length}`;
     trackTitleText.textContent = track.title;
-    trackQuoteText.textContent = shortQuotes[track.id];
+    trackQuoteText.textContent = track.quote || currentAlbum.tagline || '';
     
     // 3. 變更故事頁插圖、歌詞背景浮水印與網頁背景底圖 (唱片頭像固定，不在此更新)
-    const photoName = trackImages[track.id];
-    const photoUrl = `assets/images/${photoName}`;
+    const photoUrl = track.image || currentAlbum.coverImage;
     if (storyImage) {
       storyImage.style.opacity = 0;
       storyImage.onload = () => {
@@ -377,7 +448,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 4. 動態更換背景流動漸層 (極佳沉浸感)
-    const palette = moodPalettes[currentIndex];
+    const palette = track.palette || currentAlbum.palette || { bg1: '#120f0e', bg2: '#1a1411', bg3: '#090807' };
     document.documentElement.style.setProperty('--bg-color-1', palette.bg1);
     document.documentElement.style.setProperty('--bg-color-2', palette.bg2);
     document.documentElement.style.setProperty('--bg-color-3', palette.bg3);
@@ -387,12 +458,12 @@ document.addEventListener('DOMContentLoaded', () => {
     storyTitle.textContent = `《${track.title}》創作背景`;
     
     // 故事文本處理：按換行拆分為段落
-    const paragraphs = track.story.split('\n');
-    storyContent.innerHTML = paragraphs.map(p => `<p>${p}</p>`).join('');
-    storyConcept.textContent = lifeConcepts[currentIndex];
+    const paragraphs = (track.story || '').split('\n');
+    storyContent.innerHTML = paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('');
+    storyConcept.textContent = track.concept || '';
     
     // 歌詞處理 (動態過濾掉 [Verse]、[Chorus]、[Bridge] 等標記，僅保留極淨中文歌詞)
-    const cleanLyrics = track.lyrics.replace(/\[[^\]]+\]/g, '').replace(/\n{3,}/g, '\n\n').trim();
+    const cleanLyrics = (track.lyrics || '').replace(/\[[^\]]+\]/g, '').replace(/\n{3,}/g, '\n\n').trim();
     lyricsContent.textContent = cleanLyrics;
     
     // 頁碼更新 (模擬實體書)
@@ -508,7 +579,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function prevTrack() {
     let targetIndex = currentIndex - 1;
     if (targetIndex < 0) {
-      targetIndex = window.albumData.tracks.length - 1;
+      targetIndex = currentAlbum.tracks.length - 1;
     }
     loadTrack(targetIndex);
     if (isPlaying) {
@@ -518,15 +589,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function nextTrack() {
     let targetIndex = currentIndex + 1;
-    if (targetIndex >= window.albumData.tracks.length) {
+    if (targetIndex >= currentAlbum.tracks.length) {
       targetIndex = 0;
     }
     
     if (isShuffle) {
       // 隨機播放其他歌曲
-      targetIndex = Math.floor(Math.random() * window.albumData.tracks.length);
-      while (targetIndex === currentIndex && window.albumData.tracks.length > 1) {
-        targetIndex = Math.floor(Math.random() * window.albumData.tracks.length);
+      targetIndex = Math.floor(Math.random() * currentAlbum.tracks.length);
+      while (targetIndex === currentIndex && currentAlbum.tracks.length > 1) {
+        targetIndex = Math.floor(Math.random() * currentAlbum.tracks.length);
       }
     }
     
@@ -637,22 +708,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- 10. 日記本頁籤切換邏輯 ---
+  function activateTab(targetTab) {
+    const targetPane = document.getElementById(`pane-${targetTab}`);
+    if (!targetPane) return;
+
+    tabs.forEach(t => {
+      const isActive = t.dataset.tab === targetTab;
+      t.classList.toggle('active', isActive);
+      t.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+    panes.forEach(p => p.classList.remove('active'));
+    targetPane.classList.add('active');
+  }
+
   function initTabs() {
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
-        const targetTab = tab.dataset.tab;
-        
-        // 移除所有 active 狀態
-        tabs.forEach(t => {
-          t.classList.remove('active');
-          t.setAttribute('aria-selected', 'false');
-        });
-        panes.forEach(p => p.classList.remove('active'));
-        
-        // 套用選中狀態
-        tab.classList.add('active');
-        tab.setAttribute('aria-selected', 'true');
-        document.getElementById(`pane-${targetTab}`).classList.add('active');
+        activateTab(tab.dataset.tab);
       });
     });
   }

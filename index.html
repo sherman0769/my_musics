@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>李詩民 —《微光邊界》音樂故事專輯</title>
+  <title>微光邊界 — 音樂故事播放器</title>
   
   <!-- SEO 優化 -->
-  <meta name="description" content="李詩民全新哲學療癒系個人音樂故事專輯《微光邊界》。20 首首尾相連的原創歌曲與心靈日記，探討都市孤獨、自我追尋與心靈救贖。配合復古黑膠唱片機沉浸式互動體驗。">
+  <meta name="description" content="《微光邊界》音樂故事播放器，收錄李詩民原創音樂故事專輯。透過黑膠唱片機、歌詞手稿與創作日記，展開沉浸式聆聽體驗。">
   <meta name="keywords" content="李詩民, 微光邊界, 音樂專輯, 原創歌曲, Suno AI, 療癒系, 哲學, 都市情感, 獨立音樂, 黑膠唱片機">
   <meta name="author" content="李詩民">
   
   <!-- Open Graph / 社群分享預覽圖標記 -->
-  <meta property="og:title" content="李詩民 —《微光邊界》音樂故事專輯">
-  <meta property="og:description" content="20首關於都市孤獨與自我救贖的音樂旅程，搭配復古黑膠沉浸式網頁體驗。">
+  <meta property="og:title" content="微光邊界 — 音樂故事播放器">
+  <meta property="og:description" content="收錄李詩民原創音樂故事專輯，搭配復古黑膠沉浸式網頁體驗。">
   <meta property="og:type" content="music.album">
   <meta property="og:image" content="assets/images/icon-512.png?v=2">
   <meta property="og:image:width" content="512">
   <meta property="og:image:height" content="512">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="李詩民 —《微光邊界》音樂故事專輯">
-  <meta name="twitter:description" content="20首關於都市孤獨與自我救贖的音樂旅程，搭配復古黑膠沉浸式網頁體驗。">
+  <meta name="twitter:title" content="微光邊界 — 音樂故事播放器">
+  <meta name="twitter:description" content="收錄李詩民原創音樂故事專輯，搭配復古黑膠沉浸式網頁體驗。">
   <meta name="twitter:image" content="assets/images/icon-512.png?v=2">
 
   <!-- PWA 手機 App 安裝支援 -->
@@ -36,7 +36,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   
   <!-- 本機樣式表 -->
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
 
@@ -60,10 +60,14 @@
         <span class="logo-text">GLIMMER BOUNDARIES</span>
       </div>
       <div class="album-info-header">
-        <span class="artist-name">李詩民</span>
+        <span class="artist-name" id="header-artist-name">李詩民</span>
         <span class="divider">/</span>
-        <span class="album-title">首張音樂故事專輯《微光邊界》</span>
+        <span class="album-title" id="header-album-title">首張音樂故事專輯《微光邊界》</span>
       </div>
+      <button class="album-library-btn" id="btn-album-library" type="button" title="開啟作品庫" aria-label="開啟作品庫">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path></svg>
+        <span>作品庫</span>
+      </button>
     </header>
 
     <!-- 主區塊：左側唱片機，右側日記本 -->
@@ -112,8 +116,8 @@
               <!-- 唱片中央圓標 -->
               <div class="vinyl-label">
                 <img src="" alt="當前曲目封面" class="label-image" id="label-image">
-                <span class="vinyl-label-title">微光邊界</span>
-                <span class="vinyl-label-artist">李詩民</span>
+                <span class="vinyl-label-title" id="vinyl-label-title">微光邊界</span>
+                <span class="vinyl-label-artist" id="vinyl-label-artist">李詩民</span>
                 <!-- 唱片中心圓孔 -->
                 <div class="vinyl-hole"></div>
               </div>
@@ -189,7 +193,10 @@
               <span>歌詞手稿</span>
             </button>
             <button class="tab-btn" data-tab="tracks" role="tab" aria-selected="false" aria-controls="pane-tracks">
-              <span>專輯與歌手</span>
+              <span>曲目列表</span>
+            </button>
+            <button class="tab-btn" data-tab="library" role="tab" aria-selected="false" aria-controls="pane-library">
+              <span>作品庫</span>
             </button>
             <button class="tab-btn" data-tab="changelog" role="tab" aria-selected="false" aria-controls="pane-changelog">
               <span>更新日記</span>
@@ -246,6 +253,7 @@
                   </div>
                   <div class="artist-intro">
                     <h3 class="artist-name-h3" id="artist-name-title">李詩民</h3>
+                    <p class="album-release-line" id="album-release-line">首張音樂故事專輯</p>
                     <p class="artist-bio-text" id="artist-bio">
                       李詩民，都市裡的聲音觀察者。用溫暖而略帶沙啞的男聲，唱出喧囂中的孤獨、掙扎與最終的自我和解。這是一張關於生命哲學、心靈尋回與自我救贖的音樂日記，陪伴每一個在黑夜中尋找光芒的靈魂。
                     </p>
@@ -254,8 +262,8 @@
 
                 <!-- 曲目清單 -->
                 <div class="playlist-section">
-                  <h4 class="playlist-title">《微光邊界》專輯軌道清單</h4>
-                  <p class="playlist-subtitle">點擊即可載入黑膠播放 (音檔名對照標示)</p>
+                  <h4 class="playlist-title" id="playlist-title">《微光邊界》專輯軌道清單</h4>
+                  <p class="playlist-subtitle" id="playlist-subtitle">點擊即可載入黑膠播放 (音檔名對照標示)</p>
                   <ol class="track-list" id="track-list-ul">
                     <!-- 由 JS 動態生成曲目列表 -->
                   </ol>
@@ -264,14 +272,25 @@
               </div>
             </div>
 
-            <!-- 頁面 4: 更新日記 -->
+            <!-- 頁面 4: 作品庫 -->
+            <div class="diary-content" id="pane-library" role="tabpanel">
+              <div class="page-paper scrollable-page">
+                <div class="diary-date">Glimmer Library / 作品庫</div>
+                <h2 class="diary-title-h2">選擇一張專輯</h2>
+                <div class="album-library-grid" id="album-library-grid">
+                  <!-- 由 JS 動態生成專輯卡片 -->
+                </div>
+              </div>
+            </div>
+
+            <!-- 頁面 5: 更新日記 -->
             <div class="diary-content" id="pane-changelog" role="tabpanel">
               <div class="page-paper scrollable-page">
-                <div class="diary-date">Album Diary / 專輯更新日記</div>
+                <div class="diary-date" id="changelog-date-title">Album Diary / 專輯更新日記</div>
 
                 <div class="changelog-section">
                   <h3 class="changelog-version">🌸 新歌發布特輯 <span class="changelog-date">2026-06-06</span></h3>
-                  <p class="changelog-desc">歡迎來到《微光邊界》特別增量版！為了讓這趟都市療癒旅程更加完整，我們為您追加了六首全新設計的生命哲學歌曲。整張專輯現在擴充至 20 首曲目，陪伴您度過每一個角落的晴雨晝夜。</p>
+                  <p class="changelog-desc" id="changelog-desc">歡迎來到《微光邊界》特別增量版！為了讓這趟都市療癒旅程更加完整，我們為您追加了六首全新設計的生命哲學歌曲。整張專輯現在擴充至 20 首曲目，陪伴您度過每一個角落的晴雨晝夜。</p>
 
                   <h4 class="changelog-subtitle">🎶 旅程新起點：新增六首療癒之歌</h4>
                   <ul class="changelog-list">
@@ -316,7 +335,7 @@
           <!-- 日記本底部裝飾裝飾 (頁碼) -->
           <footer class="diary-footer">
             <span class="page-number-left" id="page-num-left">P. 1</span>
-            <span class="diary-brand">李詩民 創作手稿</span>
+            <span class="diary-brand" id="diary-brand">李詩民 創作手稿</span>
             <span class="page-number-right" id="page-num-right">P. 2</span>
           </footer>
 
@@ -327,7 +346,7 @@
 
     <!-- 底部版權宣告與操作提示 -->
     <footer class="app-footer">
-      <p class="guide-tip">提示：建議使用 Safari、Chrome 或 Edge 瀏覽器開啟，播放與安裝體驗最佳；也可到「專輯與歌手」選歌。</p>
+      <p class="guide-tip">提示：建議使用 Safari、Chrome 或 Edge 瀏覽器開啟，播放與安裝體驗最佳；也可到「曲目列表」選歌，或到「作品庫」切換專輯。</p>
       <p class="visit-counter" id="visit-counter">本機訪問量 0 次</p>
     </footer>
 
@@ -359,7 +378,7 @@
   </aside>
 
   <!-- 載入資料與控制邏輯 -->
-  <script src="albumData.js?v=2"></script>
-  <script src="app.js?v=7"></script>
+  <script src="albumData.js?v=3"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>
