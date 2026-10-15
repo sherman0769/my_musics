@@ -1,0 +1,4 @@
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const root=__dirname;
+http.createServer((req,res)=>{let p;try{p=decodeURIComponent(new URL(req.url,'http://localhost').pathname)}catch{res.writeHead(400).end();return;}if(p==='/')p='/index.html';const f=path.resolve(root,'.'+p);if(!f.startsWith(root+path.sep)){res.writeHead(403).end();return;}fs.stat(f,(err,st)=>{if(err||!st.isFile()){res.writeHead(404).end();return;}const ext=path.extname(f);res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.json':'application/json; charset=utf-8','.md':'text/plain; charset=utf-8','.mp3':'audio/mpeg','.wav':'audio/wav'})[ext]||'application/octet-stream');res.setHeader('Cache-Control','no-store');res.setHeader('Content-Length',st.size);fs.createReadStream(f).pipe(res);});}).listen(8768,'127.0.0.1',()=>console.log('http://127.0.0.1:8768'));
+

@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/13/13-A-395cf274-f75d-4ca4-a8c7-465de7544fab.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈13｜舊公寓第四層.mp3.crdownload",
+  "providerId": "395cf274-f75d-4ca4-a8c7-465de7544fab",
+  "bytes": 4590712,
+  "sha256": "c288c375e7d5e2388c7698425cdd837b98ffb652524f7908349aaaff983fa2fb",
+  "duration": 198.024,
+  "decodedSeconds": 198,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:48:29.117Z"
+}

@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/06/06-A-a67dba16-98ec-41ec-b130-9aa60dfb9895.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子06｜飯還熱著.mp3.crdownload",
+  "providerId": "a67dba16-98ec-41ec-b130-9aa60dfb9895",
+  "bytes": 4482558,
+  "sha256": "fe65416fbf413fb5e7325846c1ae736d37e9de2ec8ff941fadbf27984370b5f8",
+  "duration": 194.352,
+  "decodedSeconds": 194.32,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T16:50:14.464Z"
+}

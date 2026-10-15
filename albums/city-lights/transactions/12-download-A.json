@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/12/12-A-3d85294e-608f-4ae0-8e9c-0fa44993311c.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈12｜電梯裡的月亮.mp3.crdownload",
+  "providerId": "3d85294e-608f-4ae0-8e9c-0fa44993311c",
+  "bytes": 4368510,
+  "sha256": "de44bdd61c181a766896e8600c53f41b1262abc7c90d0c56754e3943a17a52de",
+  "duration": 179.64,
+  "decodedSeconds": 179.6,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:47:55.283Z"
+}

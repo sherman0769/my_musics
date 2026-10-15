@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/18/18-A-87a25a7d-78d0-4fb3-9595-581565d793bf.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈18｜天亮以前說再見.mp3.crdownload",
+  "providerId": "87a25a7d-78d0-4fb3-9595-581565d793bf",
+  "bytes": 5044390,
+  "sha256": "53c437434266d417bf0abbe4c3eb8f79b806a24dea2061475f2f4f937e03bc75",
+  "duration": 224.184,
+  "decodedSeconds": 224.16,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:51:30.979Z"
+}

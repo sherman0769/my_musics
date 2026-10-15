@@ -1,0 +1,26 @@
+{
+  "track": "11",
+  "title": "慢日子11｜老朋友，坐一下",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:24:32.665Z",
+  "clicksConfirmed": 1,
+  "creditsObserved": 9630,
+  "recovery": "Create pressed once. Cloudflare human verification visible; zero exact-title result, balance 9630. User asked to complete challenge. Do not resubmit before authoritative read.",
+  "receivedAt": "2026-09-14T16:28:00.540Z",
+  "creditsAfter": 9620,
+  "providerResults": [
+    {
+      "id": "00345350-21c0-4106-8549-4b0b3eb09238",
+      "url": "https://suno.com/song/00345350-21c0-4106-8549-4b0b3eb09238",
+      "variant": "A"
+    },
+    {
+      "id": "baf0b08b-02e6-454b-9c02-1cdabc4cff70",
+      "url": "https://suno.com/song/baf0b08b-02e6-454b-9c02-1cdabc4cff70",
+      "variant": "B"
+    }
+  ]
+}

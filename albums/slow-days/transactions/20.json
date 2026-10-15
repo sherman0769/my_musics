@@ -1,0 +1,24 @@
+{
+  "track": "20",
+  "title": "慢日子20｜晚安，今天也辛苦了",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:28:00.582Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:29:34.095Z",
+  "creditsAfter": 9530,
+  "providerResults": [
+    {
+      "id": "a8a1a88e-3af8-4363-b6b6-778740d7106b",
+      "url": "https://suno.com/song/a8a1a88e-3af8-4363-b6b6-778740d7106b",
+      "variant": "A"
+    },
+    {
+      "id": "d93fe559-3df5-4eb2-87e5-94aeb8dd5b5c",
+      "url": "https://suno.com/song/d93fe559-3df5-4eb2-87e5-94aeb8dd5b5c",
+      "variant": "B"
+    }
+  ]
+}

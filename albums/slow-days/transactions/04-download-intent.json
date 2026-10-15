@@ -1,0 +1,14 @@
+{
+  "track": "04",
+  "format": "mp3",
+  "createdAt": "2026-09-14T16:38:20.6433464Z",
+  "userSelection": "Any A/B authorized; A selected",
+  "providerId": "6bc0966e-aa1d-4794-aa73-6a161d7ad5cd",
+  "variant": "A",
+  "status": "verified_copy_available_browser_finalization_unconfirmed",
+  "successfulUnlockActions": 1,
+  "downloadEventConfirmed": false,
+  "sourcePreserved": true,
+  "fileReceipt": "04-download-A.json",
+  "updatedAt": "2026-09-14T17:00:35.137Z"
+}

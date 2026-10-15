@@ -1,0 +1,24 @@
+{
+  "track": "13",
+  "title": "慢日子13｜一起淋過的小雨",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:24:56.465Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:28:26.005Z",
+  "creditsAfter": 9600,
+  "providerResults": [
+    {
+      "id": "1b688965-b6fd-4e62-9de9-a4434b455015",
+      "url": "https://suno.com/song/1b688965-b6fd-4e62-9de9-a4434b455015",
+      "variant": "A"
+    },
+    {
+      "id": "4c5df173-d066-4c70-a73e-158d8caecd39",
+      "url": "https://suno.com/song/4c5df173-d066-4c70-a73e-158d8caecd39",
+      "variant": "B"
+    }
+  ]
+}

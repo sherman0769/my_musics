@@ -1,0 +1,24 @@
+{
+  "track": "07",
+  "title": "留燈07｜計程車後座的電台",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T17:13:20.199Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T17:18:07.821Z",
+  "creditsAfter": 9470,
+  "providerResults": [
+    {
+      "id": "5e849d04-d9f3-4783-9a5e-e53c117e900e",
+      "url": "https://suno.com/song/5e849d04-d9f3-4783-9a5e-e53c117e900e",
+      "variant": "A"
+    },
+    {
+      "id": "ecdb1ca8-703e-4882-9895-96f43efa44ae",
+      "url": "https://suno.com/song/ecdb1ca8-703e-4882-9895-96f43efa44ae",
+      "variant": "B"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/17/17-A-9725a474-8493-4730-a2db-e2238ce29f73.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈17｜早餐車升起白煙.mp3.crdownload",
+  "providerId": "9725a474-8493-4730-a2db-e2238ce29f73",
+  "bytes": 3812632,
+  "sha256": "7581558a35ed99d998b0168c292c08c8f2e8d3ff86b2a0616384a101e008d119",
+  "duration": 158.832,
+  "decodedSeconds": 158.8,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:50:54.802Z"
+}

@@ -1,0 +1,24 @@
+{
+  "track": "12",
+  "title": "慢日子12｜你先睡，我快到了",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:24:32.665Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:28:25.959Z",
+  "creditsAfter": 9610,
+  "providerResults": [
+    {
+      "id": "ed43905c-5690-414b-9bd5-f00dae662bad",
+      "url": "https://suno.com/song/ed43905c-5690-414b-9bd5-f00dae662bad",
+      "variant": "A"
+    },
+    {
+      "id": "38859b7e-5c59-4cb8-8d4b-ffbc86b11df4",
+      "url": "https://suno.com/song/38859b7e-5c59-4cb8-8d4b-ffbc86b11df4",
+      "variant": "B"
+    }
+  ]
+}

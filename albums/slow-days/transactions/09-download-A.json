@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/09/09-A-6a005d04-77b0-48a1-aa4e-27d6fcd494a1.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子09｜市場裡的兩把青菜.mp3.crdownload",
+  "providerId": "6a005d04-77b0-48a1-aa4e-27d6fcd494a1",
+  "bytes": 4799713,
+  "sha256": "5ede079198ee9943b6ffa335398b5f373368ff482c0f420f790516a6c637d0e4",
+  "duration": 207.6,
+  "decodedSeconds": 207.56,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T16:52:25.437Z"
+}

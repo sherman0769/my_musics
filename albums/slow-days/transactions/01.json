@@ -1,0 +1,27 @@
+{
+  "album": "slow-days",
+  "creditsBefore": 9730,
+  "track": "01",
+  "status": "provider_results_observed",
+  "model": "v6",
+  "startedAt": "2026-09-14T16:21:32.2430368Z",
+  "account": "subliminalsongbirds009",
+  "voiceConfirmed": true,
+  "createClicks": 1,
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:22:45.315Z",
+  "creditsAfter": 9720,
+  "providerResults": [
+    {
+      "id": "49fcc03f-93c6-47a3-81f7-278d15f83a6e",
+      "url": "https://suno.com/song/49fcc03f-93c6-47a3-81f7-278d15f83a6e",
+      "variant": "A"
+    },
+    {
+      "id": "b764e945-3373-447e-be0a-6b5b6cf2602a",
+      "url": "https://suno.com/song/b764e945-3373-447e-be0a-6b5b6cf2602a",
+      "variant": "B"
+    }
+  ]
+}

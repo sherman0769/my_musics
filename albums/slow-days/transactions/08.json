@@ -1,0 +1,24 @@
+{
+  "track": "08",
+  "title": "慢日子08｜爸爸修好的電風扇",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:23:55.156Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:24:56.382Z",
+  "creditsAfter": 9650,
+  "providerResults": [
+    {
+      "id": "36530420-485a-471e-91d3-3984a70a6c7d",
+      "url": "https://suno.com/song/36530420-485a-471e-91d3-3984a70a6c7d",
+      "variant": "A"
+    },
+    {
+      "id": "49164485-a519-428e-b8bf-a6bc68335489",
+      "url": "https://suno.com/song/49164485-a519-428e-b8bf-a6bc68335489",
+      "variant": "B"
+    }
+  ]
+}

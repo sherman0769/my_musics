@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/02/02-A-6971de1c-9e74-4b2a-b01e-99b0c992dd23.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈02｜末班捷運的空位.mp3.crdownload",
+  "providerId": "6971de1c-9e74-4b2a-b01e-99b0c992dd23",
+  "bytes": 4317956,
+  "sha256": "16fc65a2fdbdb265fdaa211d70fc68ca857d4f807fc4fccfec7746e31f5d02d7",
+  "duration": 184.992,
+  "decodedSeconds": 184.96,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:30:16.566Z"
+}

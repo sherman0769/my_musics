@@ -1,0 +1,26 @@
+{
+  "track": "02",
+  "title": "留燈02｜末班捷運的空位",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T17:13:20.199Z",
+  "clicksConfirmed": 1,
+  "creditsObserved": 9520,
+  "evidence": "Cloudflare verify-you-are-human checkbox visible after Create; no provider result yet; no resubmission",
+  "receivedAt": "2026-09-14T17:16:51.875Z",
+  "creditsAfter": 9510,
+  "providerResults": [
+    {
+      "id": "6971de1c-9e74-4b2a-b01e-99b0c992dd23",
+      "url": "https://suno.com/song/6971de1c-9e74-4b2a-b01e-99b0c992dd23",
+      "variant": "A"
+    },
+    {
+      "id": "edda74da-7e4f-4a49-ab25-74f06a6370aa",
+      "url": "https://suno.com/song/edda74da-7e4f-4a49-ab25-74f06a6370aa",
+      "variant": "B"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/14/14-A-277dbf34-b1ce-462b-a2ce-eedeb21b03d6.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈14｜把沉默調小聲.mp3.crdownload",
+  "providerId": "277dbf34-b1ce-462b-a2ce-eedeb21b03d6",
+  "bytes": 4334248,
+  "sha256": "8a3537e4d264afb863765962be375c98d59b8bc8bbecdf5177453428bcc595d3",
+  "duration": 188.04,
+  "decodedSeconds": 188,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:48:59.403Z"
+}

@@ -1,0 +1,24 @@
+{
+  "track": "04",
+  "title": "留燈04｜雨停之前的騎樓",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T17:13:20.199Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T17:17:35.440Z",
+  "creditsAfter": 9490,
+  "providerResults": [
+    {
+      "id": "02f61078-badf-448f-81b2-b1fc71fe6d54",
+      "url": "https://suno.com/song/02f61078-badf-448f-81b2-b1fc71fe6d54",
+      "variant": "A"
+    },
+    {
+      "id": "771cca30-270f-4773-92ee-4d7df19bf6df",
+      "url": "https://suno.com/song/771cca30-270f-4773-92ee-4d7df19bf6df",
+      "variant": "B"
+    }
+  ]
+}

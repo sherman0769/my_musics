@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/09/09-A-681e63c0-ff5c-4d32-ab77-1d014192b38e.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈09｜凌晨兩點的洗衣店.mp3.crdownload",
+  "providerId": "681e63c0-ff5c-4d32-ab77-1d014192b38e",
+  "bytes": 4026981,
+  "sha256": "7972d615a697d36ddab4359c1faa5aba33b0dc9bec9fc01774c305e2349bc2ae",
+  "duration": 177.24,
+  "decodedSeconds": 177.2,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:46:18.137Z"
+}

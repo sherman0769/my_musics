@@ -1,0 +1,36 @@
+{
+  "status": "published_verified",
+  "at": "2026-09-14T17:55:34.632Z",
+  "authorization": "完成上架後再繼續自主創建下一張20首專輯；上架目前音樂網站",
+  "album": "city-lights",
+  "tracks": 20,
+  "priorDeployment": "dpl_EmynSAUdTdxjH24rGyBje8eBqxdp",
+  "priorUrl": "https://mymusics-pp8ivei5y-sherman0769s-projects.vercel.app",
+  "alias": "https://mymusics-olive.vercel.app",
+  "coverSha256": "d41e4a3d6af9ef4ca6432afdddfb8c3f8fe072f94670b1efa71ea529803a5ed9",
+  "zipSha256": "72c493432c5277aabbf1066b6ee4e80a05837dcdb9f9cc4f9848f058e9d846a6",
+  "localUi": {
+    "firstLastPlayback": true,
+    "seek": true,
+    "fourAlbums": true,
+    "downloadLinks": 20,
+    "coverVisualGate": true,
+    "originalDiaryPreserved": true
+  },
+  "completedAt": "2026-09-14T17:57:49.441Z",
+  "deploymentId": "dpl_BFbzCBAni2iRuTz6nV61rqwcPdjA",
+  "deploymentUrl": "https://mymusics-ee810t7u2-sherman0769s-projects.vercel.app",
+  "publicVerification": "public-verification.json",
+  "browserDownloadFinalized": false,
+  "downloadedAudioVerified": 20,
+  "localMobileWidth": 390,
+  "horizontalOverflow": false,
+  "selfOptimizationTrial": "No new workflow trial; reused verified album flow. Corrected album diary rendering found during acceptance.",
+  "publicUi": {
+    "firstTrackPlayback": true,
+    "readyState": 4,
+    "seekSeconds": 19.841377,
+    "downloadLinks": 20,
+    "zipLink": true
+  }
+}

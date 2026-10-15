@@ -1,0 +1,21 @@
+{
+  "track": "12",
+  "variant": "A",
+  "providerId": "3d85294e-608f-4ae0-8e9c-0fa44993311c",
+  "format": "mp3",
+  "status": "verified_copy_available_browser_finalization_unconfirmed",
+  "createdAt": "2026-09-14T17:24:12.435Z",
+  "authorization": "Continue autonomous next 20-song album with same delivery workflow",
+  "successfulUnlockActions": 1,
+  "downloadEventConfirmed": false,
+  "sourcePreserved": true,
+  "fileReceipt": "12-download-A.json",
+  "updatedAt": "2026-09-14T17:53:10.535Z",
+  "uiReceipt": {
+    "id": "12",
+    "event": false,
+    "attempts": 1,
+    "quotaBefore": 21,
+    "evidence": "Live Suno unlock and event timeout; same source preserved"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/20/20-A-fc067d0a-b3e0-4e9f-8e60-006722782920.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈20｜我們終於走到早晨.mp3.crdownload",
+  "providerId": "fc067d0a-b3e0-4e9f-8e60-006722782920",
+  "bytes": 4557036,
+  "sha256": "50f03aa1b27a9283b0966e33f2adebb786bacac9efb2c14b1737aadd4dc98b9b",
+  "duration": 199.224,
+  "decodedSeconds": 199.2,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:53:10.441Z"
+}

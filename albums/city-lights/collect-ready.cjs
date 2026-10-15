@@ -1,0 +1,3 @@
+const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process');
+const a=JSON.parse(fs.readFileSync(path.join(__dirname,'album.json'),'utf8').replace(/^\uFEFF/,''));
+for(const t of a.tracks){if(t.downloads?.length)continue;const base=path.join('C:/Users/User/Downloads',`${t.submissionTitle}.mp3`);const file=fs.existsSync(base)?base:base+'.crdownload';if(!fs.existsSync(file)||Date.now()-fs.statSync(file).mtimeMs<5000)continue;const r=cp.spawnSync(process.execPath,[path.join(__dirname,'verify-download.cjs'),t.id,'A',file],{encoding:'utf8'});console.log(r.stdout||r.stderr);if(r.status!==0)process.exit(r.status);}

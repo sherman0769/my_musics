@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/19/19-A-130a7f91-909e-435d-a2d0-0516a5c6e96e.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈19｜今天換我先微笑.mp3.crdownload",
+  "providerId": "130a7f91-909e-435d-a2d0-0516a5c6e96e",
+  "bytes": 4368228,
+  "sha256": "5d34a81c1f2a8404c8cb5962567e67f5bc9a27ff79e3a1241157a9849b280eac",
+  "duration": 187.224,
+  "decodedSeconds": 187.2,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:52:32.083Z"
+}

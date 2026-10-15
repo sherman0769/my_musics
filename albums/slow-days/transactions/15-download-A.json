@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/15/15-A-2f7bd7e0-dc76-4a9d-b0f5-9396322ab11d.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子15｜不用說謝謝的那個人.mp3.crdownload",
+  "providerId": "2f7bd7e0-dc76-4a9d-b0f5-9396322ab11d",
+  "bytes": 5025025,
+  "sha256": "5aca58c340defb286715840b2f07e6773f2c093ea44dbbf5870aca816b031409",
+  "duration": 221.16,
+  "decodedSeconds": 221.12,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T16:57:25.783Z"
+}

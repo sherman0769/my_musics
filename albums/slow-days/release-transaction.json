@@ -1,0 +1,44 @@
+{
+  "album": "把日子唱慢一點",
+  "artist": "李詩民",
+  "authorizedAction": "Select any one A/B version per song; download 20 songs; add album to existing music website and deploy publicly",
+  "userDestinationConfirmation": "是，上架到目前音樂網站",
+  "projectId": "prj_33cgM0YSzO9IONjJ6D02aoMj74eD",
+  "productionAlias": "https://mymusics-olive.vercel.app",
+  "previousDeploymentId": "dpl_9iGgvy5LJsfraN8jsC52aVxUUgo6",
+  "previousDeploymentUrl": "https://mymusics-o996v1o4v-sherman0769s-projects.vercel.app",
+  "status": "published_verified",
+  "cover": {
+    "path": "assets/images/slow-days/cover.png",
+    "sha256": "88ba4d477a2ed86449ad953fc74028b826031621805a0472c76e5ddbf9c396b6",
+    "generationCount": 1,
+    "tool": "image_gen.imagegen",
+    "design": "Square Taiwanese apartment balcony, two wooden chairs, two tea cups and a peeled mandarin; Traditional Chinese album title and artist; warm cream and olive palette",
+    "sourceVisualReview": "passed; no people or directed readable surfaces; furniture and cup placement coherent",
+    "compositeVisualReview": "passed; cover checked on album download page and desktop/mobile player, no orientation contradiction"
+  },
+  "workflowTrial": {
+    "originalPathPreserved": true,
+    "method": "Verify stable received temporary MP3 through full decode and decoded ending; copy byte-identical audio while preserving original",
+    "browserSecuritySettingsChanged": false,
+    "browserFinalizationConfirmed": false,
+    "formalStandardAdopted": false,
+    "audioValidation": "20/20 passed with original files preserved"
+  },
+  "completedAt": "2026-09-14T17:05:47.246Z",
+  "deploymentId": "dpl_EmynSAUdTdxjH24rGyBje8eBqxdp",
+  "deploymentUrl": "https://mymusics-pp8ivei5y-sherman0769s-projects.vercel.app",
+  "initialAlbumDeploymentId": "dpl_Hi1BWHLwzhPx4PYtEYUiCq13md7B",
+  "publicVerification": "public-verification.json",
+  "uiVerification": {
+    "firstTrackPlayback": true,
+    "track20PlaybackLocal": true,
+    "lyricsMatch": true,
+    "publicSeekSeconds": 20.96304,
+    "downloadLinks": 20,
+    "zipLink": true,
+    "mobileCssWidth": 319,
+    "desktopCssWidth": 1440,
+    "horizontalOverflow": false
+  }
+}

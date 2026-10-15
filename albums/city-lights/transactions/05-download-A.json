@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/05/05-A-9938c6ec-8d3a-472a-a4ba-1612563e5927.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈05｜紅燈倒數三十秒.mp3.crdownload",
+  "providerId": "9938c6ec-8d3a-472a-a4ba-1612563e5927",
+  "bytes": 4505159,
+  "sha256": "21c57c317ae10f380b983918fabcd2123c53a799f0221d924f53505c3185d8d6",
+  "duration": 186.84,
+  "decodedSeconds": 186.8,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:32:12.466Z"
+}

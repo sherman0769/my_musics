@@ -1,0 +1,24 @@
+{
+  "track": "18",
+  "title": "慢日子18｜白頭髮也很好看",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:28:00.582Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:29:09.979Z",
+  "creditsAfter": 9550,
+  "providerResults": [
+    {
+      "id": "863b5830-95ab-4a1a-9122-b24e7ea736e6",
+      "url": "https://suno.com/song/863b5830-95ab-4a1a-9122-b24e7ea736e6",
+      "variant": "A"
+    },
+    {
+      "id": "36d29784-be91-4ded-8ba6-2f9f22690d5a",
+      "url": "https://suno.com/song/36d29784-be91-4ded-8ba6-2f9f22690d5a",
+      "variant": "B"
+    }
+  ]
+}

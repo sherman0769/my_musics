@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/03/03-A-9b4196c6-a5c7-40ee-b2ef-2bf244ac183f.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈03｜便利商店的熱咖啡.mp3.crdownload",
+  "providerId": "9b4196c6-a5c7-40ee-b2ef-2bf244ac183f",
+  "bytes": 4358723,
+  "sha256": "1d8692ac9e26ef9e7b6ae79998a4b3c1bf286a1cc4ef134d96f2187eb05ca088",
+  "duration": 188.784,
+  "decodedSeconds": 188.76,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:30:40.731Z"
+}

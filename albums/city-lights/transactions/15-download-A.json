@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/15/15-A-cdc52735-55c7-4a95-89d4-807562fb7ac6.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈15｜河堤邊的耳機.mp3.crdownload",
+  "providerId": "cdc52735-55c7-4a95-89d4-807562fb7ac6",
+  "bytes": 3984764,
+  "sha256": "5afd3b5cd263f240b55bfe2cdb2e99be075489ad5d53f013874c055476744022",
+  "duration": 166.44,
+  "decodedSeconds": 166.4,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:49:33.705Z"
+}

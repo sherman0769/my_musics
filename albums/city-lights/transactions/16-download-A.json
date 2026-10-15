@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/16/16-A-01098ad8-c45d-479f-91ef-6853d32dc928.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈16｜等第一班公車.mp3.crdownload",
+  "providerId": "01098ad8-c45d-479f-91ef-6853d32dc928",
+  "bytes": 4549853,
+  "sha256": "4b12da08fecabe964791fcbfe1b405189a58a4cbc029637080962f10b713596b",
+  "duration": 197.64,
+  "decodedSeconds": 197.6,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:50:22.290Z"
+}

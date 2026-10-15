@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "track": "01",
+  "quotaBefore": 52,
+  "nativeDownloadClicks": 1,
+  "providerId": "49fcc03f-93c6-47a3-81f7-278d15f83a6e",
+  "createdAt": "2026-09-14T16:30:18.6048073Z",
+  "status": "verified_copy_available_browser_finalization_unconfirmed",
+  "evidence": "Download event timed out after 15000 ms. Dialog closed. New C:\\Users\\User\\Downloads\\慢日子01｜把日子唱慢一點.mp3.crdownload observed at 4806233 bytes, unchanged on subsequent read. No redownload. Browser policy blocks edge://downloads/. User asked to inspect native download status.",
+  "successfulUnlockActions": 1,
+  "downloadEventConfirmed": false,
+  "sourcePreserved": true,
+  "fileReceipt": "01-download-A.json",
+  "updatedAt": "2026-09-14T17:00:35.137Z"
+}

@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/01/01-A-5e5c213e-812d-439f-aa99-21a71b0214b2.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈01｜城市替我們留燈.mp3.crdownload",
+  "providerId": "5e5c213e-812d-439f-aa99-21a71b0214b2",
+  "bytes": 4686609,
+  "sha256": "f393e58bff0031e0c04b53a65365fcd771437dea569b3690430c2582f269d541",
+  "duration": 198.384,
+  "decodedSeconds": 198.36,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:28:48.760Z"
+}

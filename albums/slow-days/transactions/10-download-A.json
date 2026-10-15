@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/10/10-A-5cd7f587-0bbb-4cdf-9dcd-7bce3ac90539.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子10｜舊相簿裡的笑聲.mp3.crdownload",
+  "providerId": "5cd7f587-0bbb-4cdf-9dcd-7bce3ac90539",
+  "bytes": 4221851,
+  "sha256": "040c067dca964e22a9942e72325f35339420f749f910c89e44da48a9ed7b0c5b",
+  "duration": 187.224,
+  "decodedSeconds": 187.2,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T16:53:06.305Z"
+}

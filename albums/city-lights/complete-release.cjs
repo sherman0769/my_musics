@@ -1,0 +1,12 @@
+const fs=require('node:fs'),path=require('node:path');
+const [deploymentId,deploymentUrl]=process.argv.slice(2);if(!deploymentId||!deploymentUrl)throw Error('Deployment identity required');
+const proof=JSON.parse(fs.readFileSync(path.join(__dirname,'public-verification.json'),'utf8'));
+if(proof.tracks.length!==20||!proof.range206||!proof.internalLedger404)throw Error('Public verification incomplete');
+const txPath=path.join(__dirname,'release-transaction.json'),tx=JSON.parse(fs.readFileSync(txPath,'utf8'));
+Object.assign(tx,{status:'published_verified',completedAt:new Date().toISOString(),deploymentId,deploymentUrl,publicVerification:'public-verification.json',browserDownloadFinalized:false,downloadedAudioVerified:20,localMobileWidth:390,horizontalOverflow:false,selfOptimizationTrial:'No new workflow trial; reused verified album flow. Corrected album diary rendering found during acceptance.'});
+fs.writeFileSync(txPath,JSON.stringify(tx,null,2));
+const p=path.join(__dirname,'album.json'),a=JSON.parse(fs.readFileSync(p,'utf8'));
+Object.assign(a,{status:'published_verified',publicUrl:proof.base+'?album=city-lights&track=1',downloadPage:proof.base+'city-lights-downloads.html',deploymentId,updatedAt:tx.completedAt});
+fs.writeFileSync(p,JSON.stringify(a,null,2));
+fs.writeFileSync(path.join(__dirname,'交付報告.md'),`# ${a.title}｜李詩民\n\n已上架：${a.publicUrl}\n\n20 首試聽與下載：${a.downloadPage}\n\n- Suno V6；使用本人 Voice 2026/03/27；40 個 A/B 結果，每首選 A。\n- 20 首 MP3，總長 3845.328 秒；所有音檔完整解碼、公開檔案 SHA-256 比對通過。\n- ZIP 92382045 bytes；20 首 MP3、封面、歌詞與來源，共 23 項；20 首 ZIP 內容雜湊通過。\n- 生成點數 9530 → 9330，共 200 點；原有下載額度使用 20 次，未購買或升級。\n- 瀏覽器原始檔保留為 crdownload，下載事件未確認；採用完整解碼及位元相同驗證後的 MP3 副本。未宣稱瀏覽器原生下載最終化成功。\n- 首尾播放、跳轉進度、四張專輯切換、390px 手機下載頁、公開 HTTP Range 206 通過。\n- 封面來源與網頁合成檢查通過，無人物或有向表面視線矛盾。\n- 技術交付通過，未宣稱逐句主觀聽感驗收。\n- 本輪沿用已驗證流程，未新增自我優化試行；修正新專輯更新日記錯用舊曲目。未改動正式規則。\n\n部署：${deploymentId}\n${deploymentUrl}\n`);
+console.log(JSON.stringify({status:a.status,tracks:20,url:a.publicUrl,downloads:a.downloadPage}));

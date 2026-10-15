@@ -1,0 +1,24 @@
+{
+  "track": "19",
+  "title": "留燈19｜今天換我先微笑",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T17:13:20.199Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T17:22:22.962Z",
+  "creditsAfter": 9350,
+  "providerResults": [
+    {
+      "id": "130a7f91-909e-435d-a2d0-0516a5c6e96e",
+      "url": "https://suno.com/song/130a7f91-909e-435d-a2d0-0516a5c6e96e",
+      "variant": "A"
+    },
+    {
+      "id": "0f25cfd3-34a5-4bc8-8762-3fbcad2513cf",
+      "url": "https://suno.com/song/0f25cfd3-34a5-4bc8-8762-3fbcad2513cf",
+      "variant": "B"
+    }
+  ]
+}

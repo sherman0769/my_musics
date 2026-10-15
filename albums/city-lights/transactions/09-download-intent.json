@@ -1,0 +1,21 @@
+{
+  "track": "09",
+  "variant": "A",
+  "providerId": "681e63c0-ff5c-4d32-ab77-1d014192b38e",
+  "format": "mp3",
+  "status": "verified_copy_available_browser_finalization_unconfirmed",
+  "createdAt": "2026-09-14T17:24:12.435Z",
+  "authorization": "Continue autonomous next 20-song album with same delivery workflow",
+  "successfulUnlockActions": 1,
+  "downloadEventConfirmed": false,
+  "sourcePreserved": true,
+  "fileReceipt": "09-download-A.json",
+  "updatedAt": "2026-09-14T17:53:10.535Z",
+  "uiReceipt": {
+    "id": "09",
+    "event": false,
+    "attempts": 1,
+    "quotaBefore": 24,
+    "evidence": "Live Suno unlock and event timeout; same source preserved"
+  }
+}

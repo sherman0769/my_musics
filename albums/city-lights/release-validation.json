@@ -1,0 +1,154 @@
+{
+  "verifiedAt": "2026-09-14T17:53:17.809Z",
+  "album": "城市替我們留燈",
+  "artist": "李詩民",
+  "albumCount": 4,
+  "trackCount": 20,
+  "totalSeconds": 3845.328,
+  "totalAudioBytes": 89863713,
+  "allAudioFullDecodePassed": true,
+  "allPublishedCopiesHashMatched": true,
+  "browserDownloadFinalized": false,
+  "tracks": [
+    {
+      "id": 1,
+      "title": "城市替我們留燈",
+      "bytes": 4686609,
+      "sha256": "f393e58bff0031e0c04b53a65365fcd771437dea569b3690430c2582f269d541",
+      "duration": 198.384
+    },
+    {
+      "id": 2,
+      "title": "末班捷運的空位",
+      "bytes": 4317956,
+      "sha256": "16fc65a2fdbdb265fdaa211d70fc68ca857d4f807fc4fccfec7746e31f5d02d7",
+      "duration": 184.992
+    },
+    {
+      "id": 3,
+      "title": "便利商店的熱咖啡",
+      "bytes": 4358723,
+      "sha256": "1d8692ac9e26ef9e7b6ae79998a4b3c1bf286a1cc4ef134d96f2187eb05ca088",
+      "duration": 188.784
+    },
+    {
+      "id": 4,
+      "title": "雨停之前的騎樓",
+      "bytes": 4761047,
+      "sha256": "4cf4d7dbd322ba58e637954d72bacdcaf4920467951c29fce15285bea576b054",
+      "duration": 199.632
+    },
+    {
+      "id": 5,
+      "title": "紅燈倒數三十秒",
+      "bytes": 4505159,
+      "sha256": "21c57c317ae10f380b983918fabcd2123c53a799f0221d924f53505c3185d8d6",
+      "duration": 186.84
+    },
+    {
+      "id": 6,
+      "title": "夜班的人",
+      "bytes": 5112545,
+      "sha256": "a860b24ae8d887442ecb90ad9790eb5726a60042e23ef014fa338119d31d4460",
+      "duration": 218.232
+    },
+    {
+      "id": 7,
+      "title": "計程車後座的電台",
+      "bytes": 4566393,
+      "sha256": "af67ab9d94fe99c44e0211f601d0718b81b2909222e4352dd324ac9384ff9140",
+      "duration": 192.84
+    },
+    {
+      "id": 8,
+      "title": "橋上的風知道",
+      "bytes": 4732300,
+      "sha256": "3e257b40c90803034468462493bd07c58ae9c3678b5d582e59a2c4a59ccb2165",
+      "duration": 207.624
+    },
+    {
+      "id": 9,
+      "title": "凌晨兩點的洗衣店",
+      "bytes": 4026981,
+      "sha256": "7972d615a697d36ddab4359c1faa5aba33b0dc9bec9fc01774c305e2349bc2ae",
+      "duration": 177.24
+    },
+    {
+      "id": 10,
+      "title": "陌生人借我的傘",
+      "bytes": 4417741,
+      "sha256": "906ddafce9e378a198aff71d7c166d0f741e012b3f9698eae2b5c789c950ae69",
+      "duration": 180
+    },
+    {
+      "id": 11,
+      "title": "沒寄出的明信片",
+      "bytes": 4767886,
+      "sha256": "25e43eafbf49db9f62546be1c8ea4eaf060f605c84b5e129a20175d28173a296",
+      "duration": 211.512
+    },
+    {
+      "id": 12,
+      "title": "電梯裡的月亮",
+      "bytes": 4368510,
+      "sha256": "de44bdd61c181a766896e8600c53f41b1262abc7c90d0c56754e3943a17a52de",
+      "duration": 179.64
+    },
+    {
+      "id": 13,
+      "title": "舊公寓第四層",
+      "bytes": 4590712,
+      "sha256": "c288c375e7d5e2388c7698425cdd837b98ffb652524f7908349aaaff983fa2fb",
+      "duration": 198.024
+    },
+    {
+      "id": 14,
+      "title": "把沉默調小聲",
+      "bytes": 4334248,
+      "sha256": "8a3537e4d264afb863765962be375c98d59b8bc8bbecdf5177453428bcc595d3",
+      "duration": 188.04
+    },
+    {
+      "id": 15,
+      "title": "河堤邊的耳機",
+      "bytes": 3984764,
+      "sha256": "5afd3b5cd263f240b55bfe2cdb2e99be075489ad5d53f013874c055476744022",
+      "duration": 166.44
+    },
+    {
+      "id": 16,
+      "title": "等第一班公車",
+      "bytes": 4549853,
+      "sha256": "4b12da08fecabe964791fcbfe1b405189a58a4cbc029637080962f10b713596b",
+      "duration": 197.64
+    },
+    {
+      "id": 17,
+      "title": "早餐車升起白煙",
+      "bytes": 3812632,
+      "sha256": "7581558a35ed99d998b0168c292c08c8f2e8d3ff86b2a0616384a101e008d119",
+      "duration": 158.832
+    },
+    {
+      "id": 18,
+      "title": "天亮以前說再見",
+      "bytes": 5044390,
+      "sha256": "53c437434266d417bf0abbe4c3eb8f79b806a24dea2061475f2f4f937e03bc75",
+      "duration": 224.184
+    },
+    {
+      "id": 19,
+      "title": "今天換我先微笑",
+      "bytes": 4368228,
+      "sha256": "5d34a81c1f2a8404c8cb5962567e67f5bc9a27ff79e3a1241157a9849b280eac",
+      "duration": 187.224
+    },
+    {
+      "id": 20,
+      "title": "我們終於走到早晨",
+      "bytes": 4557036,
+      "sha256": "50f03aa1b27a9283b0966e33f2adebb786bacac9efb2c14b1737aadd4dc98b9b",
+      "duration": 199.224
+    }
+  ]
+}

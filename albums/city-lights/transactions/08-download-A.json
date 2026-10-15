@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/08/08-A-39af51bd-5708-4581-b0aa-4e6d5de4d609.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈08｜橋上的風知道.mp3.crdownload",
+  "providerId": "39af51bd-5708-4581-b0aa-4e6d5de4d609",
+  "bytes": 4732300,
+  "sha256": "3e257b40c90803034468462493bd07c58ae9c3678b5d582e59a2c4a59ccb2165",
+  "duration": 207.624,
+  "decodedSeconds": 207.6,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:45:38.548Z"
+}

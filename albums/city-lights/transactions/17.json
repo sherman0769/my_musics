@@ -1,0 +1,24 @@
+{
+  "track": "17",
+  "title": "留燈17｜早餐車升起白煙",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T17:13:20.199Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T17:21:51.191Z",
+  "creditsAfter": 9370,
+  "providerResults": [
+    {
+      "id": "9725a474-8493-4730-a2db-e2238ce29f73",
+      "url": "https://suno.com/song/9725a474-8493-4730-a2db-e2238ce29f73",
+      "variant": "A"
+    },
+    {
+      "id": "3cca19bd-7f5a-4967-a4f1-1eae2e531f69",
+      "url": "https://suno.com/song/3cca19bd-7f5a-4967-a4f1-1eae2e531f69",
+      "variant": "B"
+    }
+  ]
+}

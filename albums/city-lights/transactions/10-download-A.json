@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/10/10-A-c6355982-c3b2-4a0d-83b9-a8eca252ee1d.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈10｜陌生人借我的傘.mp3.crdownload",
+  "providerId": "c6355982-c3b2-4a0d-83b9-a8eca252ee1d",
+  "bytes": 4417741,
+  "sha256": "906ddafce9e378a198aff71d7c166d0f741e012b3f9698eae2b5c789c950ae69",
+  "duration": 180,
+  "decodedSeconds": 179.96,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:46:51.658Z"
+}

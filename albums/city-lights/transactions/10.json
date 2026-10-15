@@ -1,0 +1,24 @@
+{
+  "track": "10",
+  "title": "留燈10｜陌生人借我的傘",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T17:13:20.199Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T17:18:56.634Z",
+  "creditsAfter": 9430,
+  "providerResults": [
+    {
+      "id": "c6355982-c3b2-4a0d-83b9-a8eca252ee1d",
+      "url": "https://suno.com/song/c6355982-c3b2-4a0d-83b9-a8eca252ee1d",
+      "variant": "A"
+    },
+    {
+      "id": "ed6b2239-9452-4ddd-890a-337d35861502",
+      "url": "https://suno.com/song/ed6b2239-9452-4ddd-890a-337d35861502",
+      "variant": "B"
+    }
+  ]
+}

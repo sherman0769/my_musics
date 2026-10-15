@@ -1,0 +1,154 @@
+{
+  "verifiedAt": "2026-09-14T17:00:35.262Z",
+  "album": "把日子唱慢一點",
+  "artist": "李詩民",
+  "albumCount": 3,
+  "trackCount": 20,
+  "totalSeconds": 3864.6960000000004,
+  "totalAudioBytes": 90293885,
+  "allAudioFullDecodePassed": true,
+  "allPublishedCopiesHashMatched": true,
+  "browserDownloadFinalized": false,
+  "tracks": [
+    {
+      "id": 1,
+      "title": "把日子唱慢一點",
+      "bytes": 4806233,
+      "sha256": "5d76836d6dea9b2c160bab789ce715ef6ef527cb48abdefc7d196d119b677bd1",
+      "duration": 205.56
+    },
+    {
+      "id": 2,
+      "title": "早餐店的老位置",
+      "bytes": 3584037,
+      "sha256": "39a71719e38bb58b4646d3fe5097b475c5d1b1c258738c28e6c28b1af9b6f0bc",
+      "duration": 149.88
+    },
+    {
+      "id": 3,
+      "title": "今天不趕路",
+      "bytes": 5063553,
+      "sha256": "68990c16367cd4fc14665b116b7a2ce902e62bb057c436f0249bad538f7a2160",
+      "duration": 206.4
+    },
+    {
+      "id": 4,
+      "title": "陽台上的星期天",
+      "bytes": 4644432,
+      "sha256": "e57d3ce5df70c0b3601ba0981a88acd3b5a9bfa4477ee5e4afdcc6653a3a8b12",
+      "duration": 194.904
+    },
+    {
+      "id": 5,
+      "title": "手機翻過來",
+      "bytes": 4291044,
+      "sha256": "9c317dffea27662a194037cda9861f1ceccc79b94c15be012ea6e9b70c1247f1",
+      "duration": 187.224
+    },
+    {
+      "id": 6,
+      "title": "飯還熱著",
+      "bytes": 4482558,
+      "sha256": "fe65416fbf413fb5e7325846c1ae736d37e9de2ec8ff941fadbf27984370b5f8",
+      "duration": 194.352
+    },
+    {
+      "id": 7,
+      "title": "媽媽又問吃飽沒",
+      "bytes": 4441832,
+      "sha256": "4d13e6313e851dfe5ef8577e1eff2de717d11dc535ea2484a5c691a2ad26ad97",
+      "duration": 188.832
+    },
+    {
+      "id": 8,
+      "title": "爸爸修好的電風扇",
+      "bytes": 4431742,
+      "sha256": "8defe349b29752e00a5461d11b26002a352e68f277510c03eed1eb3a769a2aec",
+      "duration": 192.024
+    },
+    {
+      "id": 9,
+      "title": "市場裡的兩把青菜",
+      "bytes": 4799713,
+      "sha256": "5ede079198ee9943b6ffa335398b5f373368ff482c0f420f790516a6c637d0e4",
+      "duration": 207.6
+    },
+    {
+      "id": 10,
+      "title": "舊相簿裡的笑聲",
+      "bytes": 4221851,
+      "sha256": "040c067dca964e22a9942e72325f35339420f749f910c89e44da48a9ed7b0c5b",
+      "duration": 187.224
+    },
+    {
+      "id": 11,
+      "title": "老朋友，坐一下",
+      "bytes": 3898544,
+      "sha256": "e6eccb4bc30d8df17a7d102db372b60427b3ee118a8353feb1da5b0a549601a2",
+      "duration": 160.104
+    },
+    {
+      "id": 12,
+      "title": "你先睡，我快到了",
+      "bytes": 4566217,
+      "sha256": "aa5e3af43426a06a49012bbcbc9a0a0b80c1dc67c39b0dd6cccc5a340a26b38c",
+      "duration": 195.192
+    },
+    {
+      "id": 13,
+      "title": "一起淋過的小雨",
+      "bytes": 3643604,
+      "sha256": "e758d6c4a9ac62c44bc62278fc18d89ee28ec41c2c5eaaca96de6c24e4ac6e0a",
+      "duration": 156.84
+    },
+    {
+      "id": 14,
+      "title": "留一盞燈給晚歸的人",
+      "bytes": 5387406,
+      "sha256": "7a8001029e31d4c08ec7ec796fddf5d80a15fdbe9b65ef594f1a87cb639e8b4a",
+      "duration": 232.824
+    },
+    {
+      "id": 15,
+      "title": "不用說謝謝的那個人",
+      "bytes": 5025025,
+      "sha256": "5aca58c340defb286715840b2f07e6773f2c093ea44dbbf5870aca816b031409",
+      "duration": 221.16
+    },
+    {
+      "id": 16,
+      "title": "散步到路燈亮起",
+      "bytes": 4412485,
+      "sha256": "20871e9cf4cd97a2444b73d698baa490421759acda3c988dec6e166a63bf2ea0",
+      "duration": 179.952
+    },
+    {
+      "id": 17,
+      "title": "明天再整理也可以",
+      "bytes": 3941951,
+      "sha256": "ec330ee3206637a10931369de90c16cecece5d14be0c0f79954ae797cbe4ec23",
+      "duration": 162.84
+    },
+    {
+      "id": 18,
+      "title": "白頭髮也很好看",
+      "bytes": 5002801,
+      "sha256": "8982ff1861ace8246909cf01eb6b70c1301420ac56cd7a20b9a32f8fa3f50782",
+      "duration": 219.384
+    },
+    {
+      "id": 19,
+      "title": "平凡就是我們的好日子",
+      "bytes": 4401774,
+      "sha256": "94acbab7a7c0907c7a8c9698579774ae673979f506f4db157874f84803465cd9",
+      "duration": 189.96
+    },
+    {
+      "id": 20,
+      "title": "晚安，今天也辛苦了",
+      "bytes": 5247083,
+      "sha256": "46a5a0733513621ced4e60ff7197058cff1e5684db357af6208d9b8ab124fdc4",
+      "duration": 232.44
+    }
+  ]
+}

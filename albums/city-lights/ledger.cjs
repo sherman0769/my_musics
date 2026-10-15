@@ -1,0 +1,7 @@
+const fs=require('node:fs'),path=require('node:path');
+const p=path.join(__dirname,'album.json');const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));const a=read(p);
+const [mode,...args]=process.argv.slice(2);const now=new Date().toISOString();
+if(mode==='reserve'){for(const id of args){const t=a.tracks.find(t=>t.id===id);if(!t||t.generationAttempts||t.providerResults.length)throw Error('Already submitted '+id);const lock=path.join(__dirname,'transactions',id+'.json');if(fs.existsSync(lock))throw Error('Existing lock '+id);fs.writeFileSync(lock,JSON.stringify({track:id,title:t.submissionTitle,voiceId:a.voice.id,account:a.account,model:a.model,status:'submission_reserved',createdAt:now,clicksConfirmed:0},null,2));t.status='submission_reserved';}}
+else if(mode==='receipt'){const [id,credits,...urls]=args;const t=a.tracks.find(t=>t.id===id);if(!t)throw Error('Unknown track');t.providerResults=urls.map((url,i)=>({id:url.split('/').pop(),url,variant:String.fromCharCode(65+i)}));t.generationAttempts=1;t.status='generating';a.creditsLatest=Number(credits);const lock=path.join(__dirname,'transactions',id+'.json');const tx=read(lock);Object.assign(tx,{status:'provider_results_observed',clicksConfirmed:1,receivedAt:now,creditsAfter:Number(credits),providerResults:t.providerResults});fs.writeFileSync(lock,JSON.stringify(tx,null,2));}
+else throw Error('Unknown mode');
+a.updatedAt=now;fs.writeFileSync(p,JSON.stringify(a,null,2));console.log(mode+' '+args[0]);

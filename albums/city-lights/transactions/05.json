@@ -1,0 +1,24 @@
+{
+  "track": "05",
+  "title": "留燈05｜紅燈倒數三十秒",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T17:13:20.199Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T17:17:35.481Z",
+  "creditsAfter": 9480,
+  "providerResults": [
+    {
+      "id": "9938c6ec-8d3a-472a-a4ba-1612563e5927",
+      "url": "https://suno.com/song/9938c6ec-8d3a-472a-a4ba-1612563e5927",
+      "variant": "A"
+    },
+    {
+      "id": "e172ce60-6b76-4b82-b90a-987c6a60e55b",
+      "url": "https://suno.com/song/e172ce60-6b76-4b82-b90a-987c6a60e55b",
+      "variant": "B"
+    }
+  ]
+}

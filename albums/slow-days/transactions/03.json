@@ -1,0 +1,25 @@
+{
+  "track": "03",
+  "title": "慢日子03｜今天不趕路",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:22:45.357Z",
+  "clicksConfirmed": 1,
+  "recovery": "Create click timed out in Runtime.evaluate after 3000 ms; immediate DOM has zero exact-title results and credits unchanged at 9710. Read again before recovery.",
+  "receivedAt": "2026-09-14T16:23:55.112Z",
+  "creditsAfter": 9700,
+  "providerResults": [
+    {
+      "id": "7a55d5a6-8373-4494-9232-9662912d801c",
+      "url": "https://suno.com/song/7a55d5a6-8373-4494-9232-9662912d801c",
+      "variant": "A"
+    },
+    {
+      "id": "d923cf22-3834-4691-b93b-d6706f2cdc1c",
+      "url": "https://suno.com/song/d923cf22-3834-4691-b93b-d6706f2cdc1c",
+      "variant": "B"
+    }
+  ]
+}

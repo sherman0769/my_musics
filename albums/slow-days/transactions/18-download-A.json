@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/18/18-A-863b5830-95ab-4a1a-9122-b24e7ea736e6.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子18｜白頭髮也很好看.mp3.crdownload",
+  "providerId": "863b5830-95ab-4a1a-9122-b24e7ea736e6",
+  "bytes": 5002801,
+  "sha256": "8982ff1861ace8246909cf01eb6b70c1301420ac56cd7a20b9a32f8fa3f50782",
+  "duration": 219.384,
+  "decodedSeconds": 219.36,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T16:59:30.993Z"
+}

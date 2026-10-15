@@ -1,0 +1,24 @@
+{
+  "track": "19",
+  "title": "慢日子19｜平凡就是我們的好日子",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:28:00.582Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:29:34.049Z",
+  "creditsAfter": 9540,
+  "providerResults": [
+    {
+      "id": "b9f49e31-c711-40cc-99d8-c46ff1cf1520",
+      "url": "https://suno.com/song/b9f49e31-c711-40cc-99d8-c46ff1cf1520",
+      "variant": "A"
+    },
+    {
+      "id": "b3b08a80-d214-48bc-948c-85add72b485f",
+      "url": "https://suno.com/song/b3b08a80-d214-48bc-948c-85add72b485f",
+      "variant": "B"
+    }
+  ]
+}

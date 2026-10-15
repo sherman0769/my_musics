@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/04/04-A-02f61078-badf-448f-81b2-b1fc71fe6d54.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈04｜雨停之前的騎樓.mp3.crdownload",
+  "providerId": "02f61078-badf-448f-81b2-b1fc71fe6d54",
+  "bytes": 4761047,
+  "sha256": "4cf4d7dbd322ba58e637954d72bacdcaf4920467951c29fce15285bea576b054",
+  "duration": 199.632,
+  "decodedSeconds": 199.6,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:31:21.119Z"
+}

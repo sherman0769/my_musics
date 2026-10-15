@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/02/02-A-5178e0f3-501f-45e9-96d4-4bead58e3a0a.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子02｜早餐店的老位置.mp3.crdownload",
+  "providerId": "5178e0f3-501f-45e9-96d4-4bead58e3a0a",
+  "bytes": 3584037,
+  "sha256": "39a71719e38bb58b4646d3fe5097b475c5d1b1c258738c28e6c28b1af9b6f0bc",
+  "duration": 149.88,
+  "decodedSeconds": 149.84,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T16:41:09.369Z"
+}

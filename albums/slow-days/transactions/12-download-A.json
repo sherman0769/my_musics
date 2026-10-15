@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/12/12-A-ed43905c-5690-414b-9bd5-f00dae662bad.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子12｜你先睡，我快到了.mp3.crdownload",
+  "providerId": "ed43905c-5690-414b-9bd5-f00dae662bad",
+  "bytes": 4566217,
+  "sha256": "aa5e3af43426a06a49012bbcbc9a0a0b80c1dc67c39b0dd6cccc5a340a26b38c",
+  "duration": 195.192,
+  "decodedSeconds": 195.16,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T16:55:21.270Z"
+}

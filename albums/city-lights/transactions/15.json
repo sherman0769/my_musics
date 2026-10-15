@@ -1,0 +1,25 @@
+{
+  "track": "15",
+  "title": "留燈15｜河堤邊的耳機",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T17:13:20.199Z",
+  "clicksConfirmed": 1,
+  "recovery": "After filled form, no provider result; credits 9390 match 14 completed submissions; Create enabled, no CAPTCHA or progress. Exact search used to establish zero result before keyboard recovery.",
+  "receivedAt": "2026-09-14T17:21:51.112Z",
+  "creditsAfter": 9380,
+  "providerResults": [
+    {
+      "id": "cdc52735-55c7-4a95-89d4-807562fb7ac6",
+      "url": "https://suno.com/song/cdc52735-55c7-4a95-89d4-807562fb7ac6",
+      "variant": "A"
+    },
+    {
+      "id": "1c66015c-e41d-48de-9cfd-b880d40b2a40",
+      "url": "https://suno.com/song/1c66015c-e41d-48de-9cfd-b880d40b2a40",
+      "variant": "B"
+    }
+  ]
+}

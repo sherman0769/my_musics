@@ -1,0 +1,21 @@
+{
+  "track": "03",
+  "variant": "A",
+  "providerId": "9b4196c6-a5c7-40ee-b2ef-2bf244ac183f",
+  "format": "mp3",
+  "status": "verified_copy_available_browser_finalization_unconfirmed",
+  "createdAt": "2026-09-14T17:24:12.432Z",
+  "authorization": "Continue autonomous next 20-song album with same delivery workflow",
+  "successfulUnlockActions": 1,
+  "downloadEventConfirmed": false,
+  "sourcePreserved": true,
+  "fileReceipt": "03-download-A.json",
+  "updatedAt": "2026-09-14T17:53:10.535Z",
+  "uiReceipt": {
+    "id": "03",
+    "event": false,
+    "attempts": 1,
+    "quotaBefore": 30,
+    "evidence": "Observed single Unlock & Download action followed by event timeout; transcript 2026-09-15"
+  }
+}

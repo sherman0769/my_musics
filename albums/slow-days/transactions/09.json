@@ -1,0 +1,24 @@
+{
+  "track": "09",
+  "title": "慢日子09｜市場裡的兩把青菜",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:24:32.665Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:24:56.424Z",
+  "creditsAfter": 9650,
+  "providerResults": [
+    {
+      "id": "6a005d04-77b0-48a1-aa4e-27d6fcd494a1",
+      "url": "https://suno.com/song/6a005d04-77b0-48a1-aa4e-27d6fcd494a1",
+      "variant": "A"
+    },
+    {
+      "id": "529ddd66-fa43-4a89-8a39-990625b33af5",
+      "url": "https://suno.com/song/529ddd66-fa43-4a89-8a39-990625b33af5",
+      "variant": "B"
+    }
+  ]
+}

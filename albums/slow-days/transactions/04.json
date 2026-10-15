@@ -1,0 +1,24 @@
+{
+  "track": "04",
+  "title": "慢日子04｜陽台上的星期天",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:22:45.357Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:24:32.531Z",
+  "creditsAfter": 9690,
+  "providerResults": [
+    {
+      "id": "6bc0966e-aa1d-4794-aa73-6a161d7ad5cd",
+      "url": "https://suno.com/song/6bc0966e-aa1d-4794-aa73-6a161d7ad5cd",
+      "variant": "A"
+    },
+    {
+      "id": "f985734b-d9c9-4c7a-ab68-3b668ec030d6",
+      "url": "https://suno.com/song/f985734b-d9c9-4c7a-ab68-3b668ec030d6",
+      "variant": "B"
+    }
+  ]
+}

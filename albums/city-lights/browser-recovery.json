@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-14T17:44:34.026Z",
+  "track": "07",
+  "failure": "Two cua_repl calls timed out after 300 seconds",
+  "recovery": "Reset persistent JS kernel, enumerate live browsers, select same Edge tab 921136386; unchanged Unlock dialog with quota 26, zero track07 files before recovery",
+  "result": "Single unlock action completed; quota before 26",
+  "captcha02": "Challenge disappeared and generation result appeared without agent clicking verification"
+}

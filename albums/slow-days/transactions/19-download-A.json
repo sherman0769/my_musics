@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/19/19-A-b9f49e31-c711-40cc-99d8-c46ff1cf1520.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子19｜平凡就是我們的好日子.mp3.crdownload",
+  "providerId": "b9f49e31-c711-40cc-99d8-c46ff1cf1520",
+  "bytes": 4401774,
+  "sha256": "94acbab7a7c0907c7a8c9698579774ae673979f506f4db157874f84803465cd9",
+  "duration": 189.96,
+  "decodedSeconds": 189.92,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:00:23.007Z"
+}

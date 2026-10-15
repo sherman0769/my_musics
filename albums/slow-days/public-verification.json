@@ -1,0 +1,151 @@
+{
+  "at": "2026-09-14T17:03:49.962Z",
+  "base": "https://mymusics-olive.vercel.app/",
+  "tracks": [
+    {
+      "id": 1,
+      "status": 200,
+      "bytes": 4806233,
+      "sha256": "5d76836d6dea9b2c160bab789ce715ef6ef527cb48abdefc7d196d119b677bd1"
+    },
+    {
+      "id": 2,
+      "status": 200,
+      "bytes": 3584037,
+      "sha256": "39a71719e38bb58b4646d3fe5097b475c5d1b1c258738c28e6c28b1af9b6f0bc"
+    },
+    {
+      "id": 3,
+      "status": 200,
+      "bytes": 5063553,
+      "sha256": "68990c16367cd4fc14665b116b7a2ce902e62bb057c436f0249bad538f7a2160"
+    },
+    {
+      "id": 4,
+      "status": 200,
+      "bytes": 4644432,
+      "sha256": "e57d3ce5df70c0b3601ba0981a88acd3b5a9bfa4477ee5e4afdcc6653a3a8b12"
+    },
+    {
+      "id": 5,
+      "status": 200,
+      "bytes": 4291044,
+      "sha256": "9c317dffea27662a194037cda9861f1ceccc79b94c15be012ea6e9b70c1247f1"
+    },
+    {
+      "id": 6,
+      "status": 200,
+      "bytes": 4482558,
+      "sha256": "fe65416fbf413fb5e7325846c1ae736d37e9de2ec8ff941fadbf27984370b5f8"
+    },
+    {
+      "id": 7,
+      "status": 200,
+      "bytes": 4441832,
+      "sha256": "4d13e6313e851dfe5ef8577e1eff2de717d11dc535ea2484a5c691a2ad26ad97"
+    },
+    {
+      "id": 8,
+      "status": 200,
+      "bytes": 4431742,
+      "sha256": "8defe349b29752e00a5461d11b26002a352e68f277510c03eed1eb3a769a2aec"
+    },
+    {
+      "id": 9,
+      "status": 200,
+      "bytes": 4799713,
+      "sha256": "5ede079198ee9943b6ffa335398b5f373368ff482c0f420f790516a6c637d0e4"
+    },
+    {
+      "id": 10,
+      "status": 200,
+      "bytes": 4221851,
+      "sha256": "040c067dca964e22a9942e72325f35339420f749f910c89e44da48a9ed7b0c5b"
+    },
+    {
+      "id": 11,
+      "status": 200,
+      "bytes": 3898544,
+      "sha256": "e6eccb4bc30d8df17a7d102db372b60427b3ee118a8353feb1da5b0a549601a2"
+    },
+    {
+      "id": 12,
+      "status": 200,
+      "bytes": 4566217,
+      "sha256": "aa5e3af43426a06a49012bbcbc9a0a0b80c1dc67c39b0dd6cccc5a340a26b38c"
+    },
+    {
+      "id": 13,
+      "status": 200,
+      "bytes": 3643604,
+      "sha256": "e758d6c4a9ac62c44bc62278fc18d89ee28ec41c2c5eaaca96de6c24e4ac6e0a"
+    },
+    {
+      "id": 14,
+      "status": 200,
+      "bytes": 5387406,
+      "sha256": "7a8001029e31d4c08ec7ec796fddf5d80a15fdbe9b65ef594f1a87cb639e8b4a"
+    },
+    {
+      "id": 15,
+      "status": 200,
+      "bytes": 5025025,
+      "sha256": "5aca58c340defb286715840b2f07e6773f2c093ea44dbbf5870aca816b031409"
+    },
+    {
+      "id": 16,
+      "status": 200,
+      "bytes": 4412485,
+      "sha256": "20871e9cf4cd97a2444b73d698baa490421759acda3c988dec6e166a63bf2ea0"
+    },
+    {
+      "id": 17,
+      "status": 200,
+      "bytes": 3941951,
+      "sha256": "ec330ee3206637a10931369de90c16cecece5d14be0c0f79954ae797cbe4ec23"
+    },
+    {
+      "id": 18,
+      "status": 200,
+      "bytes": 5002801,
+      "sha256": "8982ff1861ace8246909cf01eb6b70c1301420ac56cd7a20b9a32f8fa3f50782"
+    },
+    {
+      "id": 19,
+      "status": 200,
+      "bytes": 4401774,
+      "sha256": "94acbab7a7c0907c7a8c9698579774ae673979f506f4db157874f84803465cd9"
+    },
+    {
+      "id": 20,
+      "status": 200,
+      "bytes": 5247083,
+      "sha256": "46a5a0733513621ced4e60ff7197058cff1e5684db357af6208d9b8ab124fdc4"
+    }
+  ],
+  "pages": [
+    {
+      "path": "slow-days-downloads.html",
+      "status": 200,
+      "sha256": "0cd0ddfbf7603c21ca0045ff7a6fc56250daf65f0dff34ba415a75a1e34b41a4"
+    },
+    {
+      "path": "slowDaysAlbum.js",
+      "status": 200,
+      "sha256": "0ac68e95165beeaf42cb73b0290a89662a4a3beb97c0dcd66931d47430eb406c"
+    }
+  ],
+  "range206": true,
+  "zip": {
+    "status": 200,
+    "bytes": 92786608
+  },
+  "internalLedger404": true,
+  "finalPageVerification": {
+    "at": "2026-09-14T17:05:47.245Z",
+    "path": "slow-days-downloads.html",
+    "status": 200,
+    "sha256": "205e8b1e43d17bca24b2bfcac1daae402484d69e4be1b59a4246c3e8982eceec",
+    "change": "Player link uses /?album=slow-days&track=1; audio assets unchanged"
+  }
+}

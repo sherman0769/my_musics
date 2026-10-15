@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/04/04-A-6bc0966e-aa1d-4794-aa73-6a161d7ad5cd.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\慢日子04｜陽台上的星期天.mp3.crdownload",
+  "providerId": "6bc0966e-aa1d-4794-aa73-6a161d7ad5cd",
+  "bytes": 4644432,
+  "sha256": "e57d3ce5df70c0b3601ba0981a88acd3b5a9bfa4477ee5e4afdcc6653a3a8b12",
+  "duration": 194.904,
+  "decodedSeconds": 194.88,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T16:44:58.404Z"
+}

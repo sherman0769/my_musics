@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/11/11-A-b99e3534-5e25-418c-826b-17c2de095117.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈11｜沒寄出的明信片.mp3.crdownload",
+  "providerId": "b99e3534-5e25-418c-826b-17c2de095117",
+  "bytes": 4767886,
+  "sha256": "25e43eafbf49db9f62546be1c8ea4eaf060f605c84b5e129a20175d28173a296",
+  "duration": 211.512,
+  "decodedSeconds": 211.48,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:47:24.138Z"
+}

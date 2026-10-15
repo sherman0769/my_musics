@@ -1,0 +1,24 @@
+{
+  "track": "06",
+  "title": "慢日子06｜飯還熱著",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:23:55.156Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:24:32.622Z",
+  "creditsAfter": 9680,
+  "providerResults": [
+    {
+      "id": "a67dba16-98ec-41ec-b130-9aa60dfb9895",
+      "url": "https://suno.com/song/a67dba16-98ec-41ec-b130-9aa60dfb9895",
+      "variant": "A"
+    },
+    {
+      "id": "4bc6d59e-4ce4-49fd-814c-6d2d811fb6d2",
+      "url": "https://suno.com/song/4bc6d59e-4ce4-49fd-814c-6d2d811fb6d2",
+      "variant": "B"
+    }
+  ]
+}

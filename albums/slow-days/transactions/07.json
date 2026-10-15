@@ -1,0 +1,24 @@
+{
+  "track": "07",
+  "title": "慢日子07｜媽媽又問吃飽沒",
+  "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "status": "provider_results_observed",
+  "createdAt": "2026-09-14T16:23:55.156Z",
+  "clicksConfirmed": 1,
+  "receivedAt": "2026-09-14T16:24:56.338Z",
+  "creditsAfter": 9660,
+  "providerResults": [
+    {
+      "id": "6d063bb7-5782-47fb-b4bd-da04f922344e",
+      "url": "https://suno.com/song/6d063bb7-5782-47fb-b4bd-da04f922344e",
+      "variant": "A"
+    },
+    {
+      "id": "c47aa734-6430-40e3-a736-2d56c9d4e127",
+      "url": "https://suno.com/song/c47aa734-6430-40e3-a736-2d56c9d4e127",
+      "variant": "B"
+    }
+  ]
+}

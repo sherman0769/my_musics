@@ -1,0 +1,16 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "path": "downloads/06/06-A-ff6ffa5c-d4c8-420b-9d7b-3b68145f4d6a.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\留燈06｜夜班的人.mp3.crdownload",
+  "providerId": "ff6ffa5c-d4c8-420b-9d7b-3b68145f4d6a",
+  "bytes": 5112545,
+  "sha256": "a860b24ae8d887442ecb90ad9790eb5726a60042e23ef014fa338119d31d4460",
+  "duration": 218.232,
+  "decodedSeconds": 218.2,
+  "recoveredFromBrowserTemporaryFile": true,
+  "browserDownloadFinalized": false,
+  "codec": "mp3",
+  "fullDecodeExit": 0,
+  "verifiedAt": "2026-09-14T17:43:05.309Z"
+}

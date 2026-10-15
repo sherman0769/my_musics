@@ -1,0 +1,14 @@
+{
+  "track": "17",
+  "format": "mp3",
+  "createdAt": "2026-09-14T16:38:20.6635775Z",
+  "userSelection": "Any A/B authorized; A selected",
+  "providerId": "957fbc1d-aa1f-42ef-92be-0532f143c764",
+  "variant": "A",
+  "status": "verified_copy_available_browser_finalization_unconfirmed",
+  "successfulUnlockActions": 1,
+  "downloadEventConfirmed": false,
+  "sourcePreserved": true,
+  "fileReceipt": "17-download-A.json",
+  "updatedAt": "2026-09-14T17:00:35.137Z"
+}
