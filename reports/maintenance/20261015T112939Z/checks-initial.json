@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-15T11:36:07.426Z",
+  "syntax": [
+    {
+      "file": "albumData.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "scripts/lib/release-validation.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "tests/release-validation.test.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/slow-days/verify-release.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/slow-days/verify-public.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/city-lights/verify-release.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/city-lights/verify-public.cjs",
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "diffCheck": {
+    "exitCode": 2,
+    "output": "README.md:87: trailing whitespace.\n+歷史正式網址為 https://mymusics-olive.vercel.app/，後兩張保留 2026-09-15（台灣時間）的公開驗收證據。本輪未重新驗證公開網站、手機實機或部署狀態。公開檢查可用 `verify-public.cjs <base-url> [--output 新檔名]`，其範圍是 HTTP 檔案、Range、ZIP 大小與帳本隔離，不代表瀏覽器播放或人工聽審通過。\r\n"
+  },
+  "build": "not_applicable_no_package_json",
+  "lint": "not_configured"
+}

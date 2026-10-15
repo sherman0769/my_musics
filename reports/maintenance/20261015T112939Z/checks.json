@@ -1,0 +1,96 @@
+{
+  "at": "2026-10-15T11:38:32.128Z",
+  "syntax": [
+    {
+      "file": "albumData.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "scripts/lib/release-validation.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "tests/release-validation.test.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/slow-days/verify-release.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/slow-days/verify-public.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/city-lights/verify-release.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/city-lights/verify-public.cjs",
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "diffCheck": {
+    "exitCode": 0,
+    "output": ""
+  },
+  "docLinks": [
+    {
+      "document": "README.md",
+      "target": "docs/MAINTENANCE.md",
+      "exists": true
+    },
+    {
+      "document": "docs/MAINTENANCE.md",
+      "target": "../reports/maintenance/20261015T112939Z/",
+      "exists": true
+    }
+  ],
+  "albumCount": 4,
+  "trackCount": 80,
+  "missingAssets": [],
+  "privateExclusions": [
+    {
+      "path": "albums/",
+      "excluded": true
+    },
+    {
+      "path": "reports/",
+      "excluded": true
+    },
+    {
+      "path": "docs/",
+      "excluded": true
+    },
+    {
+      "path": "scripts/",
+      "excluded": true
+    },
+    {
+      "path": "tests/",
+      "excluded": true
+    }
+  ],
+  "regression": {
+    "tests": 15,
+    "pass": 15,
+    "fail": 0,
+    "confirmed": true
+  },
+  "build": "not_applicable_no_package_json",
+  "lint": "not_configured",
+  "publicSite": "not_run",
+  "browserUi": "not_run",
+  "humanListening": "not_run",
+  "initialFailuresPreserved": [
+    "regression-tests-initial.txt",
+    "checks-initial.json"
+  ]
+}

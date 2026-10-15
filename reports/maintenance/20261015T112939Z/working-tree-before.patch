@@ -1,0 +1,685 @@
+diff --git a/albumData.js b/albumData.js
+index 9bbd101..1b84704 100644
+--- a/albumData.js
++++ b/albumData.js
+@@ -1497,7 +1497,9 @@ const zeguoxixiangAlbumData = {
+ 
+ const albumsData = [
+   albumData,
+-  zeguoxixiangAlbumData
++  zeguoxixiangAlbumData,
++  typeof module !== 'undefined' && module.exports ? require('./slowDaysAlbum.js') : window.slowDaysAlbumData,
++  typeof module !== 'undefined' && module.exports ? require('./cityLightsAlbum.js') : window.cityLightsAlbumData
+ ];
+ 
+ // 匯出資料庫，供 app.js 使用。新增專輯時，將 album 物件加入 albumsData 即可。
+diff --git a/app.js b/app.js
+index 5419c8c..2675ec6 100644
+--- a/app.js
++++ b/app.js
+@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
+   const pageBgImage = document.getElementById('page-bg-image');
+   const headerArtistName = document.getElementById('header-artist-name');
+   const headerAlbumTitle = document.getElementById('header-album-title');
++  const btnShareAlbum = document.getElementById('btn-share-album');
+   const btnAlbumLibrary = document.getElementById('btn-album-library');
++  const albumLibraryDropdown = document.getElementById('album-library-dropdown');
+   
+   // 播放器控制項
+   const btnPlay = document.getElementById('btn-play');
+@@ -44,6 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
+   const trackIndexText = document.getElementById('current-track-index');
+   const trackTitleText = document.getElementById('current-track-title');
+   const trackQuoteText = document.getElementById('current-track-quote');
++  const btnShareTrack = document.getElementById('btn-share-track');
++  const shareToast = document.getElementById('share-toast');
+   
+   // 日記頁面節點
+   const tabs = document.querySelectorAll('.tab-btn');
+@@ -88,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
+   let isLoop = false;
+   let prevVolume = 0.8;
+   let playbackStartTimer = null;
++  let shareToastTimer = null;
+   let trackPlayCounts = {};
+   const GLOBAL_STATS_API = '/api/stats';
+   let globalStatsEnabled = false;
+@@ -113,6 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
+     if (miniBtnPlay) miniBtnPlay.addEventListener('click', togglePlay);
+     if (miniBtnPrev) miniBtnPrev.addEventListener('click', prevTrack);
+     if (miniBtnNext) miniBtnNext.addEventListener('click', nextTrack);
++    if (btnShareAlbum) btnShareAlbum.addEventListener('click', shareCurrentAlbum);
++    if (btnShareTrack) btnShareTrack.addEventListener('click', shareCurrentTrack);
+     
+     progressBar.addEventListener('input', setProgress);
+     volumeBar.addEventListener('input', setVolume);
+@@ -128,7 +135,39 @@ document.addEventListener('DOMContentLoaded', () => {
+     // 頁籤切換
+     initTabs();
+     if (btnAlbumLibrary) {
+-      btnAlbumLibrary.addEventListener('click', () => activateTab('library'));
++      btnAlbumLibrary.addEventListener('click', (event) => {
++        event.stopPropagation();
++        toggleAlbumLibraryDropdown();
++      });
++    }
++    if (albumLibraryDropdown) {
++      albumLibraryDropdown.addEventListener('click', (event) => event.stopPropagation());
++    }
++    document.addEventListener('click', closeAlbumLibraryDropdown);
++    document.addEventListener('keydown', (event) => {
++      if (event.key === 'Escape') closeAlbumLibraryDropdown();
++    });
++  }
++
++  function setAlbumLibraryDropdownOpen(isOpen) {
++    if (!albumLibraryDropdown || !btnAlbumLibrary) return;
++
++    albumLibraryDropdown.classList.toggle('open', isOpen);
++    albumLibraryDropdown.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
++    albumLibraryDropdown.toggleAttribute('inert', !isOpen);
++    btnAlbumLibrary.classList.toggle('active', isOpen);
++    btnAlbumLibrary.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
++    btnAlbumLibrary.setAttribute('aria-label', isOpen ? '關閉作品庫' : '開啟作品庫');
++    btnAlbumLibrary.title = isOpen ? '關閉作品庫' : '開啟作品庫';
++  }
++
++  function toggleAlbumLibraryDropdown() {
++    setAlbumLibraryDropdownOpen(!albumLibraryDropdown?.classList.contains('open'));
++  }
++
++  function closeAlbumLibraryDropdown() {
++    if (albumLibraryDropdown?.classList.contains('open')) {
++      setAlbumLibraryDropdownOpen(false);
+     }
+   }
+ 
+@@ -181,6 +220,69 @@ document.addEventListener('DOMContentLoaded', () => {
+     return `${album.subtitle || '音樂故事專輯'}《${title}》`;
+   }
+ 
++  function getAbsoluteUrl(path) {
++    try {
++      return new URL(path || '', window.location.href).toString();
++    } catch {
++      return window.location.href;
++    }
++  }
++
++  function getTrackShareUrl(track = currentAlbum.tracks[currentIndex]) {
++    const url = new URL(window.location.href);
++    url.search = '';
++    url.hash = '';
++    url.searchParams.set('album', currentAlbum.id || DEFAULT_ALBUM_ID);
++    url.searchParams.set('track', String(track.id));
++    return url.toString();
++  }
++
++  function getAlbumShareUrl(album = currentAlbum) {
++    const url = new URL(window.location.href);
++    url.search = '';
++    url.hash = '';
++    url.searchParams.set('album', album.id || DEFAULT_ALBUM_ID);
++    return url.toString();
++  }
++
++  function setMetaContent(selector, content, createAttribute, createValue) {
++    if (!content) return;
++    let node = document.head.querySelector(selector);
++    if (!node) {
++      node = document.createElement('meta');
++      node.setAttribute(createAttribute, createValue);
++      document.head.appendChild(node);
++    }
++    node.setAttribute('content', content);
++  }
++
++  function updateTrackShareMetadata(track) {
++    const albumTitle = getAlbumTitle();
++    const shareTitle = `${currentAlbum.artist}《${track.title}》｜《${albumTitle}》`;
++    const shareDescription = track.quote || currentAlbum.tagline || `${currentAlbum.artist} 的音樂故事單曲。`;
++    const shareUrl = getTrackShareUrl(track);
++    const shareImage = getAbsoluteUrl(track.image || currentAlbum.coverImage || 'assets/images/icon-512.png?v=2');
++    const canonicalLink = document.head.querySelector('link[rel="canonical"]');
++
++    document.title = `微光邊界 - ${shareTitle}`;
++    if (canonicalLink) canonicalLink.setAttribute('href', shareUrl);
++    setMetaContent('meta[name="description"]', shareDescription, 'name', 'description');
++    setMetaContent('meta[property="og:title"]', shareTitle, 'property', 'og:title');
++    setMetaContent('meta[property="og:description"]', shareDescription, 'property', 'og:description');
++    setMetaContent('meta[property="og:type"]', 'music.song', 'property', 'og:type');
++    setMetaContent('meta[property="og:url"]', shareUrl, 'property', 'og:url');
++    setMetaContent('meta[property="og:image"]', shareImage, 'property', 'og:image');
++    setMetaContent('meta[name="twitter:title"]', shareTitle, 'name', 'twitter:title');
++    setMetaContent('meta[name="twitter:description"]', shareDescription, 'name', 'twitter:description');
++    setMetaContent('meta[name="twitter:image"]', shareImage, 'name', 'twitter:image');
++
++    if (btnShareTrack) {
++      btnShareTrack.dataset.shareUrl = shareUrl;
++      btnShareTrack.title = `分享《${track.title}》`;
++      btnShareTrack.setAttribute('aria-label', `分享《${track.title}》`);
++    }
++  }
++
+   function renderAlbumChrome() {
+     const albumTitle = getAlbumTitle();
+     document.title = `微光邊界 - ${currentAlbum.artist}《${albumTitle}》`;
+@@ -201,10 +303,27 @@ document.addEventListener('DOMContentLoaded', () => {
+       albumReleaseLine.textContent = [getAlbumDisplayLine(), releaseText].filter(Boolean).join(' / ');
+     }
+     if (playlistTitle) playlistTitle.textContent = `《${albumTitle}》專輯軌道清單`;
++    const albumDownloadLink = document.getElementById('album-download-link');
++    if (albumDownloadLink) {
++      albumDownloadLink.hidden = !currentAlbum.downloadPage;
++      if (currentAlbum.downloadPage) albumDownloadLink.href = currentAlbum.downloadPage;
++    }
+     if (playlistSubtitle) playlistSubtitle.textContent = `${currentAlbum.tracks.length} 首作品，點擊即可載入黑膠播放`;
+     if (changelogDateTitle) changelogDateTitle.textContent = currentAlbum.changelogTitle || 'Album Diary / 專輯更新日記';
+     if (changelogDesc) changelogDesc.textContent = currentAlbum.changelogIntro || currentAlbum.tagline || '';
++    const originalDiary = currentAlbum.id === 'glimmer-boundaries';
++    const diaryVersion = document.querySelector('#pane-changelog .changelog-version');
++    if (diaryVersion) diaryVersion.textContent = originalDiary
++      ? '🌸 新歌發布特輯 2026-06-06'
++      : `《${albumTitle}》專輯日記 · ${currentAlbum.releaseDate || ''}`;
++    document.querySelectorAll('#pane-changelog .changelog-subtitle, #pane-changelog .changelog-list')
++      .forEach(element => { element.hidden = !originalDiary; });
+     if (diaryBrand) diaryBrand.textContent = `${currentAlbum.artist} 創作手稿`;
++    if (btnShareAlbum) {
++      btnShareAlbum.dataset.shareUrl = getAlbumShareUrl();
++      btnShareAlbum.title = `分享《${albumTitle}》`;
++      btnShareAlbum.setAttribute('aria-label', `分享《${albumTitle}》`);
++    }
+   }
+ 
+   function readNumberFromStorage(key) {
+@@ -348,7 +467,8 @@ document.addEventListener('DOMContentLoaded', () => {
+   function switchAlbum(albumIndex) {
+     const nextAlbum = albums[albumIndex];
+     if (albumIndex === currentAlbumIndex || !nextAlbum) {
+-      activateTab('tracks');
++      closeAlbumLibraryDropdown();
++      activateTab('story');
+       return;
+     }
+     if (!Array.isArray(nextAlbum.tracks) || nextAlbum.tracks.length === 0) return;
+@@ -364,12 +484,8 @@ document.addEventListener('DOMContentLoaded', () => {
+     buildAlbumLibrary();
+     buildPlaylist();
+     loadTrack(0);
+-    activateTab('tracks');
+-
+-    const url = new URL(window.location.href);
+-    url.searchParams.set('album', currentAlbum.id);
+-    url.searchParams.delete('track');
+-    window.history.replaceState({}, '', url);
++    closeAlbumLibraryDropdown();
++    activateTab('story');
+   }
+ 
+   function buildPlaylist() {
+@@ -427,6 +543,7 @@ document.addEventListener('DOMContentLoaded', () => {
+     trackIndexText.textContent = `Track ${String(track.id).padStart(2, '0')} / ${currentAlbum.tracks.length}`;
+     trackTitleText.textContent = track.title;
+     trackQuoteText.textContent = track.quote || currentAlbum.tagline || '';
++    updateTrackShareMetadata(track);
+     
+     // 3. 變更故事頁插圖、歌詞背景浮水印與網頁背景底圖 (唱片頭像固定，不在此更新)
+     const photoUrl = track.image || currentAlbum.coverImage;
+@@ -491,6 +608,94 @@ document.addEventListener('DOMContentLoaded', () => {
+     });
+   }
+ 
++  async function copyTextToClipboard(text) {
++    if (navigator.clipboard?.writeText) {
++      try {
++        await navigator.clipboard.writeText(text);
++        return true;
++      } catch {
++        // 繼續使用舊式複製 fallback。
++      }
++    }
++
++    const textarea = document.createElement('textarea');
++    textarea.value = text;
++    textarea.setAttribute('readonly', '');
++    textarea.style.position = 'fixed';
++    textarea.style.top = '-1000px';
++    textarea.style.opacity = '0';
++    document.body.appendChild(textarea);
++    textarea.select();
++
++    let didCopy = false;
++    try {
++      didCopy = document.execCommand('copy');
++    } catch {
++      didCopy = false;
++    } finally {
++      document.body.removeChild(textarea);
++    }
++    return didCopy;
++  }
++
++  function showShareToast(message) {
++    if (!shareToast) return;
++    shareToast.textContent = message;
++    shareToast.classList.add('show');
++    if (shareToastTimer) clearTimeout(shareToastTimer);
++    shareToastTimer = setTimeout(() => {
++      shareToast.classList.remove('show');
++    }, 2600);
++  }
++
++  async function shareCurrentTrack() {
++    const track = currentAlbum.tracks[currentIndex];
++    const shareUrl = getTrackShareUrl(track);
++    const shareTitle = `${currentAlbum.artist}《${track.title}》`;
++    const shareText = `正在聽《${track.title}》，收錄於${getAlbumDisplayLine()}。`;
++
++    if (navigator.share) {
++      try {
++        await navigator.share({
++          title: shareTitle,
++          text: shareText,
++          url: shareUrl,
++        });
++        showShareToast('已開啟分享選單');
++        return;
++      } catch (error) {
++        if (error?.name === 'AbortError') return;
++      }
++    }
++
++    const didCopy = await copyTextToClipboard(shareUrl);
++    showShareToast(didCopy ? '已複製單曲連結' : '無法自動複製，請使用瀏覽器網址列分享');
++  }
++
++  async function shareCurrentAlbum() {
++    const albumTitle = getAlbumTitle();
++    const shareUrl = getAlbumShareUrl();
++    const shareTitle = `${currentAlbum.artist}《${albumTitle}》`;
++    const shareText = `${getAlbumDisplayLine()}，收錄 ${currentAlbum.tracks.length} 首音樂故事。`;
++
++    if (navigator.share) {
++      try {
++        await navigator.share({
++          title: shareTitle,
++          text: shareText,
++          url: shareUrl,
++        });
++        showShareToast('已開啟分享選單');
++        return;
++      } catch (error) {
++        if (error?.name === 'AbortError') return;
++      }
++    }
++
++    const didCopy = await copyTextToClipboard(shareUrl);
++    showShareToast(didCopy ? '已複製專輯連結' : '無法自動複製，請使用瀏覽器網址列分享');
++  }
++
+   // --- 7. 音樂控制邏輯 (播放、暫停、切歌) ---
+   function togglePlay() {
+     if (isPlaying) {
+diff --git a/index.html b/index.html
+index 7c3dbaa..fb8fe70 100644
+--- a/index.html
++++ b/index.html
+@@ -21,6 +21,8 @@
+   <meta name="twitter:title" content="微光邊界 — 音樂故事播放器">
+   <meta name="twitter:description" content="收錄李詩民原創音樂故事專輯，搭配復古黑膠沉浸式網頁體驗。">
+   <meta name="twitter:image" content="assets/images/icon-512.png?v=2">
++  <meta property="og:url" content="https://mymusics-olive.vercel.app/">
++  <link rel="canonical" href="https://mymusics-olive.vercel.app/">
+ 
+   <!-- PWA 手機 App 安裝支援 -->
+   <link rel="manifest" href="manifest.json?v=2">
+@@ -36,7 +38,7 @@
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+   
+   <!-- 本機樣式表 -->
+-  <link rel="stylesheet" href="style.css?v=7">
++  <link rel="stylesheet" href="style.css?v=9">
+ </head>
+ <body>
+ 
+@@ -64,12 +66,28 @@
+         <span class="divider">/</span>
+         <span class="album-title" id="header-album-title">首張音樂故事專輯《微光邊界》</span>
+       </div>
+-      <button class="album-library-btn" id="btn-album-library" type="button" title="開啟作品庫" aria-label="開啟作品庫">
+-        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path></svg>
+-        <span>作品庫</span>
+-      </button>
++      <div class="header-actions">
++        <button class="header-action-btn album-share-btn" id="btn-share-album" type="button" title="分享這張專輯" aria-label="分享這張專輯">
++          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.59 13.51 15.42 17.49"></path><path d="M15.41 6.51 8.59 10.49"></path></svg>
++          <span>分享專輯</span>
++        </button>
++        <button class="header-action-btn album-library-btn" id="btn-album-library" type="button" title="開啟作品庫" aria-label="開啟作品庫" aria-expanded="false" aria-controls="album-library-dropdown">
++          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path></svg>
++          <span>作品庫</span>
++        </button>
++      </div>
+     </header>
+ 
++    <!-- 首頁作品庫下拉選單 -->
++    <section class="album-library-dropdown" id="album-library-dropdown" aria-label="專輯選擇" aria-hidden="true" inert>
++      <div class="album-library-dropdown-inner">
++        <div class="album-library-grid" id="album-library-grid">
++          <!-- 由 JS 動態生成專輯卡片 -->
++        </div>
++        <div class="album-library-dropdown-footer">選擇一張專輯</div>
++      </div>
++    </section>
++
+     <!-- 主區塊：左側唱片機，右側日記本 -->
+     <div class="main-content">
+       
+@@ -130,6 +148,10 @@
+             <span class="track-index" id="current-track-index">Track 01 / 20</span>
+             <h1 class="track-title" id="current-track-title">光斑的起點</h1>
+             <p class="track-short-quote" id="current-track-quote">在晨光編織的人潮中，脫下日復一日的社交偽裝。</p>
++            <button class="track-share-btn" id="btn-share-track" type="button" title="分享這首歌" aria-label="分享這首歌">
++              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.59 13.51 15.42 17.49"></path><path d="M15.41 6.51 8.59 10.49"></path></svg>
++              <span>分享單曲</span>
++            </button>
+           </div>
+ 
+           <!-- 音樂播放進度條 -->
+@@ -195,9 +217,6 @@
+             <button class="tab-btn" data-tab="tracks" role="tab" aria-selected="false" aria-controls="pane-tracks">
+               <span>曲目列表</span>
+             </button>
+-            <button class="tab-btn" data-tab="library" role="tab" aria-selected="false" aria-controls="pane-library">
+-              <span>作品庫</span>
+-            </button>
+             <button class="tab-btn" data-tab="changelog" role="tab" aria-selected="false" aria-controls="pane-changelog">
+               <span>更新日記</span>
+             </button>
+@@ -254,6 +273,7 @@
+                   <div class="artist-intro">
+                     <h3 class="artist-name-h3" id="artist-name-title">李詩民</h3>
+                     <p class="album-release-line" id="album-release-line">首張音樂故事專輯</p>
++                    <a id="album-download-link" href="slow-days-downloads.html" hidden>試聽與下載整張專輯 →</a>
+                     <p class="artist-bio-text" id="artist-bio">
+                       李詩民，都市裡的聲音觀察者。用溫暖而略帶沙啞的男聲，唱出喧囂中的孤獨、掙扎與最終的自我和解。這是一張關於生命哲學、心靈尋回與自我救贖的音樂日記，陪伴每一個在黑夜中尋找光芒的靈魂。
+                     </p>
+@@ -272,18 +292,7 @@
+               </div>
+             </div>
+ 
+-            <!-- 頁面 4: 作品庫 -->
+-            <div class="diary-content" id="pane-library" role="tabpanel">
+-              <div class="page-paper scrollable-page">
+-                <div class="diary-date">Glimmer Library / 作品庫</div>
+-                <h2 class="diary-title-h2">選擇一張專輯</h2>
+-                <div class="album-library-grid" id="album-library-grid">
+-                  <!-- 由 JS 動態生成專輯卡片 -->
+-                </div>
+-              </div>
+-            </div>
+-
+-            <!-- 頁面 5: 更新日記 -->
++            <!-- 頁面 4: 更新日記 -->
+             <div class="diary-content" id="pane-changelog" role="tabpanel">
+               <div class="page-paper scrollable-page">
+                 <div class="diary-date" id="changelog-date-title">Album Diary / 專輯更新日記</div>
+@@ -346,10 +355,12 @@
+ 
+     <!-- 底部版權宣告與操作提示 -->
+     <footer class="app-footer">
+-      <p class="guide-tip">提示：建議使用 Safari、Chrome 或 Edge 瀏覽器開啟，播放與安裝體驗最佳；也可到「曲目列表」選歌，或到「作品庫」切換專輯。</p>
++      <p class="guide-tip">提示：建議使用 Safari、Chrome 或 Edge 瀏覽器開啟；可到「曲目列表」選歌、用首頁「作品庫」切換專輯，或直接分享當前單曲。</p>
+       <p class="visit-counter" id="visit-counter">本機訪問量 0 次</p>
+     </footer>
+ 
++    <div class="share-toast" id="share-toast" role="status" aria-live="polite"></div>
++
+   </main>
+ 
+   <!-- HTML5 Audio 原生播放元件 -->
+@@ -378,7 +389,9 @@
+   </aside>
+ 
+   <!-- 載入資料與控制邏輯 -->
+-  <script src="albumData.js?v=4"></script>
+-  <script src="app.js?v=8"></script>
++  <script src="slowDaysAlbum.js?v=1"></script>
++  <script src="cityLightsAlbum.js?v=1"></script>
++  <script src="albumData.js?v=6"></script>
++  <script src="app.js?v=12"></script>
+ </body>
+ </html>
+diff --git a/style.css b/style.css
+index caed914..6831f26 100644
+--- a/style.css
++++ b/style.css
+@@ -209,7 +209,14 @@ body {
+   color: var(--color-text-muted);
+ }
+ 
+-.album-library-btn {
++.header-actions {
++  display: flex;
++  align-items: center;
++  gap: 10px;
++  flex: 0 0 auto;
++}
++
++.header-action-btn {
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+@@ -226,12 +233,63 @@ body {
+   transition: var(--transition-smooth);
+ }
+ 
+-.album-library-btn:hover {
++.header-action-btn:hover {
+   color: var(--color-text-primary);
+   border-color: var(--color-accent);
+   background: var(--color-accent-light);
+ }
+ 
++.header-action-btn.active {
++  color: var(--color-text-primary);
++  border-color: var(--color-accent);
++  background: var(--color-accent-light);
++  box-shadow: 0 0 0 1px rgba(176, 188, 156, 0.08), 0 10px 24px rgba(0, 0, 0, 0.24);
++}
++
++.album-library-dropdown {
++  max-height: 0;
++  opacity: 0;
++  overflow: hidden;
++  pointer-events: none;
++  transform: translateY(-10px);
++  transition: max-height 0.42s cubic-bezier(0.25, 0.8, 0.25, 1),
++    opacity 0.24s ease,
++    transform 0.42s cubic-bezier(0.25, 0.8, 0.25, 1),
++    margin-bottom 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
++  margin-bottom: 0;
++}
++
++.album-library-dropdown.open {
++  max-height: 620px;
++  opacity: 1;
++  pointer-events: auto;
++  transform: translateY(0);
++  margin-bottom: 25px;
++}
++
++.album-library-dropdown-inner {
++  max-height: min(560px, 62vh);
++  overflow-y: auto;
++  padding: 18px;
++  border: 1px solid var(--color-border);
++  border-radius: 10px;
++  background: rgba(18, 18, 20, 0.9);
++  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.04);
++  backdrop-filter: blur(18px);
++  -webkit-backdrop-filter: blur(18px);
++}
++
++.album-library-dropdown-footer {
++  margin-top: 16px;
++  padding-top: 14px;
++  border-top: 1px solid var(--color-border);
++  color: var(--color-accent);
++  font-family: var(--font-serif);
++  font-size: 0.96rem;
++  font-weight: 700;
++  text-align: center;
++}
++
+ /* 主內容區塊 (左右分欄) */
+ .main-content {
+   display: grid;
+@@ -474,6 +532,35 @@ body {
+   transition: opacity 0.3s ease;
+ }
+ 
++.track-share-btn {
++  display: inline-flex;
++  align-items: center;
++  justify-content: center;
++  gap: 7px;
++  min-height: 36px;
++  margin-top: 14px;
++  padding: 0 14px;
++  border: 1px solid var(--color-border);
++  border-radius: 999px;
++  background: rgba(255, 255, 255, 0.04);
++  color: var(--color-text-secondary);
++  font-family: var(--font-sans);
++  font-size: 0.78rem;
++  font-weight: 700;
++  cursor: pointer;
++  transition: var(--transition-smooth);
++}
++
++.track-share-btn:hover {
++  color: var(--color-text-primary);
++  border-color: var(--color-accent);
++  background: var(--color-accent-light);
++}
++
++.track-share-btn:active {
++  transform: scale(0.96);
++}
++
+ /* 音樂播放進度條 */
+ .progress-container {
+   width: 100%;
+@@ -1210,6 +1297,33 @@ body {
+   letter-spacing: 0.02em;
+ }
+ 
++.share-toast {
++  position: fixed;
++  left: 50%;
++  bottom: max(28px, env(safe-area-inset-bottom));
++  z-index: 50;
++  max-width: min(360px, calc(100vw - 32px));
++  padding: 11px 16px;
++  border: 1px solid var(--color-border);
++  border-radius: 999px;
++  background: rgba(18, 18, 20, 0.94);
++  color: var(--color-text-primary);
++  font-family: var(--font-sans);
++  font-size: 0.82rem;
++  font-weight: 600;
++  text-align: center;
++  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.34);
++  opacity: 0;
++  pointer-events: none;
++  transform: translate(-50%, 14px);
++  transition: opacity 0.24s ease, transform 0.24s ease;
++}
++
++.share-toast.show {
++  opacity: 1;
++  transform: translate(-50%, 0);
++}
++
+ /* ==========================================================================
+    手機底部迷你播放器 (Mobile Mini Player)
+    ========================================================================== */
+@@ -1250,7 +1364,7 @@ body {
+     text-align: center;
+   }
+ 
+-  .album-library-btn {
++  .header-actions {
+     flex: 0 0 auto;
+   }
+ 
+@@ -1335,11 +1449,6 @@ body {
+     padding-right: 25px;
+   }
+ 
+-  .diary-content#pane-library .page-paper {
+-    padding-left: 25px;
+-    padding-right: 25px;
+-  }
+-  
+   .page-paper {
+     padding: 25px;
+     height: auto;
+@@ -1524,9 +1633,28 @@ body {
+     text-align: left;
+   }
+ 
+-  .album-library-btn {
++  .header-actions {
++    width: 100%;
++    display: grid;
++    grid-template-columns: repeat(2, minmax(0, 1fr));
++    gap: 8px;
++  }
++
++  .header-action-btn {
+     width: 100%;
+     justify-content: center;
++    padding: 0 10px;
++  }
++
++  .album-library-dropdown.open {
++    max-height: 72vh;
++    margin-bottom: 18px;
++  }
++
++  .album-library-dropdown-inner {
++    max-height: 68vh;
++    padding: 12px;
++    border-radius: 8px;
+   }
+ 
+   .vinyl-wrapper {
+diff --git a/sw.js b/sw.js
+index 22b658f..a7559c1 100644
+--- a/sw.js
++++ b/sw.js
+@@ -1,14 +1,18 @@
+ // sw.js - 服務工作線程 (Service Worker)
+ // 這是使手機瀏覽器支援 PWA (可安裝成手機 App) 的核心檔案
+ 
+-const CACHE_NAME = 'glimmer-boundaries-v14';
++const CACHE_NAME = 'glimmer-boundaries-v18';
+ const ASSETS_TO_CACHE = [
+   './',
+   './index.html',
+-  './style.css?v=7',
+-  './albumData.js?v=4',
++  './style.css?v=9',
++  './albumData.js?v=6',
++  './cityLightsAlbum.js?v=1',
++  './assets/images/city-lights/cover.png',
++  './slowDaysAlbum.js?v=1',
++  './assets/images/slow-days/cover.png',
+   './assets/images/zeguoxixiang-girl/cover.webp',
+-  './app.js?v=8',
++  './app.js?v=12',
+   './manifest.json?v=2',
+   './assets/images/singer_3.jpg',
+   './assets/images/icon-180.png?v=2',

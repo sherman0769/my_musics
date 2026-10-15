@@ -1,0 +1,377 @@
+diff --git "a/reports\\maintenance\\20261015T112939Z\\before\\README.md" b/README.md
+index fb2f8c8..39cdd29 100644
+--- "a/reports\\maintenance\\20261015T112939Z\\before\\README.md"
++++ b/README.md
+@@ -1,218 +1,87 @@
+-# 《微光邊界 (Glimmer Boundaries)》音樂故事播放器
+-
+-這是一個專為歌手**李詩民**設計的沉浸式音樂故事播放器。播放器品牌名稱為《微光邊界》，目前預設收錄同名專輯《微光邊界》，並已支援未來加入更多專輯。整體體驗結合了**復古黑膠唱片機的實體互動**與**日記本故事手稿**的雙欄排版，帶給聽眾都市療癒體驗。
+-
+----
+-
+-## 📂 專案檔案結構
+-
+-本專案採用純原生 Web 技術 (HTML5 / CSS3 / Vanilla JS) 撰寫，無須任何編譯步驟，具有 100% 跨平台相容性與極佳的加載速度。
+-
++# 微光邊界｜李詩民音樂故事播放器
++
++以黑膠唱片、歌詞手稿與創作日記呈現李詩民的音樂作品。前端使用原生 HTML、CSS、JavaScript，另有選用的 Vercel 統計 API；沒有 npm 套件或編譯步驟。
++
++本文件於 2026-10-15（台灣時間）依本機檔案校正。歷史上線紀錄與本輪本機驗收分開保存；文件更新不代表已重新部署。
++
++## 目前收錄
++
++| 專輯 ID | 專輯 | 曲目 | 音檔總長 | 本機狀態 |
++| --- | --- | ---: | --- | --- |
++| `glimmer-boundaries` | 微光邊界 | 20 | 40:59.808 | MP3、歌詞、故事、提示詞齊全；來源作品 ID 與生成紀錄待補 |
++| `zeguoxixiang-girl` | 澤國西鄉的女孩 | 20 | 33:28.704 | 20 個有聲 MP3，並非靜音佔位；發行日期、來源與演唱內容待確認 |
++| `slow-days` | 把日子唱慢一點 | 20 | 64:24.696 | 來源帳本、下載副本、正式 MP3、封面、下載頁與 ZIP 齊全 |
++| `city-lights` | 城市替我們留燈 | 20 | 64:05.328 | 來源帳本、下載副本、正式 MP3、封面、下載頁與 ZIP 齊全 |
++
++80 首均有歌詞、故事與創作提示。後兩張帳本記錄使用 Suno V6 與當時經本人確認的 Voice；這是歷史來源紀錄，不代表本輪重新核對供應商帳號或聲音身分。音訊有聲與是否有人聲分開記錄；逐首聽感、實際演唱歌詞及藝術接受仍需聽審。
++
++## 目錄與現有功能
++
++```text
++index.html / style.css / app.js    播放器、黑膠動畫、響應式介面與分享
++albumData.js                       第一、二張資料及四張專輯入口
++slowDaysAlbum.js / cityLightsAlbum.js
++                                   第三、四張供播放器讀取的資料
++assets/audio/                      第一張正式音檔
++assets/audio/<album-id>/            其他專輯正式音檔；後兩張另含 ZIP 與來源清單
++assets/images/                     歌手照片、專輯封面、逐曲插圖與 App 圖示
++albums/slow-days/ / albums/city-lights/
++                                   製作帳本、交易、下載副本、歷史報告及製作工具
++api/stats.js                       瀏覽與播放統計 API（需要 Redis 設定）
++manifest.json / sw.js               PWA 安裝資訊與靜態資源快取
++scripts/lib/                       共用驗證工具
++tests/                             驗證工具回歸測試
++docs/                              維護、保存與驗收說明
++reports/maintenance/                每輪基線、修改前備份及新增驗收結果
+ ```
+-my_musics/
+-├── assets/
+-│   ├── audio/          <- 🎵 放置 20 首 SUNO 生成的 MP3 音檔
+-│   │   ├── track01.mp3
+-│   │   ├── track02.mp3
+-│   │   └── ...
+-│   └── images/         <- 📸 存放歌手李詩民的寫真照片 (自動關聯至各曲目封面)
+-│       ├── singer_1.png
+-│       ├── singer_2.jpg
+-│       ├── singer_3.jpg
+-│       ├── singer_4.png
+-│       └── singer_5.png
+-├── index.html          <- 📄 網頁主結構 (含 SEO 優化、Google Fonts)
+-├── style.css           <- 🎨 精緻毛玻璃、黑膠旋轉與唱針落針動畫樣式
+-├── albumData.js        <- 🗃️ 專輯資料庫；可在 albumsData 中加入更多專輯
+-├── app.js              <- ⚙️ 播放器核心邏輯、落針延遲、流動背景色調控制
+-├── generate_audio.js   <- 🛠️ (選用) 重新生成測試音檔的 Node.js 腳本
+-└── README.md           <- 📘 本使用說明文檔
+-```
+-
+----
+-
+-## 💿 如何新增更多專輯？
+-
+-`albumData.js` 會匯出 `albumsData` 陣列。新增專輯時，建立另一個 album 物件並加入陣列即可；播放器會自動在「作品庫」中顯示新專輯，並根據目前專輯更新 header、黑膠 label、曲目列表、歌詞、故事、播放統計與背景色。
+-
+-每張專輯建議包含：
+-
+-```js
+-{
+-  id: "new-album-id",
+-  displayTitle: "新專輯名稱",
+-  subtitle: "第二張音樂故事專輯",
+-  artist: "李詩民",
+-  artistBio: "歌手或本張專輯介紹",
+-  coverImage: "assets/images/new-cover.jpg",
+-  labelImage: "assets/images/new-cover.jpg",
+-  artistImage: "assets/images/new-artist.jpg",
+-  audioBasePath: "assets/audio/new-album",
+-  tagline: "專輯一句話介紹",
+-  tracks: [
+-    {
+-      id: 1,
+-      title: "新歌名",
+-      filename: "track01.mp3",
+-      duration: "2:30",
+-      audioSrc: "assets/audio/new-album/track01.mp3",
+-      image: "assets/images/new-track-01.jpg",
+-      quote: "播放器歌名下方短句",
+-      concept: "人生課題或創作概念",
+-      palette: { bg1: "#101010", bg2: "#182018", bg3: "#070707" },
+-      story: "創作背景文字",
+-      lyrics: "完整歌詞"
+-    }
+-  ]
+-}
+-```
+-
+-網址也支援指定專輯與曲目，例如 `index.html?album=glimmer-boundaries&track=1`。
+-
+-### 第二張專輯音檔覆蓋路徑
+-
+-《澤國西鄉的女孩》已建立 20 個靜音佔位音檔。SUNO 生成完成後，請將下載的音檔依序命名並覆蓋到：
+-
+-`assets/audio/zeguoxixiang-girl/`
+-
+-檔名固定為：
+-
+-`track01.mp3` 到 `track20.mp3`
+-
+-專輯可用此網址直接測試：
+-
+-`index.html?album=zeguoxixiang-girl&track=1`
+-
+----
+-
+-## 🎵 如何將 SUNO 生成的歌曲上傳至網頁？
+ 
+-您只需在 SUNO 生成並下載 MP3 後，將檔案更名並覆蓋到 `assets/audio/` 目錄下對應的檔名即可：
++播放器已有專輯切換、播放與暫停、上下首、隨機與循環、進度拖曳、音量、歌詞與故事頁籤、創作提示複製，以及單曲／專輯分享。後兩張專輯提供單曲下載及整張 ZIP。
+ 
+-| 軌道 (Track) | 歌名 | 對應音檔檔名 (放在 `assets/audio/` 中) | 建議 SUNO 曲風風格 (Style of Music) |
+-| :---: | :--- | :--- | :--- |
+-| **01** | 光斑的起點 | `track01.mp3` | `Lo-Fi Indie Pop, gentle acoustic guitar, reflective male vocals, 80bpm` |
+-| **02** | 與孤獨共處的早晨 | `track02.mp3` | `Acoustic Folk, warm piano, soft percussion, intimate male vocals` |
+-| **03** | 玻璃車窗的倒影 | `track03.mp3` | `Chillhop, electric piano, steady hip-hop beat, smooth vocals` |
+-| **04** | 無聲的對白 | `track04.mp3` | `Indie R&B, mellow synth pads, expressive male vocals` |
+-| **05** | 三十度午溫 | `track05.mp3` | `Neo-Soul, jazzy electric guitar, lazy groove, laid-back vocals` |
+-| **06** | 雨天收音機 | `track06.mp3` | `Acoustic Ballad, rain sound FX background, warm nostalgic vocals` |
+-| **07** | 被隱藏的履歷 | `track07.mp3` | `Alternative Indie, driving bassline, melancholic build` |
+-| **08** | 黃昏的夾縫 | `track08.mp3` | `Dream Pop, ethereal synths, spacious drums, reverb-drenched vocals` |
+-| **09** | 便利商店的微光 | `track09.mp3` | `Cozy Lo-Fi, electric keyboard, warm bass, mellow vocals` |
+-| **10** | 失眠三點半 | `track10.mp3` | `Dark Lo-Fi, slow melancholy piano, intimate whispery male vocals` |
+-| **11** | 給內心小孩的信 | `track11.mp3` | `Ambient Folk, fingerpicking acoustic guitar, soft string section` |
+-| **12** | 時間的刻度 | `track12.mp3` | `Slow Rock, emotional electric guitar swell, powerful climax` |
+-| **13** | 傷疤與盔甲 | `track13.mp3` | `Uplifting Indie Pop, acoustic drums, bright acoustic guitar, hopeful chorus` |
+-| **14** | 晨曦的預演 | `track14.mp3` | `Warm Acoustic Pop, swelling strings, hopeful piano, clear triumphant vocals` |
++PWA 快取主要保存介面資源，不等於已支援全專輯離線播放。統計 API 需要 `KV_REST_API_URL` / `KV_REST_API_TOKEN` 或對應的 `UPSTASH_REDIS_REST_*` 環境變數；未設定或服務失效時，前端使用本機統計。不可在前端或版本庫放入憑證。
+ 
+-> 💡 **小撇步**：在網頁的 **「歌詞 & Prompts」** 頁籤中，點選右上角的 **「複製創作 Prompt」** 按鈕，系統會自動將該首歌曲的 **曲風風格 (Style)**、**創作引導 (Prompt)** 與 **完整中文原創歌詞** 合併複製到您的剪貼簿，讓您直接貼入 SUNO 進行快速創作！
++## 本機預覽與驗證
+ 
+----
++在專案根目錄啟動僅綁定本機的靜態伺服器（需要 Python）：
+ 
+-## 📸 歌手肖像與專輯封面關聯
+-
+-網頁會自動為不同歌路匹配您上傳的李詩民寫真照（已放置於 `assets/images/`），並在黑膠唱片旋轉時展示：
+-- 核心封面、清晨與清晨黎明 (Track 1, 14)：使用正面寫真 `singer_3.jpg`。
+-- 其他溫暖、自省、放空曲目：穿插輪替 `singer_1.png` (側臉暖色)、`singer_2.jpg` (側臉柔和)、`singer_4.png` (黑白自省)、`singer_5.png` (黑白哲學)。
+-
+-如果您想更換預設頭像或封面，可直接將新相片命名為上述檔名進行覆蓋。
+-
+----
+-
+-## 🚀 如何在本機運行與測試？
+-
+-### 方法一：雙擊開啟（最簡單）
+-直接在資料夾中雙擊 `index.html` 即可在瀏覽器中開啟並體驗。
+-
+-### 方法二：使用本地輕量伺服器（推薦，體驗更佳）
+-為了讓瀏覽器的音訊加載更流暢、相容性更好，建議使用本地 Web 伺服器：
+-1. 在專案目錄 `my_musics/` 下打開終端機 (Terminal)。
+-2. 執行以下指令開啟伺服器：
+-   ```bash
+-   npx serve
+-   ```
+-3. 在瀏覽器中輸入終端機顯示的網址 (例如 `http://localhost:3000`) 即可瀏覽。
+-
+----
+-
+-## 🎨 網頁動態美學亮點
+-1. **黑膠唱針落針延遲**：當您點擊播放，唱針會慢慢移到唱片上方落下（耗時 0.9 秒），接著黑膠碟片開始旋轉、音樂同時響起，完美重現真實黑膠機運作時的儀式感。
+-2. **情感流動微光背景**：當切換 20 首不同主題的歌曲時，網頁背景大片磨砂毛玻璃微光會緩緩流動變色（如清晨是暖陽粉、雨天是憂鬱藍灰色、深夜是靛藍色），與李詩民的歌聲情緒完美契合。
+-3. **響應式排版**：全面支援電腦與手機版。在手機上會自動轉化為精緻的「上下佈局」，黑膠大小按比例縮放，觸控進度條、音量條皆流暢實用。
+-
+----
+-
+-## 🌐 線上部署指南
+-
+-由於本專案為**純靜態網頁（Vanilla HTML/CSS/JS）**，不需要任何伺服器端運行環境，因此非常適合部署在免費的靜態網頁託管平台，如 **GitHub Pages** 或 **Vercel**。
+-
+-### 方案一：部署至 GitHub Pages (免費、穩定)
+-
+-GitHub Pages 是將專案託管於 GitHub 儲存庫時最方便的靜態部署方案。
+-
+-1. **建立 GitHub 儲存庫 (Repository)**：
+-   - 登入 [GitHub](https://github.com/)，點選右上角的 **New repository**。
+-   - 命名您的專案（例如：`my_musics`），設為 **Public**，然後點選 **Create repository**。
++```powershell
++python -m http.server 8767 --bind 127.0.0.1
++```
+ 
+-2. **上傳程式碼**：
+-   - 在本機專案根目錄下初始化 Git 並推送至 GitHub：
+-     ```bash
+-     git init
+-     git add .
+-     git commit -m "Initial commit: Li Shimin Web Album"
+-     git branch -M main
+-     git remote add origin https://github.com/您的GitHub帳號/my_musics.git
+-     git push -u origin main
+-     ```
++開啟 `http://127.0.0.1:8767/?album=city-lights&track=1`。可替換專輯 ID 與曲序；下載頁為 `slow-days-downloads.html`、`city-lights-downloads.html`。靜態伺服器不執行 `api/stats.js`。
+ 
+-3. **啟用 GitHub Pages 服務**：
+-   - 進入該儲存庫的 **Settings** 頁面。
+-   - 在左側選單中找到並點選 **Pages**。
+-   - 在 **Build and deployment** 下的 **Source** 選擇 `Deploy from a branch`。
+-   - 在 **Branch** 選擇 `main` 分支與 `/ (root)` 資料夾，點選 **Save**。
+-   - 約等待 1-2 分鐘，頁面頂部會出現部署成功的綠色網址（例如：`https://您的GitHub帳號.github.io/my_musics/`）。
++本機專輯驗證需要 Node.js、FFprobe 與 FFmpeg，會重新核對來源副本／正式音檔的 SHA-256、來源對應、檔案大小及完整解碼至結尾：
+ 
+-> [!NOTE]
+-> **PWA 支援說明**：GitHub Pages 預設強制啟用 **HTTPS 協議**，這能確保網頁的 **Service Worker (sw.js)** 與 **PWA 手機安裝功能** 完美發揮作用（iOS/Android 皆可正常彈出安裝提示）。
++```powershell
++node albums/slow-days/verify-release.cjs
++node albums/city-lights/verify-release.cjs
++node --test tests/release-validation.test.cjs
++```
+ 
+----
++以上驗證預設只把結果輸出到終端，不會改寫帳本或歷史報告。需要保存時指定新的檔名：
+ 
+-### 方案二：部署至 Vercel (推薦，最簡單快速)
++```powershell
++node albums/slow-days/verify-release.cjs --output reports/slow-days-check-NEW.json
++```
+ 
+-Vercel 提供極佳的全球加速（CDN）與最簡單的一鍵部署體驗，非常適合前端開發。
++輸出目錄須先存在；`--output` 拒絕覆寫任何既有檔案。後續再次驗收請使用新檔名，保留先前成功與失敗證據。
+ 
+-1. **註冊並登入 Vercel**：
+-   - 前往 [Vercel 官網](https://vercel.com/)，選擇使用您的 **GitHub 帳號** 直接登入。
++## 新增或維護專輯
+ 
+-2. **匯入專案**：
+-   - 點選右上角的 **Add New...** 選擇 **Project**。
+-   - 在 Git 儲存庫列表中，找到您剛才上傳的 `my_musics` 儲存庫，點選右側的 **Import**。
++沿用現有 `albumsData` 結構，以唯一 `id` 加入新專輯。曲目保留 `id`、`title`、`filename`、`audioSrc`、`duration`、`image`、`story`、`lyrics`、`sunoPrompt`，有來源證據時再填 `sourceUrl` 與 `sha256`；未知資料不要推測填入。
+ 
+-3. **配置與部署**：
+-   - 在 **Configure Project** 頁面中：
+-     - **Framework Preset**（框架預設）選擇 `Other`（因為本專案是純 HTML/JS 專案，無須編譯）。
+-     - **Build and Output Settings**（編譯與輸出路徑）保持預設值即可。
+-   - 點選下方的 **Deploy** 按鈕。
+-   - 系統將於 10 秒內完成部署，並附帶精美的撒花特效與您專屬的免費預覽網址（例如 `https://my-musics-xxx.vercel.app`）。
++新生成音樂另保存逐候選的生成備註、供應商結果 ID、實際來源頁、完整提示詞／歌詞、狀態、原檔 bytes 與 SHA-256。`audio_presence` 與 `vocals` 分欄，未聽審的人聲保持 `unknown`。共用音樂庫入庫須先依雲端規則、完整最新索引與 READY 批次去重；本次維護沒有執行入庫。
+ 
+-> [!TIP]
+-> 部署完成後，只要您本機代碼有更新並 `git push` 到 GitHub，Vercel 就會自動偵測並在背景重新部署，完全不需手動操作！
++涉及圖片時遵守台灣人物預設及有向表面檢查，素材選定與成品代表畫面各檢查一次。
+ 
+----
++## 保存與發布邊界
+ 
+-## ⚠️ 開發安全與音檔防覆蓋規則
++- 原始音檔、下載副本、ZIP、交易與歷史報告保留原樣。不得以佔位檔覆蓋既有歌曲。
++- `generate_audio.js` 是舊測試工具，實際產生的是使用 `.mp3` 副檔名的短 WAV 佔位資料，不是 AI 音樂生成器；雖會跳過既有檔案，仍不應用它修補正式專輯。
++- `create-album`、`collect-ready`、`verify-download`、`finalize-ledger`、`build-release`、`integrate-site`、`complete-release` 是製作／寫入工具，不是唯讀驗證；不可為了重驗歷史成果直接重跑。
++- 本次新增驗收不回寫 `album.json`、`release-validation.json`、`public-verification.json` 或既有交付報告；歷史結論只代表當時驗收。
++- 不使用整個音訊目錄的 `git restore` 回復問題；它可能丟失後續未提交成果。先比對精確檔案與雜湊，再從已核對的副本恢復。
++- `.vercelignore` 排除內部帳本、報告、備份與維護程式。重新部署前需確認排除範圍，避免公開交易紀錄。
+ 
+-為確保已經生成並上傳的真實 MP3 音檔不會在未來開發、重構、或生成佔位檔時遭到意外破壞或覆蓋，所有開發者與協同 AI 必須遵守以下安全守則：
++本地保存盤點見 [維護與保存說明](docs/MAINTENANCE.md)。本輪開始時，Git 最後提交為 `882c332`（2026-06-14），有五個已追蹤檔案修改及 305 個未追蹤檔案；後兩張專輯尚未完整納入 Git。這是本地觀察，沒有執行 fetch、提交或推送，也不能據此判斷遠端最新狀態。
+ 
+-1.  **音檔生成保護**：
+-    *   `generate_audio.js` 腳本已經內建了防覆蓋保護。在生成測試靜音音檔時，會先檢查 `assets/audio/trackXX.mp3` 是否已存在。
+-    *   **嚴禁**修改該腳本為強制覆蓋模式。
+-2.  **新歌追加守則**：
+-    *   如需追加新歌，僅需在 `generate_audio.js` 中將上限數字改大，執行腳本時它會自動**僅生成新增歌曲的佔位檔**，絕對不會影響原有音檔。
+-3.  **Git 版本防禦**：
+-    *   專案已使用 Git 進行完整版控。如不慎因腳本出錯導致音檔被修改或覆蓋，請立即在終端機中執行：
+-        ```bash
+-        git restore assets/audio/
+-        ```
+-        即可完全還原所有被覆蓋的音檔。
++歷史正式網址為 https://mymusics-olive.vercel.app/，後兩張保留 2026-09-15（台灣時間）的公開驗收證據。本輪未重新驗證公開網站、手機實機或部署狀態。公開檢查可用 `verify-public.cjs <base-url> [--output 新檔名]`，其範圍是 HTTP 檔案、Range、ZIP 大小與帳本隔離，不代表瀏覽器播放或人工聽審通過。
+diff --git "a/reports\\maintenance\\20261015T112939Z\\before\\albumData.js" b/albumData.js
+index 1b84704..bd70379 100644
+--- "a/reports\\maintenance\\20261015T112939Z\\before\\albumData.js"
++++ b/albumData.js
+@@ -1467,12 +1467,12 @@ const zeguoxixiangAlbumData = {
+   coverImage: 'assets/images/zeguoxixiang-girl/cover.webp',
+   labelImage: 'assets/images/zeguoxixiang-girl/cover.webp',
+   artistImage: 'assets/images/zeguoxixiang-girl/cover.webp',
+-  releaseDate: '待 SUNO 完成',
++  releaseDate: '發行日期待確認',
+   status: 'available',
+   audioBasePath: 'assets/audio/zeguoxixiang-girl',
+   tagline: '20 首以小男孩第一人稱寫成的水鄉童年、家族記憶與跨越時空的想念。',
+-  changelogTitle: 'Album Diary / 第二張專輯製作中',
+-  changelogIntro: '《澤國西鄉的女孩》已接入播放器作品庫，目前使用 20 個靜音佔位音檔。完成 SUNO 生成後，將 MP3 以 track01.mp3 到 track20.mp3 覆蓋至專輯音頻資料夾即可。',
++  changelogTitle: 'Album Diary / 澤國西鄉的女孩',
++  changelogIntro: '《澤國西鄉的女孩》已收錄 20 個有聲音檔，歌詞、故事與插圖已接入播放器。來源作品紀錄、發行日期與實際演唱內容仍待確認；有聲檢查不代表逐首聽審通過。',
+   tracks: zeguoxixiangTrackMeta.map((track, index) => {
+     const trackNumber = String(index + 1).padStart(2, '0');
+     return {
+diff --git "a/reports\\maintenance\\20261015T112939Z\\before\\.vercelignore" b/.vercelignore
+index e7f109c..0e1cc65 100644
+--- "a/reports\\maintenance\\20261015T112939Z\\before\\.vercelignore"
++++ b/.vercelignore
+@@ -1,4 +1,8 @@
+ albums/
++reports/
++docs/
++scripts/
++tests/
+ implementation_plan.md
+ walkthrough.md
+ generate_audio.js
+diff --git "a/reports\\maintenance\\20261015T112939Z\\before\\albums\\slow-days\\verify-release.cjs" b/albums/slow-days/verify-release.cjs
+index a0b59d1..c4c1ed8 100644
+--- "a/reports\\maintenance\\20261015T112939Z\\before\\albums\\slow-days\\verify-release.cjs"
++++ b/albums/slow-days/verify-release.cjs
+@@ -1,8 +1,2 @@
+-const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+-const root=path.resolve(__dirname,'../..'),a=JSON.parse(fs.readFileSync(path.join(__dirname,'album.json'),'utf8').replace(/^\uFEFF/,''));
+-const site=require(path.join(root,'albumData.js')),album=site.albumsData.find(a=>a.id==='slow-days');
+-const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+-if(site.albumsData.length!==3||album.tracks.length!==20)throw Error('Album or track count');
+-const rows=album.tracks.map((t,i)=>{const d=a.tracks[i].downloads[0],file=path.join(root,t.audioSrc),data=fs.readFileSync(file);if(sha(data)!==d.sha256||d.fullDecodeExit!==0||Math.abs(d.duration-d.decodedSeconds)>.15)throw Error('Audio integrity '+t.id);if(!t.lyrics||!t.story||!t.sourceUrl)throw Error('Missing metadata '+t.id);return{id:t.id,title:t.title,bytes:data.length,sha256:d.sha256,duration:d.duration}});
+-const report={verifiedAt:new Date().toISOString(),album:album.albumTitle,artist:album.artist,albumCount:site.albumsData.length,trackCount:rows.length,totalSeconds:rows.reduce((s,t)=>s+t.duration,0),totalAudioBytes:rows.reduce((s,t)=>s+t.bytes,0),allAudioFullDecodePassed:true,allPublishedCopiesHashMatched:true,browserDownloadFinalized:false,tracks:rows};
+-fs.writeFileSync(path.join(__dirname,'release-validation.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({...report,tracks:undefined}));
++const { runReleaseCli } = require('../../scripts/lib/release-validation.cjs');
++runReleaseCli(__dirname);
+diff --git "a/reports\\maintenance\\20261015T112939Z\\before\\albums\\slow-days\\verify-public.cjs" b/albums/slow-days/verify-public.cjs
+index d98973f..c777576 100644
+--- "a/reports\\maintenance\\20261015T112939Z\\before\\albums\\slow-days\\verify-public.cjs"
++++ b/albums/slow-days/verify-public.cjs
+@@ -1,4 +1,2 @@
+-const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+-const root=path.resolve(__dirname,'../..'),base=process.argv[2];if(!base)throw Error('Public base URL required');
+-const album=require(path.join(root,'slowDaysAlbum.js'));const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+-(async()=>{const rows=[];for(let i=0;i<album.tracks.length;i+=4){rows.push(...await Promise.all(album.tracks.slice(i,i+4).map(async t=>{const r=await fetch(new URL(t.audioSrc,base));if(!r.ok)throw Error(t.id+' HTTP '+r.status);const b=Buffer.from(await r.arrayBuffer());if(hash(b)!==t.sha256)throw Error(t.id+' remote SHA mismatch');return{id:t.id,status:r.status,bytes:b.length,sha256:hash(b)}})))}const range=await fetch(new URL(album.tracks[19].audioSrc,base),{headers:{Range:'bytes=100000-100999'}});if(range.status!==206||(await range.arrayBuffer()).byteLength!==1000)throw Error('Range/seek failed');const pages=[];for(const rel of ['slow-days-downloads.html','slowDaysAlbum.js']){const r=await fetch(new URL(rel,base));const b=Buffer.from(await r.arrayBuffer());if(!r.ok||hash(b)!==hash(fs.readFileSync(path.join(root,rel))))throw Error('Page stale '+rel);pages.push({path:rel,status:r.status,sha256:hash(b)})}const zip=await fetch(new URL('assets/audio/slow-days/slow-days-album.zip',base),{method:'HEAD'});const zipBytes=fs.statSync(path.join(root,'assets/audio/slow-days/slow-days-album.zip')).size;if(!zip.ok||Number(zip.headers.get('content-length'))!==zipBytes)throw Error('ZIP size mismatch');const privateCheck=await fetch(new URL('albums/slow-days/album.json',base));if(privateCheck.status!==404)throw Error('Internal ledger exposed');const report={at:new Date().toISOString(),base,tracks:rows,pages,range206:true,zip:{status:zip.status,bytes:zipBytes},internalLedger404:true};fs.writeFileSync(path.join(__dirname,'public-verification.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({...report,tracks:rows.length}));})().catch(e=>{console.error(e);process.exit(1)});
++const { runPublicCli } = require('../../scripts/lib/release-validation.cjs');
++runPublicCli(__dirname);
+diff --git "a/reports\\maintenance\\20261015T112939Z\\before\\albums\\city-lights\\verify-release.cjs" b/albums/city-lights/verify-release.cjs
+index edbb25a..c4c1ed8 100644
+--- "a/reports\\maintenance\\20261015T112939Z\\before\\albums\\city-lights\\verify-release.cjs"
++++ b/albums/city-lights/verify-release.cjs
+@@ -1,9 +1,2 @@
+-const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+-const root=path.resolve(__dirname,'../..'),a=JSON.parse(fs.readFileSync(path.join(__dirname,'album.json'),'utf8').replace(/^\uFEFF/,''));
+-const site=require(path.join(root,'albumData.js')),album=site.albumsData.find(a=>a.id==='city-lights');
+-const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+-if(site.albumsData.length!==4||album.tracks.length!==20)throw Error('Album or track count');
+-const rows=album.tracks.map((t,i)=>{const d=a.tracks[i].downloads[0],file=path.join(root,t.audioSrc),data=fs.readFileSync(file);if(sha(data)!==d.sha256||d.fullDecodeExit!==0||Math.abs(d.duration-d.decodedSeconds)>.15)throw Error('Audio integrity '+t.id);if(!t.lyrics||!t.story||!t.sourceUrl)throw Error('Missing metadata '+t.id);return{id:t.id,title:t.title,bytes:data.length,sha256:d.sha256,duration:d.duration}});
+-const report={verifiedAt:new Date().toISOString(),album:album.albumTitle,artist:album.artist,albumCount:site.albumsData.length,trackCount:rows.length,totalSeconds:rows.reduce((s,t)=>s+t.duration,0),totalAudioBytes:rows.reduce((s,t)=>s+t.bytes,0),allAudioFullDecodePassed:true,allPublishedCopiesHashMatched:true,browserDownloadFinalized:false,tracks:rows};
+-fs.writeFileSync(path.join(__dirname,'release-validation.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({...report,tracks:undefined}));
+-
++const { runReleaseCli } = require('../../scripts/lib/release-validation.cjs');
++runReleaseCli(__dirname);
+diff --git "a/reports\\maintenance\\20261015T112939Z\\before\\albums\\city-lights\\verify-public.cjs" b/albums/city-lights/verify-public.cjs
+index 1a85a9a..c777576 100644
+--- "a/reports\\maintenance\\20261015T112939Z\\before\\albums\\city-lights\\verify-public.cjs"
++++ b/albums/city-lights/verify-public.cjs
+@@ -1,5 +1,2 @@
+-const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+-const root=path.resolve(__dirname,'../..'),base=process.argv[2];if(!base)throw Error('Public base URL required');
+-const album=require(path.join(root,'cityLightsAlbum.js'));const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+-(async()=>{const rows=[];for(let i=0;i<album.tracks.length;i+=4){rows.push(...await Promise.all(album.tracks.slice(i,i+4).map(async t=>{const r=await fetch(new URL(t.audioSrc,base));if(!r.ok)throw Error(t.id+' HTTP '+r.status);const b=Buffer.from(await r.arrayBuffer());if(hash(b)!==t.sha256)throw Error(t.id+' remote SHA mismatch');return{id:t.id,status:r.status,bytes:b.length,sha256:hash(b)}})))}const range=await fetch(new URL(album.tracks[19].audioSrc,base),{headers:{Range:'bytes=100000-100999'}});if(range.status!==206||(await range.arrayBuffer()).byteLength!==1000)throw Error('Range/seek failed');const pages=[];for(const rel of ['city-lights-downloads.html','cityLightsAlbum.js','index.html','app.js','albumData.js','sw.js','assets/images/city-lights/cover.png']){const r=await fetch(new URL(rel,base));const b=Buffer.from(await r.arrayBuffer());if(!r.ok||hash(b)!==hash(fs.readFileSync(path.join(root,rel))))throw Error('Page stale '+rel);pages.push({path:rel,status:r.status,sha256:hash(b)})}const zip=await fetch(new URL('assets/audio/city-lights/city-lights-album.zip',base),{method:'HEAD'});const zipBytes=fs.statSync(path.join(root,'assets/audio/city-lights/city-lights-album.zip')).size;if(!zip.ok||Number(zip.headers.get('content-length'))!==zipBytes)throw Error('ZIP size mismatch');const privateCheck=await fetch(new URL('albums/city-lights/album.json',base));if(privateCheck.status!==404)throw Error('Internal ledger exposed');const report={at:new Date().toISOString(),base,tracks:rows,pages,range206:true,zip:{status:zip.status,bytes:zipBytes},internalLedger404:true};fs.writeFileSync(path.join(__dirname,'public-verification.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({...report,tracks:rows.length}));})().catch(e=>{console.error(e);process.exit(1)});
+-
++const { runPublicCli } = require('../../scripts/lib/release-validation.cjs');
++runPublicCli(__dirname);

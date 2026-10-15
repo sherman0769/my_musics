@@ -1,0 +1,258 @@
+{
+  "at": "2026-10-15T11:47:07.534Z",
+  "status": "passed_prepared_not_staged",
+  "ruleAdoption": "project_only_approved_2026-10-15",
+  "candidateCount": 353,
+  "groupCounts": [
+    {
+      "group": 1,
+      "count": 56
+    },
+    {
+      "group": 2,
+      "count": 250
+    },
+    {
+      "group": 3,
+      "count": 47
+    }
+  ],
+  "preservation": {
+    "baselineFiles": 418,
+    "expectedChanges": [
+      "README.md",
+      ".vercelignore",
+      "docs/MAINTENANCE.md"
+    ],
+    "unexpectedChanges": [],
+    "originalAudioAndZipChecked": 122,
+    "mismatches": [],
+    "previousMaintenanceEvidenceChecked": 24,
+    "evidenceMismatch": []
+  },
+  "manifest": {
+    "payloadMismatch": [],
+    "missingFromPlan": [],
+    "extraInPlan": [],
+    "listChecks": [
+      {
+        "group": 1,
+        "expected": 56,
+        "txtMatches": true,
+        "nulMatches": true
+      },
+      {
+        "group": 2,
+        "expected": 250,
+        "txtMatches": true,
+        "nulMatches": true
+      },
+      {
+        "group": 3,
+        "expected": 47,
+        "txtMatches": true,
+        "nulMatches": true
+      }
+    ]
+  },
+  "syntax": [
+    {
+      "file": "albumData.js",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "file": "scripts/lib/release-validation.cjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "file": "tests/release-validation.test.cjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/slow-days/verify-release.cjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/slow-days/verify-public.cjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/city-lights/verify-release.cjs",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "file": "albums/city-lights/verify-public.cjs",
+      "exit": 0,
+      "output": ""
+    }
+  ],
+  "docLinks": [
+    {
+      "document": "README.md",
+      "target": "AGENTS.md",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "README.md",
+      "target": "docs/GIT_COMMIT_PLAN.md",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "README.md",
+      "target": "docs/MAINTENANCE.md",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/MAINTENANCE.md",
+      "target": "../reports/maintenance/20261015T112939Z/",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/MAINTENANCE.md",
+      "target": "../AGENTS.md",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/MAINTENANCE.md",
+      "target": "GIT_COMMIT_PLAN.md",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/GIT_COMMIT_PLAN.md",
+      "target": "../AGENTS.md",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/GIT_COMMIT_PLAN.md",
+      "target": "../reports/git-preparation/20261015T114229Z/commit-plan.json",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/GIT_COMMIT_PLAN.md",
+      "target": "../reports/git-preparation/20261015T114229Z/commit-01-paths.txt",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/GIT_COMMIT_PLAN.md",
+      "target": "../reports/git-preparation/20261015T114229Z/commit-02-paths.txt",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/GIT_COMMIT_PLAN.md",
+      "target": "../reports/git-preparation/20261015T114229Z/commit-03-paths.txt",
+      "exists": true,
+      "selfOutput": false
+    },
+    {
+      "document": "docs/GIT_COMMIT_PLAN.md",
+      "target": "../reports/git-preparation/20261015T114229Z/validation.json",
+      "exists": null,
+      "selfOutput": true
+    }
+  ],
+  "deployExclusions": [
+    {
+      "path": "AGENTS.md",
+      "excluded": true
+    },
+    {
+      "path": "albums/",
+      "excluded": true
+    },
+    {
+      "path": "reports/",
+      "excluded": true
+    },
+    {
+      "path": "docs/",
+      "excluded": true
+    },
+    {
+      "path": "scripts/",
+      "excluded": true
+    },
+    {
+      "path": "tests/",
+      "excluded": true
+    }
+  ],
+  "limitedCredentialPatternScan": {
+    "findings": [],
+    "scope": "selected text files; not a full security audit"
+  },
+  "regression": {
+    "pass": 15,
+    "fail": 0
+  },
+  "mediaDecode": {
+    "performedThisRun": false,
+    "previous80TrackDecodeEvidencePreserved": true,
+    "verifierHashesUnchanged": true,
+    "filesHashRechecked": true
+  },
+  "git": {
+    "headUnchanged": true,
+    "indexUnchanged": true,
+    "stagedDiff": "",
+    "diffCheckExit": 0,
+    "diffCheckOutput": "",
+    "stage": "not_run",
+    "commit": "not_run",
+    "push": "not_run",
+    "fetch": "not_run"
+  },
+  "controlArtifactDigests": [
+    {
+      "path": "reports/git-preparation/20261015T114229Z/commit-01-paths.nul",
+      "bytes": 1839,
+      "sha256": "10b55bc9895af96eac5164121de311602e18119cf3b64bb357a7dd008aded5a3"
+    },
+    {
+      "path": "reports/git-preparation/20261015T114229Z/commit-01-paths.txt",
+      "bytes": 1839,
+      "sha256": "8400618f693bd7f18042405ce6cbf51f9f35241b7c828ecf64fe53c62becb8dd"
+    },
+    {
+      "path": "reports/git-preparation/20261015T114229Z/commit-02-paths.nul",
+      "bytes": 12335,
+      "sha256": "7c07b64b1aa1dda9c8aa7ed8b846d1ac5abc3ab184d6430518132333ac8f02f2"
+    },
+    {
+      "path": "reports/git-preparation/20261015T114229Z/commit-02-paths.txt",
+      "bytes": 12335,
+      "sha256": "4072cd4bffd04cefa90011142ac81856e066aafe7d21213fcafc055ad341dd7b"
+    },
+    {
+      "path": "reports/git-preparation/20261015T114229Z/commit-03-paths.nul",
+      "bytes": 2536,
+      "sha256": "4636cd3faf9449d78a44ada86e5227ab3cf352faf8f5874811284952a16208bc"
+    },
+    {
+      "path": "reports/git-preparation/20261015T114229Z/commit-03-paths.txt",
+      "bytes": 2536,
+      "sha256": "2f101cb62e1a6e4752b94cdfcfb2b0258f2211e2f39363d2fa413c30e04e4563"
+    },
+    {
+      "path": "reports/git-preparation/20261015T114229Z/commit-plan.json",
+      "bytes": 91452,
+      "sha256": "515eafb79b72f61dee15908b2b67779d53e5981534faf0b8282929f3c4483e42"
+    }
+  ],
+  "selfOutputHash": null
+}

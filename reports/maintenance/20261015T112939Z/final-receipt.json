@@ -1,0 +1,196 @@
+{
+  "at": "2026-10-15T11:39:53.775Z",
+  "status": "passed_local_maintenance",
+  "scope": "documentation_inventory_verifier_repair",
+  "preservedOriginalFiles": 384,
+  "expectedChangedFiles": [
+    {
+      "path": ".vercelignore",
+      "sha256": "030d38b7554bbc5165b8f3136c5551bd2aceeb3721233bc8df29029127fcd39a"
+    },
+    {
+      "path": "albumData.js",
+      "sha256": "1d36a4ae670ed35e8d078b8a178b22e00713c6c5c24f1c87ff3fc1467161e43c"
+    },
+    {
+      "path": "albums/city-lights/verify-public.cjs",
+      "sha256": "6d7b3f9cee8e563f6bedfd0bf2681e12005f1ad5624cba2585e17d0929f36b56"
+    },
+    {
+      "path": "albums/city-lights/verify-release.cjs",
+      "sha256": "d6cc9e88d265989200ca7430d9a00012827bc26209b7fd85c1834f008d2104a5"
+    },
+    {
+      "path": "albums/slow-days/verify-public.cjs",
+      "sha256": "6d7b3f9cee8e563f6bedfd0bf2681e12005f1ad5624cba2585e17d0929f36b56"
+    },
+    {
+      "path": "albums/slow-days/verify-release.cjs",
+      "sha256": "d6cc9e88d265989200ca7430d9a00012827bc26209b7fd85c1834f008d2104a5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e191634d96847197dd78a0d4ca2f2832858cc8b12c0e78e7175fac1a08ed9390"
+    }
+  ],
+  "newFilesBeforeThisReceipt": [
+    {
+      "path": "docs/MAINTENANCE.md",
+      "bytes": 5606,
+      "sha256": "02c776c8b1328b596e04258bd7fd06533e20baa1db6393b3ad074eef261b1d39"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/audio-audit.json",
+      "bytes": 30113,
+      "sha256": "857a67663d5db80ef0c57edb725ece8d42810e6b9090fbae0deaa350fe745f2e"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/baseline-verifier-findings.json",
+      "bytes": 262,
+      "sha256": "a8243328dd58586bcc257af47cf0d56a356f697dea3a35f12932118bc7c8e513"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/baseline.json",
+      "bytes": 80197,
+      "sha256": "84e76c24c3cbec9f791738b621f0c72338d8c895e89e34b1b205cfd2a32288de"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/before/.vercelignore",
+      "bytes": 93,
+      "sha256": "701973318a52935c458d59f2b7b5256469a8bc7b3d2017144c9604b53fac1458"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/before/albumData.js",
+      "bytes": 61869,
+      "sha256": "bcd4942070cc5cc829d60cb514901c36cb10848aafb295db6113877887130231"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/before/albums/city-lights/verify-public.cjs",
+      "bytes": 2123,
+      "sha256": "2060ede6cf46407b1b4d96feda982e95f1b6cd276d4a6d0a642d2e0ff08bf24b"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/before/albums/city-lights/verify-release.cjs",
+      "bytes": 1414,
+      "sha256": "13756dfb67db4235cf6c4b8ef9bc7dd19d7f7143a1c4d0bc5d6814f09a98ffcb"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/before/albums/slow-days/verify-public.cjs",
+      "bytes": 2022,
+      "sha256": "54cfd69e35531fcc9b5db4c21e650914fa728a2b3fc9e11e9ff0f5efa466c061"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/before/albums/slow-days/verify-release.cjs",
+      "bytes": 1410,
+      "sha256": "7765457708e0b206284ad9fb88dd4253d35ee6fb78402a2bbc180b96b0141f72"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/before/README.md",
+      "bytes": 11242,
+      "sha256": "9b05e66058525bbb91e65308aadd7c7e99afd316961cc52824f792e536800fca"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/checks-initial.json",
+      "bytes": 1323,
+      "sha256": "7504c3550a133ddfdc08de6f68c1c710f9264bb8c357e6dcf667803ea33b1bfa"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/checks.json",
+      "bytes": 1835,
+      "sha256": "933e5d69216d28bc495c9f229196b27eeba013862d28e0d3249bab0a2c1954d9"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/city-lights-check.json",
+      "bytes": 9740,
+      "sha256": "d659b27d2e1a0b1127ef238095a2abb32a25fe078af8d197b1659e0f8942a66b"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/external-source-baseline.json",
+      "bytes": 12647,
+      "sha256": "72b2d7c67fcf3aec980cd6abeca6c3045c2b63d3542c0c935b7411df3295e1c5"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/git-before.json",
+      "bytes": 16917,
+      "sha256": "d5f401c23d5696adf4c0ce571d89d385c3eff9f45e2ea213587c833dad58fcc5"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/preservation-check.json",
+      "bytes": 2258,
+      "sha256": "4efdb9ac70733b8b8382fb344a4f8b9794f736c12e17cb24086f8dd0ffc4ecd5"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/regression-tests-initial.txt",
+      "bytes": 6633,
+      "sha256": "036a65129f16c3a7f7afb7816219aa11c11086a1d816920b338bd4693ac22d3f"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/regression-tests.txt",
+      "bytes": 2587,
+      "sha256": "8dfabae809404d85cd0d2449b3de6158cf6f1867a76a64118a754db8619efc3c"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/slow-days-check.json",
+      "bytes": 9749,
+      "sha256": "a36442486879f77e54585c8459214fd038d62e7dc7353f9e1003aaa965738c96"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/task-changes.patch",
+      "bytes": 28820,
+      "sha256": "970b1884cef428319c5c58177301719f3efb2089392ffd16b2602af9d820f71c"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/version-inventory.json",
+      "bytes": 20650,
+      "sha256": "44e259a2c4521452772983410e7247915ef673926533d9ee96ec6b41199fc6a1"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/working-tree-before.patch",
+      "bytes": 26909,
+      "sha256": "bd99d09fc123cec48c46842fedf104c66ddf9067d0c8ecda179cceb939eb7577"
+    },
+    {
+      "path": "reports/maintenance/20261015T112939Z/驗收結果.md",
+      "bytes": 4212,
+      "sha256": "6e4ff53503e17957b2ba885b3efd76662950ecf6a33ce716e337fd19727bdf34"
+    },
+    {
+      "path": "scripts/lib/release-validation.cjs",
+      "bytes": 9703,
+      "sha256": "78a1a45ed4627d60147c9a52c99f95155bbb0d0bbb2508bdb0d71ad814437c52"
+    },
+    {
+      "path": "tests/release-validation.test.cjs",
+      "bytes": 9067,
+      "sha256": "e8e6e396c3d5b2b74623ebab718545220489c56a336d7f42d51324e6b5a34416"
+    }
+  ],
+  "docLinks": [
+    {
+      "file": "README.md",
+      "target": "docs/MAINTENANCE.md",
+      "exists": true
+    },
+    {
+      "file": "docs/MAINTENANCE.md",
+      "target": "../reports/maintenance/20261015T112939Z/",
+      "exists": true
+    },
+    {
+      "file": "reports/maintenance/20261015T112939Z/驗收結果.md",
+      "target": "../../../docs/MAINTENANCE.md",
+      "exists": true
+    }
+  ],
+  "syntaxPass": 7,
+  "regressionTestsPass": 15,
+  "originalMp3Unchanged": 120,
+  "originalZipUnchanged": 2,
+  "freshPublishedAudioDecodePass": 80,
+  "missingExternalTemporaryOriginalsAtStart": 40,
+  "gitHead": "882c332495d81c31f3ebf1cf0fc793ab90b57c45",
+  "deployment": "not_run",
+  "publicVerification": "not_run",
+  "humanListening": "not_run",
+  "formalWorkflowAdoption": "pending_user_decision"
+}

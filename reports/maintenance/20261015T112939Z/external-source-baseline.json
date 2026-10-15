@@ -1,0 +1,365 @@
+{
+  "createdAt": "2026-10-15T11:30:22.357Z",
+  "sources": [
+    {
+      "album": "slow-days",
+      "track": "01",
+      "path": "C:\\Users\\User\\Downloads\\慢日子01｜把日子唱慢一點.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "5d76836d6dea9b2c160bab789ce715ef6ef527cb48abdefc7d196d119b677bd1"
+    },
+    {
+      "album": "slow-days",
+      "track": "02",
+      "path": "C:\\Users\\User\\Downloads\\慢日子02｜早餐店的老位置.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "39a71719e38bb58b4646d3fe5097b475c5d1b1c258738c28e6c28b1af9b6f0bc"
+    },
+    {
+      "album": "slow-days",
+      "track": "03",
+      "path": "C:\\Users\\User\\Downloads\\慢日子03｜今天不趕路.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "68990c16367cd4fc14665b116b7a2ce902e62bb057c436f0249bad538f7a2160"
+    },
+    {
+      "album": "slow-days",
+      "track": "04",
+      "path": "C:\\Users\\User\\Downloads\\慢日子04｜陽台上的星期天.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "e57d3ce5df70c0b3601ba0981a88acd3b5a9bfa4477ee5e4afdcc6653a3a8b12"
+    },
+    {
+      "album": "slow-days",
+      "track": "05",
+      "path": "C:\\Users\\User\\Downloads\\慢日子05｜手機翻過來.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "9c317dffea27662a194037cda9861f1ceccc79b94c15be012ea6e9b70c1247f1"
+    },
+    {
+      "album": "slow-days",
+      "track": "06",
+      "path": "C:\\Users\\User\\Downloads\\慢日子06｜飯還熱著.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "fe65416fbf413fb5e7325846c1ae736d37e9de2ec8ff941fadbf27984370b5f8"
+    },
+    {
+      "album": "slow-days",
+      "track": "07",
+      "path": "C:\\Users\\User\\Downloads\\慢日子07｜媽媽又問吃飽沒.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "4d13e6313e851dfe5ef8577e1eff2de717d11dc535ea2484a5c691a2ad26ad97"
+    },
+    {
+      "album": "slow-days",
+      "track": "08",
+      "path": "C:\\Users\\User\\Downloads\\慢日子08｜爸爸修好的電風扇.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "8defe349b29752e00a5461d11b26002a352e68f277510c03eed1eb3a769a2aec"
+    },
+    {
+      "album": "slow-days",
+      "track": "09",
+      "path": "C:\\Users\\User\\Downloads\\慢日子09｜市場裡的兩把青菜.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "5ede079198ee9943b6ffa335398b5f373368ff482c0f420f790516a6c637d0e4"
+    },
+    {
+      "album": "slow-days",
+      "track": "10",
+      "path": "C:\\Users\\User\\Downloads\\慢日子10｜舊相簿裡的笑聲.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "040c067dca964e22a9942e72325f35339420f749f910c89e44da48a9ed7b0c5b"
+    },
+    {
+      "album": "slow-days",
+      "track": "11",
+      "path": "C:\\Users\\User\\Downloads\\慢日子11｜老朋友，坐一下.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "e6eccb4bc30d8df17a7d102db372b60427b3ee118a8353feb1da5b0a549601a2"
+    },
+    {
+      "album": "slow-days",
+      "track": "12",
+      "path": "C:\\Users\\User\\Downloads\\慢日子12｜你先睡，我快到了.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "aa5e3af43426a06a49012bbcbc9a0a0b80c1dc67c39b0dd6cccc5a340a26b38c"
+    },
+    {
+      "album": "slow-days",
+      "track": "13",
+      "path": "C:\\Users\\User\\Downloads\\慢日子13｜一起淋過的小雨.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "e758d6c4a9ac62c44bc62278fc18d89ee28ec41c2c5eaaca96de6c24e4ac6e0a"
+    },
+    {
+      "album": "slow-days",
+      "track": "14",
+      "path": "C:\\Users\\User\\Downloads\\慢日子14｜留一盞燈給晚歸的人.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "7a8001029e31d4c08ec7ec796fddf5d80a15fdbe9b65ef594f1a87cb639e8b4a"
+    },
+    {
+      "album": "slow-days",
+      "track": "15",
+      "path": "C:\\Users\\User\\Downloads\\慢日子15｜不用說謝謝的那個人.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "5aca58c340defb286715840b2f07e6773f2c093ea44dbbf5870aca816b031409"
+    },
+    {
+      "album": "slow-days",
+      "track": "16",
+      "path": "C:\\Users\\User\\Downloads\\慢日子16｜散步到路燈亮起.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "20871e9cf4cd97a2444b73d698baa490421759acda3c988dec6e166a63bf2ea0"
+    },
+    {
+      "album": "slow-days",
+      "track": "17",
+      "path": "C:\\Users\\User\\Downloads\\慢日子17｜明天再整理也可以.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "ec330ee3206637a10931369de90c16cecece5d14be0c0f79954ae797cbe4ec23"
+    },
+    {
+      "album": "slow-days",
+      "track": "18",
+      "path": "C:\\Users\\User\\Downloads\\慢日子18｜白頭髮也很好看.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "8982ff1861ace8246909cf01eb6b70c1301420ac56cd7a20b9a32f8fa3f50782"
+    },
+    {
+      "album": "slow-days",
+      "track": "19",
+      "path": "C:\\Users\\User\\Downloads\\慢日子19｜平凡就是我們的好日子.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "94acbab7a7c0907c7a8c9698579774ae673979f506f4db157874f84803465cd9"
+    },
+    {
+      "album": "slow-days",
+      "track": "20",
+      "path": "C:\\Users\\User\\Downloads\\慢日子20｜晚安，今天也辛苦了.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "46a5a0733513621ced4e60ff7197058cff1e5684db357af6208d9b8ab124fdc4"
+    },
+    {
+      "album": "city-lights",
+      "track": "01",
+      "path": "C:\\Users\\User\\Downloads\\留燈01｜城市替我們留燈.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "f393e58bff0031e0c04b53a65365fcd771437dea569b3690430c2582f269d541"
+    },
+    {
+      "album": "city-lights",
+      "track": "02",
+      "path": "C:\\Users\\User\\Downloads\\留燈02｜末班捷運的空位.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "16fc65a2fdbdb265fdaa211d70fc68ca857d4f807fc4fccfec7746e31f5d02d7"
+    },
+    {
+      "album": "city-lights",
+      "track": "03",
+      "path": "C:\\Users\\User\\Downloads\\留燈03｜便利商店的熱咖啡.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "1d8692ac9e26ef9e7b6ae79998a4b3c1bf286a1cc4ef134d96f2187eb05ca088"
+    },
+    {
+      "album": "city-lights",
+      "track": "04",
+      "path": "C:\\Users\\User\\Downloads\\留燈04｜雨停之前的騎樓.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "4cf4d7dbd322ba58e637954d72bacdcaf4920467951c29fce15285bea576b054"
+    },
+    {
+      "album": "city-lights",
+      "track": "05",
+      "path": "C:\\Users\\User\\Downloads\\留燈05｜紅燈倒數三十秒.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "21c57c317ae10f380b983918fabcd2123c53a799f0221d924f53505c3185d8d6"
+    },
+    {
+      "album": "city-lights",
+      "track": "06",
+      "path": "C:\\Users\\User\\Downloads\\留燈06｜夜班的人.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "a860b24ae8d887442ecb90ad9790eb5726a60042e23ef014fa338119d31d4460"
+    },
+    {
+      "album": "city-lights",
+      "track": "07",
+      "path": "C:\\Users\\User\\Downloads\\留燈07｜計程車後座的電台.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "af67ab9d94fe99c44e0211f601d0718b81b2909222e4352dd324ac9384ff9140"
+    },
+    {
+      "album": "city-lights",
+      "track": "08",
+      "path": "C:\\Users\\User\\Downloads\\留燈08｜橋上的風知道.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "3e257b40c90803034468462493bd07c58ae9c3678b5d582e59a2c4a59ccb2165"
+    },
+    {
+      "album": "city-lights",
+      "track": "09",
+      "path": "C:\\Users\\User\\Downloads\\留燈09｜凌晨兩點的洗衣店.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "7972d615a697d36ddab4359c1faa5aba33b0dc9bec9fc01774c305e2349bc2ae"
+    },
+    {
+      "album": "city-lights",
+      "track": "10",
+      "path": "C:\\Users\\User\\Downloads\\留燈10｜陌生人借我的傘.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "906ddafce9e378a198aff71d7c166d0f741e012b3f9698eae2b5c789c950ae69"
+    },
+    {
+      "album": "city-lights",
+      "track": "11",
+      "path": "C:\\Users\\User\\Downloads\\留燈11｜沒寄出的明信片.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "25e43eafbf49db9f62546be1c8ea4eaf060f605c84b5e129a20175d28173a296"
+    },
+    {
+      "album": "city-lights",
+      "track": "12",
+      "path": "C:\\Users\\User\\Downloads\\留燈12｜電梯裡的月亮.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "de44bdd61c181a766896e8600c53f41b1262abc7c90d0c56754e3943a17a52de"
+    },
+    {
+      "album": "city-lights",
+      "track": "13",
+      "path": "C:\\Users\\User\\Downloads\\留燈13｜舊公寓第四層.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "c288c375e7d5e2388c7698425cdd837b98ffb652524f7908349aaaff983fa2fb"
+    },
+    {
+      "album": "city-lights",
+      "track": "14",
+      "path": "C:\\Users\\User\\Downloads\\留燈14｜把沉默調小聲.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "8a3537e4d264afb863765962be375c98d59b8bc8bbecdf5177453428bcc595d3"
+    },
+    {
+      "album": "city-lights",
+      "track": "15",
+      "path": "C:\\Users\\User\\Downloads\\留燈15｜河堤邊的耳機.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "5afd3b5cd263f240b55bfe2cdb2e99be075489ad5d53f013874c055476744022"
+    },
+    {
+      "album": "city-lights",
+      "track": "16",
+      "path": "C:\\Users\\User\\Downloads\\留燈16｜等第一班公車.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "4b12da08fecabe964791fcbfe1b405189a58a4cbc029637080962f10b713596b"
+    },
+    {
+      "album": "city-lights",
+      "track": "17",
+      "path": "C:\\Users\\User\\Downloads\\留燈17｜早餐車升起白煙.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "7581558a35ed99d998b0168c292c08c8f2e8d3ff86b2a0616384a101e008d119"
+    },
+    {
+      "album": "city-lights",
+      "track": "18",
+      "path": "C:\\Users\\User\\Downloads\\留燈18｜天亮以前說再見.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "53c437434266d417bf0abbe4c3eb8f79b806a24dea2061475f2f4f937e03bc75"
+    },
+    {
+      "album": "city-lights",
+      "track": "19",
+      "path": "C:\\Users\\User\\Downloads\\留燈19｜今天換我先微笑.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "5d34a81c1f2a8404c8cb5962567e67f5bc9a27ff79e3a1241157a9849b280eac"
+    },
+    {
+      "album": "city-lights",
+      "track": "20",
+      "path": "C:\\Users\\User\\Downloads\\留燈20｜我們終於走到早晨.mp3.crdownload",
+      "exists": false,
+      "bytes": null,
+      "sha256": null,
+      "recordedSha256": "50f03aa1b27a9283b0966e33f2adebb786bacac9efb2c14b1737aadd4dc98b9b"
+    }
+  ]
+}

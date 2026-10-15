@@ -1,0 +1,12 @@
+[
+  {
+    "id": "slow-days",
+    "result": "baseline_failure",
+    "message": "Album or track count"
+  },
+  {
+    "id": "city-lights",
+    "result": "baseline_failure",
+    "message": "Historical report write blocked during read-only baseline reproduction"
+  }
+]

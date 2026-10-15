@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-15T11:37:52.953Z",
+  "baselineFiles": 391,
+  "unchangedFiles": 384,
+  "changedFiles": [
+    ".vercelignore",
+    "albumData.js",
+    "albums/city-lights/verify-public.cjs",
+    "albums/city-lights/verify-release.cjs",
+    "albums/slow-days/verify-public.cjs",
+    "albums/slow-days/verify-release.cjs",
+    "README.md"
+  ],
+  "missingFiles": [],
+  "unexpectedChanges": [],
+  "originalAudioFiles": 120,
+  "originalAudioUnchanged": true,
+  "zipFiles": 2,
+  "zipFilesUnchanged": true,
+  "allOtherExistingFilesPreserved": true,
+  "backups": [
+    {
+      "path": "README.md",
+      "originalSha256": "9b05e66058525bbb91e65308aadd7c7e99afd316961cc52824f792e536800fca",
+      "backupSha256": "9b05e66058525bbb91e65308aadd7c7e99afd316961cc52824f792e536800fca"
+    },
+    {
+      "path": "albumData.js",
+      "originalSha256": "bcd4942070cc5cc829d60cb514901c36cb10848aafb295db6113877887130231",
+      "backupSha256": "bcd4942070cc5cc829d60cb514901c36cb10848aafb295db6113877887130231"
+    },
+    {
+      "path": ".vercelignore",
+      "originalSha256": "701973318a52935c458d59f2b7b5256469a8bc7b3d2017144c9604b53fac1458",
+      "backupSha256": "701973318a52935c458d59f2b7b5256469a8bc7b3d2017144c9604b53fac1458"
+    },
+    {
+      "path": "albums/slow-days/verify-release.cjs",
+      "originalSha256": "7765457708e0b206284ad9fb88dd4253d35ee6fb78402a2bbc180b96b0141f72",
+      "backupSha256": "7765457708e0b206284ad9fb88dd4253d35ee6fb78402a2bbc180b96b0141f72"
+    },
+    {
+      "path": "albums/slow-days/verify-public.cjs",
+      "originalSha256": "54cfd69e35531fcc9b5db4c21e650914fa728a2b3fc9e11e9ff0f5efa466c061",
+      "backupSha256": "54cfd69e35531fcc9b5db4c21e650914fa728a2b3fc9e11e9ff0f5efa466c061"
+    },
+    {
+      "path": "albums/city-lights/verify-release.cjs",
+      "originalSha256": "13756dfb67db4235cf6c4b8ef9bc7dd19d7f7143a1c4d0bc5d6814f09a98ffcb",
+      "backupSha256": "13756dfb67db4235cf6c4b8ef9bc7dd19d7f7143a1c4d0bc5d6814f09a98ffcb"
+    },
+    {
+      "path": "albums/city-lights/verify-public.cjs",
+      "originalSha256": "2060ede6cf46407b1b4d96feda982e95f1b6cd276d4a6d0a642d2e0ff08bf24b",
+      "backupSha256": "2060ede6cf46407b1b4d96feda982e95f1b6cd276d4a6d0a642d2e0ff08bf24b"
+    }
+  ],
+  "allBackupsMatchOriginals": true
+}
