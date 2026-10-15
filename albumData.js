@@ -1467,12 +1467,12 @@ const zeguoxixiangAlbumData = {
   coverImage: 'assets/images/zeguoxixiang-girl/cover.webp',
   labelImage: 'assets/images/zeguoxixiang-girl/cover.webp',
   artistImage: 'assets/images/zeguoxixiang-girl/cover.webp',
-  releaseDate: '待 SUNO 完成',
+  releaseDate: '發行日期待確認',
   status: 'available',
   audioBasePath: 'assets/audio/zeguoxixiang-girl',
   tagline: '20 首以小男孩第一人稱寫成的水鄉童年、家族記憶與跨越時空的想念。',
-  changelogTitle: 'Album Diary / 第二張專輯製作中',
-  changelogIntro: '《澤國西鄉的女孩》已接入播放器作品庫，目前使用 20 個靜音佔位音檔。完成 SUNO 生成後，將 MP3 以 track01.mp3 到 track20.mp3 覆蓋至專輯音頻資料夾即可。',
+  changelogTitle: 'Album Diary / 澤國西鄉的女孩',
+  changelogIntro: '《澤國西鄉的女孩》已收錄 20 個有聲音檔，歌詞、故事與插圖已接入播放器。來源作品紀錄、發行日期與實際演唱內容仍待確認；有聲檢查不代表逐首聽審通過。',
   tracks: zeguoxixiangTrackMeta.map((track, index) => {
     const trackNumber = String(index + 1).padStart(2, '0');
     return {
@@ -1497,7 +1497,9 @@ const zeguoxixiangAlbumData = {
 
 const albumsData = [
   albumData,
-  zeguoxixiangAlbumData
+  zeguoxixiangAlbumData,
+  typeof module !== 'undefined' && module.exports ? require('./slowDaysAlbum.js') : window.slowDaysAlbumData,
+  typeof module !== 'undefined' && module.exports ? require('./cityLightsAlbum.js') : window.cityLightsAlbumData
 ];
 
 // 匯出資料庫，供 app.js 使用。新增專輯時，將 album 物件加入 albumsData 即可。

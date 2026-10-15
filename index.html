@@ -21,6 +21,8 @@
   <meta name="twitter:title" content="微光邊界 — 音樂故事播放器">
   <meta name="twitter:description" content="收錄李詩民原創音樂故事專輯，搭配復古黑膠沉浸式網頁體驗。">
   <meta name="twitter:image" content="assets/images/icon-512.png?v=2">
+  <meta property="og:url" content="https://mymusics-olive.vercel.app/">
+  <link rel="canonical" href="https://mymusics-olive.vercel.app/">
 
   <!-- PWA 手機 App 安裝支援 -->
   <link rel="manifest" href="manifest.json?v=2">
@@ -36,7 +38,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   
   <!-- 本機樣式表 -->
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
 
@@ -64,11 +66,27 @@
         <span class="divider">/</span>
         <span class="album-title" id="header-album-title">首張音樂故事專輯《微光邊界》</span>
       </div>
-      <button class="album-library-btn" id="btn-album-library" type="button" title="開啟作品庫" aria-label="開啟作品庫">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path></svg>
-        <span>作品庫</span>
-      </button>
+      <div class="header-actions">
+        <button class="header-action-btn album-share-btn" id="btn-share-album" type="button" title="分享這張專輯" aria-label="分享這張專輯">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.59 13.51 15.42 17.49"></path><path d="M15.41 6.51 8.59 10.49"></path></svg>
+          <span>分享專輯</span>
+        </button>
+        <button class="header-action-btn album-library-btn" id="btn-album-library" type="button" title="開啟作品庫" aria-label="開啟作品庫" aria-expanded="false" aria-controls="album-library-dropdown">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path></svg>
+          <span>作品庫</span>
+        </button>
+      </div>
     </header>
+
+    <!-- 首頁作品庫下拉選單 -->
+    <section class="album-library-dropdown" id="album-library-dropdown" aria-label="專輯選擇" aria-hidden="true" inert>
+      <div class="album-library-dropdown-inner">
+        <div class="album-library-grid" id="album-library-grid">
+          <!-- 由 JS 動態生成專輯卡片 -->
+        </div>
+        <div class="album-library-dropdown-footer">選擇一張專輯</div>
+      </div>
+    </section>
 
     <!-- 主區塊：左側唱片機，右側日記本 -->
     <div class="main-content">
@@ -130,6 +148,10 @@
             <span class="track-index" id="current-track-index">Track 01 / 20</span>
             <h1 class="track-title" id="current-track-title">光斑的起點</h1>
             <p class="track-short-quote" id="current-track-quote">在晨光編織的人潮中，脫下日復一日的社交偽裝。</p>
+            <button class="track-share-btn" id="btn-share-track" type="button" title="分享這首歌" aria-label="分享這首歌">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.59 13.51 15.42 17.49"></path><path d="M15.41 6.51 8.59 10.49"></path></svg>
+              <span>分享單曲</span>
+            </button>
           </div>
 
           <!-- 音樂播放進度條 -->
@@ -195,9 +217,6 @@
             <button class="tab-btn" data-tab="tracks" role="tab" aria-selected="false" aria-controls="pane-tracks">
               <span>曲目列表</span>
             </button>
-            <button class="tab-btn" data-tab="library" role="tab" aria-selected="false" aria-controls="pane-library">
-              <span>作品庫</span>
-            </button>
             <button class="tab-btn" data-tab="changelog" role="tab" aria-selected="false" aria-controls="pane-changelog">
               <span>更新日記</span>
             </button>
@@ -254,6 +273,7 @@
                   <div class="artist-intro">
                     <h3 class="artist-name-h3" id="artist-name-title">李詩民</h3>
                     <p class="album-release-line" id="album-release-line">首張音樂故事專輯</p>
+                    <a id="album-download-link" href="slow-days-downloads.html" hidden>試聽與下載整張專輯 →</a>
                     <p class="artist-bio-text" id="artist-bio">
                       李詩民，都市裡的聲音觀察者。用溫暖而略帶沙啞的男聲，唱出喧囂中的孤獨、掙扎與最終的自我和解。這是一張關於生命哲學、心靈尋回與自我救贖的音樂日記，陪伴每一個在黑夜中尋找光芒的靈魂。
                     </p>
@@ -272,18 +292,7 @@
               </div>
             </div>
 
-            <!-- 頁面 4: 作品庫 -->
-            <div class="diary-content" id="pane-library" role="tabpanel">
-              <div class="page-paper scrollable-page">
-                <div class="diary-date">Glimmer Library / 作品庫</div>
-                <h2 class="diary-title-h2">選擇一張專輯</h2>
-                <div class="album-library-grid" id="album-library-grid">
-                  <!-- 由 JS 動態生成專輯卡片 -->
-                </div>
-              </div>
-            </div>
-
-            <!-- 頁面 5: 更新日記 -->
+            <!-- 頁面 4: 更新日記 -->
             <div class="diary-content" id="pane-changelog" role="tabpanel">
               <div class="page-paper scrollable-page">
                 <div class="diary-date" id="changelog-date-title">Album Diary / 專輯更新日記</div>
@@ -346,9 +355,11 @@
 
     <!-- 底部版權宣告與操作提示 -->
     <footer class="app-footer">
-      <p class="guide-tip">提示：建議使用 Safari、Chrome 或 Edge 瀏覽器開啟，播放與安裝體驗最佳；也可到「曲目列表」選歌，或到「作品庫」切換專輯。</p>
+      <p class="guide-tip">提示：建議使用 Safari、Chrome 或 Edge 瀏覽器開啟；可到「曲目列表」選歌、用首頁「作品庫」切換專輯，或直接分享當前單曲。</p>
       <p class="visit-counter" id="visit-counter">本機訪問量 0 次</p>
     </footer>
+
+    <div class="share-toast" id="share-toast" role="status" aria-live="polite"></div>
 
   </main>
 
@@ -378,7 +389,9 @@
   </aside>
 
   <!-- 載入資料與控制邏輯 -->
-  <script src="albumData.js?v=4"></script>
-  <script src="app.js?v=8"></script>
+  <script src="slowDaysAlbum.js?v=1"></script>
+  <script src="cityLightsAlbum.js?v=1"></script>
+  <script src="albumData.js?v=6"></script>
+  <script src="app.js?v=12"></script>
 </body>
 </html>

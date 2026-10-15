@@ -1,0 +1,147 @@
+{
+  "album": "城市替我們留燈",
+  "artist": "李詩民",
+  "model": "Suno V6",
+  "tracks": [
+    {
+      "title": "城市替我們留燈",
+      "filename": "track01.mp3",
+      "duration": "3:18",
+      "sourceUrl": "https://suno.com/song/5e5c213e-812d-439f-aa99-21a71b0214b2",
+      "sha256": "f393e58bff0031e0c04b53a65365fcd771437dea569b3690430c2582f269d541"
+    },
+    {
+      "title": "末班捷運的空位",
+      "filename": "track02.mp3",
+      "duration": "3:05",
+      "sourceUrl": "https://suno.com/song/6971de1c-9e74-4b2a-b01e-99b0c992dd23",
+      "sha256": "16fc65a2fdbdb265fdaa211d70fc68ca857d4f807fc4fccfec7746e31f5d02d7"
+    },
+    {
+      "title": "便利商店的熱咖啡",
+      "filename": "track03.mp3",
+      "duration": "3:09",
+      "sourceUrl": "https://suno.com/song/9b4196c6-a5c7-40ee-b2ef-2bf244ac183f",
+      "sha256": "1d8692ac9e26ef9e7b6ae79998a4b3c1bf286a1cc4ef134d96f2187eb05ca088"
+    },
+    {
+      "title": "雨停之前的騎樓",
+      "filename": "track04.mp3",
+      "duration": "3:20",
+      "sourceUrl": "https://suno.com/song/02f61078-badf-448f-81b2-b1fc71fe6d54",
+      "sha256": "4cf4d7dbd322ba58e637954d72bacdcaf4920467951c29fce15285bea576b054"
+    },
+    {
+      "title": "紅燈倒數三十秒",
+      "filename": "track05.mp3",
+      "duration": "3:07",
+      "sourceUrl": "https://suno.com/song/9938c6ec-8d3a-472a-a4ba-1612563e5927",
+      "sha256": "21c57c317ae10f380b983918fabcd2123c53a799f0221d924f53505c3185d8d6"
+    },
+    {
+      "title": "夜班的人",
+      "filename": "track06.mp3",
+      "duration": "3:38",
+      "sourceUrl": "https://suno.com/song/ff6ffa5c-d4c8-420b-9d7b-3b68145f4d6a",
+      "sha256": "a860b24ae8d887442ecb90ad9790eb5726a60042e23ef014fa338119d31d4460"
+    },
+    {
+      "title": "計程車後座的電台",
+      "filename": "track07.mp3",
+      "duration": "3:13",
+      "sourceUrl": "https://suno.com/song/5e849d04-d9f3-4783-9a5e-e53c117e900e",
+      "sha256": "af67ab9d94fe99c44e0211f601d0718b81b2909222e4352dd324ac9384ff9140"
+    },
+    {
+      "title": "橋上的風知道",
+      "filename": "track08.mp3",
+      "duration": "3:28",
+      "sourceUrl": "https://suno.com/song/39af51bd-5708-4581-b0aa-4e6d5de4d609",
+      "sha256": "3e257b40c90803034468462493bd07c58ae9c3678b5d582e59a2c4a59ccb2165"
+    },
+    {
+      "title": "凌晨兩點的洗衣店",
+      "filename": "track09.mp3",
+      "duration": "2:57",
+      "sourceUrl": "https://suno.com/song/681e63c0-ff5c-4d32-ab77-1d014192b38e",
+      "sha256": "7972d615a697d36ddab4359c1faa5aba33b0dc9bec9fc01774c305e2349bc2ae"
+    },
+    {
+      "title": "陌生人借我的傘",
+      "filename": "track10.mp3",
+      "duration": "3:00",
+      "sourceUrl": "https://suno.com/song/c6355982-c3b2-4a0d-83b9-a8eca252ee1d",
+      "sha256": "906ddafce9e378a198aff71d7c166d0f741e012b3f9698eae2b5c789c950ae69"
+    },
+    {
+      "title": "沒寄出的明信片",
+      "filename": "track11.mp3",
+      "duration": "3:32",
+      "sourceUrl": "https://suno.com/song/b99e3534-5e25-418c-826b-17c2de095117",
+      "sha256": "25e43eafbf49db9f62546be1c8ea4eaf060f605c84b5e129a20175d28173a296"
+    },
+    {
+      "title": "電梯裡的月亮",
+      "filename": "track12.mp3",
+      "duration": "3:00",
+      "sourceUrl": "https://suno.com/song/3d85294e-608f-4ae0-8e9c-0fa44993311c",
+      "sha256": "de44bdd61c181a766896e8600c53f41b1262abc7c90d0c56754e3943a17a52de"
+    },
+    {
+      "title": "舊公寓第四層",
+      "filename": "track13.mp3",
+      "duration": "3:18",
+      "sourceUrl": "https://suno.com/song/395cf274-f75d-4ca4-a8c7-465de7544fab",
+      "sha256": "c288c375e7d5e2388c7698425cdd837b98ffb652524f7908349aaaff983fa2fb"
+    },
+    {
+      "title": "把沉默調小聲",
+      "filename": "track14.mp3",
+      "duration": "3:08",
+      "sourceUrl": "https://suno.com/song/277dbf34-b1ce-462b-a2ce-eedeb21b03d6",
+      "sha256": "8a3537e4d264afb863765962be375c98d59b8bc8bbecdf5177453428bcc595d3"
+    },
+    {
+      "title": "河堤邊的耳機",
+      "filename": "track15.mp3",
+      "duration": "2:46",
+      "sourceUrl": "https://suno.com/song/cdc52735-55c7-4a95-89d4-807562fb7ac6",
+      "sha256": "5afd3b5cd263f240b55bfe2cdb2e99be075489ad5d53f013874c055476744022"
+    },
+    {
+      "title": "等第一班公車",
+      "filename": "track16.mp3",
+      "duration": "3:18",
+      "sourceUrl": "https://suno.com/song/01098ad8-c45d-479f-91ef-6853d32dc928",
+      "sha256": "4b12da08fecabe964791fcbfe1b405189a58a4cbc029637080962f10b713596b"
+    },
+    {
+      "title": "早餐車升起白煙",
+      "filename": "track17.mp3",
+      "duration": "2:39",
+      "sourceUrl": "https://suno.com/song/9725a474-8493-4730-a2db-e2238ce29f73",
+      "sha256": "7581558a35ed99d998b0168c292c08c8f2e8d3ff86b2a0616384a101e008d119"
+    },
+    {
+      "title": "天亮以前說再見",
+      "filename": "track18.mp3",
+      "duration": "3:44",
+      "sourceUrl": "https://suno.com/song/87a25a7d-78d0-4fb3-9595-581565d793bf",
+      "sha256": "53c437434266d417bf0abbe4c3eb8f79b806a24dea2061475f2f4f937e03bc75"
+    },
+    {
+      "title": "今天換我先微笑",
+      "filename": "track19.mp3",
+      "duration": "3:07",
+      "sourceUrl": "https://suno.com/song/130a7f91-909e-435d-a2d0-0516a5c6e96e",
+      "sha256": "5d34a81c1f2a8404c8cb5962567e67f5bc9a27ff79e3a1241157a9849b280eac"
+    },
+    {
+      "title": "我們終於走到早晨",
+      "filename": "track20.mp3",
+      "duration": "3:19",
+      "sourceUrl": "https://suno.com/song/fc067d0a-b3e0-4e9f-8e60-006722782920",
+      "sha256": "50f03aa1b27a9283b0966e33f2adebb786bacac9efb2c14b1737aadd4dc98b9b"
+    }
+  ]
+}

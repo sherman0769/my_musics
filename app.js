@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const pageBgImage = document.getElementById('page-bg-image');
   const headerArtistName = document.getElementById('header-artist-name');
   const headerAlbumTitle = document.getElementById('header-album-title');
+  const btnShareAlbum = document.getElementById('btn-share-album');
   const btnAlbumLibrary = document.getElementById('btn-album-library');
+  const albumLibraryDropdown = document.getElementById('album-library-dropdown');
   
   // 播放器控制項
   const btnPlay = document.getElementById('btn-play');
@@ -44,6 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const trackIndexText = document.getElementById('current-track-index');
   const trackTitleText = document.getElementById('current-track-title');
   const trackQuoteText = document.getElementById('current-track-quote');
+  const btnShareTrack = document.getElementById('btn-share-track');
+  const shareToast = document.getElementById('share-toast');
   
   // 日記頁面節點
   const tabs = document.querySelectorAll('.tab-btn');
@@ -88,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let isLoop = false;
   let prevVolume = 0.8;
   let playbackStartTimer = null;
+  let shareToastTimer = null;
   let trackPlayCounts = {};
   const GLOBAL_STATS_API = '/api/stats';
   let globalStatsEnabled = false;
@@ -113,6 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (miniBtnPlay) miniBtnPlay.addEventListener('click', togglePlay);
     if (miniBtnPrev) miniBtnPrev.addEventListener('click', prevTrack);
     if (miniBtnNext) miniBtnNext.addEventListener('click', nextTrack);
+    if (btnShareAlbum) btnShareAlbum.addEventListener('click', shareCurrentAlbum);
+    if (btnShareTrack) btnShareTrack.addEventListener('click', shareCurrentTrack);
     
     progressBar.addEventListener('input', setProgress);
     volumeBar.addEventListener('input', setVolume);
@@ -128,7 +135,39 @@ document.addEventListener('DOMContentLoaded', () => {
     // 頁籤切換
     initTabs();
     if (btnAlbumLibrary) {
-      btnAlbumLibrary.addEventListener('click', () => activateTab('library'));
+      btnAlbumLibrary.addEventListener('click', (event) => {
+        event.stopPropagation();
+        toggleAlbumLibraryDropdown();
+      });
+    }
+    if (albumLibraryDropdown) {
+      albumLibraryDropdown.addEventListener('click', (event) => event.stopPropagation());
+    }
+    document.addEventListener('click', closeAlbumLibraryDropdown);
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') closeAlbumLibraryDropdown();
+    });
+  }
+
+  function setAlbumLibraryDropdownOpen(isOpen) {
+    if (!albumLibraryDropdown || !btnAlbumLibrary) return;
+
+    albumLibraryDropdown.classList.toggle('open', isOpen);
+    albumLibraryDropdown.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+    albumLibraryDropdown.toggleAttribute('inert', !isOpen);
+    btnAlbumLibrary.classList.toggle('active', isOpen);
+    btnAlbumLibrary.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    btnAlbumLibrary.setAttribute('aria-label', isOpen ? '關閉作品庫' : '開啟作品庫');
+    btnAlbumLibrary.title = isOpen ? '關閉作品庫' : '開啟作品庫';
+  }
+
+  function toggleAlbumLibraryDropdown() {
+    setAlbumLibraryDropdownOpen(!albumLibraryDropdown?.classList.contains('open'));
+  }
+
+  function closeAlbumLibraryDropdown() {
+    if (albumLibraryDropdown?.classList.contains('open')) {
+      setAlbumLibraryDropdownOpen(false);
     }
   }
 
@@ -181,6 +220,69 @@ document.addEventListener('DOMContentLoaded', () => {
     return `${album.subtitle || '音樂故事專輯'}《${title}》`;
   }
 
+  function getAbsoluteUrl(path) {
+    try {
+      return new URL(path || '', window.location.href).toString();
+    } catch {
+      return window.location.href;
+    }
+  }
+
+  function getTrackShareUrl(track = currentAlbum.tracks[currentIndex]) {
+    const url = new URL(window.location.href);
+    url.search = '';
+    url.hash = '';
+    url.searchParams.set('album', currentAlbum.id || DEFAULT_ALBUM_ID);
+    url.searchParams.set('track', String(track.id));
+    return url.toString();
+  }
+
+  function getAlbumShareUrl(album = currentAlbum) {
+    const url = new URL(window.location.href);
+    url.search = '';
+    url.hash = '';
+    url.searchParams.set('album', album.id || DEFAULT_ALBUM_ID);
+    return url.toString();
+  }
+
+  function setMetaContent(selector, content, createAttribute, createValue) {
+    if (!content) return;
+    let node = document.head.querySelector(selector);
+    if (!node) {
+      node = document.createElement('meta');
+      node.setAttribute(createAttribute, createValue);
+      document.head.appendChild(node);
+    }
+    node.setAttribute('content', content);
+  }
+
+  function updateTrackShareMetadata(track) {
+    const albumTitle = getAlbumTitle();
+    const shareTitle = `${currentAlbum.artist}《${track.title}》｜《${albumTitle}》`;
+    const shareDescription = track.quote || currentAlbum.tagline || `${currentAlbum.artist} 的音樂故事單曲。`;
+    const shareUrl = getTrackShareUrl(track);
+    const shareImage = getAbsoluteUrl(track.image || currentAlbum.coverImage || 'assets/images/icon-512.png?v=2');
+    const canonicalLink = document.head.querySelector('link[rel="canonical"]');
+
+    document.title = `微光邊界 - ${shareTitle}`;
+    if (canonicalLink) canonicalLink.setAttribute('href', shareUrl);
+    setMetaContent('meta[name="description"]', shareDescription, 'name', 'description');
+    setMetaContent('meta[property="og:title"]', shareTitle, 'property', 'og:title');
+    setMetaContent('meta[property="og:description"]', shareDescription, 'property', 'og:description');
+    setMetaContent('meta[property="og:type"]', 'music.song', 'property', 'og:type');
+    setMetaContent('meta[property="og:url"]', shareUrl, 'property', 'og:url');
+    setMetaContent('meta[property="og:image"]', shareImage, 'property', 'og:image');
+    setMetaContent('meta[name="twitter:title"]', shareTitle, 'name', 'twitter:title');
+    setMetaContent('meta[name="twitter:description"]', shareDescription, 'name', 'twitter:description');
+    setMetaContent('meta[name="twitter:image"]', shareImage, 'name', 'twitter:image');
+
+    if (btnShareTrack) {
+      btnShareTrack.dataset.shareUrl = shareUrl;
+      btnShareTrack.title = `分享《${track.title}》`;
+      btnShareTrack.setAttribute('aria-label', `分享《${track.title}》`);
+    }
+  }
+
   function renderAlbumChrome() {
     const albumTitle = getAlbumTitle();
     document.title = `微光邊界 - ${currentAlbum.artist}《${albumTitle}》`;
@@ -201,10 +303,27 @@ document.addEventListener('DOMContentLoaded', () => {
       albumReleaseLine.textContent = [getAlbumDisplayLine(), releaseText].filter(Boolean).join(' / ');
     }
     if (playlistTitle) playlistTitle.textContent = `《${albumTitle}》專輯軌道清單`;
+    const albumDownloadLink = document.getElementById('album-download-link');
+    if (albumDownloadLink) {
+      albumDownloadLink.hidden = !currentAlbum.downloadPage;
+      if (currentAlbum.downloadPage) albumDownloadLink.href = currentAlbum.downloadPage;
+    }
     if (playlistSubtitle) playlistSubtitle.textContent = `${currentAlbum.tracks.length} 首作品，點擊即可載入黑膠播放`;
     if (changelogDateTitle) changelogDateTitle.textContent = currentAlbum.changelogTitle || 'Album Diary / 專輯更新日記';
     if (changelogDesc) changelogDesc.textContent = currentAlbum.changelogIntro || currentAlbum.tagline || '';
+    const originalDiary = currentAlbum.id === 'glimmer-boundaries';
+    const diaryVersion = document.querySelector('#pane-changelog .changelog-version');
+    if (diaryVersion) diaryVersion.textContent = originalDiary
+      ? '🌸 新歌發布特輯 2026-06-06'
+      : `《${albumTitle}》專輯日記 · ${currentAlbum.releaseDate || ''}`;
+    document.querySelectorAll('#pane-changelog .changelog-subtitle, #pane-changelog .changelog-list')
+      .forEach(element => { element.hidden = !originalDiary; });
     if (diaryBrand) diaryBrand.textContent = `${currentAlbum.artist} 創作手稿`;
+    if (btnShareAlbum) {
+      btnShareAlbum.dataset.shareUrl = getAlbumShareUrl();
+      btnShareAlbum.title = `分享《${albumTitle}》`;
+      btnShareAlbum.setAttribute('aria-label', `分享《${albumTitle}》`);
+    }
   }
 
   function readNumberFromStorage(key) {
@@ -348,7 +467,8 @@ document.addEventListener('DOMContentLoaded', () => {
   function switchAlbum(albumIndex) {
     const nextAlbum = albums[albumIndex];
     if (albumIndex === currentAlbumIndex || !nextAlbum) {
-      activateTab('tracks');
+      closeAlbumLibraryDropdown();
+      activateTab('story');
       return;
     }
     if (!Array.isArray(nextAlbum.tracks) || nextAlbum.tracks.length === 0) return;
@@ -364,12 +484,8 @@ document.addEventListener('DOMContentLoaded', () => {
     buildAlbumLibrary();
     buildPlaylist();
     loadTrack(0);
-    activateTab('tracks');
-
-    const url = new URL(window.location.href);
-    url.searchParams.set('album', currentAlbum.id);
-    url.searchParams.delete('track');
-    window.history.replaceState({}, '', url);
+    closeAlbumLibraryDropdown();
+    activateTab('story');
   }
 
   function buildPlaylist() {
@@ -427,6 +543,7 @@ document.addEventListener('DOMContentLoaded', () => {
     trackIndexText.textContent = `Track ${String(track.id).padStart(2, '0')} / ${currentAlbum.tracks.length}`;
     trackTitleText.textContent = track.title;
     trackQuoteText.textContent = track.quote || currentAlbum.tagline || '';
+    updateTrackShareMetadata(track);
     
     // 3. 變更故事頁插圖、歌詞背景浮水印與網頁背景底圖 (唱片頭像固定，不在此更新)
     const photoUrl = track.image || currentAlbum.coverImage;
@@ -489,6 +606,94 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isPlaying) item.classList.add('playing');
       }
     });
+  }
+
+  async function copyTextToClipboard(text) {
+    if (navigator.clipboard?.writeText) {
+      try {
+        await navigator.clipboard.writeText(text);
+        return true;
+      } catch {
+        // 繼續使用舊式複製 fallback。
+      }
+    }
+
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.setAttribute('readonly', '');
+    textarea.style.position = 'fixed';
+    textarea.style.top = '-1000px';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+
+    let didCopy = false;
+    try {
+      didCopy = document.execCommand('copy');
+    } catch {
+      didCopy = false;
+    } finally {
+      document.body.removeChild(textarea);
+    }
+    return didCopy;
+  }
+
+  function showShareToast(message) {
+    if (!shareToast) return;
+    shareToast.textContent = message;
+    shareToast.classList.add('show');
+    if (shareToastTimer) clearTimeout(shareToastTimer);
+    shareToastTimer = setTimeout(() => {
+      shareToast.classList.remove('show');
+    }, 2600);
+  }
+
+  async function shareCurrentTrack() {
+    const track = currentAlbum.tracks[currentIndex];
+    const shareUrl = getTrackShareUrl(track);
+    const shareTitle = `${currentAlbum.artist}《${track.title}》`;
+    const shareText = `正在聽《${track.title}》，收錄於${getAlbumDisplayLine()}。`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: shareTitle,
+          text: shareText,
+          url: shareUrl,
+        });
+        showShareToast('已開啟分享選單');
+        return;
+      } catch (error) {
+        if (error?.name === 'AbortError') return;
+      }
+    }
+
+    const didCopy = await copyTextToClipboard(shareUrl);
+    showShareToast(didCopy ? '已複製單曲連結' : '無法自動複製，請使用瀏覽器網址列分享');
+  }
+
+  async function shareCurrentAlbum() {
+    const albumTitle = getAlbumTitle();
+    const shareUrl = getAlbumShareUrl();
+    const shareTitle = `${currentAlbum.artist}《${albumTitle}》`;
+    const shareText = `${getAlbumDisplayLine()}，收錄 ${currentAlbum.tracks.length} 首音樂故事。`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: shareTitle,
+          text: shareText,
+          url: shareUrl,
+        });
+        showShareToast('已開啟分享選單');
+        return;
+      } catch (error) {
+        if (error?.name === 'AbortError') return;
+      }
+    }
+
+    const didCopy = await copyTextToClipboard(shareUrl);
+    showShareToast(didCopy ? '已複製專輯連結' : '無法自動複製，請使用瀏覽器網址列分享');
   }
 
   // --- 7. 音樂控制邏輯 (播放、暫停、切歌) ---

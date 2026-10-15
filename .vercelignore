@@ -1,0 +1,10 @@
+albums/
+AGENTS.md
+reports/
+docs/
+scripts/
+tests/
+implementation_plan.md
+walkthrough.md
+generate_audio.js
+zeguoxixiang_suno_prompts.md

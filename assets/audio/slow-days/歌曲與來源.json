@@ -1,0 +1,147 @@
+{
+  "album": "把日子唱慢一點",
+  "artist": "李詩民",
+  "model": "Suno V6",
+  "tracks": [
+    {
+      "title": "把日子唱慢一點",
+      "filename": "track01.mp3",
+      "duration": "3:26",
+      "sourceUrl": "https://suno.com/song/49fcc03f-93c6-47a3-81f7-278d15f83a6e",
+      "sha256": "5d76836d6dea9b2c160bab789ce715ef6ef527cb48abdefc7d196d119b677bd1"
+    },
+    {
+      "title": "早餐店的老位置",
+      "filename": "track02.mp3",
+      "duration": "2:30",
+      "sourceUrl": "https://suno.com/song/5178e0f3-501f-45e9-96d4-4bead58e3a0a",
+      "sha256": "39a71719e38bb58b4646d3fe5097b475c5d1b1c258738c28e6c28b1af9b6f0bc"
+    },
+    {
+      "title": "今天不趕路",
+      "filename": "track03.mp3",
+      "duration": "3:26",
+      "sourceUrl": "https://suno.com/song/7a55d5a6-8373-4494-9232-9662912d801c",
+      "sha256": "68990c16367cd4fc14665b116b7a2ce902e62bb057c436f0249bad538f7a2160"
+    },
+    {
+      "title": "陽台上的星期天",
+      "filename": "track04.mp3",
+      "duration": "3:15",
+      "sourceUrl": "https://suno.com/song/6bc0966e-aa1d-4794-aa73-6a161d7ad5cd",
+      "sha256": "e57d3ce5df70c0b3601ba0981a88acd3b5a9bfa4477ee5e4afdcc6653a3a8b12"
+    },
+    {
+      "title": "手機翻過來",
+      "filename": "track05.mp3",
+      "duration": "3:07",
+      "sourceUrl": "https://suno.com/song/55bbbf79-1293-4402-9ea7-f3fd93363762",
+      "sha256": "9c317dffea27662a194037cda9861f1ceccc79b94c15be012ea6e9b70c1247f1"
+    },
+    {
+      "title": "飯還熱著",
+      "filename": "track06.mp3",
+      "duration": "3:14",
+      "sourceUrl": "https://suno.com/song/a67dba16-98ec-41ec-b130-9aa60dfb9895",
+      "sha256": "fe65416fbf413fb5e7325846c1ae736d37e9de2ec8ff941fadbf27984370b5f8"
+    },
+    {
+      "title": "媽媽又問吃飽沒",
+      "filename": "track07.mp3",
+      "duration": "3:09",
+      "sourceUrl": "https://suno.com/song/6d063bb7-5782-47fb-b4bd-da04f922344e",
+      "sha256": "4d13e6313e851dfe5ef8577e1eff2de717d11dc535ea2484a5c691a2ad26ad97"
+    },
+    {
+      "title": "爸爸修好的電風扇",
+      "filename": "track08.mp3",
+      "duration": "3:12",
+      "sourceUrl": "https://suno.com/song/36530420-485a-471e-91d3-3984a70a6c7d",
+      "sha256": "8defe349b29752e00a5461d11b26002a352e68f277510c03eed1eb3a769a2aec"
+    },
+    {
+      "title": "市場裡的兩把青菜",
+      "filename": "track09.mp3",
+      "duration": "3:28",
+      "sourceUrl": "https://suno.com/song/6a005d04-77b0-48a1-aa4e-27d6fcd494a1",
+      "sha256": "5ede079198ee9943b6ffa335398b5f373368ff482c0f420f790516a6c637d0e4"
+    },
+    {
+      "title": "舊相簿裡的笑聲",
+      "filename": "track10.mp3",
+      "duration": "3:07",
+      "sourceUrl": "https://suno.com/song/5cd7f587-0bbb-4cdf-9dcd-7bce3ac90539",
+      "sha256": "040c067dca964e22a9942e72325f35339420f749f910c89e44da48a9ed7b0c5b"
+    },
+    {
+      "title": "老朋友，坐一下",
+      "filename": "track11.mp3",
+      "duration": "2:40",
+      "sourceUrl": "https://suno.com/song/00345350-21c0-4106-8549-4b0b3eb09238",
+      "sha256": "e6eccb4bc30d8df17a7d102db372b60427b3ee118a8353feb1da5b0a549601a2"
+    },
+    {
+      "title": "你先睡，我快到了",
+      "filename": "track12.mp3",
+      "duration": "3:15",
+      "sourceUrl": "https://suno.com/song/ed43905c-5690-414b-9bd5-f00dae662bad",
+      "sha256": "aa5e3af43426a06a49012bbcbc9a0a0b80c1dc67c39b0dd6cccc5a340a26b38c"
+    },
+    {
+      "title": "一起淋過的小雨",
+      "filename": "track13.mp3",
+      "duration": "2:37",
+      "sourceUrl": "https://suno.com/song/1b688965-b6fd-4e62-9de9-a4434b455015",
+      "sha256": "e758d6c4a9ac62c44bc62278fc18d89ee28ec41c2c5eaaca96de6c24e4ac6e0a"
+    },
+    {
+      "title": "留一盞燈給晚歸的人",
+      "filename": "track14.mp3",
+      "duration": "3:53",
+      "sourceUrl": "https://suno.com/song/e081c35d-c198-4237-a025-2abcfd2289a4",
+      "sha256": "7a8001029e31d4c08ec7ec796fddf5d80a15fdbe9b65ef594f1a87cb639e8b4a"
+    },
+    {
+      "title": "不用說謝謝的那個人",
+      "filename": "track15.mp3",
+      "duration": "3:41",
+      "sourceUrl": "https://suno.com/song/2f7bd7e0-dc76-4a9d-b0f5-9396322ab11d",
+      "sha256": "5aca58c340defb286715840b2f07e6773f2c093ea44dbbf5870aca816b031409"
+    },
+    {
+      "title": "散步到路燈亮起",
+      "filename": "track16.mp3",
+      "duration": "3:00",
+      "sourceUrl": "https://suno.com/song/751ec686-2417-4132-ae90-552a0f814702",
+      "sha256": "20871e9cf4cd97a2444b73d698baa490421759acda3c988dec6e166a63bf2ea0"
+    },
+    {
+      "title": "明天再整理也可以",
+      "filename": "track17.mp3",
+      "duration": "2:43",
+      "sourceUrl": "https://suno.com/song/957fbc1d-aa1f-42ef-92be-0532f143c764",
+      "sha256": "ec330ee3206637a10931369de90c16cecece5d14be0c0f79954ae797cbe4ec23"
+    },
+    {
+      "title": "白頭髮也很好看",
+      "filename": "track18.mp3",
+      "duration": "3:39",
+      "sourceUrl": "https://suno.com/song/863b5830-95ab-4a1a-9122-b24e7ea736e6",
+      "sha256": "8982ff1861ace8246909cf01eb6b70c1301420ac56cd7a20b9a32f8fa3f50782"
+    },
+    {
+      "title": "平凡就是我們的好日子",
+      "filename": "track19.mp3",
+      "duration": "3:10",
+      "sourceUrl": "https://suno.com/song/b9f49e31-c711-40cc-99d8-c46ff1cf1520",
+      "sha256": "94acbab7a7c0907c7a8c9698579774ae673979f506f4db157874f84803465cd9"
+    },
+    {
+      "title": "晚安，今天也辛苦了",
+      "filename": "track20.mp3",
+      "duration": "3:52",
+      "sourceUrl": "https://suno.com/song/a8a1a88e-3af8-4363-b6b6-778740d7106b",
+      "sha256": "46a5a0733513621ced4e60ff7197058cff1e5684db357af6208d9b8ab124fdc4"
+    }
+  ]
+}
