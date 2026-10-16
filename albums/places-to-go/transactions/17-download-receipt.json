@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "8d01e7da-2966-4fcf-b889-e312d967fbc6",
+  "path": "downloads/17/17-A-8d01e7da-2966-4fcf-b889-e312d967fbc6.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行17｜不必每站都下車.mp3",
+  "bytes": 4142071,
+  "sha256": "1dce651fc3bfd19f7d8e783e5648d4b44880f5ca11642433deb113e65f85b34c",
+  "duration": 172.824,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:43:02.565Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

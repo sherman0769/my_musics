@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "ee1abf39-b13a-44f5-b48d-606aadea18df",
+  "path": "downloads/14/14-A-ee1abf39-b13a-44f5-b48d-606aadea18df.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語14｜祝福還需要練習.mp3",
+  "bytes": 4414964,
+  "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92",
+  "duration": 195.24,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:03:24.264Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

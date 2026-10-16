@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+  "path": "downloads/13/13-A-c685c4aa-50bf-4524-8417-9db09fc5f5f1.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語13｜不再借朋友問你.mp3",
+  "bytes": 3813862,
+  "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98",
+  "duration": 153.192,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:02:21.532Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

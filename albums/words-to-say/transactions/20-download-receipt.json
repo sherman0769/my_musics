@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "b05df30e-fd74-4edb-a244-a2600d708abb",
+  "path": "downloads/20/20-A-b05df30e-fd74-4edb-a244-a2600d708abb.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語20｜我願意，再說一次.mp3",
+  "bytes": 4823011,
+  "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d",
+  "duration": 198.024,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:08:28.631Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

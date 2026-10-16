@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "1536239f-3328-4709-9106-8938a74c5cd1",
+  "path": "downloads/16/16-A-1536239f-3328-4709-9106-8938a74c5cd1.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行16｜繞遠路的人.mp3",
+  "bytes": 4404636,
+  "sha256": "df424be522a66a20b16ed145b4be9cdef189ebb73b44292882d76c182b8845af",
+  "duration": 182.76,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:42:12.846Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+  "path": "downloads/08/08-A-9b62a8f6-f881-4b13-8a15-bea4dc7aea5e.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語08｜那句話說重了.mp3",
+  "bytes": 4527033,
+  "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e",
+  "duration": 197.064,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:59:04.031Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

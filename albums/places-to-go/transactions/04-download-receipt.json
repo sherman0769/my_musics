@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "e68aa7ef-91f4-411c-aecf-6fd3766d2114",
+  "path": "downloads/04/04-A-e68aa7ef-91f4-411c-aecf-6fd3766d2114.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行04｜下一個交流道.mp3",
+  "bytes": 3982373,
+  "sha256": "798b8ecd26a1048070677395840e1f2e6c3cb4a0327b126d14116debc7de527c",
+  "duration": 166.824,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:29:50.425Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

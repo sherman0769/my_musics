@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+  "path": "downloads/01/01-A-9913e3b6-f224-4306-a2bd-0ce627dacf8b.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語01｜有些話，現在想說.mp3",
+  "bytes": 5009563,
+  "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc",
+  "duration": 212.04,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:46:13.639Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

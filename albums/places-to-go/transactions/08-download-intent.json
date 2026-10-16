@@ -1,0 +1,10 @@
+{
+  "trackId": "08",
+  "providerId": "1c1e484a-710a-42c3-99e7-98785fa50ea3",
+  "url": "https://suno.com/song/1c1e484a-710a-42c3-99e7-98785fa50ea3",
+  "format": "mp3",
+  "status": "reserved_do_not_repeat_unknown",
+  "reservedAt": "2026-10-16T09:31:49.888Z",
+  "maxDistinctSongs": 40,
+  "reservationNumber": 8
+}

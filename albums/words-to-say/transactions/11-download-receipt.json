@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "44698155-4756-469b-ae0f-336f19422780",
+  "path": "downloads/11/11-A-44698155-4756-469b-ae0f-336f19422780.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語11｜如果當時抱住你.mp3",
+  "bytes": 4875146,
+  "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd",
+  "duration": 214.68,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:01:00.512Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

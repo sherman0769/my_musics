@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "ba63778c-466f-4604-ac9d-5ec6c51e83fc",
+  "path": "downloads/05/05-A-ba63778c-466f-4604-ac9d-5ec6c51e83fc.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行05｜海線往南.mp3",
+  "bytes": 4118909,
+  "sha256": "97945452e60e154a71a9f49773ca53d5b525dc148ea774ff79232ad876643fe9",
+  "duration": 175.632,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:29:50.669Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

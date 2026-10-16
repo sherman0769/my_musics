@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "75f77910-a858-484c-abc2-99a0f6c2438c",
+  "path": "downloads/13/13-A-75f77910-a858-484c-abc2-99a0f6c2438c.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行13｜修車師傅的午休.mp3",
+  "bytes": 4295429,
+  "sha256": "d139ac9018662aa3d756fd48dfff04be7ef60c687b0fdbfeaa26c18d75504a9e",
+  "duration": 176.04,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:39:29.372Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

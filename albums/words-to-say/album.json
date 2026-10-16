@@ -1,0 +1,1594 @@
+{
+  "id": "words-to-say",
+  "title": "有些話，現在想說",
+  "artist": "李詩民",
+  "provider": "Suno",
+  "model": "v6",
+  "language": "zh-TW",
+  "account": "subliminalsongbirds009",
+  "voice": {
+    "displayName": "2026/03/27",
+    "id": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+    "userConfirmed": true,
+    "liveVerifiedAt": null,
+    "liveVerifiedOnTaiwanDate": "2026-10-16",
+    "verificationSource": "Rendered Create form and per-candidate exact Voice URL"
+  },
+  "createdAt": "2026-10-16T09:20:06.173Z",
+  "timezone": "Asia/Taipei",
+  "status": "local_complete_unreviewed_unpublished",
+  "selectionPolicy": "one candidate per track, no audition requested",
+  "fictionalStories": true,
+  "tracks": [
+    {
+      "id": "01",
+      "title": "有些話，現在想說",
+      "bpm": 78,
+      "style": "Original Taiwanese Mandarin vocal song, 78 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Intimate piano soul ballad, warm Rhodes, rounded bass, brushed drums, restrained cello; clear memorable chorus with gradual lift. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你問晚餐要不要再熱一下\n我看著碗邊遲遲沒有回答\n不是今天的飯菜少了什麼\n是好多句話被我吞成了習慣\n\n[Chorus]\n有些話 現在想說\n不想再交給以後替我說\n謝謝你陪我走過\n也對不起讓你等那麼久\n有些話 現在想說\n我很在乎你 不是只有放在心裡頭\n\n[Verse 2]\n我把椅子往你那邊挪一點\n你放下手機沒有催我往下\n原來開口不必先準備完美\n承認我會害怕也能算一句話\n\n[Chorus]\n有些話 現在想說\n不想再交給以後替我說\n謝謝你陪我走過\n也對不起讓你等那麼久\n有些話 現在想說\n我很在乎你 不是只有放在心裡頭\n\n[Bridge]\n我們都練過把委屈藏好\n練到連需要都不敢打擾\n今晚先不談誰比較有道理\n讓我好好把你的手握牢\n\n[Final Chorus]\n有些話 現在想說\n不想再交給以後替我說\n謝謝你陪我走過\n也對不起讓你等那麼久\n有些話 現在想說\n我很在乎你 不是只有放在心裡頭\n\n[Outro]\n飯涼了還能再熱\n這句愛 我想現在說",
+      "quote": "有些話 現在想說",
+      "story": "你問晚餐要不要再熱一下\n我看著碗邊遲遲沒有回答\n不是今天的飯菜少了什麼\n是好多句話被我吞成了習慣\n我們都練過把委屈藏好\n練到連需要都不敢打擾\n今晚先不談誰比較有道理\n讓我好好把你的手握牢",
+      "concept": "把喜歡說明白",
+      "submissionTitle": "心語01｜有些話，現在想說",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+          "url": "https://suno.com/song/9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:45:10.603Z",
+          "uiDuration": "3:32",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:32心語01｜有些話，現在想說V6Original Taiwanese Mandarin vocal song, 78 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Intimate piano soul ballad, warm Rhodes, rounded bass, brushed drums, restrained cello; clear memorable chorus with gradual lift, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "bfa7e0a9-f7d2-417d-93d8-11bad31091d0",
+          "url": "https://suno.com/song/bfa7e0a9-f7d2-417d-93d8-11bad31091d0",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:45:10.603Z",
+          "uiDuration": "3:28",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:28心語01｜有些話，現在想說V6Original Taiwanese Mandarin vocal song, 78 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Intimate piano soul ballad, warm Rhodes, rounded bass, brushed drums, restrained cello; clear memorable chorus with gradual lift, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+          "path": "downloads/01/01-A-9913e3b6-f224-4306-a2bd-0ce627dacf8b.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語01｜有些話，現在想說.mp3",
+          "bytes": 5009563,
+          "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc",
+          "duration": 212.04,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:46:13.639Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 212,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:45:07.273Z"
+    },
+    {
+      "id": "02",
+      "title": "你叫我名字的時候",
+      "bpm": 92,
+      "style": "Original Taiwanese Mandarin vocal song, 92 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Warm soul pop, Rhodes, clean guitar answers, soft pocket drums and melodic bass; tender lightly syncopated chorus. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n大家都喊我習慣的稱呼\n只有你把名字念得很清楚\n像把我從忙亂的人群帶出\n提醒我不只是誰該有的樣子\n\n[Chorus]\n你叫我名字的時候\n我總會回頭 多停留\n那兩個字經過你口中\n有了別人給不了的溫柔\n你叫我名字的時候\n我知道有人認得完整的我\n\n[Verse 2]\n那天我在門口找不到鑰匙\n你靠著牆笑我又放錯位置\n一聲名字沒有多大的事情\n卻讓普通的傍晚有了落點\n\n[Chorus]\n你叫我名字的時候\n我總會回頭 多停留\n那兩個字經過你口中\n有了別人給不了的溫柔\n你叫我名字的時候\n我知道有人認得完整的我\n\n[Bridge]\n不用每次都說愛我\n不用刻意把語氣放柔\n只要你在叫我時願意等\n我會把心裡的門打開一點\n\n[Final Chorus]\n你叫我名字的時候\n我總會回頭 多停留\n那兩個字經過你口中\n有了別人給不了的溫柔\n你叫我名字的時候\n我知道有人認得完整的我\n\n[Outro]\n我回了一聲在這裡\n你就笑著走近",
+      "quote": "你叫我名字的時候",
+      "story": "大家都喊我習慣的稱呼\n只有你把名字念得很清楚\n像把我從忙亂的人群帶出\n提醒我不只是誰該有的樣子\n不用每次都說愛我\n不用刻意把語氣放柔\n只要你在叫我時願意等\n我會把心裡的門打開一點",
+      "concept": "把喜歡說明白",
+      "submissionTitle": "心語02｜你叫我名字的時候",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "6b829b1d-cac2-42e9-b1ea-643b8882595b",
+          "url": "https://suno.com/song/6b829b1d-cac2-42e9-b1ea-643b8882595b",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:46:13.539Z",
+          "uiDuration": "2:48",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:48心語02｜你叫我名字的時候V6Original Taiwanese Mandarin vocal song, 92 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Warm soul pop, Rhodes, clean guitar answers, soft pocket drums and melodic bass; tender lightly syncopated chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "a326ab6e-5e80-4eb1-9a04-7dc6769fa23d",
+          "url": "https://suno.com/song/a326ab6e-5e80-4eb1-9a04-7dc6769fa23d",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:46:13.539Z",
+          "uiDuration": "2:30",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:30心語02｜你叫我名字的時候V6Original Taiwanese Mandarin vocal song, 92 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Warm soul pop, Rhodes, clean guitar answers, soft pocket drums and melodic bass; tender lightly syncopated chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "6b829b1d-cac2-42e9-b1ea-643b8882595b",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "6b829b1d-cac2-42e9-b1ea-643b8882595b",
+          "path": "downloads/02/02-A-6b829b1d-cac2-42e9-b1ea-643b8882595b.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語02｜你叫我名字的時候.mp3",
+          "bytes": 4121432,
+          "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a",
+          "duration": 168.024,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:47:20.648Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 168,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:46:03.254Z"
+    },
+    {
+      "id": "03",
+      "title": "第二次約會",
+      "bpm": 106,
+      "style": "Original Taiwanese Mandarin vocal song, 106 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Playful jazz pop, nylon guitar, upright piano, walking warm bass and brushed drums; smiling conversational swing without theatrical singing. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n第一次見面我早到半小時\n第二次還是找不到停車位\n你傳訊息說不用跑沒關係\n我卻對著櫥窗整理了兩回\n\n[Chorus]\n第二次約會\n少一點客氣多一點狼狽\n你說話時眼睛會笑\n我連接話都慢了半拍\n第二次約會\n我已經在想下次還能見面\n\n[Verse 2]\n菜單翻到最後還沒決定\n你說想點兩樣分著吃行不行\n一盤麵被我們聊得有點冷\n我開始忘記練過的那些問題\n\n[Chorus]\n第二次約會\n少一點客氣多一點狼狽\n你說話時眼睛會笑\n我連接話都慢了半拍\n第二次約會\n我已經在想下次還能見面\n\n[Bridge]\n不用急著說我們會走多遠\n也不用替沉默找話題填\n走到路口你忽然問我\n這附近是不是還有一家甜點店\n\n[Final Chorus]\n第二次約會\n少一點客氣多一點狼狽\n你說話時眼睛會笑\n我連接話都慢了半拍\n第二次約會\n我已經在想下次還能見面\n\n[Outro]\n我說有啊\n其實我等這一句好久",
+      "quote": "第二次約會",
+      "story": "第一次見面我早到半小時\n第二次還是找不到停車位\n你傳訊息說不用跑沒關係\n我卻對著櫥窗整理了兩回\n不用急著說我們會走多遠\n也不用替沉默找話題填\n走到路口你忽然問我\n這附近是不是還有一家甜點店",
+      "concept": "把喜歡說明白",
+      "submissionTitle": "心語03｜第二次約會",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "cf105c78-ad27-46fa-9944-4574cd683818",
+          "url": "https://suno.com/song/cf105c78-ad27-46fa-9944-4574cd683818",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:46:43.685Z",
+          "uiDuration": "2:31",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:31心語03｜第二次約會V6Original Taiwanese Mandarin vocal song, 106 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Playful jazz pop, nylon guitar, upright piano, walking warm bass and brushed drums; smiling conversational swing without theatrical singing, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "e969b7f2-b1a7-431e-9fdd-7a03ddd36cab",
+          "url": "https://suno.com/song/e969b7f2-b1a7-431e-9fdd-7a03ddd36cab",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:46:43.685Z",
+          "uiDuration": "2:32",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:32心語03｜第二次約會V6Original Taiwanese Mandarin vocal song, 106 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Playful jazz pop, nylon guitar, upright piano, walking warm bass and brushed drums; smiling conversational swing without theatrical singing, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "cf105c78-ad27-46fa-9944-4574cd683818",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "cf105c78-ad27-46fa-9944-4574cd683818",
+          "path": "downloads/03/03-A-cf105c78-ad27-46fa-9944-4574cd683818.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語03｜第二次約會.mp3",
+          "bytes": 3586022,
+          "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5",
+          "duration": 150.744,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:47:20.881Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 150.72,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:46:38.821Z"
+    },
+    {
+      "id": "04",
+      "title": "把喜歡說得清楚",
+      "bpm": 100,
+      "style": "Original Taiwanese Mandarin vocal song, 100 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Bright piano soul pop, Rhodes accents, warm bass, clean rhythmic guitar and gentle snare; confident but intimate melodic chorus. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你問我們究竟算什麼關係\n我又笑著說看你怎麼定義\n把問題推回去多麼容易\n卻沒看見你收回去的眼睛\n\n[Chorus]\n把喜歡說得清楚\n不讓你在猜測裡反覆\n想牽手就伸出手\n想見面就走到你門口\n把喜歡說得清楚\n讓你知道我的心有去處\n\n[Verse 2]\n這一次我不想再說隨便你\n也不拿忙碌當成好的藉口\n想約你就先把時間空出來\n願意陪伴就把承諾說明白\n\n[Chorus]\n把喜歡說得清楚\n不讓你在猜測裡反覆\n想牽手就伸出手\n想見面就走到你門口\n把喜歡說得清楚\n讓你知道我的心有去處\n\n[Bridge]\n不是一句話就能包辦往後\n也不是答應了就不會犯錯\n但我願意讓每一次行動\n跟今天說出口的靠攏\n\n[Final Chorus]\n把喜歡說得清楚\n不讓你在猜測裡反覆\n想牽手就伸出手\n想見面就走到你門口\n把喜歡說得清楚\n讓你知道我的心有去處\n\n[Outro]\n下個星期六\n我想好好約你",
+      "quote": "把喜歡說得清楚",
+      "story": "你問我們究竟算什麼關係\n我又笑著說看你怎麼定義\n把問題推回去多麼容易\n卻沒看見你收回去的眼睛\n不是一句話就能包辦往後\n也不是答應了就不會犯錯\n但我願意讓每一次行動\n跟今天說出口的靠攏",
+      "concept": "把喜歡說明白",
+      "submissionTitle": "心語04｜把喜歡說得清楚",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "3fb54616-8c2f-4b6b-b43e-7020c958b449",
+          "url": "https://suno.com/song/3fb54616-8c2f-4b6b-b43e-7020c958b449",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:47:20.552Z",
+          "uiDuration": "2:42",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:42心語04｜把喜歡說得清楚V6Original Taiwanese Mandarin vocal song, 100 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Bright piano soul pop, Rhodes accents, warm bass, clean rhythmic guitar and gentle snare; confident but intimate melodic chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "793f8a43-4aa3-4066-8c72-8f3ea696ce83",
+          "url": "https://suno.com/song/793f8a43-4aa3-4066-8c72-8f3ea696ce83",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:47:20.552Z",
+          "uiDuration": "2:48",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:48心語04｜把喜歡說得清楚V6Original Taiwanese Mandarin vocal song, 100 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Bright piano soul pop, Rhodes accents, warm bass, clean rhythmic guitar and gentle snare; confident but intimate melodic chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "3fb54616-8c2f-4b6b-b43e-7020c958b449",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "3fb54616-8c2f-4b6b-b43e-7020c958b449",
+          "path": "downloads/04/04-A-3fb54616-8c2f-4b6b-b43e-7020c958b449.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語04｜把喜歡說得清楚.mp3",
+          "bytes": 3850927,
+          "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111",
+          "duration": 162.384,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:48:20.017Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 162.36,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:47:12.380Z"
+    },
+    {
+      "id": "05",
+      "title": "你的習慣，我的例外",
+      "bpm": 96,
+      "style": "Original Taiwanese Mandarin vocal song, 96 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Easy acoustic soul, muted electric guitar, Rhodes, soft drums and rounded bass; warm rhythmic phrasing with small melodic surprises. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你不喜歡杯子放在桌邊\n我總把書翻開就忘了收\n我們交換彼此生活的規矩\n也試著替對方留一點自由\n\n[Chorus]\n你的習慣 我的例外\n慢慢放進同一種日常\n不必把稜角全磨光\n也能並肩坐在這張沙發\n你的習慣 我的例外\n是我願意多想你一下\n\n[Verse 2]\n你說早起的人先去買早餐\n我說晚睡的人記得關走廊\n沒有人突然變成另一個人\n只是多了一份願意商量\n\n[Chorus]\n你的習慣 我的例外\n慢慢放進同一種日常\n不必把稜角全磨光\n也能並肩坐在這張沙發\n你的習慣 我的例外\n是我願意多想你一下\n\n[Bridge]\n有時還是會為小事不愉快\n有時也想一個人待著啊\n但你替我留下那盞床頭燈\n我就懂得我們還在練習相愛\n\n[Final Chorus]\n你的習慣 我的例外\n慢慢放進同一種日常\n不必把稜角全磨光\n也能並肩坐在這張沙發\n你的習慣 我的例外\n是我願意多想你一下\n\n[Outro]\n杯子往裡移一點\n我也往你身邊坐一點",
+      "quote": "你的習慣 我的例外",
+      "story": "你不喜歡杯子放在桌邊\n我總把書翻開就忘了收\n我們交換彼此生活的規矩\n也試著替對方留一點自由\n有時還是會為小事不愉快\n有時也想一個人待著啊\n但你替我留下那盞床頭燈\n我就懂得我們還在練習相愛",
+      "concept": "把喜歡說明白",
+      "submissionTitle": "心語05｜你的習慣，我的例外",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "968c0f1f-1310-4f81-bc94-1bf2509be161",
+          "url": "https://suno.com/song/968c0f1f-1310-4f81-bc94-1bf2509be161",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:48:19.914Z",
+          "uiDuration": "2:52",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:52心語05｜你的習慣，我的例外V6Original Taiwanese Mandarin vocal song, 96 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Easy acoustic soul, muted electric guitar, Rhodes, soft drums and rounded bass; warm rhythmic phrasing with small melodic surprises, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "0a268ab6-fe80-43d8-b6ee-d7163e258415",
+          "url": "https://suno.com/song/0a268ab6-fe80-43d8-b6ee-d7163e258415",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:48:19.914Z",
+          "uiDuration": "2:58",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:58心語05｜你的習慣，我的例外V6Original Taiwanese Mandarin vocal song, 96 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Easy acoustic soul, muted electric guitar, Rhodes, soft drums and rounded bass; warm rhythmic phrasing with small melodic surprises, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "968c0f1f-1310-4f81-bc94-1bf2509be161",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "968c0f1f-1310-4f81-bc94-1bf2509be161",
+          "path": "downloads/05/05-A-968c0f1f-1310-4f81-bc94-1bf2509be161.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語05｜你的習慣，我的例外.mp3",
+          "bytes": 4117392,
+          "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8",
+          "duration": 172.392,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:49:02.545Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 172.36,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:48:12.532Z"
+    },
+    {
+      "id": "06",
+      "title": "兩個人的時差",
+      "bpm": 84,
+      "style": "Original Taiwanese Mandarin vocal song, 84 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Nocturnal R&B ballad, soft Rhodes, sparse syncopated drums, warm bass, understated guitar; close clear vocal with a restrained chorus. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你準備睡時我才結束忙碌\n你說早安我還沒拉開窗簾\n隔著幾個城市沒有多遙遠\n難的是總差一點的時間\n\n[Chorus]\n兩個人的時差\n不是少愛了一下\n讓一句我想你慢慢抵達\n不必每次都有即時回答\n兩個人的時差\n還是能約好同一個未來啊\n\n[Verse 2]\n我把想說的話存成一段錄音\n你在午休戴起一邊耳機\n晚一點收到也不是被忘記\n我們都在替相見挪出空隙\n\n[Chorus]\n兩個人的時差\n不是少愛了一下\n讓一句我想你慢慢抵達\n不必每次都有即時回答\n兩個人的時差\n還是能約好同一個未來啊\n\n[Bridge]\n別把每次沒接電話\n都翻成不在乎的證明\n我會說清楚我在哪裡\n也把你的辛苦放在心裡\n\n[Final Chorus]\n兩個人的時差\n不是少愛了一下\n讓一句我想你慢慢抵達\n不必每次都有即時回答\n兩個人的時差\n還是能約好同一個未來啊\n\n[Outro]\n行事曆圈著下個週末\n這次我們一起吃晚餐",
+      "quote": "兩個人的時差",
+      "story": "你準備睡時我才結束忙碌\n你說早安我還沒拉開窗簾\n隔著幾個城市沒有多遙遠\n難的是總差一點的時間\n別把每次沒接電話\n都翻成不在乎的證明\n我會說清楚我在哪裡\n也把你的辛苦放在心裡",
+      "concept": "學著好好相處",
+      "submissionTitle": "心語06｜兩個人的時差",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+          "url": "https://suno.com/song/1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:49:02.449Z",
+          "uiDuration": "2:42",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:42心語06｜兩個人的時差V6Original Taiwanese Mandarin vocal song, 84 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Nocturnal R&B ballad, soft Rhodes, sparse syncopated drums, warm bass, understated guitar; close clear vocal with a restrained chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "8ca478a6-7188-457b-b319-3a4ad8838a26",
+          "url": "https://suno.com/song/8ca478a6-7188-457b-b319-3a4ad8838a26",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:49:02.449Z",
+          "uiDuration": "2:52",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:52心語06｜兩個人的時差V6Original Taiwanese Mandarin vocal song, 84 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Nocturnal R&B ballad, soft Rhodes, sparse syncopated drums, warm bass, understated guitar; close clear vocal with a restrained chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+          "path": "downloads/06/06-A-1638dc59-0df2-43d2-9cb2-9ef1aeb62826.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語06｜兩個人的時差.mp3",
+          "bytes": 3965592,
+          "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756",
+          "duration": 162.12,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:56:40.414Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 162.08,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:48:57.980Z"
+    },
+    {
+      "id": "07",
+      "title": "我們不是不相愛",
+      "bpm": 76,
+      "style": "Original Taiwanese Mandarin vocal song, 76 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Mature piano pop ballad, felt piano, cello, warm bass and restrained brushed drums; vulnerable verses and broad but controlled chorus. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你說我最近總是心不在焉\n我說你也沒有問我累不累\n兩句本來可以靠近的話\n卻被我們說成各站一邊\n\n[Chorus]\n我們不是不相愛\n只是太久沒有好好說明白\n把需要說成責怪\n把害怕藏進一句隨便\n我們不是不相愛\n可也需要重新學著相待\n\n[Verse 2]\n水槽裡的碗放到第二天\n誰都等著另一個人先改變\n我在門邊聽見你一聲嘆息\n才發現爭執不是誰比較委屈\n\n[Chorus]\n我們不是不相愛\n只是太久沒有好好說明白\n把需要說成責怪\n把害怕藏進一句隨便\n我們不是不相愛\n可也需要重新學著相待\n\n[Bridge]\n光說愛不能替我洗好碗\n也不能替你把疲倦分擔\n今晚從一件小事開始改\n讓道理慢慢長成陪伴\n\n[Final Chorus]\n我們不是不相愛\n只是太久沒有好好說明白\n把需要說成責怪\n把害怕藏進一句隨便\n我們不是不相愛\n可也需要重新學著相待\n\n[Outro]\n我把袖子捲起來\n你遞過乾淨的碗",
+      "quote": "我們不是不相愛",
+      "story": "你說我最近總是心不在焉\n我說你也沒有問我累不累\n兩句本來可以靠近的話\n卻被我們說成各站一邊\n光說愛不能替我洗好碗\n也不能替你把疲倦分擔\n今晚從一件小事開始改\n讓道理慢慢長成陪伴",
+      "concept": "學著好好相處",
+      "submissionTitle": "心語07｜我們不是不相愛",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "16bd1bca-600e-4e7d-b716-bef2d8272829",
+          "url": "https://suno.com/song/16bd1bca-600e-4e7d-b716-bef2d8272829",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:49:54.808Z",
+          "uiDuration": "3:06",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:06心語07｜我們不是不相愛V6Original Taiwanese Mandarin vocal song, 76 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Mature piano pop ballad, felt piano, cello, warm bass and restrained brushed drums; vulnerable verses and broad but controlled chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "76579424-061a-4b12-8225-8a86e0aaf60a",
+          "url": "https://suno.com/song/76579424-061a-4b12-8225-8a86e0aaf60a",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:49:54.808Z",
+          "uiDuration": "3:18",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:18心語07｜我們不是不相愛V6Original Taiwanese Mandarin vocal song, 76 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Mature piano pop ballad, felt piano, cello, warm bass and restrained brushed drums; vulnerable verses and broad but controlled chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "16bd1bca-600e-4e7d-b716-bef2d8272829",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "16bd1bca-600e-4e7d-b716-bef2d8272829",
+          "path": "downloads/07/07-A-16bd1bca-600e-4e7d-b716-bef2d8272829.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語07｜我們不是不相愛.mp3",
+          "bytes": 4324055,
+          "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1",
+          "duration": 186,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:57:47.936Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 185.96,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:49:39.748Z"
+    },
+    {
+      "id": "08",
+      "title": "那句話說重了",
+      "bpm": 72,
+      "style": "Original Taiwanese Mandarin vocal song, 72 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Sparse piano soul ballad, low warm cello, soft bass and feathered drums; regret without crying or belting. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n門關上後我還站在原地\n剛才的話一字一句太清晰\n我拿最熟悉你的那個地方\n當成贏過爭執的武器\n\n[Chorus]\n那句話說重了\n傷到你不是我的資格\n就算心裡有多難過\n也不能讓你替我承受\n那句話說重了\n我願意面對 不催你原諒我\n\n[Verse 2]\n手機螢幕亮了又被我按熄\n寫了半天沒有一句像歉意\n總想加上可是你也怎樣\n卻把那個可是慢慢刪去\n\n[Chorus]\n那句話說重了\n傷到你不是我的資格\n就算心裡有多難過\n也不能讓你替我承受\n那句話說重了\n我願意面對 不催你原諒我\n\n[Bridge]\n你暫時不想見也沒有關係\n我先把自己的問題整理\n不把眼淚當作撤回的理由\n讓往後證明我真的有聽進去\n\n[Final Chorus]\n那句話說重了\n傷到你不是我的資格\n就算心裡有多難過\n也不能讓你替我承受\n那句話說重了\n我願意面對 不催你原諒我\n\n[Outro]\n對不起 我先說到這裡\n等你願意再聽",
+      "quote": "那句話說重了",
+      "story": "門關上後我還站在原地\n剛才的話一字一句太清晰\n我拿最熟悉你的那個地方\n當成贏過爭執的武器\n你暫時不想見也沒有關係\n我先把自己的問題整理\n不把眼淚當作撤回的理由\n讓往後證明我真的有聽進去",
+      "concept": "學著好好相處",
+      "submissionTitle": "心語08｜那句話說重了",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+          "url": "https://suno.com/song/9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:56:40.311Z",
+          "uiDuration": "3:17",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:17心語08｜那句話說重了V6Original Taiwanese Mandarin vocal song, 72 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Sparse piano soul ballad, low warm cello, soft bass and feathered drums; regret without crying or belting, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "96426143-b1c7-4bd5-bb14-7da02841ef36",
+          "url": "https://suno.com/song/96426143-b1c7-4bd5-bb14-7da02841ef36",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:56:40.311Z",
+          "uiDuration": "2:58",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:58心語08｜那句話說重了V6Original Taiwanese Mandarin vocal song, 72 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Sparse piano soul ballad, low warm cello, soft bass and feathered drums; regret without crying or belting, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+          "path": "downloads/08/08-A-9b62a8f6-f881-4b13-8a15-bea4dc7aea5e.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語08｜那句話說重了.mp3",
+          "bytes": 4527033,
+          "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e",
+          "duration": 197.064,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:59:04.031Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 197.04,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:56:29.416Z"
+    },
+    {
+      "id": "09",
+      "title": "先聽你說完",
+      "bpm": 88,
+      "style": "Original Taiwanese Mandarin vocal song, 88 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Warm conversational soul pop, Rhodes, nylon guitar, round bass and light rim-click groove; patient spacious melodic phrases. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你才說今天發生了一件事\n我就急著教你下一步怎麼辦\n你把話停在一半看著我\n說其實我只是想有人聽啊\n\n[Chorus]\n先聽你說完\n不急著把難題都解散\n你不是來找一個裁判\n也不需要立刻變勇敢\n先聽你說完\n我在這裡 不趕下一站\n\n[Verse 2]\n我把手機翻面放到桌旁\n這次沒有搶著替你作打算\n你說到難過時我沒有插話\n原來安靜也能把人接得很穩\n\n[Chorus]\n先聽你說完\n不急著把難題都解散\n你不是來找一個裁判\n也不需要立刻變勇敢\n先聽你說完\n我在這裡 不趕下一站\n\n[Bridge]\n等你問我可不可以抱一下\n我才懂陪伴也有它的方法\n不是每次都把答案拿出來\n是讓你說話時不用先防備\n\n[Final Chorus]\n先聽你說完\n不急著把難題都解散\n你不是來找一個裁判\n也不需要立刻變勇敢\n先聽你說完\n我在這裡 不趕下一站\n\n[Outro]\n你慢慢說\n我把時間留下來",
+      "quote": "先聽你說完",
+      "story": "你才說今天發生了一件事\n我就急著教你下一步怎麼辦\n你把話停在一半看著我\n說其實我只是想有人聽啊\n等你問我可不可以抱一下\n我才懂陪伴也有它的方法\n不是每次都把答案拿出來\n是讓你說話時不用先防備",
+      "concept": "學著好好相處",
+      "submissionTitle": "心語09｜先聽你說完",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "85563c8a-6d79-4d4f-8290-a00c2e03d564",
+          "url": "https://suno.com/song/85563c8a-6d79-4d4f-8290-a00c2e03d564",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:58:14.344Z",
+          "uiDuration": "2:47",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:47心語09｜先聽你說完V6Original Taiwanese Mandarin vocal song, 88 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Warm conversational soul pop, Rhodes, nylon guitar, round bass and light rim-click groove; patient spacious melodic phrases, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "e0a64dd4-4ada-4a63-854a-45bb7d3b0995",
+          "url": "https://suno.com/song/e0a64dd4-4ada-4a63-854a-45bb7d3b0995",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:58:14.344Z",
+          "uiDuration": "2:44",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:44心語09｜先聽你說完V6Original Taiwanese Mandarin vocal song, 88 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Warm conversational soul pop, Rhodes, nylon guitar, round bass and light rim-click groove; patient spacious melodic phrases, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "85563c8a-6d79-4d4f-8290-a00c2e03d564",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "85563c8a-6d79-4d4f-8290-a00c2e03d564",
+          "path": "downloads/09/09-A-85563c8a-6d79-4d4f-8290-a00c2e03d564.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語09｜先聽你說完.mp3",
+          "bytes": 4017861,
+          "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d",
+          "duration": 166.8,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T09:59:04.296Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 166.76,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:58:08.095Z"
+    },
+    {
+      "id": "10",
+      "title": "對不起，不加但是",
+      "bpm": 80,
+      "style": "Original Taiwanese Mandarin vocal song, 80 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Piano-led soul ballad, restrained gospel-colored chords, warm bass, soft snare and subtle organ; direct sincere chorus, no choir or theatrical climax. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n我練過好多漂亮的解釋\n每一句都想證明情有可原\n直到你問所以我的難過呢\n我才看見自己站得多遠\n\n[Chorus]\n對不起 不加但是\n不把你的傷再說成小事\n我做錯的地方寫得清楚\n不讓藉口擋在我們中間\n對不起 不加但是\n改變從下一件答應的事開始\n\n[Verse 2]\n那天答應你的事沒有做到\n你等到餐廳關門才回家\n我不該拿一整天的忙亂\n抵掉你一整晚的失望\n\n[Chorus]\n對不起 不加但是\n不把你的傷再說成小事\n我做錯的地方寫得清楚\n不讓藉口擋在我們中間\n對不起 不加但是\n改變從下一件答應的事開始\n\n[Bridge]\n你不需要立刻點頭接受\n我也不能只憑一句就過關\n我會把時間空出來做到\n讓你慢慢決定還願不願意相信\n\n[Final Chorus]\n對不起 不加但是\n不把你的傷再說成小事\n我做錯的地方寫得清楚\n不讓藉口擋在我們中間\n對不起 不加但是\n改變從下一件答應的事開始\n\n[Outro]\n這一次不補下一句\n我先好好聽你",
+      "quote": "對不起 不加但是",
+      "story": "我練過好多漂亮的解釋\n每一句都想證明情有可原\n直到你問所以我的難過呢\n我才看見自己站得多遠\n你不需要立刻點頭接受\n我也不能只憑一句就過關\n我會把時間空出來做到\n讓你慢慢決定還願不願意相信",
+      "concept": "學著好好相處",
+      "submissionTitle": "心語10｜對不起，不加但是",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "8fa40bef-8db5-4281-a3d8-301db7e39659",
+          "url": "https://suno.com/song/8fa40bef-8db5-4281-a3d8-301db7e39659",
+          "variant": "A",
+          "observedAt": "2026-10-16T09:59:03.932Z",
+          "uiDuration": "3:22",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:22心語10｜對不起，不加但是V6Original Taiwanese Mandarin vocal song, 80 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Piano-led soul ballad, restrained gospel-colored chords, warm bass, soft snare and subtle organ; direct sincere chorus, no choir or theatrical climax, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "6cbd68ee-4574-4bf7-a62f-6217fdb6cefd",
+          "url": "https://suno.com/song/6cbd68ee-4574-4bf7-a62f-6217fdb6cefd",
+          "variant": "B",
+          "observedAt": "2026-10-16T09:59:03.932Z",
+          "uiDuration": "3:08",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:08心語10｜對不起，不加但是V6Original Taiwanese Mandarin vocal song, 80 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Piano-led soul ballad, restrained gospel-colored chords, warm bass, soft snare and subtle organ; direct sincere chorus, no choir or theatrical climax, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "8fa40bef-8db5-4281-a3d8-301db7e39659",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "8fa40bef-8db5-4281-a3d8-301db7e39659",
+          "path": "downloads/10/10-A-8fa40bef-8db5-4281-a3d8-301db7e39659.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語10｜對不起，不加但是.mp3",
+          "bytes": 4811749,
+          "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302",
+          "duration": 202.392,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:00:02.356Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 202.36,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:59:00.294Z"
+    },
+    {
+      "id": "11",
+      "title": "如果當時抱住你",
+      "bpm": 70,
+      "style": "Original Taiwanese Mandarin vocal song, 70 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Reflective piano and cello ballad, acoustic guitar harmonics, sparse warm bass, almost no percussion until final chorus; gentle regret. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n那時你站在門邊沒有哭\n只是問我能不能晚一點再走\n我卻急著把道理說清楚\n以為沉默就是你已經接受\n\n[Chorus]\n如果當時抱住你\n會不會少一點孤單的記憶\n不是把後來都改寫成美麗\n只是讓那一刻有個人靠近\n如果當時抱住你\n至少沒有把在乎說得那麼冷靜\n\n[Verse 2]\n多年以後想起那個下午\n最清楚的不是最後誰讓步\n而是你把手抬起又放下\n我卻沒有看懂那個動作\n\n[Chorus]\n如果當時抱住你\n會不會少一點孤單的記憶\n不是把後來都改寫成美麗\n只是讓那一刻有個人靠近\n如果當時抱住你\n至少沒有把在乎說得那麼冷靜\n\n[Bridge]\n我知道沒有回去的樓梯\n也不向現在的你討一個結局\n把這份懂得留給往後\n有人需要時別再急著轉身\n\n[Final Chorus]\n如果當時抱住你\n會不會少一點孤單的記憶\n不是把後來都改寫成美麗\n只是讓那一刻有個人靠近\n如果當時抱住你\n至少沒有把在乎說得那麼冷靜\n\n[Outro]\n那個沒伸出的手\n提醒我好好珍惜以後",
+      "quote": "如果當時抱住你",
+      "story": "那時你站在門邊沒有哭\n只是問我能不能晚一點再走\n我卻急著把道理說清楚\n以為沉默就是你已經接受\n我知道沒有回去的樓梯\n也不向現在的你討一個結局\n把這份懂得留給往後\n有人需要時別再急著轉身",
+      "concept": "分開後重新站穩",
+      "submissionTitle": "心語11｜如果當時抱住你",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "44698155-4756-469b-ae0f-336f19422780",
+          "url": "https://suno.com/song/44698155-4756-469b-ae0f-336f19422780",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:00:02.256Z",
+          "uiDuration": "3:35",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:35心語11｜如果當時抱住你V6Original Taiwanese Mandarin vocal song, 70 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Reflective piano and cello ballad, acoustic guitar harmonics, sparse warm bass, almost no percussion until final chorus; gentle regret, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "98044a1d-0cea-4fa6-810d-3aa44e7314d9",
+          "url": "https://suno.com/song/98044a1d-0cea-4fa6-810d-3aa44e7314d9",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:00:02.256Z",
+          "uiDuration": "3:20",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:20心語11｜如果當時抱住你V6Original Taiwanese Mandarin vocal song, 70 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Reflective piano and cello ballad, acoustic guitar harmonics, sparse warm bass, almost no percussion until final chorus; gentle regret, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "44698155-4756-469b-ae0f-336f19422780",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "44698155-4756-469b-ae0f-336f19422780",
+          "path": "downloads/11/11-A-44698155-4756-469b-ae0f-336f19422780.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語11｜如果當時抱住你.mp3",
+          "bytes": 4875146,
+          "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd",
+          "duration": 214.68,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:01:00.512Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 214.64,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T09:59:54.529Z"
+    },
+    {
+      "id": "12",
+      "title": "分開以後的星期五",
+      "bpm": 90,
+      "style": "Original Taiwanese Mandarin vocal song, 90 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Bittersweet soft soul pop, Rhodes, clean guitar, warm bass and understated laid-back drums; steady melody, sadness without tragedy. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n餐廳還留著雙人的折價券\n我在門口想了想沒有進去\n買了一份平常不會點的麵\n才知道自己也能換個口味\n\n[Chorus]\n分開以後的星期五\n沒有人等也能把飯吃足\n有一點自由 一點不習慣\n不用急著說哪一個比較多\n分開以後的星期五\n我在學著跟自己好好相處\n\n[Verse 2]\n同事問要不要一起去唱歌\n我說今天想早一點回去\n洗完床單把房間重新整理\n空出的一半慢慢有了呼吸\n\n[Chorus]\n分開以後的星期五\n沒有人等也能把飯吃足\n有一點自由 一點不習慣\n不用急著說哪一個比較多\n分開以後的星期五\n我在學著跟自己好好相處\n\n[Bridge]\n不是一晚就能恢復如初\n也不是笑了就算忘了痛\n想念來的時候讓它坐一會兒\n明天還有自己的事情要做\n\n[Final Chorus]\n分開以後的星期五\n沒有人等也能把飯吃足\n有一點自由 一點不習慣\n不用急著說哪一個比較多\n分開以後的星期五\n我在學著跟自己好好相處\n\n[Outro]\n把窗簾拉開一點\n今晚睡在自己這一邊",
+      "quote": "分開以後的星期五",
+      "story": "餐廳還留著雙人的折價券\n我在門口想了想沒有進去\n買了一份平常不會點的麵\n才知道自己也能換個口味\n不是一晚就能恢復如初\n也不是笑了就算忘了痛\n想念來的時候讓它坐一會兒\n明天還有自己的事情要做",
+      "concept": "分開後重新站穩",
+      "submissionTitle": "心語12｜分開以後的星期五",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+          "url": "https://suno.com/song/9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:01:00.411Z",
+          "uiDuration": "3:13",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:13心語12｜分開以後的星期五V6Original Taiwanese Mandarin vocal song, 90 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Bittersweet soft soul pop, Rhodes, clean guitar, warm bass and understated laid-back drums; steady melody, sadness without tragedy, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "05dc24b3-056e-4ce8-9ab5-e5b67352b057",
+          "url": "https://suno.com/song/05dc24b3-056e-4ce8-9ab5-e5b67352b057",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:01:00.411Z",
+          "uiDuration": "3:14",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:14心語12｜分開以後的星期五V6Original Taiwanese Mandarin vocal song, 90 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Bittersweet soft soul pop, Rhodes, clean guitar, warm bass and understated laid-back drums; steady melody, sadness without tragedy, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+          "path": "downloads/12/12-A-9c4c0604-7411-4c82-9cb1-c49d4934d5f3.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語12｜分開以後的星期五.mp3",
+          "bytes": 4557603,
+          "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7",
+          "duration": 193.224,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:01:45.468Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 193.2,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:00:49.805Z"
+    },
+    {
+      "id": "13",
+      "title": "不再借朋友問你",
+      "bpm": 82,
+      "style": "Original Taiwanese Mandarin vocal song, 82 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Restrained acoustic R&B, fingerpicked guitar, warm Rhodes, low bass and minimal rim clicks; inward mature delivery. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n聚會有人提起你的名字\n我差一點就順口問下去\n後來把杯子放回桌面\n讓話題自然走到別的事情\n\n[Chorus]\n不再借朋友問你\n不讓別人替我傳遞想念\n你的生活有新的邊界\n我的心也需要自己的空間\n不再借朋友問你\n是我練習把道別說完全\n\n[Verse 2]\n我曾把關心繞了好幾個人\n才假裝不是自己想知道近況\n消息真的傳到耳邊以後\n卻沒有比較安心的地方\n\n[Chorus]\n不再借朋友問你\n不讓別人替我傳遞想念\n你的生活有新的邊界\n我的心也需要自己的空間\n不再借朋友問你\n是我練習把道別說完全\n\n[Bridge]\n不代表我們從來沒重要過\n也不必假裝聽見都無所謂\n只是那些還沒收好的在意\n應該由我自己慢慢面對\n\n[Final Chorus]\n不再借朋友問你\n不讓別人替我傳遞想念\n你的生活有新的邊界\n我的心也需要自己的空間\n不再借朋友問你\n是我練習把道別說完全\n\n[Outro]\n朋友說完我點點頭\n把今天的故事接著說",
+      "quote": "不再借朋友問你",
+      "story": "聚會有人提起你的名字\n我差一點就順口問下去\n後來把杯子放回桌面\n讓話題自然走到別的事情\n不代表我們從來沒重要過\n也不必假裝聽見都無所謂\n只是那些還沒收好的在意\n應該由我自己慢慢面對",
+      "concept": "分開後重新站穩",
+      "submissionTitle": "心語13｜不再借朋友問你",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+          "url": "https://suno.com/song/c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:01:45.376Z",
+          "uiDuration": "2:33",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:33心語13｜不再借朋友問你V6Original Taiwanese Mandarin vocal song, 82 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Restrained acoustic R&B, fingerpicked guitar, warm Rhodes, low bass and minimal rim clicks; inward mature delivery, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "81b0d9df-ab3d-453a-bead-6258c11e43c2",
+          "url": "https://suno.com/song/81b0d9df-ab3d-453a-bead-6258c11e43c2",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:01:45.376Z",
+          "uiDuration": "2:57",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:57心語13｜不再借朋友問你V6Original Taiwanese Mandarin vocal song, 82 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Restrained acoustic R&B, fingerpicked guitar, warm Rhodes, low bass and minimal rim clicks; inward mature delivery, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+          "path": "downloads/13/13-A-c685c4aa-50bf-4524-8417-9db09fc5f5f1.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語13｜不再借朋友問你.mp3",
+          "bytes": 3813862,
+          "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98",
+          "duration": 153.192,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:02:21.532Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 153.16,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:01:40.029Z"
+    },
+    {
+      "id": "14",
+      "title": "祝福還需要練習",
+      "bpm": 74,
+      "style": "Original Taiwanese Mandarin vocal song, 74 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Gentle piano jazz ballad, upright bass, feathered brushes and delicate acoustic guitar; bittersweet acceptance with no dramatic climax. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n看見你照片裡多了一個人\n我把手機放下走到廚房\n水煮開了才想起沒有放茶\n原來心裡還是會亂一下\n\n[Chorus]\n祝福還需要練習\n想念也不用急著判刑\n我願意你有好好的日子\n也允許自己還有一點不平靜\n祝福還需要練習\n等能真心說時再輕輕告訴你\n\n[Verse 2]\n我寫下恭喜又慢慢刪去\n今天還說不好就先不勉強\n不必用一句好聽的祝福\n證明自己已經多麼大方\n\n[Chorus]\n祝福還需要練習\n想念也不用急著判刑\n我願意你有好好的日子\n也允許自己還有一點不平靜\n祝福還需要練習\n等能真心說時再輕輕告訴你\n\n[Bridge]\n沒有誰得為分開一直欠著\n幸福也不是比較誰先得到\n我會把今天的飯好好吃完\n先照顧仍在學習的心跳\n\n[Final Chorus]\n祝福還需要練習\n想念也不用急著判刑\n我願意你有好好的日子\n也允許自己還有一點不平靜\n祝福還需要練習\n等能真心說時再輕輕告訴你\n\n[Outro]\n茶終於泡好了\n苦味過後也會回甘",
+      "quote": "祝福還需要練習",
+      "story": "看見你照片裡多了一個人\n我把手機放下走到廚房\n水煮開了才想起沒有放茶\n原來心裡還是會亂一下\n沒有誰得為分開一直欠著\n幸福也不是比較誰先得到\n我會把今天的飯好好吃完\n先照顧仍在學習的心跳",
+      "concept": "分開後重新站穩",
+      "submissionTitle": "心語14｜祝福還需要練習",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "ee1abf39-b13a-44f5-b48d-606aadea18df",
+          "url": "https://suno.com/song/ee1abf39-b13a-44f5-b48d-606aadea18df",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:02:21.434Z",
+          "uiDuration": "3:15",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:15心語14｜祝福還需要練習V6Original Taiwanese Mandarin vocal song, 74 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Gentle piano jazz ballad, upright bass, feathered brushes and delicate acoustic guitar; bittersweet acceptance with no dramatic climax, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "8b2e8849-2c6f-49a7-a926-9e6deca8e49a",
+          "url": "https://suno.com/song/8b2e8849-2c6f-49a7-a926-9e6deca8e49a",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:02:21.434Z",
+          "uiDuration": "3:27",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:27心語14｜祝福還需要練習V6Original Taiwanese Mandarin vocal song, 74 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Gentle piano jazz ballad, upright bass, feathered brushes and delicate acoustic guitar; bittersweet acceptance with no dramatic climax, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "ee1abf39-b13a-44f5-b48d-606aadea18df",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "ee1abf39-b13a-44f5-b48d-606aadea18df",
+          "path": "downloads/14/14-A-ee1abf39-b13a-44f5-b48d-606aadea18df.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語14｜祝福還需要練習.mp3",
+          "bytes": 4414964,
+          "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92",
+          "duration": 195.24,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:03:24.264Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 195.2,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:02:14.396Z"
+    },
+    {
+      "id": "15",
+      "title": "我也值得被喜歡",
+      "bpm": 98,
+      "style": "Original Taiwanese Mandarin vocal song, 98 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Warm uplifting soul pop, acoustic guitar, Rhodes, melodic bass and soft live drums; grounded self-respect, not an arena anthem. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n我曾把你的沉默都怪給自己\n把不合適翻成不夠好的證據\n朋友叫我別總替別人找理由\n我卻連接受稱讚都會客氣\n\n[Chorus]\n我也值得被喜歡\n不必先把自己改得面目全非\n有人離開不是我的判決\n有人留下也不必靠討好兌換\n我也值得被喜歡\n從好好對待自己開始相信\n\n[Verse 2]\n今天剪了適合自己的頭髮\n買下試了兩次的那件襯衫\n鏡子裡沒有突然換一個人\n只是我開始願意站在自己這邊\n\n[Chorus]\n我也值得被喜歡\n不必先把自己改得面目全非\n有人離開不是我的判決\n有人留下也不必靠討好兌換\n我也值得被喜歡\n從好好對待自己開始相信\n\n[Bridge]\n我仍然有需要改的地方\n也有不想被隨便對待的底線\n學著說不 學著接受幫忙\n把自己的名字好好放在心上\n\n[Final Chorus]\n我也值得被喜歡\n不必先把自己改得面目全非\n有人離開不是我的判決\n有人留下也不必靠討好兌換\n我也值得被喜歡\n從好好對待自己開始相信\n\n[Outro]\n這件衣服剛剛好\n我想穿著走一走",
+      "quote": "我也值得被喜歡",
+      "story": "我曾把你的沉默都怪給自己\n把不合適翻成不夠好的證據\n朋友叫我別總替別人找理由\n我卻連接受稱讚都會客氣\n我仍然有需要改的地方\n也有不想被隨便對待的底線\n學著說不 學著接受幫忙\n把自己的名字好好放在心上",
+      "concept": "分開後重新站穩",
+      "submissionTitle": "心語15｜我也值得被喜歡",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+          "url": "https://suno.com/song/cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:03:24.172Z",
+          "uiDuration": "3:05",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:05心語15｜我也值得被喜歡V6Original Taiwanese Mandarin vocal song, 98 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Warm uplifting soul pop, acoustic guitar, Rhodes, melodic bass and soft live drums; grounded self-respect, not an arena anthem, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "fc9c6e9b-97c9-40fa-bef6-7673f44302cd",
+          "url": "https://suno.com/song/fc9c6e9b-97c9-40fa-bef6-7673f44302cd",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:03:24.172Z",
+          "uiDuration": "3:00",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:00心語15｜我也值得被喜歡V6Original Taiwanese Mandarin vocal song, 98 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Warm uplifting soul pop, acoustic guitar, Rhodes, melodic bass and soft live drums; grounded self-respect, not an arena anthem, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+          "path": "downloads/15/15-A-cc0631a9-f18a-4fe9-aebc-c403969da1d8.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語15｜我也值得被喜歡.mp3",
+          "bytes": 4379990,
+          "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391",
+          "duration": 184.824,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:04:18.582Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 184.8,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:03:17.204Z"
+    },
+    {
+      "id": "16",
+      "title": "再靠近一點點",
+      "bpm": 86,
+      "style": "Original Taiwanese Mandarin vocal song, 86 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Soft intimate R&B pop, Rhodes, nylon guitar, warm low bass and gentle syncopated drums; tentative verse, inviting melodic chorus. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你問週末能不能一起走走\n我說可以卻又想了很久\n不是不喜歡你認真的眼睛\n是心裡還有沒拆完的舊傷口\n\n[Chorus]\n再靠近一點點\n讓我用自己的速度向前\n今天能說的先說一點\n明天還想見就再約一遍\n再靠近一點點\n信任也有慢慢長大的時間\n\n[Verse 2]\n你沒有問我到底還要多久\n只說走累了前面有地方坐\n原來靠近也可以沒有催促\n不必一下就把所有事情交付\n\n[Chorus]\n再靠近一點點\n讓我用自己的速度向前\n今天能說的先說一點\n明天還想見就再約一遍\n再靠近一點點\n信任也有慢慢長大的時間\n\n[Bridge]\n我會告訴你什麼讓我害怕\n不讓你一直猜我為何停下\n你也可以說出你的想法\n兩個人都不用委屈才叫體諒\n\n[Final Chorus]\n再靠近一點點\n讓我用自己的速度向前\n今天能說的先說一點\n明天還想見就再約一遍\n再靠近一點點\n信任也有慢慢長大的時間\n\n[Outro]\n你伸出手來\n這次我沒有躲開",
+      "quote": "再靠近一點點",
+      "story": "你問週末能不能一起走走\n我說可以卻又想了很久\n不是不喜歡你認真的眼睛\n是心裡還有沒拆完的舊傷口\n我會告訴你什麼讓我害怕\n不讓你一直猜我為何停下\n你也可以說出你的想法\n兩個人都不用委屈才叫體諒",
+      "concept": "再次選擇相愛",
+      "submissionTitle": "心語16｜再靠近一點點",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+          "url": "https://suno.com/song/cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:04:18.492Z",
+          "uiDuration": "2:47",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:47心語16｜再靠近一點點V6Original Taiwanese Mandarin vocal song, 86 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Soft intimate R&B pop, Rhodes, nylon guitar, warm low bass and gentle syncopated drums; tentative verse, inviting melodic chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "2967b4cc-7474-419b-b08e-da29bee48ed7",
+          "url": "https://suno.com/song/2967b4cc-7474-419b-b08e-da29bee48ed7",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:04:18.492Z",
+          "uiDuration": "2:42",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:42心語16｜再靠近一點點V6Original Taiwanese Mandarin vocal song, 86 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Soft intimate R&B pop, Rhodes, nylon guitar, warm low bass and gentle syncopated drums; tentative verse, inviting melodic chorus, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+          "path": "downloads/16/16-A-cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語16｜再靠近一點點.mp3",
+          "bytes": 4058253,
+          "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70",
+          "duration": 166.584,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:05:27.076Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 166.56,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:04:14.257Z"
+    },
+    {
+      "id": "17",
+      "title": "和你商量以後",
+      "bpm": 94,
+      "style": "Original Taiwanese Mandarin vocal song, 94 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Mature acoustic soul pop, piano, clean electric guitar, warm bass and relaxed snare; affectionate practical storytelling. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你想搬到離工作近的地方\n我捨不得樓下熟悉的攤\n我們把租金寫在紙的兩旁\n也寫上各自擔心的那一項\n\n[Chorus]\n我想和你商量以後\n不是替你決定要往哪裡走\n把我的期待 你的需要\n都放在同一張桌面上\n我想和你商量以後\n連不確定也能一起說出口\n\n[Verse 2]\n不是每個願望都剛好一樣\n也不是誰先退讓才算體諒\n我把想換工作的事情說出來\n你說那就一起重新算算看\n\n[Chorus]\n我想和你商量以後\n不是替你決定要往哪裡走\n把我的期待 你的需要\n都放在同一張桌面上\n我想和你商量以後\n連不確定也能一起說出口\n\n[Bridge]\n生活不會因相愛少了帳單\n夢想也不能只叫一個人承擔\n我們留一格給臨時的改變\n再留一格給還沒想好的明天\n\n[Final Chorus]\n我想和你商量以後\n不是替你決定要往哪裡走\n把我的期待 你的需要\n都放在同一張桌面上\n我想和你商量以後\n連不確定也能一起說出口\n\n[Outro]\n紙上塗改了好多遍\n卻比一開始更靠近一點",
+      "quote": "我想和你商量以後",
+      "story": "你想搬到離工作近的地方\n我捨不得樓下熟悉的攤\n我們把租金寫在紙的兩旁\n也寫上各自擔心的那一項\n生活不會因相愛少了帳單\n夢想也不能只叫一個人承擔\n我們留一格給臨時的改變\n再留一格給還沒想好的明天",
+      "concept": "再次選擇相愛",
+      "submissionTitle": "心語17｜和你商量以後",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+          "url": "https://suno.com/song/e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:05:38.465Z",
+          "uiDuration": "3:13",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:13心語17｜和你商量以後V6Original Taiwanese Mandarin vocal song, 94 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Mature acoustic soul pop, piano, clean electric guitar, warm bass and relaxed snare; affectionate practical storytelling, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "a1cedb7e-f48b-4051-ade1-bdd772e8b4fe",
+          "url": "https://suno.com/song/a1cedb7e-f48b-4051-ade1-bdd772e8b4fe",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:05:38.465Z",
+          "uiDuration": "3:21",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:21心語17｜和你商量以後V6Original Taiwanese Mandarin vocal song, 94 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Mature acoustic soul pop, piano, clean electric guitar, warm bass and relaxed snare; affectionate practical storytelling, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+          "path": "downloads/17/17-A-e0089ba8-9b60-4778-82fd-0a85f6a60c76.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語17｜和你商量以後.mp3",
+          "bytes": 4445436,
+          "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff",
+          "duration": 192.72,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:06:33.622Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 192.68,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:05:34.008Z"
+    },
+    {
+      "id": "18",
+      "title": "平常也說我愛你",
+      "bpm": 102,
+      "style": "Original Taiwanese Mandarin vocal song, 102 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Sunny piano soul, warm Rhodes fills, playful bass, acoustic guitar and light pocket drums; warm smiling hook, no oversized climax. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n你說今天又不是什麼紀念日\n我把削好的水果往你那邊移\n電視剛好播到不太好笑的片\n我們卻笑得把抱枕丟來丟去\n\n[Chorus]\n平常也說我愛你\n不等蛋糕點亮才提起\n不是每次都要有個原因\n你在身邊就值得我珍惜\n平常也說我愛你\n讓這句話住進每天的呼吸\n\n[Verse 2]\n以前總等生日寫一張卡片\n一年把好聽的話說得太節省\n現在你在門口換鞋的時候\n我也想認真說很高興你回來\n\n[Chorus]\n平常也說我愛你\n不等蛋糕點亮才提起\n不是每次都要有個原因\n你在身邊就值得我珍惜\n平常也說我愛你\n讓這句話住進每天的呼吸\n\n[Bridge]\n有時說得笨拙有時太突然\n你笑我怎麼忽然變得浪漫\n我說只是終於懂得不必等\n想對你好就從眼前這刻算\n\n[Final Chorus]\n平常也說我愛你\n不等蛋糕點亮才提起\n不是每次都要有個原因\n你在身邊就值得我珍惜\n平常也說我愛你\n讓這句話住進每天的呼吸\n\n[Outro]\n水果還剩最後一塊\n你夾起來放進我的碗",
+      "quote": "平常也說我愛你",
+      "story": "你說今天又不是什麼紀念日\n我把削好的水果往你那邊移\n電視剛好播到不太好笑的片\n我們卻笑得把抱枕丟來丟去\n有時說得笨拙有時太突然\n你笑我怎麼忽然變得浪漫\n我說只是終於懂得不必等\n想對你好就從眼前這刻算",
+      "concept": "再次選擇相愛",
+      "submissionTitle": "心語18｜平常也說我愛你",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "d2617a47-2166-46d5-a69c-254adb5469b5",
+          "url": "https://suno.com/song/d2617a47-2166-46d5-a69c-254adb5469b5",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:06:33.533Z",
+          "uiDuration": "2:52",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:52心語18｜平常也說我愛你V6Original Taiwanese Mandarin vocal song, 102 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Sunny piano soul, warm Rhodes fills, playful bass, acoustic guitar and light pocket drums; warm smiling hook, no oversized climax, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "54e0a857-f9fa-46ad-8259-65d2172ad561",
+          "url": "https://suno.com/song/54e0a857-f9fa-46ad-8259-65d2172ad561",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:06:33.533Z",
+          "uiDuration": "2:51",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:51心語18｜平常也說我愛你V6Original Taiwanese Mandarin vocal song, 102 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Sunny piano soul, warm Rhodes fills, playful bass, acoustic guitar and light pocket drums; warm smiling hook, no oversized climax, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "d2617a47-2166-46d5-a69c-254adb5469b5",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "d2617a47-2166-46d5-a69c-254adb5469b5",
+          "path": "downloads/18/18-A-d2617a47-2166-46d5-a69c-254adb5469b5.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語18｜平常也說我愛你.mp3",
+          "bytes": 4152559,
+          "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2",
+          "duration": 171.984,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:07:10.328Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 171.96,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:06:28.724Z"
+    },
+    {
+      "id": "19",
+      "title": "下次吵架以前",
+      "bpm": 88,
+      "style": "Original Taiwanese Mandarin vocal song, 88 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Warm reflective soul pop, Rhodes and acoustic guitar, restrained drums and melodic bass; practical affectionate chorus with a slight lift. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n我們把昨天的爭執攤開來\n沒有重算誰先提高了音量\n只說哪一句讓你想離開\n哪個停頓其實是在等體諒\n\n[Chorus]\n下次吵架以前\n記得我們仍站在同一邊\n可以生氣 可以暫停\n不拿最痛的地方當成句點\n下次吵架以前\n把想被愛的話說明顯\n\n[Verse 2]\n你說累的時候先講我很累\n別把不耐煩裝成你的不對\n我說想安靜可以先約個時間\n不要消失到讓彼此失眠\n\n[Chorus]\n下次吵架以前\n記得我們仍站在同一邊\n可以生氣 可以暫停\n不拿最痛的地方當成句點\n下次吵架以前\n把想被愛的話說明顯\n\n[Bridge]\n不是約好了就不會再犯\n也不是和好後一切都簡單\n但多一次願意回頭的習慣\n就少一次把彼此推遠\n\n[Final Chorus]\n下次吵架以前\n記得我們仍站在同一邊\n可以生氣 可以暫停\n不拿最痛的地方當成句點\n下次吵架以前\n把想被愛的話說明顯\n\n[Outro]\n你說晚點一起散步\n我說好 我等你",
+      "quote": "下次吵架以前",
+      "story": "我們把昨天的爭執攤開來\n沒有重算誰先提高了音量\n只說哪一句讓你想離開\n哪個停頓其實是在等體諒\n不是約好了就不會再犯\n也不是和好後一切都簡單\n但多一次願意回頭的習慣\n就少一次把彼此推遠",
+      "concept": "再次選擇相愛",
+      "submissionTitle": "心語19｜下次吵架以前",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+          "url": "https://suno.com/song/d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:07:10.235Z",
+          "uiDuration": "2:47",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "2:47心語19｜下次吵架以前V6Original Taiwanese Mandarin vocal song, 88 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Warm reflective soul pop, Rhodes and acoustic guitar, restrained drums and melodic bass; practical affectionate chorus with a slight lift, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "43741265-27ad-4888-9a91-0d169f6ea7fc",
+          "url": "https://suno.com/song/43741265-27ad-4888-9a91-0d169f6ea7fc",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:07:10.235Z",
+          "uiDuration": "3:02",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:02心語19｜下次吵架以前V6Original Taiwanese Mandarin vocal song, 88 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Warm reflective soul pop, Rhodes and acoustic guitar, restrained drums and melodic bass; practical affectionate chorus with a slight lift, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+          "path": "downloads/19/19-A-d9f7e9f5-8f2d-44c1-a108-da6159178ff0.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語19｜下次吵架以前.mp3",
+          "bytes": 3952566,
+          "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc",
+          "duration": 166.8,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:07:44.379Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 166.76,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:07:01.778Z"
+    },
+    {
+      "id": "20",
+      "title": "我願意，再說一次",
+      "bpm": 76,
+      "style": "Original Taiwanese Mandarin vocal song, 76 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Album-closing piano soul ballad, warm acoustic guitar, rounded bass, gentle live drums and restrained strings; gradually opening final chorus, naturally resolved ending. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+      "lyrics": "[Verse 1]\n照片上的我們笑得很年輕\n那時以為答應就會一帆風順\n後來才懂得柴米和倦意\n也會把好聽的誓言磨出痕跡\n\n[Chorus]\n我願意 再說一次\n帶著如今都知道的那些事\n你的固執 我的遲疑\n和我們仍願意改變的勇氣\n我願意 再說一次\n不是只愛最容易相愛的日子\n\n[Verse 2]\n你問如果現在才認識彼此\n知道缺點以後還會不會願意\n我沒有把答案說得很漂亮\n只是替你把椅子拉到身旁\n\n[Chorus]\n我願意 再說一次\n帶著如今都知道的那些事\n你的固執 我的遲疑\n和我們仍願意改變的勇氣\n我願意 再說一次\n不是只愛最容易相愛的日子\n\n[Bridge]\n不敢保證往後都沒有風雨\n也不把永遠當作不用努力\n我能答應的是今天的自己\n會認真聽見你 也讓你聽見我\n\n[Final Chorus]\n我願意 再說一次\n帶著如今都知道的那些事\n你的固執 我的遲疑\n和我們仍願意改變的勇氣\n我願意 再說一次\n不是只愛最容易相愛的日子\n\n[Outro]\n你把手放進我手裡\n我們把明天接著過下去",
+      "quote": "我願意 再說一次",
+      "story": "照片上的我們笑得很年輕\n那時以為答應就會一帆風順\n後來才懂得柴米和倦意\n也會把好聽的誓言磨出痕跡\n不敢保證往後都沒有風雨\n也不把永遠當作不用努力\n我能答應的是今天的自己\n會認真聽見你 也讓你聽見我",
+      "concept": "再次選擇相愛",
+      "submissionTitle": "心語20｜我願意，再說一次",
+      "status": "downloaded_selected_technical_pass_unreviewed",
+      "generationAttempts": 1,
+      "providerResults": [
+        {
+          "id": "b05df30e-fd74-4edb-a244-a2600d708abb",
+          "url": "https://suno.com/song/b05df30e-fd74-4edb-a244-a2600d708abb",
+          "variant": "A",
+          "observedAt": "2026-10-16T10:07:44.284Z",
+          "uiDuration": "3:18",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:18心語20｜我願意，再說一次V6Original Taiwanese Mandarin vocal song, 76 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Album-closing piano soul ballad, warm acoustic guitar, rounded bass, gentle live drums and restrained strings; gradually opening final chorus, naturally resolved ending, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        },
+        {
+          "id": "c17590c5-4419-4e3f-a7fb-412422ea0a37",
+          "url": "https://suno.com/song/c17590c5-4419-4e3f-a7fb-412422ea0a37",
+          "variant": "B",
+          "observedAt": "2026-10-16T10:07:44.284Z",
+          "uiDuration": "3:38",
+          "voiceId": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+          "model": "V6",
+          "uiText": "3:38心語20｜我願意，再說一次V6Original Taiwanese Mandarin vocal song, 76 BPM, Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing, Album-closing piano soul ballad, warm acoustic guitar, rounded bass, gentle live drums and restrained strings; gradually opening final chorus, naturally resolved ending, Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending, Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff2026/03/27SharePublishRemix",
+          "providerGeneratedAt": null,
+          "observationSource": "browser-evidence-2026-10-16T10-08-23-757Z.json"
+        }
+      ],
+      "selectedResult": "b05df30e-fd74-4edb-a244-a2600d708abb",
+      "downloads": [
+        {
+          "variant": "A",
+          "format": "mp3",
+          "providerId": "b05df30e-fd74-4edb-a244-a2600d708abb",
+          "path": "downloads/20/20-A-b05df30e-fd74-4edb-a244-a2600d708abb.mp3",
+          "sourcePath": "C:\\Users\\User\\Downloads\\心語20｜我願意，再說一次.mp3",
+          "bytes": 4823011,
+          "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d",
+          "duration": 198.024,
+          "streams": [
+            {
+              "codec_name": "mp3",
+              "sample_rate": "48000",
+              "channels": 2
+            },
+            {
+              "codec_name": "mjpeg"
+            }
+          ],
+          "fullDecodeExit": 0,
+          "fullDecodePerformedThisRun": true,
+          "browserDownloadFinalized": true,
+          "recoveredFromBrowserTemporaryFile": false,
+          "verifiedAt": "2026-10-16T10:08:28.631Z",
+          "audio_presence": "has_sound",
+          "vocals": "unknown",
+          "listeningPerformed": false,
+          "decodedSeconds": 198,
+          "codec": "mp3",
+          "technicalVerification": "reports/album-production/20261016T091134Z/final-audio-and-preservation.json"
+        }
+      ],
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "requestedVocals": "vocal",
+      "listeningPerformed": false,
+      "generationObservedAt": "2026-10-16T10:07:38.872Z"
+    }
+  ],
+  "updatedAt": "2026-10-16T10:09:15.583Z",
+  "creditsLatest": 9674,
+  "creditsBefore": 9734,
+  "creditsAfter": 9534,
+  "creditsUsed": 200,
+  "downloadsUsed": 20,
+  "downloadsBefore": 26,
+  "downloadsAfter": 6,
+  "batchFinalAccountEvidence": "browser-evidence-2026-10-16T10-08-23-757Z.json",
+  "creditsNote": "Create-page badge became stale during second album. Preserve original UI readings; final batch usage uses refreshed account page: 9934 -> 9534, 400 credits."
+}

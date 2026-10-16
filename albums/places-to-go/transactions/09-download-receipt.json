@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "e6d67229-da44-4304-850a-b9986ea2fea5",
+  "path": "downloads/09/09-A-e6d67229-da44-4304-850a-b9986ea2fea5.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行09｜漁港六點半.mp3",
+  "bytes": 4489724,
+  "sha256": "18c9748eaae9a9d66cd20ed2219455d37400557c2dec29984d1e574376b6f592",
+  "duration": 186.024,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:33:48.321Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

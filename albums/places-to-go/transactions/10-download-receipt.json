@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "5fd0d7d5-5e3d-4592-8939-ba56301a29c9",
+  "path": "downloads/10/10-A-5fd0d7d5-5e3d-4592-8939-ba56301a29c9.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行10｜在陌生小鎮住一晚.mp3",
+  "bytes": 4808164,
+  "sha256": "00d891a62bfd4da9bd3cd67fd245f335ced0101d69f2f1a8486f466d0926180d",
+  "duration": 202.392,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:36:19.623Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

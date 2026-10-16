@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "93e7edd9-efd4-40e0-b805-a861686cb4d6",
+  "path": "downloads/02/02-A-93e7edd9-efd4-40e0-b805-a861686cb4d6.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行02｜把導航關掉.mp3",
+  "bytes": 3080939,
+  "sha256": "be1eb1a34a42641f796d645ab2233d35e902888d1dc1917f0adb8f9fff3c7e01",
+  "duration": 126.6,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:26:51.964Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

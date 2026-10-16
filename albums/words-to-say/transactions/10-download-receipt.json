@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "8fa40bef-8db5-4281-a3d8-301db7e39659",
+  "path": "downloads/10/10-A-8fa40bef-8db5-4281-a3d8-301db7e39659.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語10｜對不起，不加但是.mp3",
+  "bytes": 4811749,
+  "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302",
+  "duration": 202.392,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:00:02.356Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

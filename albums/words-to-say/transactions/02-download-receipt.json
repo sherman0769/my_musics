@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "6b829b1d-cac2-42e9-b1ea-643b8882595b",
+  "path": "downloads/02/02-A-6b829b1d-cac2-42e9-b1ea-643b8882595b.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語02｜你叫我名字的時候.mp3",
+  "bytes": 4121432,
+  "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a",
+  "duration": 168.024,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:47:20.648Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

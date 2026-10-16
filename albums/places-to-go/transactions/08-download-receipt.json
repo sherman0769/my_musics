@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "1c1e484a-710a-42c3-99e7-98785fa50ea3",
+  "path": "downloads/08/08-A-1c1e484a-710a-42c3-99e7-98785fa50ea3.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行08｜一張單程車票.mp3",
+  "bytes": 3243907,
+  "sha256": "1b3d25d3978df3c07c74ef040f72b7351e0dddf144acf2d98f18b2aa0c8a62d6",
+  "duration": 138.024,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:33:48.096Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

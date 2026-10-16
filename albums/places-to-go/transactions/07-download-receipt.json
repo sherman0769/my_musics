@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "bdd8d92e-f610-406f-87e3-b2a30176c0a4",
+  "path": "downloads/07/07-A-bdd8d92e-f610-406f-87e3-b2a30176c0a4.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行07｜山路轉彎以後.mp3",
+  "bytes": 4432670,
+  "sha256": "7ac686598c0f5445142d19666c53fdc7b9199cc3189c9f87aa84bd985ad665c5",
+  "duration": 188.424,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:32:44.947Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

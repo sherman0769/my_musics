@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "16bd1bca-600e-4e7d-b716-bef2d8272829",
+  "path": "downloads/07/07-A-16bd1bca-600e-4e7d-b716-bef2d8272829.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語07｜我們不是不相愛.mp3",
+  "bytes": 4324055,
+  "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1",
+  "duration": 186,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:57:47.936Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

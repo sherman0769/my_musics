@@ -1,0 +1,11 @@
+{
+  "track": "words-to-say/06",
+  "providerId": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+  "observedAt": "2026-10-16T09:56:19.4055531Z",
+  "failure": "Download failed, please try again.",
+  "localFileExists": false,
+  "localPartialFileExists": false,
+  "providerState": "You have unlocked this song. You can return and download at any time.",
+  "recovery": "One native MP3 Download action for the same already-unlocked song; no new unlock or regeneration",
+  "maxRecoveryClicks": 1
+}

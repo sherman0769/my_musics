@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "85563c8a-6d79-4d4f-8290-a00c2e03d564",
+  "path": "downloads/09/09-A-85563c8a-6d79-4d4f-8290-a00c2e03d564.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語09｜先聽你說完.mp3",
+  "bytes": 4017861,
+  "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d",
+  "duration": 166.8,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:59:04.296Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

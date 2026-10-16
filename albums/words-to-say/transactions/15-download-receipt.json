@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+  "path": "downloads/15/15-A-cc0631a9-f18a-4fe9-aebc-c403969da1d8.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語15｜我也值得被喜歡.mp3",
+  "bytes": 4379990,
+  "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391",
+  "duration": 184.824,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:04:18.582Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "a43fedaf-7b32-4b3d-bca6-8cb5b46f1616",
+  "path": "downloads/03/03-A-a43fedaf-7b32-4b3d-bca6-8cb5b46f1616.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行03｜副駕駛座的地圖.mp3",
+  "bytes": 3908833,
+  "sha256": "3e223608fc83ac173067717425fca28af2881d54e390ce8f19401ac44962dfe2",
+  "duration": 163.632,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:28:27.505Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

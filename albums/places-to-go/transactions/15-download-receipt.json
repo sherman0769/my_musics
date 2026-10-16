@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "a5495bf9-a283-490c-ac96-30b0c6aed4f1",
+  "path": "downloads/15/15-A-a5495bf9-a283-490c-ac96-30b0c6aed4f1.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行15｜風比答案先抵達.mp3",
+  "bytes": 4327078,
+  "sha256": "cf345ac618e9ebc916d01aaf5323be2b9cc2470d076f78166f75c87ff85f1abb",
+  "duration": 183.24,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:41:29.854Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

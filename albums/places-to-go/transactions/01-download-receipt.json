@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "8e4848f3-4c81-4e76-ba98-f3af54c2540c",
+  "path": "downloads/01/01-A-8e4848f3-4c81-4e76-ba98-f3af54c2540c.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行01｜我還想去的地方.mp3",
+  "bytes": 4315076,
+  "sha256": "0cb9be7fa036444c97bc4612a405399486db0da84bf807d4134b7055c74e88c1",
+  "duration": 183.024,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:23:05.365Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

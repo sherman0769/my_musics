@@ -1,0 +1,10 @@
+{
+  "trackId": "20",
+  "providerId": "c1311eae-bcac-4d82-802c-beeaaf8f7e9b",
+  "url": "https://suno.com/song/c1311eae-bcac-4d82-802c-beeaaf8f7e9b",
+  "format": "mp3",
+  "status": "reserved_do_not_repeat_unknown",
+  "reservedAt": "2026-10-16T09:44:24.456Z",
+  "maxDistinctSongs": 40,
+  "reservationNumber": 20
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "ba5a3979-3300-4d70-bed9-18954ddd74d9",
+  "path": "downloads/11/11-A-ba5a3979-3300-4d70-bed9-18954ddd74d9.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行11｜背包裡沒帶走的事.mp3",
+  "bytes": 4250576,
+  "sha256": "ff4930ea9e14eafdae712f1cd461caa18bd15396f8433fa46a806769cef285d0",
+  "duration": 179.712,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:37:20.823Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

@@ -1,0 +1,10 @@
+{
+  "trackId": "03",
+  "providerId": "a43fedaf-7b32-4b3d-bca6-8cb5b46f1616",
+  "url": "https://suno.com/song/a43fedaf-7b32-4b3d-bca6-8cb5b46f1616",
+  "format": "mp3",
+  "status": "reserved_do_not_repeat_unknown",
+  "reservedAt": "2026-10-16T09:26:51.901Z",
+  "maxDistinctSongs": 40,
+  "reservationNumber": 3
+}

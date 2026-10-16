@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+  "path": "downloads/12/12-A-9c4c0604-7411-4c82-9cb1-c49d4934d5f3.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語12｜分開以後的星期五.mp3",
+  "bytes": 4557603,
+  "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7",
+  "duration": 193.224,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:01:45.468Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

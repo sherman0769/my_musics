@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "0f01926a-46e5-4d04-b2bb-9e0d19c7ab7a",
+  "path": "downloads/14/14-A-0f01926a-46e5-4d04-b2bb-9e0d19c7ab7a.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行14｜山頂沒有訊號.mp3",
+  "bytes": 4304419,
+  "sha256": "5841292e4fc01892eb3ee75486b0701dfad160c0e1ab5cbf633ecd737273b030",
+  "duration": 174.792,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:40:00.141Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

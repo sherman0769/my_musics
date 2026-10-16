@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "af4e3c1d-c72b-47c7-af0c-70443a242950",
+  "path": "downloads/06/06-A-af4e3c1d-c72b-47c7-af0c-70443a242950.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行06｜不為誰打卡.mp3",
+  "bytes": 4069827,
+  "sha256": "fae70b31649303ce0639fe89a8fd94b322b96860a0cd15376ea5a57a31672dab",
+  "duration": 165.624,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:31:49.954Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

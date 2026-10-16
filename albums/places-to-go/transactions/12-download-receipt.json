@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "41a5f06b-9338-4aac-8eeb-8ce9c83f817f",
+  "path": "downloads/12/12-A-41a5f06b-9338-4aac-8eeb-8ce9c83f817f.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行12｜老同學的民宿.mp3",
+  "bytes": 4163808,
+  "sha256": "3d990c1516fe5881f6b211d095d4bd224863c3b667f452f8179f9c3883721fdf",
+  "duration": 174.432,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:38:33.863Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

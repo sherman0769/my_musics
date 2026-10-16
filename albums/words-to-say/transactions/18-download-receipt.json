@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "d2617a47-2166-46d5-a69c-254adb5469b5",
+  "path": "downloads/18/18-A-d2617a47-2166-46d5-a69c-254adb5469b5.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語18｜平常也說我愛你.mp3",
+  "bytes": 4152559,
+  "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2",
+  "duration": 171.984,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:07:10.328Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

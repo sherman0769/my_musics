@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+  "path": "downloads/19/19-A-d9f7e9f5-8f2d-44c1-a108-da6159178ff0.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語19｜下次吵架以前.mp3",
+  "bytes": 3952566,
+  "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc",
+  "duration": 166.8,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:07:44.379Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

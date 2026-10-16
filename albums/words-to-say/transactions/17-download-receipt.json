@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+  "path": "downloads/17/17-A-e0089ba8-9b60-4778-82fd-0a85f6a60c76.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語17｜和你商量以後.mp3",
+  "bytes": 4445436,
+  "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff",
+  "duration": 192.72,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:06:33.622Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

@@ -1,0 +1,18 @@
+{
+  "trackId": "10",
+  "submissionTitle": "心語10｜對不起，不加但是",
+  "provider": "Suno",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "voice": {
+    "displayName": "2026/03/27",
+    "id": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+    "userConfirmed": true,
+    "liveVerifiedAt": "2026-10-16T09:15:00Z"
+  },
+  "lyrics": "[Verse 1]\n我練過好多漂亮的解釋\n每一句都想證明情有可原\n直到你問所以我的難過呢\n我才看見自己站得多遠\n\n[Chorus]\n對不起 不加但是\n不把你的傷再說成小事\n我做錯的地方寫得清楚\n不讓藉口擋在我們中間\n對不起 不加但是\n改變從下一件答應的事開始\n\n[Verse 2]\n那天答應你的事沒有做到\n你等到餐廳關門才回家\n我不該拿一整天的忙亂\n抵掉你一整晚的失望\n\n[Chorus]\n對不起 不加但是\n不把你的傷再說成小事\n我做錯的地方寫得清楚\n不讓藉口擋在我們中間\n對不起 不加但是\n改變從下一件答應的事開始\n\n[Bridge]\n你不需要立刻點頭接受\n我也不能只憑一句就過關\n我會把時間空出來做到\n讓你慢慢決定還願不願意相信\n\n[Final Chorus]\n對不起 不加但是\n不把你的傷再說成小事\n我做錯的地方寫得清楚\n不讓藉口擋在我們中間\n對不起 不加但是\n改變從下一件答應的事開始\n\n[Outro]\n這一次不補下一句\n我先好好聽你",
+  "style": "Original Taiwanese Mandarin vocal song, 80 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Piano-led soul ballad, restrained gospel-colored chords, warm bass, soft snare and subtle organ; direct sincere chorus, no choir or theatrical climax. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+  "reservedAt": "2026-10-16T09:23:43.943Z",
+  "status": "reserved_do_not_resubmit_without_reconciliation",
+  "maxGenerationRequests": 1
+}

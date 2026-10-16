@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "c1311eae-bcac-4d82-802c-beeaaf8f7e9b",
+  "path": "downloads/20/20-A-c1311eae-bcac-4d82-802c-beeaaf8f7e9b.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行20｜下次從這裡出發.mp3",
+  "bytes": 3952342,
+  "sha256": "cb901f453efa428bf5ceadf7621cd182efa789dabbc84bb91f82bb719fea6063",
+  "duration": 168.84,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:45:10.699Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

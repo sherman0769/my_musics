@@ -1,0 +1,22 @@
+{
+  "trackId": "06",
+  "observedAt": "2026-10-16T09:49:02.449Z",
+  "creditsAfter": 9674,
+  "providerResults": [
+    {
+      "id": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+      "url": "https://suno.com/song/1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+      "variant": "A",
+      "observedAt": "2026-10-16T09:49:02.449Z"
+    },
+    {
+      "id": "8ca478a6-7188-457b-b319-3a4ad8838a26",
+      "url": "https://suno.com/song/8ca478a6-7188-457b-b319-3a4ad8838a26",
+      "variant": "B",
+      "observedAt": "2026-10-16T09:49:02.449Z"
+    }
+  ],
+  "selectedResult": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+  "selection": "first observed candidate; no listening requested",
+  "clicksConfirmed": 1
+}

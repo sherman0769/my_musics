@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "657132d4-2275-4dc1-b454-7cba888fe037",
+  "path": "downloads/19/19-A-657132d4-2275-4dc1-b454-7cba888fe037.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行19｜還有一段路想陪你.mp3",
+  "bytes": 3773226,
+  "sha256": "1f02a32e41cfdb6a51dfd066052dba0869d5cf0bb48bc2adcd85f43f6face586",
+  "duration": 161.52,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:44:24.514Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "4a6b7013-4c3c-4807-bb97-6cae67bd575d",
+  "path": "downloads/18/18-A-4a6b7013-4c3c-4807-bb97-6cae67bd575d.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\遠行18｜回程換我開.mp3",
+  "bytes": 4446824,
+  "sha256": "50a2873727e150daaece0a823ca6c93492a4bb7a7cbc4ad37e6bbe32bf29cf47",
+  "duration": 188.832,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:43:37.127Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

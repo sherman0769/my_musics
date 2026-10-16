@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "968c0f1f-1310-4f81-bc94-1bf2509be161",
+  "path": "downloads/05/05-A-968c0f1f-1310-4f81-bc94-1bf2509be161.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語05｜你的習慣，我的例外.mp3",
+  "bytes": 4117392,
+  "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8",
+  "duration": 172.392,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:49:02.545Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "cf105c78-ad27-46fa-9944-4574cd683818",
+  "path": "downloads/03/03-A-cf105c78-ad27-46fa-9944-4574cd683818.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語03｜第二次約會.mp3",
+  "bytes": 3586022,
+  "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5",
+  "duration": 150.744,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:47:20.881Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

@@ -1,0 +1,18 @@
+{
+  "trackId": "01",
+  "submissionTitle": "心語01｜有些話，現在想說",
+  "provider": "Suno",
+  "account": "subliminalsongbirds009",
+  "model": "v6",
+  "voice": {
+    "displayName": "2026/03/27",
+    "id": "b0593d92-dd06-4602-80fa-e701e89ee2d7",
+    "userConfirmed": true,
+    "liveVerifiedAt": "2026-10-16T09:15:00Z"
+  },
+  "lyrics": "[Verse 1]\n你問晚餐要不要再熱一下\n我看著碗邊遲遲沒有回答\n不是今天的飯菜少了什麼\n是好多句話被我吞成了習慣\n\n[Chorus]\n有些話 現在想說\n不想再交給以後替我說\n謝謝你陪我走過\n也對不起讓你等那麼久\n有些話 現在想說\n我很在乎你 不是只有放在心裡頭\n\n[Verse 2]\n我把椅子往你那邊挪一點\n你放下手機沒有催我往下\n原來開口不必先準備完美\n承認我會害怕也能算一句話\n\n[Chorus]\n有些話 現在想說\n不想再交給以後替我說\n謝謝你陪我走過\n也對不起讓你等那麼久\n有些話 現在想說\n我很在乎你 不是只有放在心裡頭\n\n[Bridge]\n我們都練過把委屈藏好\n練到連需要都不敢打擾\n今晚先不談誰比較有道理\n讓我好好把你的手握牢\n\n[Final Chorus]\n有些話 現在想說\n不想再交給以後替我說\n謝謝你陪我走過\n也對不起讓你等那麼久\n有些話 現在想說\n我很在乎你 不是只有放在心裡頭\n\n[Outro]\n飯涼了還能再熱\n這句愛 我想現在說",
+  "style": "Original Taiwanese Mandarin vocal song, 78 BPM. Use the selected personal Voice as the sole mature male lead; preserve its natural warm mid-low timbre, clear Taiwanese Mandarin diction, conversational melodic phrasing. Intimate piano soul ballad, warm Rhodes, rounded bass, brushed drums, restrained cello; clear memorable chorus with gradual lift. Complete 3-4 minute song, short instrumental intro, contrasting verses, memorable recurring melodic chorus, sparse bridge, final lift, naturally resolved instrumental ending. Vocal-forward mix, no spoken narration, no rap, no celebrity imitation, no abrupt cutoff.",
+  "reservedAt": "2026-10-16T09:23:43.656Z",
+  "status": "reserved_do_not_resubmit_without_reconciliation",
+  "maxGenerationRequests": 1
+}

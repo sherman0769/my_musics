@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+  "path": "downloads/06/06-A-1638dc59-0df2-43d2-9cb2-9ef1aeb62826.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語06｜兩個人的時差.mp3",
+  "bytes": 3965592,
+  "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756",
+  "duration": 162.12,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:56:40.414Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

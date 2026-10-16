@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "3fb54616-8c2f-4b6b-b43e-7020c958b449",
+  "path": "downloads/04/04-A-3fb54616-8c2f-4b6b-b43e-7020c958b449.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語04｜把喜歡說得清楚.mp3",
+  "bytes": 3850927,
+  "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111",
+  "duration": 162.384,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T09:48:20.017Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}

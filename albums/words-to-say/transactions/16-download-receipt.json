@@ -1,0 +1,28 @@
+{
+  "variant": "A",
+  "format": "mp3",
+  "providerId": "cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+  "path": "downloads/16/16-A-cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a.mp3",
+  "sourcePath": "C:\\Users\\User\\Downloads\\心語16｜再靠近一點點.mp3",
+  "bytes": 4058253,
+  "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70",
+  "duration": 166.584,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "codec_name": "mjpeg"
+    }
+  ],
+  "fullDecodeExit": 0,
+  "fullDecodePerformedThisRun": true,
+  "browserDownloadFinalized": true,
+  "recoveredFromBrowserTemporaryFile": false,
+  "verifiedAt": "2026-10-16T10:05:27.076Z",
+  "audio_presence": "unknown",
+  "vocals": "unknown",
+  "listeningPerformed": false
+}
