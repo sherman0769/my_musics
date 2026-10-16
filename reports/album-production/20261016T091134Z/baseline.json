@@ -1,0 +1,2442 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 69,
+    "sha256": "0c995f5969a077dd5acb56fa23c65955cc9dd56ca9d5220dec67ca088492e660"
+  },
+  {
+    "path": ".vercelignore",
+    "bytes": 134,
+    "sha256": "ef04b5c49568c5336f162b0bdc5fbecdce66ded73e46db1240d15dd5ddf8205c"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 5441,
+    "sha256": "b97fde4df6d00e6924907e2cba432e0a2278b58840ccdb6f2c198890b2b1ab33"
+  },
+  {
+    "path": "albumData.js",
+    "bytes": 61886,
+    "sha256": "1d36a4ae670ed35e8d078b8a178b22e00713c6c5c24f1c87ff3fc1467161e43c"
+  },
+  {
+    "path": "app.js",
+    "bytes": 37296,
+    "sha256": "39dd5203a7781ea9f358d0c71cb6d22b1b5804bd76da41397486ba2b80432774"
+  },
+  {
+    "path": "city-lights-downloads.html",
+    "bytes": 8508,
+    "sha256": "b19149c6ca99532ec1d4e51bbf6b913c3b377b5743c2e1012ac114b545f5b3f2"
+  },
+  {
+    "path": "cityLightsAlbum.js",
+    "bytes": 52978,
+    "sha256": "c23362ffd7c3aeac58429e1a6bdfeb5b5b629c9fe877f8a686d6053a94e5c378"
+  },
+  {
+    "path": "generate_audio.js",
+    "bytes": 1589,
+    "sha256": "26212cdd9729ae6187989476973b3bd93778015a62638efbcbf1b996b156941b"
+  },
+  {
+    "path": "implementation_plan.md",
+    "bytes": 13974,
+    "sha256": "b10456a9a996f55aab5fb638bfc23fc1acf4bd5629a3420ab186926fdf83e7d1"
+  },
+  {
+    "path": "index.html",
+    "bytes": 23622,
+    "sha256": "cb10e4528ac98b33ad9eeeeaca0000ed90e98f04ee7b0d6087ffce5fc85e4f73"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 672,
+    "sha256": "879353f45af5e440e26b5fd3bdf8a05e90397372abf918a65667beb96ff3ac97"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6897,
+    "sha256": "76a7d3eb7e559f4ce0d6fd44c4a9e2fc10a80c405c85352be86a5d5af9ba2f13"
+  },
+  {
+    "path": "slow-days-downloads.html",
+    "bytes": 8584,
+    "sha256": "205e8b1e43d17bca24b2bfcac1daae402484d69e4be1b59a4246c3e8982eceec"
+  },
+  {
+    "path": "slowDaysAlbum.js",
+    "bytes": 54778,
+    "sha256": "0ac68e95165beeaf42cb73b0290a89662a4a3beb97c0dcd66931d47430eb406c"
+  },
+  {
+    "path": "style.css",
+    "bytes": 40254,
+    "sha256": "2c8c77c0a08838ef5a12e8ec5245b664d587f3c2801504210d75012fab6acd09"
+  },
+  {
+    "path": "sw.js",
+    "bytes": 1982,
+    "sha256": "398a04e342a6672bca5e8cd37e004abbd9a2e7faf3562d8934ac8bd4e3573216"
+  },
+  {
+    "path": "walkthrough.md",
+    "bytes": 4825,
+    "sha256": "9ff0bb235e9fc7c839d728249dd598ee78ca12037165cb310bbd948457815472"
+  },
+  {
+    "path": "zeguoxixiang_suno_prompts.md",
+    "bytes": 13906,
+    "sha256": "577b04085dd9b7b2a21ad9fcc430d59d0cfa44c237cbaa821b99aadb1a72268a"
+  },
+  {
+    "path": "albums/city-lights/20首歌詞與提示詞.md",
+    "bytes": 33808,
+    "sha256": "8449cb7bab17c49d1ce5b247715eed071757472187e419589d6d2606d166596d"
+  },
+  {
+    "path": "albums/city-lights/交付報告.md",
+    "bytes": 1250,
+    "sha256": "030affb8b73e4c09b045510d698b9c4e9e97c73cbf7abd2d19ef5768d8d23b1f"
+  },
+  {
+    "path": "albums/city-lights/歌曲連結與進度.md",
+    "bytes": 3457,
+    "sha256": "fff6abd1f473f4f7ae6126b6e1262f274657edfef63385274a44fa5d1f99db7e"
+  },
+  {
+    "path": "albums/city-lights/album.json",
+    "bytes": 82592,
+    "sha256": "c86a85d03cee3e53e2ea1eef590546e53bbc1e97fdec41188339e129ae10a2ab"
+  },
+  {
+    "path": "albums/city-lights/browser-recovery.json",
+    "bytes": 464,
+    "sha256": "9132a95d0593dfbee47d7fb1c8a25a3bc8b2e8efb83e2e59433b125af2e19daa"
+  },
+  {
+    "path": "albums/city-lights/build-release.cjs",
+    "bytes": 5549,
+    "sha256": "4f6addee329e7fa0aaf68b24e7ee00f4281caa666f8bef306960ab5bae74ef04"
+  },
+  {
+    "path": "albums/city-lights/collect-ready.cjs",
+    "bytes": 641,
+    "sha256": "f87447f65dc0a6758d177ce9f15268b9aacd0d1d17829617ab1ad629b36656ce"
+  },
+  {
+    "path": "albums/city-lights/complete-release.cjs",
+    "bytes": 2546,
+    "sha256": "770fbc8e96843f9542716aae36eacbd88bcc25b90e8109b83587fac27250a072"
+  },
+  {
+    "path": "albums/city-lights/create-album.cjs",
+    "bytes": 19072,
+    "sha256": "cbcfc640f3e5cb8ff4bdf5cbea5ebd4da15851c66f9c046bc10fad4c57b6d828"
+  },
+  {
+    "path": "albums/city-lights/download-events.json",
+    "bytes": 3486,
+    "sha256": "162e6e7ce2ff514287fca8b3523ac163ab3d5a27be43833dd96de30fa057642f"
+  },
+  {
+    "path": "albums/city-lights/finalize-ledger.cjs",
+    "bytes": 1960,
+    "sha256": "3c51ee1f891c957ecd2fda8e89971c80f7a08e1ac9f9ef713076112f77d17b94"
+  },
+  {
+    "path": "albums/city-lights/index.html",
+    "bytes": 3307,
+    "sha256": "8711e3c8b846e5bbb7fe521759d82d33948ac886a944b3c5ca165c2fab6b241a"
+  },
+  {
+    "path": "albums/city-lights/integrate-site.cjs",
+    "bytes": 1615,
+    "sha256": "5b3146039969da3834c61f87ce5943a110f86ff6ec1e96dcf0ae006ad64a30d3"
+  },
+  {
+    "path": "albums/city-lights/ledger.cjs",
+    "bytes": 1493,
+    "sha256": "6f8507653e12632ea019be496964414c8529cb51e1db1eecefd07809af5e1fa2"
+  },
+  {
+    "path": "albums/city-lights/package-album.ps1",
+    "bytes": 2194,
+    "sha256": "9e900bd2457d6b13f66a06bd2b34568e8b1cd73b7b682571667ca562db34b706"
+  },
+  {
+    "path": "albums/city-lights/public-verification.json",
+    "bytes": 4415,
+    "sha256": "c9f7de3a7db12fe759a65694c1eb1b458734911e61843df2257bfcb97439a649"
+  },
+  {
+    "path": "albums/city-lights/record-generation.cjs",
+    "bytes": 1484,
+    "sha256": "cb9fe2ce92116cff8bb94e35e1cc61e6834798aa87708ae6ab8a95cb4d2a4b09"
+  },
+  {
+    "path": "albums/city-lights/release-transaction.json",
+    "bytes": 1400,
+    "sha256": "9447042501c2da848173ba8e44ddbc0a73356e7e26c7cc4bbd54e17780bc6cc7"
+  },
+  {
+    "path": "albums/city-lights/release-validation.json",
+    "bytes": 4362,
+    "sha256": "82afb353f462722bf1b0b9f1035a4e540959a90c9816d217835a17db4bd600f3"
+  },
+  {
+    "path": "albums/city-lights/serve.cjs",
+    "bytes": 884,
+    "sha256": "88fa34f0e24a4dfd961c7c54b08aa1b70db9e52b6e420df148edd3d718e24d57"
+  },
+  {
+    "path": "albums/city-lights/verify-download.cjs",
+    "bytes": 2966,
+    "sha256": "ecf405d15bfeedd26bcf4ce9d61badaed8dca2149b2ef9f4edf09e0f90a1c8ac"
+  },
+  {
+    "path": "albums/city-lights/verify-public.cjs",
+    "bytes": 103,
+    "sha256": "6d7b3f9cee8e563f6bedfd0bf2681e12005f1ad5624cba2585e17d0929f36b56"
+  },
+  {
+    "path": "albums/city-lights/verify-release.cjs",
+    "bytes": 105,
+    "sha256": "d6cc9e88d265989200ca7430d9a00012827bc26209b7fd85c1834f008d2104a5"
+  },
+  {
+    "path": "albums/city-lights/backups/albumData.js",
+    "bytes": 61755,
+    "sha256": "12c3a7c84eea059b95c9643ee57c2cb15a25494dfc8a8f4ac29da259cf588090"
+  },
+  {
+    "path": "albums/city-lights/backups/app.js",
+    "bytes": 36786,
+    "sha256": "cc5f0e365fb55dcb0d51e7481fbb6c3bcf38415e2e5e7003c2596d6b2d635ca6"
+  },
+  {
+    "path": "albums/city-lights/backups/index.html",
+    "bytes": 23573,
+    "sha256": "5e2729a2b5cf7a59ba70b28ac0f052c0d543e4240501f17f4c7692458f7f866b"
+  },
+  {
+    "path": "albums/city-lights/backups/sw.js",
+    "bytes": 1909,
+    "sha256": "7ec81a5bdf098ab5ec46bd128fd7387e55cbb9f0d584a209a33f9db9367478ad"
+  },
+  {
+    "path": "albums/city-lights/downloads/01/01-A-5e5c213e-812d-439f-aa99-21a71b0214b2.mp3",
+    "bytes": 4686609,
+    "sha256": "f393e58bff0031e0c04b53a65365fcd771437dea569b3690430c2582f269d541"
+  },
+  {
+    "path": "albums/city-lights/downloads/01/README.txt",
+    "bytes": 193,
+    "sha256": "0ec06c655af642177ed1bcec39f1c92a7b3b8791ee32470e03ec7e37375cb531"
+  },
+  {
+    "path": "albums/city-lights/downloads/02/02-A-6971de1c-9e74-4b2a-b01e-99b0c992dd23.mp3",
+    "bytes": 4317956,
+    "sha256": "16fc65a2fdbdb265fdaa211d70fc68ca857d4f807fc4fccfec7746e31f5d02d7"
+  },
+  {
+    "path": "albums/city-lights/downloads/02/README.txt",
+    "bytes": 193,
+    "sha256": "109bcaa5b38cd7bcc369ecbe40e90f42775a3e506d90e6fd726ede4a35a93fc4"
+  },
+  {
+    "path": "albums/city-lights/downloads/03/03-A-9b4196c6-a5c7-40ee-b2ef-2bf244ac183f.mp3",
+    "bytes": 4358723,
+    "sha256": "1d8692ac9e26ef9e7b6ae79998a4b3c1bf286a1cc4ef134d96f2187eb05ca088"
+  },
+  {
+    "path": "albums/city-lights/downloads/03/README.txt",
+    "bytes": 196,
+    "sha256": "3353a612c8a051cfa463548220200a0c944a27440d3ede45c880f6f6f3ae4116"
+  },
+  {
+    "path": "albums/city-lights/downloads/04/04-A-02f61078-badf-448f-81b2-b1fc71fe6d54.mp3",
+    "bytes": 4761047,
+    "sha256": "4cf4d7dbd322ba58e637954d72bacdcaf4920467951c29fce15285bea576b054"
+  },
+  {
+    "path": "albums/city-lights/downloads/04/README.txt",
+    "bytes": 193,
+    "sha256": "cf57fd4080664972415a28092bacbf12f99bd90305b483a8a36ccbcce89e6074"
+  },
+  {
+    "path": "albums/city-lights/downloads/05/05-A-9938c6ec-8d3a-472a-a4ba-1612563e5927.mp3",
+    "bytes": 4505159,
+    "sha256": "21c57c317ae10f380b983918fabcd2123c53a799f0221d924f53505c3185d8d6"
+  },
+  {
+    "path": "albums/city-lights/downloads/05/README.txt",
+    "bytes": 193,
+    "sha256": "01dcf6880943dd85f4f3497ae59a6c473df2a4f9c59fc02da034f626d5373203"
+  },
+  {
+    "path": "albums/city-lights/downloads/06/06-A-ff6ffa5c-d4c8-420b-9d7b-3b68145f4d6a.mp3",
+    "bytes": 5112545,
+    "sha256": "a860b24ae8d887442ecb90ad9790eb5726a60042e23ef014fa338119d31d4460"
+  },
+  {
+    "path": "albums/city-lights/downloads/06/README.txt",
+    "bytes": 184,
+    "sha256": "1e139c8b72fd3d142f0c073d2b240308eeab0de8b815f4dc6e903fcbf5a8195b"
+  },
+  {
+    "path": "albums/city-lights/downloads/07/07-A-5e849d04-d9f3-4783-9a5e-e53c117e900e.mp3",
+    "bytes": 4566393,
+    "sha256": "af67ab9d94fe99c44e0211f601d0718b81b2909222e4352dd324ac9384ff9140"
+  },
+  {
+    "path": "albums/city-lights/downloads/07/README.txt",
+    "bytes": 196,
+    "sha256": "835700338925c50b295f4ea27a904eb3d17cf6ef6788e434e986ea4faf7b26f8"
+  },
+  {
+    "path": "albums/city-lights/downloads/08/08-A-39af51bd-5708-4581-b0aa-4e6d5de4d609.mp3",
+    "bytes": 4732300,
+    "sha256": "3e257b40c90803034468462493bd07c58ae9c3678b5d582e59a2c4a59ccb2165"
+  },
+  {
+    "path": "albums/city-lights/downloads/08/README.txt",
+    "bytes": 190,
+    "sha256": "d8bed052a7dd4d6995d07551db9c130f4f7adc34718d6a19581f2905806c8760"
+  },
+  {
+    "path": "albums/city-lights/downloads/09/09-A-681e63c0-ff5c-4d32-ab77-1d014192b38e.mp3",
+    "bytes": 4026981,
+    "sha256": "7972d615a697d36ddab4359c1faa5aba33b0dc9bec9fc01774c305e2349bc2ae"
+  },
+  {
+    "path": "albums/city-lights/downloads/09/README.txt",
+    "bytes": 196,
+    "sha256": "b186c7e0e4d076c92bafda44bef0d1c8c08964f2e14d4eb20449949a9e3477f8"
+  },
+  {
+    "path": "albums/city-lights/downloads/10/10-A-c6355982-c3b2-4a0d-83b9-a8eca252ee1d.mp3",
+    "bytes": 4417741,
+    "sha256": "906ddafce9e378a198aff71d7c166d0f741e012b3f9698eae2b5c789c950ae69"
+  },
+  {
+    "path": "albums/city-lights/downloads/10/README.txt",
+    "bytes": 193,
+    "sha256": "04e8a07152a579fd26bddd57b32f83b3d8d0d0c70c8783b11b10612aa33b9720"
+  },
+  {
+    "path": "albums/city-lights/downloads/11/11-A-b99e3534-5e25-418c-826b-17c2de095117.mp3",
+    "bytes": 4767886,
+    "sha256": "25e43eafbf49db9f62546be1c8ea4eaf060f605c84b5e129a20175d28173a296"
+  },
+  {
+    "path": "albums/city-lights/downloads/11/README.txt",
+    "bytes": 193,
+    "sha256": "36b922a77803f0fc34dd8be5a9d33a2c94ac225b1b1cee2dcb8c58eb5eb59756"
+  },
+  {
+    "path": "albums/city-lights/downloads/12/12-A-3d85294e-608f-4ae0-8e9c-0fa44993311c.mp3",
+    "bytes": 4368510,
+    "sha256": "de44bdd61c181a766896e8600c53f41b1262abc7c90d0c56754e3943a17a52de"
+  },
+  {
+    "path": "albums/city-lights/downloads/12/README.txt",
+    "bytes": 190,
+    "sha256": "aac7f2bbe0998e5dc2f84da19f74e618db80b29feb3128b921eaa65a96f8e1d2"
+  },
+  {
+    "path": "albums/city-lights/downloads/13/13-A-395cf274-f75d-4ca4-a8c7-465de7544fab.mp3",
+    "bytes": 4590712,
+    "sha256": "c288c375e7d5e2388c7698425cdd837b98ffb652524f7908349aaaff983fa2fb"
+  },
+  {
+    "path": "albums/city-lights/downloads/13/README.txt",
+    "bytes": 190,
+    "sha256": "ac9bee66a393d047d2013a9368169164f1f2b878391fa8ab51ca8aa3afbda587"
+  },
+  {
+    "path": "albums/city-lights/downloads/14/14-A-277dbf34-b1ce-462b-a2ce-eedeb21b03d6.mp3",
+    "bytes": 4334248,
+    "sha256": "8a3537e4d264afb863765962be375c98d59b8bc8bbecdf5177453428bcc595d3"
+  },
+  {
+    "path": "albums/city-lights/downloads/14/README.txt",
+    "bytes": 190,
+    "sha256": "8742953500e09ce7be3ac2399665253cbacacb09ab723bb9415e19bf010cee64"
+  },
+  {
+    "path": "albums/city-lights/downloads/15/15-A-cdc52735-55c7-4a95-89d4-807562fb7ac6.mp3",
+    "bytes": 3984764,
+    "sha256": "5afd3b5cd263f240b55bfe2cdb2e99be075489ad5d53f013874c055476744022"
+  },
+  {
+    "path": "albums/city-lights/downloads/15/README.txt",
+    "bytes": 190,
+    "sha256": "6de5f62f9646f0a10424490685e9ece910b843edfa3491e243fd57f0dfdc6ef3"
+  },
+  {
+    "path": "albums/city-lights/downloads/16/16-A-01098ad8-c45d-479f-91ef-6853d32dc928.mp3",
+    "bytes": 4549853,
+    "sha256": "4b12da08fecabe964791fcbfe1b405189a58a4cbc029637080962f10b713596b"
+  },
+  {
+    "path": "albums/city-lights/downloads/16/README.txt",
+    "bytes": 190,
+    "sha256": "4b6b29baf570ded643e8f2dc7f980ec26b3c5563a01a6e1903c9af092257f755"
+  },
+  {
+    "path": "albums/city-lights/downloads/17/17-A-9725a474-8493-4730-a2db-e2238ce29f73.mp3",
+    "bytes": 3812632,
+    "sha256": "7581558a35ed99d998b0168c292c08c8f2e8d3ff86b2a0616384a101e008d119"
+  },
+  {
+    "path": "albums/city-lights/downloads/17/README.txt",
+    "bytes": 193,
+    "sha256": "72fbcc9b23df6d0b431047a6a53e07afcf42a0a0cea696a331a98a8953552851"
+  },
+  {
+    "path": "albums/city-lights/downloads/18/18-A-87a25a7d-78d0-4fb3-9595-581565d793bf.mp3",
+    "bytes": 5044390,
+    "sha256": "53c437434266d417bf0abbe4c3eb8f79b806a24dea2061475f2f4f937e03bc75"
+  },
+  {
+    "path": "albums/city-lights/downloads/18/README.txt",
+    "bytes": 193,
+    "sha256": "5f14d5a5279e523d90ba4d5a165258802e3180b753880b9a67ec0eb1b2f89d4f"
+  },
+  {
+    "path": "albums/city-lights/downloads/19/19-A-130a7f91-909e-435d-a2d0-0516a5c6e96e.mp3",
+    "bytes": 4368228,
+    "sha256": "5d34a81c1f2a8404c8cb5962567e67f5bc9a27ff79e3a1241157a9849b280eac"
+  },
+  {
+    "path": "albums/city-lights/downloads/19/README.txt",
+    "bytes": 193,
+    "sha256": "b8f7bf6c4853b7cfe2bee80200a9491bc4db9c915af04e72c3ab6d49710dd286"
+  },
+  {
+    "path": "albums/city-lights/downloads/20/20-A-fc067d0a-b3e0-4e9f-8e60-006722782920.mp3",
+    "bytes": 4557036,
+    "sha256": "50f03aa1b27a9283b0966e33f2adebb786bacac9efb2c14b1737aadd4dc98b9b"
+  },
+  {
+    "path": "albums/city-lights/downloads/20/README.txt",
+    "bytes": 196,
+    "sha256": "f5a7abcfb4bbb696d2130b921b9fb8ab37bec252700e5a29a1c1104173d6b9eb"
+  },
+  {
+    "path": "albums/city-lights/transactions/01-download-A.json",
+    "bytes": 580,
+    "sha256": "a4c1a812e24b6bb03b939ef643c26affbd9fd7bf3e00e923f8dd1e789cec8fb4"
+  },
+  {
+    "path": "albums/city-lights/transactions/01-download-intent.json",
+    "bytes": 700,
+    "sha256": "7a6ed6aad325094e15ed4fa747ee23dfe050b5884ad4db4a73fb5c3d1780051c"
+  },
+  {
+    "path": "albums/city-lights/transactions/01.json",
+    "bytes": 700,
+    "sha256": "34405a9b131ca3eda329c619a56fb90256fe060008361b3574aafbfa5f707c4a"
+  },
+  {
+    "path": "albums/city-lights/transactions/02-download-A.json",
+    "bytes": 580,
+    "sha256": "1907ff5531750339aa26925f2c8c94c942702e20ecb8489f35eee09ddd191bf3"
+  },
+  {
+    "path": "albums/city-lights/transactions/02-download-intent.json",
+    "bytes": 700,
+    "sha256": "86fca95db853d897c02c84896960163f8a0b6b7c7aad3fe84340b0e56359cca5"
+  },
+  {
+    "path": "albums/city-lights/transactions/02.json",
+    "bytes": 847,
+    "sha256": "6c4f7eb3fab6f0c6b1a7fc91e90a05610ab0a918be23ebbfbb42a67ead3c7d8c"
+  },
+  {
+    "path": "albums/city-lights/transactions/03-download-A.json",
+    "bytes": 583,
+    "sha256": "72631cfbf4d086bd163f5e9dde71ffe1ca0ad5017bd1633fa8d6e7d143eb1afe"
+  },
+  {
+    "path": "albums/city-lights/transactions/03-download-intent.json",
+    "bytes": 700,
+    "sha256": "815828ed546d83d313c77c6187e4fd33738ce4f51ae6767550b34d2e353838d3"
+  },
+  {
+    "path": "albums/city-lights/transactions/03.json",
+    "bytes": 703,
+    "sha256": "bab4ffcb3a6bd45f37f544ea0b7fc15170c689d427995ee0622629c9a7fce751"
+  },
+  {
+    "path": "albums/city-lights/transactions/04-download-A.json",
+    "bytes": 579,
+    "sha256": "1d2b572484eacbbb7431e1173feda59013a98c9cedb13a15fda3680f134442a5"
+  },
+  {
+    "path": "albums/city-lights/transactions/04-download-intent.json",
+    "bytes": 700,
+    "sha256": "cc37ee31eca9231d1a4959989308223f7963cb1383ce90a2b9c1959b5ca7d4c9"
+  },
+  {
+    "path": "albums/city-lights/transactions/04.json",
+    "bytes": 700,
+    "sha256": "e603d621a392b7e2ce0c1ef4c4fce2df5d171ff838df080ad673e9020a78128a"
+  },
+  {
+    "path": "albums/city-lights/transactions/05-download-A.json",
+    "bytes": 578,
+    "sha256": "5bc06068b010909d2c58ffd46c042ab06b139475629404e899c7c690073465e0"
+  },
+  {
+    "path": "albums/city-lights/transactions/05-download-intent.json",
+    "bytes": 700,
+    "sha256": "b5273bc05aa2273c4dd0f25ca3a217ec7f0537bde7a466a39d4420db81823759"
+  },
+  {
+    "path": "albums/city-lights/transactions/05.json",
+    "bytes": 700,
+    "sha256": "66d5d37a6e75c6f00f46ee550855c231bba46a5b8dad8dd802d39c11c85deaeb"
+  },
+  {
+    "path": "albums/city-lights/transactions/06-download-A.json",
+    "bytes": 570,
+    "sha256": "9a3c80dc9afecf2567d5134bc37716a48f950d8dc0044969c7a313d74af49673"
+  },
+  {
+    "path": "albums/city-lights/transactions/06-download-intent.json",
+    "bytes": 700,
+    "sha256": "bcd4690a70874d73611b6a9cb52c277f98429963dedb6df2a4fe4e90686fc580"
+  },
+  {
+    "path": "albums/city-lights/transactions/06.json",
+    "bytes": 691,
+    "sha256": "cec1f288943dc818a1864dea26d5eee573a6f2726d44ffb82ce6d3f66e9316d2"
+  },
+  {
+    "path": "albums/city-lights/transactions/07-download-A.json",
+    "bytes": 581,
+    "sha256": "01bb657c7f9a39ec57b76cdbd59e93c8ce168f1f0df44ca65c50cfa25f953ecd"
+  },
+  {
+    "path": "albums/city-lights/transactions/07-download-intent.json",
+    "bytes": 700,
+    "sha256": "383b5defeeffeab3cb50f9f59964ad304a556f86b051d9b43f922d3335440751"
+  },
+  {
+    "path": "albums/city-lights/transactions/07.json",
+    "bytes": 703,
+    "sha256": "a744cfb78ab64769d7d5169e92c65ecf8c180e882b8c5f8ba061471fc4237c5c"
+  },
+  {
+    "path": "albums/city-lights/transactions/08-download-A.json",
+    "bytes": 576,
+    "sha256": "bf6cb714361fe48803b5dbea506865863591681c105a058f50f90ba0dec3fa76"
+  },
+  {
+    "path": "albums/city-lights/transactions/08-download-intent.json",
+    "bytes": 668,
+    "sha256": "9e6e0d3e4e5dcc1d725bb7d2178cd3386fa940784b498075160071c8858f60ce"
+  },
+  {
+    "path": "albums/city-lights/transactions/08.json",
+    "bytes": 697,
+    "sha256": "3ba7a3b9ef9c14eb7447036e21fedf28994b91480826e8fe6085e7778ea7aad0"
+  },
+  {
+    "path": "albums/city-lights/transactions/09-download-A.json",
+    "bytes": 581,
+    "sha256": "4518e234a0e4cddf54f1bee7b440109d89394ca4508d66831df776f65733890d"
+  },
+  {
+    "path": "albums/city-lights/transactions/09-download-intent.json",
+    "bytes": 668,
+    "sha256": "22f52e2f00a9f33c95ce48c7120bf17e6c0504d6d6196bbc281f28b9605b1b24"
+  },
+  {
+    "path": "albums/city-lights/transactions/09.json",
+    "bytes": 703,
+    "sha256": "0da6e7d21369772a62d1c855c5dda3e11a2996a0238c8047173e5065fa724858"
+  },
+  {
+    "path": "albums/city-lights/transactions/10-download-A.json",
+    "bytes": 576,
+    "sha256": "36529e1c4eaf2405de6299f2279e2766267ef7e6561705717d103a6f75f68fb8"
+  },
+  {
+    "path": "albums/city-lights/transactions/10-download-intent.json",
+    "bytes": 668,
+    "sha256": "a0ae1ee0a2b4ab9630317106376be0c0ce52e3cdb1cf375c99a3d556f5e58245"
+  },
+  {
+    "path": "albums/city-lights/transactions/10.json",
+    "bytes": 700,
+    "sha256": "72700723db9174a640d0f12683928ae08d6597947705d4423f20d3c450f4a9d5"
+  },
+  {
+    "path": "albums/city-lights/transactions/11-download-A.json",
+    "bytes": 580,
+    "sha256": "4b5820bf59957462c76a619535886c8af5a1009c69cd074b7c657247a2b207e2"
+  },
+  {
+    "path": "albums/city-lights/transactions/11-download-intent.json",
+    "bytes": 668,
+    "sha256": "e6aa3f7a299c5de3ff05d9f2e19304745b5b9c14b3d8702dd28e6f851a67e4dc"
+  },
+  {
+    "path": "albums/city-lights/transactions/11.json",
+    "bytes": 700,
+    "sha256": "92f81d3f66f4d99005f39dae7e135e022d821b452f19008613f064a83eae0da0"
+  },
+  {
+    "path": "albums/city-lights/transactions/12-download-A.json",
+    "bytes": 575,
+    "sha256": "52c90953efd7831649bbff08e026cbee1c6223fdfe5e5e1b8d9d004122af36be"
+  },
+  {
+    "path": "albums/city-lights/transactions/12-download-intent.json",
+    "bytes": 668,
+    "sha256": "a4c157e1e4e378e5f1012fcdc466f5a519520919f25156dcfcf90b13e684d8b8"
+  },
+  {
+    "path": "albums/city-lights/transactions/12.json",
+    "bytes": 697,
+    "sha256": "c445f8890970169535f7a66e0bc7e9b33fd1dfaf8b57a18270965106204d0320"
+  },
+  {
+    "path": "albums/city-lights/transactions/13-download-A.json",
+    "bytes": 574,
+    "sha256": "5d175f5b32ca7476e63846c40f75230a5af5c7886bd074d6202ee18b002f4776"
+  },
+  {
+    "path": "albums/city-lights/transactions/13-download-intent.json",
+    "bytes": 668,
+    "sha256": "40479a77769619a04dbe7f2230689e3cb281a6b75066bf07130ed6931e3b6453"
+  },
+  {
+    "path": "albums/city-lights/transactions/13.json",
+    "bytes": 697,
+    "sha256": "f6b7760657965f66e016af162099680c71eaa7f247f82b8057717adcb3c55c3f"
+  },
+  {
+    "path": "albums/city-lights/transactions/14-download-A.json",
+    "bytes": 573,
+    "sha256": "5d694f4d7923fcc5811d5c80baaa545eace2a2e5d347310589bba419ad6bab0f"
+  },
+  {
+    "path": "albums/city-lights/transactions/14-download-intent.json",
+    "bytes": 668,
+    "sha256": "8d8929e5c5740dd0eb2c2c6b3c2266b4e7f9807488dbbf9b20c23b658ba2ccce"
+  },
+  {
+    "path": "albums/city-lights/transactions/14.json",
+    "bytes": 697,
+    "sha256": "f469862125a0ad828523e7539092a96e0e6623a7ef5eab6e271e2465764c33a2"
+  },
+  {
+    "path": "albums/city-lights/transactions/15-download-A.json",
+    "bytes": 575,
+    "sha256": "8a52e4de7288f5d2968c711f6c137c49db2c95e075ba513c48d08c97d70de815"
+  },
+  {
+    "path": "albums/city-lights/transactions/15-download-intent.json",
+    "bytes": 668,
+    "sha256": "9d249d9969b577b0f8fa609281f18599327c04472f00bd9d6a96566fb3d146fd"
+  },
+  {
+    "path": "albums/city-lights/transactions/15.json",
+    "bytes": 907,
+    "sha256": "9883f58583fca392ba843ca9d3a9f1fc1469578325b6687bc74a97c416d08d80"
+  },
+  {
+    "path": "albums/city-lights/transactions/16-download-A.json",
+    "bytes": 575,
+    "sha256": "1504179d7fb10b9aa98e7962700bdb2ba50e891e7a202fe915952e2ff9213318"
+  },
+  {
+    "path": "albums/city-lights/transactions/16-download-intent.json",
+    "bytes": 668,
+    "sha256": "5165def9e353c63cd139af10c3dd0d31ab8c77ba9e2d6b032eee81868e6a88f4"
+  },
+  {
+    "path": "albums/city-lights/transactions/16.json",
+    "bytes": 697,
+    "sha256": "56f87269a944bd5e89026062e591b9ecc9f5e0bdf9096f624368e6eadb020e3a"
+  },
+  {
+    "path": "albums/city-lights/transactions/17-download-A.json",
+    "bytes": 579,
+    "sha256": "c52f6b677523267daa3dff13e59458db92e4d41ca10d80c884701b06a8ce5334"
+  },
+  {
+    "path": "albums/city-lights/transactions/17-download-intent.json",
+    "bytes": 668,
+    "sha256": "b228dd199e8e76f2235c99ee245bca68eceb24a6faecc49fb8ad79fd1a5b4dd8"
+  },
+  {
+    "path": "albums/city-lights/transactions/17.json",
+    "bytes": 700,
+    "sha256": "5e7df933d60a2b3d9260ad26926cd2bfb8f53a5802057573410e573f71501330"
+  },
+  {
+    "path": "albums/city-lights/transactions/18-download-A.json",
+    "bytes": 580,
+    "sha256": "b5ea77f937fb1b2f0aa422ef2038acf8770e0dde38ccba6077b9536baef8484b"
+  },
+  {
+    "path": "albums/city-lights/transactions/18-download-intent.json",
+    "bytes": 668,
+    "sha256": "62d7992d747d4c63d8e3350ab0698344a11758969618616e878e2193d3022148"
+  },
+  {
+    "path": "albums/city-lights/transactions/18.json",
+    "bytes": 700,
+    "sha256": "e2010d8527e0ebacd49aae2e4282733bc9048a3becf57132a21f23eaf8ba8a60"
+  },
+  {
+    "path": "albums/city-lights/transactions/19-download-A.json",
+    "bytes": 579,
+    "sha256": "83ca660090efa79ccee42e97cfb8119076084150090ed6433d6f3d69dfeff5c9"
+  },
+  {
+    "path": "albums/city-lights/transactions/19-download-intent.json",
+    "bytes": 668,
+    "sha256": "f0ef3e7e4b07d27b8d21618a45858361fb6e178c02289d1b03c3026440af0f7a"
+  },
+  {
+    "path": "albums/city-lights/transactions/19.json",
+    "bytes": 700,
+    "sha256": "2c2265b4c11b0b2253d3ea705029a8333d777e3ba0d30081229f064bff9a3b46"
+  },
+  {
+    "path": "albums/city-lights/transactions/20-download-A.json",
+    "bytes": 582,
+    "sha256": "d3aaa63e3655ec973f67dbcae016bfcf734cbd4a2bafce66c68f37e211d9213a"
+  },
+  {
+    "path": "albums/city-lights/transactions/20-download-intent.json",
+    "bytes": 668,
+    "sha256": "3bd90e42553c1c5dcb3d7f74403600040690c2606fd037811a8611e1caa4bbb4"
+  },
+  {
+    "path": "albums/city-lights/transactions/20.json",
+    "bytes": 703,
+    "sha256": "5ac81b17e64650e1b7ca98bd338e108bd2a3824c428d2304c6bffd1a41006c4a"
+  },
+  {
+    "path": "albums/slow-days/20首歌詞與提示詞.md",
+    "bytes": 38230,
+    "sha256": "a6a00c759ac23413f4a11819748d7dd9331cce6e443e3bb3242386a129a24eb1"
+  },
+  {
+    "path": "albums/slow-days/歌曲連結與進度.md",
+    "bytes": 3490,
+    "sha256": "298d4ca1346b97c76a702b12b9bb696a23029c8cc5bbe2ae613b8ea1f4af8d5b"
+  },
+  {
+    "path": "albums/slow-days/驗收與交付.md",
+    "bytes": 2527,
+    "sha256": "04d1cb2ec0b4cdef2fbf041cf41da688ca5f212b00e1b2819b967dffb942ef16"
+  },
+  {
+    "path": "albums/slow-days/album.json",
+    "bytes": 77253,
+    "sha256": "2540c1523a129425aed9160369aa9e13f145597563ad1df8801022d346d976e8"
+  },
+  {
+    "path": "albums/slow-days/build-release.cjs",
+    "bytes": 9329,
+    "sha256": "d7814119421de71fa3f67dc334bffe42dd2c6ec6bdf866f61ccc10c5278a6bde"
+  },
+  {
+    "path": "albums/slow-days/collect-ready.cjs",
+    "bytes": 641,
+    "sha256": "f87447f65dc0a6758d177ce9f15268b9aacd0d1d17829617ab1ad629b36656ce"
+  },
+  {
+    "path": "albums/slow-days/complete-release.cjs",
+    "bytes": 2065,
+    "sha256": "5678b63d71ce3528cc2ed3c2f46b9caee65806bf6cec54dd3a0f9cb947a6775e"
+  },
+  {
+    "path": "albums/slow-days/create-album.cjs",
+    "bytes": 20724,
+    "sha256": "a6c25de285baab3f3b9cf86b6f0d6f9a4a5cc4f5aa71d242099b58c85fd6ddd5"
+  },
+  {
+    "path": "albums/slow-days/finalize-ledger.cjs",
+    "bytes": 1931,
+    "sha256": "37cdaca037dc0f687931706ea8a0185c47a3176ee8dca3a8cff748587b4806ab"
+  },
+  {
+    "path": "albums/slow-days/index.html",
+    "bytes": 3308,
+    "sha256": "a3ac79c914cf40e31f3dc83232f182adf5ac35a46cc540fc423acad8ed23fd40"
+  },
+  {
+    "path": "albums/slow-days/ledger.cjs",
+    "bytes": 1493,
+    "sha256": "6f8507653e12632ea019be496964414c8529cb51e1db1eecefd07809af5e1fa2"
+  },
+  {
+    "path": "albums/slow-days/package-album.ps1",
+    "bytes": 2186,
+    "sha256": "df6ce9a56b1a4b778c76fcee4d79e8a196bf29d22de1bfe3da5652aae9bc54a1"
+  },
+  {
+    "path": "albums/slow-days/public-verification.json",
+    "bytes": 3964,
+    "sha256": "953517e12a80ca8be16ef79a6aa76e1436052d6d1acb6fe06bd84f33a66090be"
+  },
+  {
+    "path": "albums/slow-days/release-transaction.json",
+    "bytes": 2187,
+    "sha256": "7f573e2f77b0fd287a192588ab344cb7772cf154b0149ce6a304a5f644aef4a3"
+  },
+  {
+    "path": "albums/slow-days/release-validation.json",
+    "bytes": 4405,
+    "sha256": "9c9fdd689c1a339cffb560855128c101d3d74909969d7092f74bfb6049af377a"
+  },
+  {
+    "path": "albums/slow-days/serve.cjs",
+    "bytes": 882,
+    "sha256": "2baf9ba77b66472319f13a5171a85de6eaea75da4a60a98222177af33c102a34"
+  },
+  {
+    "path": "albums/slow-days/test-server.cjs",
+    "bytes": 1332,
+    "sha256": "23e3b1416b1cf6571e8c2ab9a09d3983b4b27c2c019590144e6c009d193d3d92"
+  },
+  {
+    "path": "albums/slow-days/verify-download.cjs",
+    "bytes": 2966,
+    "sha256": "ecf405d15bfeedd26bcf4ce9d61badaed8dca2149b2ef9f4edf09e0f90a1c8ac"
+  },
+  {
+    "path": "albums/slow-days/verify-public.cjs",
+    "bytes": 103,
+    "sha256": "6d7b3f9cee8e563f6bedfd0bf2681e12005f1ad5624cba2585e17d0929f36b56"
+  },
+  {
+    "path": "albums/slow-days/verify-release.cjs",
+    "bytes": 105,
+    "sha256": "d6cc9e88d265989200ca7430d9a00012827bc26209b7fd85c1834f008d2104a5"
+  },
+  {
+    "path": "albums/slow-days/backups/albumData.js",
+    "bytes": 61645,
+    "sha256": "d8ecd7891eab137ee6ccd20b896f631623a8c3979773ce28c7878a4fdac60050"
+  },
+  {
+    "path": "albums/slow-days/backups/app.js",
+    "bytes": 36523,
+    "sha256": "515c1c85a7859b4004b98099f7b82ad40ac166eef5575dde973dee181494a37d"
+  },
+  {
+    "path": "albums/slow-days/backups/index.html",
+    "bytes": 23403,
+    "sha256": "ce9927e9ec46f1891621cad422cc28702db48c262dcf45de151bb2e9a4eb862b"
+  },
+  {
+    "path": "albums/slow-days/backups/sw.js",
+    "bytes": 1840,
+    "sha256": "e51b481aadf5fecd4901c60bbc2fc4740f3f60483ba84077b9773b8880c13b28"
+  },
+  {
+    "path": "albums/slow-days/downloads/01/01-A-49fcc03f-93c6-47a3-81f7-278d15f83a6e.mp3",
+    "bytes": 4806233,
+    "sha256": "5d76836d6dea9b2c160bab789ce715ef6ef527cb48abdefc7d196d119b677bd1"
+  },
+  {
+    "path": "albums/slow-days/downloads/01/README.txt",
+    "bytes": 193,
+    "sha256": "4d9ac0b78bf41a108fc2c817e8b79dbdca177a0a6b0853a16a4fb8c4108a2dc1"
+  },
+  {
+    "path": "albums/slow-days/downloads/02/02-A-5178e0f3-501f-45e9-96d4-4bead58e3a0a.mp3",
+    "bytes": 3584037,
+    "sha256": "39a71719e38bb58b4646d3fe5097b475c5d1b1c258738c28e6c28b1af9b6f0bc"
+  },
+  {
+    "path": "albums/slow-days/downloads/02/README.txt",
+    "bytes": 193,
+    "sha256": "710e978fe8ab957031f8c13c5ff2bb13cdbf3c9057cff3686b715361a8f276fb"
+  },
+  {
+    "path": "albums/slow-days/downloads/03/03-A-7a55d5a6-8373-4494-9232-9662912d801c.mp3",
+    "bytes": 5063553,
+    "sha256": "68990c16367cd4fc14665b116b7a2ce902e62bb057c436f0249bad538f7a2160"
+  },
+  {
+    "path": "albums/slow-days/downloads/03/README.txt",
+    "bytes": 187,
+    "sha256": "43748be35d45a1f42f48b9daae4246303b4ed3707becf1533005347ad931a4b5"
+  },
+  {
+    "path": "albums/slow-days/downloads/04/04-A-6bc0966e-aa1d-4794-aa73-6a161d7ad5cd.mp3",
+    "bytes": 4644432,
+    "sha256": "e57d3ce5df70c0b3601ba0981a88acd3b5a9bfa4477ee5e4afdcc6653a3a8b12"
+  },
+  {
+    "path": "albums/slow-days/downloads/04/README.txt",
+    "bytes": 193,
+    "sha256": "e0dcb7a42b4e0787806d0fef8f2d862d25a305fc1706d4e1ed5c2034d8012f54"
+  },
+  {
+    "path": "albums/slow-days/downloads/05/05-A-55bbbf79-1293-4402-9ea7-f3fd93363762.mp3",
+    "bytes": 4291044,
+    "sha256": "9c317dffea27662a194037cda9861f1ceccc79b94c15be012ea6e9b70c1247f1"
+  },
+  {
+    "path": "albums/slow-days/downloads/05/README.txt",
+    "bytes": 187,
+    "sha256": "13d9ca56c6cd8fba980444a176ada9736f4f55495581e09872e713ee614f5d27"
+  },
+  {
+    "path": "albums/slow-days/downloads/06/06-A-a67dba16-98ec-41ec-b130-9aa60dfb9895.mp3",
+    "bytes": 4482558,
+    "sha256": "fe65416fbf413fb5e7325846c1ae736d37e9de2ec8ff941fadbf27984370b5f8"
+  },
+  {
+    "path": "albums/slow-days/downloads/06/README.txt",
+    "bytes": 184,
+    "sha256": "0ce8b03d0ffee1c59ca492c943e3f99da31ef6e1eeeb0180851eb6a98c94d985"
+  },
+  {
+    "path": "albums/slow-days/downloads/07/07-A-6d063bb7-5782-47fb-b4bd-da04f922344e.mp3",
+    "bytes": 4441832,
+    "sha256": "4d13e6313e851dfe5ef8577e1eff2de717d11dc535ea2484a5c691a2ad26ad97"
+  },
+  {
+    "path": "albums/slow-days/downloads/07/README.txt",
+    "bytes": 193,
+    "sha256": "11bdc2519814c3571c2c75bf1725d6e0e0b221d6ad6c82ffebe39f1f4349c4a1"
+  },
+  {
+    "path": "albums/slow-days/downloads/08/08-A-36530420-485a-471e-91d3-3984a70a6c7d.mp3",
+    "bytes": 4431742,
+    "sha256": "8defe349b29752e00a5461d11b26002a352e68f277510c03eed1eb3a769a2aec"
+  },
+  {
+    "path": "albums/slow-days/downloads/08/README.txt",
+    "bytes": 196,
+    "sha256": "6f3b9f36f4d896b27076070e26799cc6732c39e91e334b58a90c8fceb9e46cee"
+  },
+  {
+    "path": "albums/slow-days/downloads/09/09-A-6a005d04-77b0-48a1-aa4e-27d6fcd494a1.mp3",
+    "bytes": 4799713,
+    "sha256": "5ede079198ee9943b6ffa335398b5f373368ff482c0f420f790516a6c637d0e4"
+  },
+  {
+    "path": "albums/slow-days/downloads/09/README.txt",
+    "bytes": 196,
+    "sha256": "4f3ad42841d1302497a70c0110daad71a3bbd770620ddc22daa72f1295151050"
+  },
+  {
+    "path": "albums/slow-days/downloads/10/10-A-5cd7f587-0bbb-4cdf-9dcd-7bce3ac90539.mp3",
+    "bytes": 4221851,
+    "sha256": "040c067dca964e22a9942e72325f35339420f749f910c89e44da48a9ed7b0c5b"
+  },
+  {
+    "path": "albums/slow-days/downloads/10/README.txt",
+    "bytes": 193,
+    "sha256": "63e7fee32ecf366cc22820f9e3c5cb7afa708e07130cd63338cc3964c86ee63b"
+  },
+  {
+    "path": "albums/slow-days/downloads/11/11-A-00345350-21c0-4106-8549-4b0b3eb09238.mp3",
+    "bytes": 3898544,
+    "sha256": "e6eccb4bc30d8df17a7d102db372b60427b3ee118a8353feb1da5b0a549601a2"
+  },
+  {
+    "path": "albums/slow-days/downloads/11/README.txt",
+    "bytes": 193,
+    "sha256": "7a17ef745dfc0fb1682108fe6a3f2b6c0afd26c7469eccf6a578dcde5e4f5a20"
+  },
+  {
+    "path": "albums/slow-days/downloads/12/12-A-ed43905c-5690-414b-9bd5-f00dae662bad.mp3",
+    "bytes": 4566217,
+    "sha256": "aa5e3af43426a06a49012bbcbc9a0a0b80c1dc67c39b0dd6cccc5a340a26b38c"
+  },
+  {
+    "path": "albums/slow-days/downloads/12/README.txt",
+    "bytes": 196,
+    "sha256": "82fcf00b18c47d58f33cf9e9e4b27e2d61ee40e4c6a64e4b6b3eaa1e2c262a36"
+  },
+  {
+    "path": "albums/slow-days/downloads/13/13-A-1b688965-b6fd-4e62-9de9-a4434b455015.mp3",
+    "bytes": 3643604,
+    "sha256": "e758d6c4a9ac62c44bc62278fc18d89ee28ec41c2c5eaaca96de6c24e4ac6e0a"
+  },
+  {
+    "path": "albums/slow-days/downloads/13/README.txt",
+    "bytes": 193,
+    "sha256": "a599c182a6e7ca0b87527fdf7ce132c7b16781c43a92bb34176aa8200bef21cf"
+  },
+  {
+    "path": "albums/slow-days/downloads/14/14-A-e081c35d-c198-4237-a025-2abcfd2289a4.mp3",
+    "bytes": 5387406,
+    "sha256": "7a8001029e31d4c08ec7ec796fddf5d80a15fdbe9b65ef594f1a87cb639e8b4a"
+  },
+  {
+    "path": "albums/slow-days/downloads/14/README.txt",
+    "bytes": 199,
+    "sha256": "b52e7f9d53cce4ad8d54bd8cd113aec6ca115016559503cc7d32b5906a6d64ae"
+  },
+  {
+    "path": "albums/slow-days/downloads/15/15-A-2f7bd7e0-dc76-4a9d-b0f5-9396322ab11d.mp3",
+    "bytes": 5025025,
+    "sha256": "5aca58c340defb286715840b2f07e6773f2c093ea44dbbf5870aca816b031409"
+  },
+  {
+    "path": "albums/slow-days/downloads/15/README.txt",
+    "bytes": 199,
+    "sha256": "51fc86f9d93107d01c5a61b2d0024b2e4504ceb67c1394e22c15122017d9aea7"
+  },
+  {
+    "path": "albums/slow-days/downloads/16/16-A-751ec686-2417-4132-ae90-552a0f814702.mp3",
+    "bytes": 4412485,
+    "sha256": "20871e9cf4cd97a2444b73d698baa490421759acda3c988dec6e166a63bf2ea0"
+  },
+  {
+    "path": "albums/slow-days/downloads/16/README.txt",
+    "bytes": 193,
+    "sha256": "c1cc226e5cbc84da749464c098435adc163cb5c568a08d1c513ecf378680824b"
+  },
+  {
+    "path": "albums/slow-days/downloads/17/17-A-957fbc1d-aa1f-42ef-92be-0532f143c764.mp3",
+    "bytes": 3941951,
+    "sha256": "ec330ee3206637a10931369de90c16cecece5d14be0c0f79954ae797cbe4ec23"
+  },
+  {
+    "path": "albums/slow-days/downloads/17/README.txt",
+    "bytes": 196,
+    "sha256": "3e78639764374c9a55fe7b719553c9695d90b98c96d2750a173fe1a2397a57b4"
+  },
+  {
+    "path": "albums/slow-days/downloads/18/18-A-863b5830-95ab-4a1a-9122-b24e7ea736e6.mp3",
+    "bytes": 5002801,
+    "sha256": "8982ff1861ace8246909cf01eb6b70c1301420ac56cd7a20b9a32f8fa3f50782"
+  },
+  {
+    "path": "albums/slow-days/downloads/18/README.txt",
+    "bytes": 193,
+    "sha256": "2903e5565791a7afd59c0427fa2f95108b1cf75c7075492b06ff0d584a432855"
+  },
+  {
+    "path": "albums/slow-days/downloads/19/19-A-b9f49e31-c711-40cc-99d8-c46ff1cf1520.mp3",
+    "bytes": 4401774,
+    "sha256": "94acbab7a7c0907c7a8c9698579774ae673979f506f4db157874f84803465cd9"
+  },
+  {
+    "path": "albums/slow-days/downloads/19/README.txt",
+    "bytes": 202,
+    "sha256": "3cf1de43df5a4c939ab31a9bd2bb6a7608deea3ff6fc0243da7982c199a15cfb"
+  },
+  {
+    "path": "albums/slow-days/downloads/20/20-A-a8a1a88e-3af8-4363-b6b6-778740d7106b.mp3",
+    "bytes": 5247083,
+    "sha256": "46a5a0733513621ced4e60ff7197058cff1e5684db357af6208d9b8ab124fdc4"
+  },
+  {
+    "path": "albums/slow-days/downloads/20/README.txt",
+    "bytes": 199,
+    "sha256": "c73cd4e9ba52046eb2d9bcf0e5ea5569f24745d8d635ec3bdd3b301253ab56db"
+  },
+  {
+    "path": "albums/slow-days/transactions/01-download-A.json",
+    "bytes": 582,
+    "sha256": "1bdfe3b4e28408ff15e1758302d6863425eb2deef11c5277d7301bf34635fe7f"
+  },
+  {
+    "path": "albums/slow-days/transactions/01-download-intent.json",
+    "bytes": 772,
+    "sha256": "995480592bad66ef3a879150d24966de64551445afe23c6e751db4da5806ec01"
+  },
+  {
+    "path": "albums/slow-days/transactions/01.json",
+    "bytes": 753,
+    "sha256": "d75c51519920381558804ebd600b18f13a731c55c28ee60f7582bfca6f574b59"
+  },
+  {
+    "path": "albums/slow-days/transactions/02-download-A.json",
+    "bytes": 582,
+    "sha256": "37cb1621aa7f3f7e472dd3621d9008c170ab031ed35700434fb238bdca8a3004"
+  },
+  {
+    "path": "albums/slow-days/transactions/02-download-intent.json",
+    "bytes": 576,
+    "sha256": "1c7f72eab33893148b7d2ddb035e6bdfa4fa7b1f3c798995a65e0ec1bf482c4d"
+  },
+  {
+    "path": "albums/slow-days/transactions/02.json",
+    "bytes": 703,
+    "sha256": "1e2067d66306e5f6e6e72049b9d381373bd80af3aeeedd600b7625028df5a10a"
+  },
+  {
+    "path": "albums/slow-days/transactions/03-download-A.json",
+    "bytes": 575,
+    "sha256": "3c37174eaa65b49bbcbeaa9fdb43f315b03a083fed526dbac28af999d12863c5"
+  },
+  {
+    "path": "albums/slow-days/transactions/03-download-intent.json",
+    "bytes": 460,
+    "sha256": "69e8b5343997d78c5db211c400a8f8ea458c1a22c4c21015a457e8fb95255552"
+  },
+  {
+    "path": "albums/slow-days/transactions/03.json",
+    "bytes": 874,
+    "sha256": "c8806753e0a3a20e20f4a2c4d48ff5631f352b4a87e37d62b8c17d2c4c759c39"
+  },
+  {
+    "path": "albums/slow-days/transactions/04-download-A.json",
+    "bytes": 583,
+    "sha256": "8bcfed9984b15d3908eff73d798f9605427a5c549e16760e0b72717d368ae29f"
+  },
+  {
+    "path": "albums/slow-days/transactions/04-download-intent.json",
+    "bytes": 460,
+    "sha256": "ae4bb813e004719f5e397104be1de8f9cc03b7632e2ce98f8a88575a7b811e6b"
+  },
+  {
+    "path": "albums/slow-days/transactions/04.json",
+    "bytes": 703,
+    "sha256": "e98fee11e7fc668024d5959bbc746d71af5db75f72ed5e06288eb064862da1b2"
+  },
+  {
+    "path": "albums/slow-days/transactions/05-download-A.json",
+    "bytes": 576,
+    "sha256": "03e3624af3e054ae4f4f32eafcd9370f88ea7f9a8018e0e4cf61a58c69dbc7d4"
+  },
+  {
+    "path": "albums/slow-days/transactions/05-download-intent.json",
+    "bytes": 460,
+    "sha256": "7d83a67aa01941fe8c5bc4544529d248079bd9d92b114a43c4e14e2148dd2ce3"
+  },
+  {
+    "path": "albums/slow-days/transactions/05.json",
+    "bytes": 697,
+    "sha256": "03259e5f4c20e265ef5b606b1290a002228d58c1ff7967029004c464b01ab49d"
+  },
+  {
+    "path": "albums/slow-days/transactions/06-download-A.json",
+    "bytes": 574,
+    "sha256": "3b095827560c71b52f3d908b9e942ec7a8ddfeecb6f2f21346d8c4525a7a4bb6"
+  },
+  {
+    "path": "albums/slow-days/transactions/06-download-intent.json",
+    "bytes": 460,
+    "sha256": "a843e1f7b451c38bed217f6a0de7a6e7c8baa055cbaf8c7aedbce8685d03ef37"
+  },
+  {
+    "path": "albums/slow-days/transactions/06.json",
+    "bytes": 694,
+    "sha256": "de0db7d4942951fba3165e8224ecee67e6a5b694debeb807e943f063c483dc8d"
+  },
+  {
+    "path": "albums/slow-days/transactions/07-download-A.json",
+    "bytes": 582,
+    "sha256": "23c5056bdf9100dd06c84388ec6025b65f4ea61f5fafadd681ade57da64519f6"
+  },
+  {
+    "path": "albums/slow-days/transactions/07-download-intent.json",
+    "bytes": 460,
+    "sha256": "242b3af7562002866633b3f0b35479857975ba97e17d6ee2839a7a0b2069090e"
+  },
+  {
+    "path": "albums/slow-days/transactions/07.json",
+    "bytes": 703,
+    "sha256": "ba646f8ebc19a8c8e2634575467ca898307489e64a720b8f6c46652379348787"
+  },
+  {
+    "path": "albums/slow-days/transactions/08-download-A.json",
+    "bytes": 583,
+    "sha256": "c1023af3ce78a352ab2d24ad98737ff6bbca44d4db5016e962aaeefaabaf8f15"
+  },
+  {
+    "path": "albums/slow-days/transactions/08-download-intent.json",
+    "bytes": 460,
+    "sha256": "c4c66216c907531350c5988d081b156c4aa82d835b364f134a2ca34544f66b25"
+  },
+  {
+    "path": "albums/slow-days/transactions/08.json",
+    "bytes": 706,
+    "sha256": "94cc3c578e089c9d2aa96e520b2787dbcfe7ee8e28231ea3a257cbc809108581"
+  },
+  {
+    "path": "albums/slow-days/transactions/09-download-A.json",
+    "bytes": 584,
+    "sha256": "f78a2ceb768746980b0da7cd9bec5f6defeb4084a5c1c2658d1f76f72c8d429e"
+  },
+  {
+    "path": "albums/slow-days/transactions/09-download-intent.json",
+    "bytes": 460,
+    "sha256": "ecc887ee38ad2aaee289ee06befaf8f9137e4b212d85956dbd3a6d38e8a486cd"
+  },
+  {
+    "path": "albums/slow-days/transactions/09.json",
+    "bytes": 706,
+    "sha256": "8d7affd5711dd630288e559c89d82a46703ff67572d837d91205247f25395e8d"
+  },
+  {
+    "path": "albums/slow-days/transactions/10-download-A.json",
+    "bytes": 582,
+    "sha256": "d6e8d96d9bed34a586ab908902414a2fddd100f0bb2d16d6f4278e7f21f1cbff"
+  },
+  {
+    "path": "albums/slow-days/transactions/10-download-intent.json",
+    "bytes": 460,
+    "sha256": "f903ccb73adca93eebe8c54add73b58e3a14fb40fe2bebaca5167f0c332d5ed9"
+  },
+  {
+    "path": "albums/slow-days/transactions/10.json",
+    "bytes": 703,
+    "sha256": "e561c1ed5a005d987b0591c97597e941d839645ceb6dcfafd945e7d7bc748390"
+  },
+  {
+    "path": "albums/slow-days/transactions/11-download-A.json",
+    "bytes": 583,
+    "sha256": "75397fb7d9227e0776d159bcfaca2a9a39749a8060f1ea07a608c9233e8a2542"
+  },
+  {
+    "path": "albums/slow-days/transactions/11-download-intent.json",
+    "bytes": 460,
+    "sha256": "5b1574c8faea2b56f844dc6c6e65424a969f6c6cd03fc73d81761b4ed11b0987"
+  },
+  {
+    "path": "albums/slow-days/transactions/11.json",
+    "bytes": 923,
+    "sha256": "23725c3e266a1a1403c2b22e51951fdab305640782e4331147094c590986cd57"
+  },
+  {
+    "path": "albums/slow-days/transactions/12-download-A.json",
+    "bytes": 586,
+    "sha256": "7b0886bbe67b8e1a5be99c8acd8ead06ad3c97ffd075c8c813747153c7487ae1"
+  },
+  {
+    "path": "albums/slow-days/transactions/12-download-intent.json",
+    "bytes": 460,
+    "sha256": "46b12f21268cd605e857b03c68902a4cfc46c97017812a1ab6485a54d713988e"
+  },
+  {
+    "path": "albums/slow-days/transactions/12.json",
+    "bytes": 706,
+    "sha256": "47f41f9f180d05f51675e00ee638c440fce8adeb81b16e57a88f0efb6468b4b0"
+  },
+  {
+    "path": "albums/slow-days/transactions/13-download-A.json",
+    "bytes": 581,
+    "sha256": "b37f9b662edf2b7492f0d4927d203760b6f2f2870313642a498a8c7f141990bb"
+  },
+  {
+    "path": "albums/slow-days/transactions/13-download-intent.json",
+    "bytes": 641,
+    "sha256": "cabeba6906ae870ad5072641e855ff1906d04f85c3b23f09eea4aae44a5e08f3"
+  },
+  {
+    "path": "albums/slow-days/transactions/13.json",
+    "bytes": 703,
+    "sha256": "993403c3f138820ce1dc6f8079836ac64f1200a18b775b3c262bcd6888d1fe29"
+  },
+  {
+    "path": "albums/slow-days/transactions/14-download-A.json",
+    "bytes": 588,
+    "sha256": "14a5ef485aa01f958a8bd6d38a9e08a6064361b53f117da1076a315945c50537"
+  },
+  {
+    "path": "albums/slow-days/transactions/14-download-intent.json",
+    "bytes": 460,
+    "sha256": "75a7b02133666e343d9ba932866df7dd2dbc1ae736514b35e4988cb41140d73a"
+  },
+  {
+    "path": "albums/slow-days/transactions/14.json",
+    "bytes": 709,
+    "sha256": "83810f546d4765968ce64a5361fabc73d5a0cfbdba90562df2ac1bebc69436e8"
+  },
+  {
+    "path": "albums/slow-days/transactions/15-download-A.json",
+    "bytes": 588,
+    "sha256": "fbe5c626091fe86e6e550cba05d83276a6343dbaeca9bba126e224aee747874b"
+  },
+  {
+    "path": "albums/slow-days/transactions/15-download-intent.json",
+    "bytes": 460,
+    "sha256": "5837651f1c8babb507832fcf87a29fb6a2d3122c9ecf55628ce677e9608baff1"
+  },
+  {
+    "path": "albums/slow-days/transactions/15.json",
+    "bytes": 709,
+    "sha256": "6bf9a800cabf4b917b0b4435cb7bb649c567d7881226227a2ce0c5d76fa492bd"
+  },
+  {
+    "path": "albums/slow-days/transactions/16-download-A.json",
+    "bytes": 583,
+    "sha256": "e3743093c88d29f9dc8359f17da76abe4787ca90ea41293588a0748a1bc8c32d"
+  },
+  {
+    "path": "albums/slow-days/transactions/16-download-intent.json",
+    "bytes": 460,
+    "sha256": "633ede27ccd0e34bb4d143833bf2452b2187cbeb7eeaa96bcd23aa4a9168bb5e"
+  },
+  {
+    "path": "albums/slow-days/transactions/16.json",
+    "bytes": 703,
+    "sha256": "7bea8dd965cfb0ed2660ecc406b96490df41ee615579d3917df759c23c925eb9"
+  },
+  {
+    "path": "albums/slow-days/transactions/17-download-A.json",
+    "bytes": 584,
+    "sha256": "d1d6eabc64a0a2b894ba3a15aeba15849ed26c2b524c03c53bb8d552f42a1557"
+  },
+  {
+    "path": "albums/slow-days/transactions/17-download-intent.json",
+    "bytes": 460,
+    "sha256": "64f19afd96c390059a36bccef988a13d6303b6ac664f434379187e1f5add03c2"
+  },
+  {
+    "path": "albums/slow-days/transactions/17.json",
+    "bytes": 706,
+    "sha256": "8d631c6556af77ddc78da4f0314e7303d5242efef5a3605c475c98f3ae38a27d"
+  },
+  {
+    "path": "albums/slow-days/transactions/18-download-A.json",
+    "bytes": 583,
+    "sha256": "05754e9ea8f120f5e7bf9821125138fa33a614b88fd5f1cc941aa7cb53ba902a"
+  },
+  {
+    "path": "albums/slow-days/transactions/18-download-intent.json",
+    "bytes": 460,
+    "sha256": "177df194123ff79a52edb06eee275bb72e86c6a0519052e256cdb9c3a128220b"
+  },
+  {
+    "path": "albums/slow-days/transactions/18.json",
+    "bytes": 703,
+    "sha256": "b76b9af008fe89319f2d11101628125991dbcc9b3cc76d79d8da7446f88958e6"
+  },
+  {
+    "path": "albums/slow-days/transactions/19-download-A.json",
+    "bytes": 591,
+    "sha256": "25cb482d594e36998d60c6a26a4727c21847c3ef4c03bd4500293079e8165063"
+  },
+  {
+    "path": "albums/slow-days/transactions/19-download-intent.json",
+    "bytes": 460,
+    "sha256": "216710f472cf361b1343a89e79be64913927d457545a3ba272fbf801e0e27b23"
+  },
+  {
+    "path": "albums/slow-days/transactions/19.json",
+    "bytes": 712,
+    "sha256": "48ee051cde869c447c9ae6defc1a6bcca68ce343c0a81216bac2633ff5203587"
+  },
+  {
+    "path": "albums/slow-days/transactions/20-download-A.json",
+    "bytes": 587,
+    "sha256": "b6ee2b6d9685b3e21f50eb658a671f14bd1de6efff1df99592b72688f9e7fb91"
+  },
+  {
+    "path": "albums/slow-days/transactions/20-download-intent.json",
+    "bytes": 460,
+    "sha256": "743216d8e500f2cf7d5827e59c6dc533d9d37e66dcc10f7433ff3efec3f59c29"
+  },
+  {
+    "path": "albums/slow-days/transactions/20.json",
+    "bytes": 709,
+    "sha256": "1633f27fe03ccbbcd8612d5baf028db6aacc8aaa7df1e8989c428b5b69c07814"
+  },
+  {
+    "path": "albums/slow-days/transactions/download-baseline.json",
+    "bytes": 690843,
+    "sha256": "9c498c403464ba40efbc8647564914bf97b3cdca9bb98f01507ebb5d1d7dea51"
+  },
+  {
+    "path": "api/stats.js",
+    "bytes": 4277,
+    "sha256": "80c7aa0e8b9a6a5c169b8feea795b39a5a925a516cee2f3e27f8dc661e8af466"
+  },
+  {
+    "path": "assets/audio/track01.mp3",
+    "bytes": 2777783,
+    "sha256": "858c6d8fb1f2ca0dbe200b928524c5e111dd8bb6557355afe5aa292bd75502f5"
+  },
+  {
+    "path": "assets/audio/track02.mp3",
+    "bytes": 2791511,
+    "sha256": "0f89e5479089dded8c1968e9cfdead71a0122110ca5b5d3bc2e2d04530ad950b"
+  },
+  {
+    "path": "assets/audio/track03.mp3",
+    "bytes": 2390746,
+    "sha256": "edd768633ad5c3ff9ae7c749b4096e82701fd8c7048f1046570cdcd7ff065497"
+  },
+  {
+    "path": "assets/audio/track04.mp3",
+    "bytes": 2309669,
+    "sha256": "db7f0fc92a112679a92d88a2d7011c008c192d93525d1f6c9471ffab41cd757d"
+  },
+  {
+    "path": "assets/audio/track05.mp3",
+    "bytes": 2106522,
+    "sha256": "08a1e1dd5d371cefc710398a787828c7e2da0fe1bdb396d3d5bc421bc0e9cc2a"
+  },
+  {
+    "path": "assets/audio/track06.mp3",
+    "bytes": 2497426,
+    "sha256": "a886cc9d2ef58a671efde481a25495cca557374b7fd4e7699b8c33f7e6fee09e"
+  },
+  {
+    "path": "assets/audio/track07.mp3",
+    "bytes": 2645661,
+    "sha256": "dd06f231ddf9742c636f097706c6df5ecac23510fa39c1f832fea09d02a22b72"
+  },
+  {
+    "path": "assets/audio/track08.mp3",
+    "bytes": 3158159,
+    "sha256": "01a5541bd1e69dd465efa6ffe8df2f64dc2a0dcef3e9a2ed19d1cbedf3fb9543"
+  },
+  {
+    "path": "assets/audio/track09.mp3",
+    "bytes": 2554653,
+    "sha256": "4522ece7be35bd3bbcd8e963708ddcf346797a43d8612e7114f81a75b19687e3"
+  },
+  {
+    "path": "assets/audio/track10.mp3",
+    "bytes": 2216429,
+    "sha256": "68062d0a129e02fb6e4b88ca8b0666156a18640bd22918e33d1871fe9fc2119e"
+  },
+  {
+    "path": "assets/audio/track11.mp3",
+    "bytes": 2430171,
+    "sha256": "b658b5467d19d5a3a4b80fb3eee573dd4ae5ef5035dcb9a3736cfcc4c6a6978f"
+  },
+  {
+    "path": "assets/audio/track12.mp3",
+    "bytes": 3392362,
+    "sha256": "8491b013a5809a4561cba56007259aad060e4e70d276350dd1d58f82fdda7475"
+  },
+  {
+    "path": "assets/audio/track13.mp3",
+    "bytes": 3068573,
+    "sha256": "2fd20c9c84276967707ad6e1f585acf0e9d06f727e303a829e0598ee2c4f27ad"
+  },
+  {
+    "path": "assets/audio/track14.mp3",
+    "bytes": 3160077,
+    "sha256": "6facd917867618461b0d56656d5ce6fd8c36c9406176e6842bfd6ea71148570a"
+  },
+  {
+    "path": "assets/audio/track15.mp3",
+    "bytes": 2422769,
+    "sha256": "3df8dc368348c676c07caab15442a03c60d3db092c63862dc55bafe1ac9e82e5"
+  },
+  {
+    "path": "assets/audio/track16.mp3",
+    "bytes": 3008515,
+    "sha256": "71e83ff794fe04cff113c38b4f693c9396f8d3f9381c52cbbfc4095615f4376c"
+  },
+  {
+    "path": "assets/audio/track17.mp3",
+    "bytes": 2793786,
+    "sha256": "35528ab0819bb69816f251d2edc5dd2f4ec2f1eb01d99236eda14c3ee4bba38c"
+  },
+  {
+    "path": "assets/audio/track18.mp3",
+    "bytes": 2744806,
+    "sha256": "e14ba9c91e309afdbd4918807a30f776ce592d0de76086ffda07aae38c57dd5c"
+  },
+  {
+    "path": "assets/audio/track19.mp3",
+    "bytes": 2744875,
+    "sha256": "8b3a2361b8a0ce62c0bda9d934512e221e22e4801521beca81b539827afcadc7"
+  },
+  {
+    "path": "assets/audio/track20.mp3",
+    "bytes": 3538576,
+    "sha256": "300b1e50377baac7eaf8cef671a78ca04ab9c0a71e7e7443e0e61612524142ee"
+  },
+  {
+    "path": "assets/audio/city-lights/歌曲與來源.json",
+    "bytes": 5608,
+    "sha256": "9789ef2601440269afe9a5f626d976bc27ec68f98d37fd2da458aa3616c0151c"
+  },
+  {
+    "path": "assets/audio/city-lights/city-lights-album.zip",
+    "bytes": 92382045,
+    "sha256": "72c493432c5277aabbf1066b6ee4e80a05837dcdb9f9cc4f9848f058e9d846a6"
+  },
+  {
+    "path": "assets/audio/city-lights/track01.mp3",
+    "bytes": 4686609,
+    "sha256": "f393e58bff0031e0c04b53a65365fcd771437dea569b3690430c2582f269d541"
+  },
+  {
+    "path": "assets/audio/city-lights/track02.mp3",
+    "bytes": 4317956,
+    "sha256": "16fc65a2fdbdb265fdaa211d70fc68ca857d4f807fc4fccfec7746e31f5d02d7"
+  },
+  {
+    "path": "assets/audio/city-lights/track03.mp3",
+    "bytes": 4358723,
+    "sha256": "1d8692ac9e26ef9e7b6ae79998a4b3c1bf286a1cc4ef134d96f2187eb05ca088"
+  },
+  {
+    "path": "assets/audio/city-lights/track04.mp3",
+    "bytes": 4761047,
+    "sha256": "4cf4d7dbd322ba58e637954d72bacdcaf4920467951c29fce15285bea576b054"
+  },
+  {
+    "path": "assets/audio/city-lights/track05.mp3",
+    "bytes": 4505159,
+    "sha256": "21c57c317ae10f380b983918fabcd2123c53a799f0221d924f53505c3185d8d6"
+  },
+  {
+    "path": "assets/audio/city-lights/track06.mp3",
+    "bytes": 5112545,
+    "sha256": "a860b24ae8d887442ecb90ad9790eb5726a60042e23ef014fa338119d31d4460"
+  },
+  {
+    "path": "assets/audio/city-lights/track07.mp3",
+    "bytes": 4566393,
+    "sha256": "af67ab9d94fe99c44e0211f601d0718b81b2909222e4352dd324ac9384ff9140"
+  },
+  {
+    "path": "assets/audio/city-lights/track08.mp3",
+    "bytes": 4732300,
+    "sha256": "3e257b40c90803034468462493bd07c58ae9c3678b5d582e59a2c4a59ccb2165"
+  },
+  {
+    "path": "assets/audio/city-lights/track09.mp3",
+    "bytes": 4026981,
+    "sha256": "7972d615a697d36ddab4359c1faa5aba33b0dc9bec9fc01774c305e2349bc2ae"
+  },
+  {
+    "path": "assets/audio/city-lights/track10.mp3",
+    "bytes": 4417741,
+    "sha256": "906ddafce9e378a198aff71d7c166d0f741e012b3f9698eae2b5c789c950ae69"
+  },
+  {
+    "path": "assets/audio/city-lights/track11.mp3",
+    "bytes": 4767886,
+    "sha256": "25e43eafbf49db9f62546be1c8ea4eaf060f605c84b5e129a20175d28173a296"
+  },
+  {
+    "path": "assets/audio/city-lights/track12.mp3",
+    "bytes": 4368510,
+    "sha256": "de44bdd61c181a766896e8600c53f41b1262abc7c90d0c56754e3943a17a52de"
+  },
+  {
+    "path": "assets/audio/city-lights/track13.mp3",
+    "bytes": 4590712,
+    "sha256": "c288c375e7d5e2388c7698425cdd837b98ffb652524f7908349aaaff983fa2fb"
+  },
+  {
+    "path": "assets/audio/city-lights/track14.mp3",
+    "bytes": 4334248,
+    "sha256": "8a3537e4d264afb863765962be375c98d59b8bc8bbecdf5177453428bcc595d3"
+  },
+  {
+    "path": "assets/audio/city-lights/track15.mp3",
+    "bytes": 3984764,
+    "sha256": "5afd3b5cd263f240b55bfe2cdb2e99be075489ad5d53f013874c055476744022"
+  },
+  {
+    "path": "assets/audio/city-lights/track16.mp3",
+    "bytes": 4549853,
+    "sha256": "4b12da08fecabe964791fcbfe1b405189a58a4cbc029637080962f10b713596b"
+  },
+  {
+    "path": "assets/audio/city-lights/track17.mp3",
+    "bytes": 3812632,
+    "sha256": "7581558a35ed99d998b0168c292c08c8f2e8d3ff86b2a0616384a101e008d119"
+  },
+  {
+    "path": "assets/audio/city-lights/track18.mp3",
+    "bytes": 5044390,
+    "sha256": "53c437434266d417bf0abbe4c3eb8f79b806a24dea2061475f2f4f937e03bc75"
+  },
+  {
+    "path": "assets/audio/city-lights/track19.mp3",
+    "bytes": 4368228,
+    "sha256": "5d34a81c1f2a8404c8cb5962567e67f5bc9a27ff79e3a1241157a9849b280eac"
+  },
+  {
+    "path": "assets/audio/city-lights/track20.mp3",
+    "bytes": 4557036,
+    "sha256": "50f03aa1b27a9283b0966e33f2adebb786bacac9efb2c14b1737aadd4dc98b9b"
+  },
+  {
+    "path": "assets/audio/slow-days/歌曲與來源.json",
+    "bytes": 5641,
+    "sha256": "2172731eef44da1a168e8f0911ecaecd19d56d83a0cfe80dfb5dafe863e2f04f"
+  },
+  {
+    "path": "assets/audio/slow-days/slow-days-album.zip",
+    "bytes": 92786608,
+    "sha256": "5859a3a3fa45966a415ae19dfb00fec1852b26b8c87f9abed51cbb99e2909f11"
+  },
+  {
+    "path": "assets/audio/slow-days/track01.mp3",
+    "bytes": 4806233,
+    "sha256": "5d76836d6dea9b2c160bab789ce715ef6ef527cb48abdefc7d196d119b677bd1"
+  },
+  {
+    "path": "assets/audio/slow-days/track02.mp3",
+    "bytes": 3584037,
+    "sha256": "39a71719e38bb58b4646d3fe5097b475c5d1b1c258738c28e6c28b1af9b6f0bc"
+  },
+  {
+    "path": "assets/audio/slow-days/track03.mp3",
+    "bytes": 5063553,
+    "sha256": "68990c16367cd4fc14665b116b7a2ce902e62bb057c436f0249bad538f7a2160"
+  },
+  {
+    "path": "assets/audio/slow-days/track04.mp3",
+    "bytes": 4644432,
+    "sha256": "e57d3ce5df70c0b3601ba0981a88acd3b5a9bfa4477ee5e4afdcc6653a3a8b12"
+  },
+  {
+    "path": "assets/audio/slow-days/track05.mp3",
+    "bytes": 4291044,
+    "sha256": "9c317dffea27662a194037cda9861f1ceccc79b94c15be012ea6e9b70c1247f1"
+  },
+  {
+    "path": "assets/audio/slow-days/track06.mp3",
+    "bytes": 4482558,
+    "sha256": "fe65416fbf413fb5e7325846c1ae736d37e9de2ec8ff941fadbf27984370b5f8"
+  },
+  {
+    "path": "assets/audio/slow-days/track07.mp3",
+    "bytes": 4441832,
+    "sha256": "4d13e6313e851dfe5ef8577e1eff2de717d11dc535ea2484a5c691a2ad26ad97"
+  },
+  {
+    "path": "assets/audio/slow-days/track08.mp3",
+    "bytes": 4431742,
+    "sha256": "8defe349b29752e00a5461d11b26002a352e68f277510c03eed1eb3a769a2aec"
+  },
+  {
+    "path": "assets/audio/slow-days/track09.mp3",
+    "bytes": 4799713,
+    "sha256": "5ede079198ee9943b6ffa335398b5f373368ff482c0f420f790516a6c637d0e4"
+  },
+  {
+    "path": "assets/audio/slow-days/track10.mp3",
+    "bytes": 4221851,
+    "sha256": "040c067dca964e22a9942e72325f35339420f749f910c89e44da48a9ed7b0c5b"
+  },
+  {
+    "path": "assets/audio/slow-days/track11.mp3",
+    "bytes": 3898544,
+    "sha256": "e6eccb4bc30d8df17a7d102db372b60427b3ee118a8353feb1da5b0a549601a2"
+  },
+  {
+    "path": "assets/audio/slow-days/track12.mp3",
+    "bytes": 4566217,
+    "sha256": "aa5e3af43426a06a49012bbcbc9a0a0b80c1dc67c39b0dd6cccc5a340a26b38c"
+  },
+  {
+    "path": "assets/audio/slow-days/track13.mp3",
+    "bytes": 3643604,
+    "sha256": "e758d6c4a9ac62c44bc62278fc18d89ee28ec41c2c5eaaca96de6c24e4ac6e0a"
+  },
+  {
+    "path": "assets/audio/slow-days/track14.mp3",
+    "bytes": 5387406,
+    "sha256": "7a8001029e31d4c08ec7ec796fddf5d80a15fdbe9b65ef594f1a87cb639e8b4a"
+  },
+  {
+    "path": "assets/audio/slow-days/track15.mp3",
+    "bytes": 5025025,
+    "sha256": "5aca58c340defb286715840b2f07e6773f2c093ea44dbbf5870aca816b031409"
+  },
+  {
+    "path": "assets/audio/slow-days/track16.mp3",
+    "bytes": 4412485,
+    "sha256": "20871e9cf4cd97a2444b73d698baa490421759acda3c988dec6e166a63bf2ea0"
+  },
+  {
+    "path": "assets/audio/slow-days/track17.mp3",
+    "bytes": 3941951,
+    "sha256": "ec330ee3206637a10931369de90c16cecece5d14be0c0f79954ae797cbe4ec23"
+  },
+  {
+    "path": "assets/audio/slow-days/track18.mp3",
+    "bytes": 5002801,
+    "sha256": "8982ff1861ace8246909cf01eb6b70c1301420ac56cd7a20b9a32f8fa3f50782"
+  },
+  {
+    "path": "assets/audio/slow-days/track19.mp3",
+    "bytes": 4401774,
+    "sha256": "94acbab7a7c0907c7a8c9698579774ae673979f506f4db157874f84803465cd9"
+  },
+  {
+    "path": "assets/audio/slow-days/track20.mp3",
+    "bytes": 5247083,
+    "sha256": "46a5a0733513621ced4e60ff7197058cff1e5684db357af6208d9b8ab124fdc4"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track01.mp3",
+    "bytes": 2525725,
+    "sha256": "74ca06fe6b04cda7f3f4e52691ab47d05805dbb32b5b96a44553b1f6b0ed42e3"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track02.mp3",
+    "bytes": 2246320,
+    "sha256": "0dbbab4e6361515ba32ba4399eefa55b005c831c27abcc712d38709391a45afd"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track03.mp3",
+    "bytes": 2536586,
+    "sha256": "cd480e3e32080810cd01c3b723e2b796f3ec3b59bd854878e282c855783edfb2"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track04.mp3",
+    "bytes": 2391840,
+    "sha256": "4b20c9c0386d750aef7f6f82709a9e38ef5ff93c9db37f6d4c2c331994f17a74"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track05.mp3",
+    "bytes": 1963233,
+    "sha256": "e16388e7c87317536531747205b3e41ca4e1583b863ec2550f84976cce62e5ab"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track06.mp3",
+    "bytes": 1799599,
+    "sha256": "d99d20ea16ebd026e57bc7e9e713ba6095a53543e5e8b14f0cfbbc682377e469"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track07.mp3",
+    "bytes": 2314989,
+    "sha256": "e249449a352d336b822e56d0f46ec030b54a928bdc1b62166448584483f6afff"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track08.mp3",
+    "bytes": 1461302,
+    "sha256": "4dcc59e6e501bee3de7924724732b7d10caef87b2762c4661ea71c6b2524411d"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track09.mp3",
+    "bytes": 1710279,
+    "sha256": "a44722b0c679cf707b76d528fc47a446da4b0f782235ce3ea59e2b0142f4bfea"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track10.mp3",
+    "bytes": 2842636,
+    "sha256": "285fda539787aee63a76c68a226204cb3894866215900d9775d0291fba8983ba"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track11.mp3",
+    "bytes": 1547260,
+    "sha256": "6746a235fc3ecfe78100ac7581f1039701cda79883469f4d09f1cec0b1bbecba"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track12.mp3",
+    "bytes": 3380491,
+    "sha256": "0e11a73cd6a1108f7b705158b1907106d5678dfad6d9d6a0a8d1f8eba3a4bd56"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track13.mp3",
+    "bytes": 2510119,
+    "sha256": "0593e8a6ef2f248dbe656f8f62d4b525e0e12d6717318a2c958d0191e635ac7f"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track14.mp3",
+    "bytes": 2467923,
+    "sha256": "14d8e8b0d6ef6cf5279d1391a73825a93f747d9aaa0ecdc9933d9ec5bcef7914"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track15.mp3",
+    "bytes": 2782967,
+    "sha256": "6d00e2105da9ac823bc26472eeec6a774d4628de2e69170f24f44016a0d8d6a6"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track16.mp3",
+    "bytes": 1503161,
+    "sha256": "39b1263b1988517d1687e50e44a88a0416e0664c7a4ffb3778014e035e040df1"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track17.mp3",
+    "bytes": 2406781,
+    "sha256": "f1a32cb6b406b172b98d9a5f4bd38ec80d9f36c673ad7b53e08aad36026cb0c3"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track18.mp3",
+    "bytes": 1681805,
+    "sha256": "8af73322e9a86ae0ae0b0f9b7df24cc1dc008c5f57bdf53eda69ad851e8f18c8"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track19.mp3",
+    "bytes": 1973186,
+    "sha256": "6c53c31c34f88e76843e2758ece6b266114ab2f2b65e3cd7deb7b30ff0429a5a"
+  },
+  {
+    "path": "assets/audio/zeguoxixiang-girl/track20.mp3",
+    "bytes": 2580019,
+    "sha256": "c6784058eecc8e1d63e1cbb0ddc94fd6bcc1a3d2c2916e2a165191c9039b5cea"
+  },
+  {
+    "path": "assets/images/app-icon.svg",
+    "bytes": 4034,
+    "sha256": "857fa726f36c46aafc33178ea1ce8ca33ab74f098f20caaa0db1d0de046261b1"
+  },
+  {
+    "path": "assets/images/icon-180.png",
+    "bytes": 25387,
+    "sha256": "fa6148bd95d2b593657fe307396aad02ec0098f54d891c568b1c53b96ac066c0"
+  },
+  {
+    "path": "assets/images/icon-192.png",
+    "bytes": 27897,
+    "sha256": "b4837ee30621051452e42bb88a5873b7f44516916cd7f63049f297fa0bd0c384"
+  },
+  {
+    "path": "assets/images/icon-512.png",
+    "bytes": 107566,
+    "sha256": "183cea14782c128bff999e3c6b2536cb0e05157d62860d723e632615d86e5a41"
+  },
+  {
+    "path": "assets/images/singer_1.png",
+    "bytes": 405167,
+    "sha256": "b9d895f14ca11d50d3dd81c9d9c5cc46c93c44df76796c34025c68fdbd44469a"
+  },
+  {
+    "path": "assets/images/singer_10.png",
+    "bytes": 646256,
+    "sha256": "1ad1ec9a48bd61b9cd4d3343048f51be9889ce4da1d024fbd3ad3db9652d7cd2"
+  },
+  {
+    "path": "assets/images/singer_2.jpg",
+    "bytes": 220373,
+    "sha256": "b089a27f44fe7eba9eafd2d6f1cd4c497a66d5bd127bdd7dad18e0dabf55563f"
+  },
+  {
+    "path": "assets/images/singer_3.jpg",
+    "bytes": 206727,
+    "sha256": "a064a9e4b35f597061b0bfacdbe21ff70cec3705e2909ea88ab8e06b05ec04f4"
+  },
+  {
+    "path": "assets/images/singer_4.png",
+    "bytes": 380127,
+    "sha256": "f7ff5bb0b9cdc55cc35befccf9d4a536f3339f74a7a24c172c31a9a2c3a2071f"
+  },
+  {
+    "path": "assets/images/singer_5.png",
+    "bytes": 385276,
+    "sha256": "40e76a1df43761fba9f7465c9ddad33fe54f53a8bf60d1cc176da9f69c804730"
+  },
+  {
+    "path": "assets/images/singer_6.png",
+    "bytes": 693380,
+    "sha256": "54e27af69bad8f1f4438065e1e6fc26b5fbea391ff8746bfb99b8c13d6a11f4d"
+  },
+  {
+    "path": "assets/images/singer_7.png",
+    "bytes": 635933,
+    "sha256": "05539e9a9b33f9402d33e9dec665bcdb2092d723638d85078e21de3d45276c34"
+  },
+  {
+    "path": "assets/images/singer_8.png",
+    "bytes": 606457,
+    "sha256": "d2ec83e4e284f2e4e9ac030dcf2ca1fdeeff0ab45e55d770c5ffa802382983ed"
+  },
+  {
+    "path": "assets/images/singer_9.png",
+    "bytes": 537315,
+    "sha256": "635ab9e99fbc907c125782af753823ddf0eb3fd1d6df3c5a52f63df8d6993e5f"
+  },
+  {
+    "path": "assets/images/city-lights/cover.png",
+    "bytes": 2515636,
+    "sha256": "d41e4a3d6af9ef4ca6432afdddfb8c3f8fe072f94670b1efa71ea529803a5ed9"
+  },
+  {
+    "path": "assets/images/slow-days/cover.png",
+    "bytes": 2490370,
+    "sha256": "88ba4d477a2ed86449ad953fc74028b826031621805a0472c76e5ddbf9c396b6"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/cover.webp",
+    "bytes": 348752,
+    "sha256": "51027e0306d964b11a403c04ac0bb45ab4d7e97971081d60b7756314e1dffd78"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track01.webp",
+    "bytes": 246646,
+    "sha256": "adfd5cbc802cc2e7936ea5bfe24aa3b39dc16dd6c61f06c0323c9bb2e1796587"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track02.webp",
+    "bytes": 403356,
+    "sha256": "f1df205c7b42912428429d83e29880feb62b3000437e1015611feb682becd3e8"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track03.webp",
+    "bytes": 404284,
+    "sha256": "7845f7906542c8dd49ab46c65079cb7e24e767622d0c6f9c0b6d2bdcdccfe93d"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track04.webp",
+    "bytes": 468274,
+    "sha256": "24397c66ea305045cedd9a9e7368fc7c959cdc44b8d3efb26dc5a36171f154af"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track05.webp",
+    "bytes": 428890,
+    "sha256": "0ff4fd1cb6a59cf1bdf45521d979d31cedbfe5f68765fb70e2ca139e15652a60"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track06.webp",
+    "bytes": 374244,
+    "sha256": "084a919a851cb581ab22fe709a7c3261e60d4063987ee02fb4236d85d6c7fd50"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track07.webp",
+    "bytes": 388180,
+    "sha256": "05d997e314092e5e5726ac3ad11c68f935bc5387a34f19c314067765f38067f9"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track08.webp",
+    "bytes": 325080,
+    "sha256": "c8382fb1f5112b0a70c86453567f87dd7c85152d0b912f7300344d82bdfee652"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track09.webp",
+    "bytes": 352286,
+    "sha256": "7f66d6228ebbf88efeddc4c43568fedb10995de665f53434d7f72af6b736b8dc"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track10.webp",
+    "bytes": 390072,
+    "sha256": "1307131812ecfaa1dcf8336b89700bac4da3ff9a2fd47cc662003ff81933417b"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track11.webp",
+    "bytes": 382322,
+    "sha256": "b01f12f7dbd5a54edce5a115f46046415e69dd377d66d27736de6f24c2dca8c0"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track12.webp",
+    "bytes": 417082,
+    "sha256": "7162d5e7e740cbbaa2c96eb95e54cf167e954daf777d10a7d33c459295ec63bf"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track13.webp",
+    "bytes": 402352,
+    "sha256": "f55198db0aee1fea55d20f8d5e45cb8b84bdec68dc66f1ea11b57ccd1754d614"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track14.webp",
+    "bytes": 414148,
+    "sha256": "abece0aae66cdf0dcaf1c9571819186efac96a50d6a6ffcf0f949ebf4e644f2d"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track15.webp",
+    "bytes": 311100,
+    "sha256": "6039a332246538069ea460b2cc9aaed5fd41bbce1773afe774a420755436bc93"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track16.webp",
+    "bytes": 526968,
+    "sha256": "487a14f2c94013ab40834d2eabd2d850e715061853560abfdb0715cc9c91c416"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track17.webp",
+    "bytes": 333524,
+    "sha256": "2ed93202d1dab773207c9ebcfcc11f6085b2dc3ec973916e4f0a72c1feb18d2c"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track18.webp",
+    "bytes": 238546,
+    "sha256": "def4b04627af5cb7989616508a78c3429dd65db1f6bf8a565e87f24f0d149fe3"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track19.webp",
+    "bytes": 421004,
+    "sha256": "1c51d0e40282de1b08dd56b507c6a0da7a6c095117059c3e94dc6a48421709ed"
+  },
+  {
+    "path": "assets/images/zeguoxixiang-girl/track20.webp",
+    "bytes": 157888,
+    "sha256": "9f3a9fea76c9993421f6c70b71289fae66610272d8bb5ab5a4e5a60fd774b473"
+  },
+  {
+    "path": "docs/GIT_COMMIT_PLAN.md",
+    "bytes": 5057,
+    "sha256": "510cb8610d3dc27b2caa66a02812efed99299b7421e6501322ae3486199744a7"
+  },
+  {
+    "path": "docs/MAINTENANCE.md",
+    "bytes": 5859,
+    "sha256": "e2c36b4c7ea11da0f9777d8689d113956817d662d0eb0d81bc1ef27b5c37adf3"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/baseline.json",
+    "bytes": 156162,
+    "sha256": "ac6ebd40d358b8a3f4b1e503a06ace5f26afb8618d13a83de6e0dadf82b953b3"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/city-lights-check.json",
+    "bytes": 9740,
+    "sha256": "8938f3b59a1dd2fdf47b7fa43caee40f127f24b487c846a12d47bb3f0576f2d2"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/COMMIT_RESULT.md",
+    "bytes": 2903,
+    "sha256": "52bcf179e62e6c70f79ab1d728d60faa4386426ad53b2378b7afb2b745b975ac"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-01-dry-run.json",
+    "bytes": 4650,
+    "sha256": "908badf77f612e8fce66e153026f5476cbb7c9701f16da61e3ec48ec8cb056df"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-01-intent.json",
+    "bytes": 363,
+    "sha256": "eb7e1cbb925f9dd7e43d81f167df83f052dfefbf98e29c0a678e7f135b4c02ed"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-01-message.txt",
+    "bytes": 206,
+    "sha256": "37cbc3bdb1d64b4fd69fd371cf30a03f64e8130c438a1c059f61b957a9286c5b"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-01-result.json",
+    "bytes": 2678,
+    "sha256": "6e4e96c311128196d514513eea420dc4b96920be2967038d42b782bbd27afa5a"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-02-dry-run.json",
+    "bytes": 24264,
+    "sha256": "30e31ba09d90866be3a8b7c9a0a0ff3c5413c839a1eb08289d87a9a1d0510382"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-02-intent.json",
+    "bytes": 364,
+    "sha256": "bb7caa69d855772fe9f0547cb7b433f3429f6938adb8b12b719eab520a4ce5ec"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-02-message.txt",
+    "bytes": 184,
+    "sha256": "aa12407f3911c4f15a79bedb9a1d2cb1364babd231421e2b5341b0ef7cc3d056"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-02-result.json",
+    "bytes": 14530,
+    "sha256": "ef302228f163c59fee9d4cc44ee20f789e15fbb90dc090c91de026c58282a97a"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-03-dry-run.json",
+    "bytes": 4867,
+    "sha256": "ffebf53cc170ee6be41d5326ba17fb507caa794a53183bfd056cdcd13a6c1c9c"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-03-intent.json",
+    "bytes": 363,
+    "sha256": "35dac1d19f69559b84707ea97235faf90805d9d2e52bc4c2fcfeded003dd4643"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-03-message.txt",
+    "bytes": 202,
+    "sha256": "48c9ed6e6f69d3d1eb8f09eeb79dc509d056c83fa52680d39642e967d27fdf4e"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-03-result.json",
+    "bytes": 3312,
+    "sha256": "835ee2212a1d63a1043f316ae49a62a7a26168c3dd05916efba43bd7e451e214"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/commit-log.txt",
+    "bytes": 408,
+    "sha256": "3a30c05a58cacb9caae0a0c376af0929f1431dcad5e72134a82e1f962c96f22f"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/committed-content-verification.json",
+    "bytes": 123242,
+    "sha256": "77de25aa358c9a99858235411c316128c52ea87bfc244018ae6dd5bf4a39597d"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/final-receipt.json",
+    "bytes": 4829,
+    "sha256": "09579a3adf3fd229d4e525542afbb4d89b61b1fd0283ed5c053e9908b8c36c7f"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/index-before.bin",
+    "bytes": 48323,
+    "sha256": "d55c36d3c1923db834dda866fb6e4f6419d452508e0086da7661758746752876"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/preflight.json",
+    "bytes": 1077,
+    "sha256": "3e7d2f4f333f7ae91158ee48fa305a7b23c2a3884d5904a4674d1d8284c40d7c"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/slow-days-check.json",
+    "bytes": 9749,
+    "sha256": "6f07e35146234d4f92e70bee30d863f2be21ade1ad717a433923ca134511cd95"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/status-after.txt",
+    "bytes": 2637,
+    "sha256": "50d56680c468b89cceb6f9c204f4c24a3649934832510635e04275545b59b626"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/syntax.json",
+    "bytes": 818,
+    "sha256": "e4815b1eb021a9be991dc776670beaff62847ae112ec869d8c4c9b0aa56b2098"
+  },
+  {
+    "path": "reports/git-commits/20261015T120421Z/tests.txt",
+    "bytes": 2590,
+    "sha256": "160572fe0ba63db53424a4dc2e7d09fddff9dbb32173026f95bc48050be13ceb"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/baseline.json",
+    "bytes": 93488,
+    "sha256": "2c10d6d12657fbc6423083f9ec71de91438533968c1a6a1af48b93e130f9d347"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/commit-01-paths.nul",
+    "bytes": 1839,
+    "sha256": "10b55bc9895af96eac5164121de311602e18119cf3b64bb357a7dd008aded5a3"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/commit-01-paths.txt",
+    "bytes": 1839,
+    "sha256": "8400618f693bd7f18042405ce6cbf51f9f35241b7c828ecf64fe53c62becb8dd"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/commit-02-paths.nul",
+    "bytes": 12335,
+    "sha256": "7c07b64b1aa1dda9c8aa7ed8b846d1ac5abc3ab184d6430518132333ac8f02f2"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/commit-02-paths.txt",
+    "bytes": 12335,
+    "sha256": "4072cd4bffd04cefa90011142ac81856e066aafe7d21213fcafc055ad341dd7b"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/commit-03-paths.nul",
+    "bytes": 2536,
+    "sha256": "4636cd3faf9449d78a44ada86e5227ab3cf352faf8f5874811284952a16208bc"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/commit-03-paths.txt",
+    "bytes": 2536,
+    "sha256": "2f101cb62e1a6e4752b94cdfcfb2b0258f2211e2f39363d2fa413c30e04e4563"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/commit-plan.json",
+    "bytes": 91452,
+    "sha256": "515eafb79b72f61dee15908b2b67779d53e5981534faf0b8282929f3c4483e42"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/tests.txt",
+    "bytes": 2589,
+    "sha256": "b0a0e48782cd42ec160405aecfa85ac47df3985c64ac2e8b7325e6f36fbc27a4"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/validation.json",
+    "bytes": 6154,
+    "sha256": "1a93f21285c2b5f211b0f465dcf8dd2211cc05a1de4710998a929f2450c5702f"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/before/.vercelignore",
+    "bytes": 124,
+    "sha256": "030d38b7554bbc5165b8f3136c5551bd2aceeb3721233bc8df29029127fcd39a"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/before/README.md",
+    "bytes": 6636,
+    "sha256": "e191634d96847197dd78a0d4ca2f2832858cc8b12c0e78e7175fac1a08ed9390"
+  },
+  {
+    "path": "reports/git-preparation/20261015T114229Z/before/docs/MAINTENANCE.md",
+    "bytes": 5606,
+    "sha256": "02c776c8b1328b596e04258bd7fd06533e20baa1db6393b3ad074eef261b1d39"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/attributes-before.json",
+    "bytes": 180508,
+    "sha256": "010cb60a4d5a5c9aec17dd026cd7049bddc4db3e9735dacfcf8bd9ec0e6a6207"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/baseline.json",
+    "bytes": 96829,
+    "sha256": "c7f3c4fb21608bba0ba2291494b14254a405c8b711be222d29319b80d79436ac"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/cached-diff-check.txt",
+    "bytes": 2525115,
+    "sha256": "821f79cba57bf88e3a9b99b967ce5c926e12f451869a34ce21225f13088c8a4b"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/checks.json",
+    "bytes": 4368885,
+    "sha256": "a53c6e7abe5669deb58447d91b584fffc08e2c374a8bd5fbb7a3394364424efe"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/city-lights-check.json",
+    "bytes": 9740,
+    "sha256": "5a93ebed5be0b1ff7d4457bcf66a488f66c57ab13991c34037efbc330da86f45"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/expected-git-blobs.json",
+    "bytes": 102457,
+    "sha256": "542635e45a66cfd3d0d3c43560de49afd5fd0c466a3af30d87c4d42cad267de7"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/final-receipt.json",
+    "bytes": 2714,
+    "sha256": "8d87bf3902d9bcbee3c03ea4c073e1887589fd91a2ade342a0e5c5b8e0087c1c"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/index-before.bin",
+    "bytes": 8835,
+    "sha256": "d2e464471d590c99a1461e2f6b17531027bfc14d82c2e51c8b90266f1c7147d3"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/index-content-verification.json",
+    "bytes": 185642,
+    "sha256": "ec542be7f58b34368d87075aedb1fb5446887a95101eaf87bb7b3dfd0f152b55"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/preflight.json",
+    "bytes": 79041,
+    "sha256": "e6a1a7aee73a10d69efa989bac9adff9e6899a318af0262df79de8edc8edf6d0"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/slow-days-check.json",
+    "bytes": 9749,
+    "sha256": "af7a8e2a7a2e4d4e89bf94c94080880b974af7df622df8d23cda3cfe4ea3d7bc"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/stage-01-result.json",
+    "bytes": 196,
+    "sha256": "2b82b5652c897e78309936800e1d77a37d3330223e089f41f80183d88c29b313"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/stage-02-result.json",
+    "bytes": 199,
+    "sha256": "8107973e708971921ce0484ebbf2e1dc991513dbf17d452a02f0140c327836ad"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/stage-03-result.json",
+    "bytes": 198,
+    "sha256": "f5f1b511adef1ba67c5c5b80aada1bc80a48692bc08d438de8d62ff38fef76f9"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/stage-intent.json",
+    "bytes": 613,
+    "sha256": "189f943803b5533aa3f629038d71612d904d848d5f11138679b166db2839595a"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/staged-index-entries.z",
+    "bytes": 41127,
+    "sha256": "9d6961fb7d035e1a8277e56a64cf5545feb707a503fdc681bdab9e70ab05854e"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/staged-name-status.tsv",
+    "bytes": 18140,
+    "sha256": "d1ebbb5ff88dc7de157a0f54e016727d9d498cb0230378c7384621c77e72f345"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/STAGING_RESULT.md",
+    "bytes": 3092,
+    "sha256": "ef185d3e4f6a0af6b2d8f1c330425f75933dd013202db575c51d1899e3ffa688"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/status-after.txt",
+    "bytes": 18863,
+    "sha256": "b01afc8dfadcfbc42a3e7404f6e98b8c6fcdd07457345661526d9a292e44c399"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/tests.txt",
+    "bytes": 2588,
+    "sha256": "cc53246762d92c7ead1eff0e13712d2a7fa61de53b67aa3d0dea2127350c8b76"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/whitespace-classification.json",
+    "bytes": 6651,
+    "sha256": "58aa8bb6dc0f96b15a15843cab31ca102756e107d02cd32530787d3b1e6d47e1"
+  },
+  {
+    "path": "reports/git-staging/20261015T115106Z/working-tree-before.patch",
+    "bytes": 46640,
+    "sha256": "6863b918bc29e4d62e4e8e1a6f6dd4ccab36b8474815618d3b9e8399e622d8d1"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/驗收結果.md",
+    "bytes": 4212,
+    "sha256": "6e4ff53503e17957b2ba885b3efd76662950ecf6a33ce716e337fd19727bdf34"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/audio-audit.json",
+    "bytes": 30113,
+    "sha256": "857a67663d5db80ef0c57edb725ece8d42810e6b9090fbae0deaa350fe745f2e"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/baseline-verifier-findings.json",
+    "bytes": 262,
+    "sha256": "a8243328dd58586bcc257af47cf0d56a356f697dea3a35f12932118bc7c8e513"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/baseline.json",
+    "bytes": 80197,
+    "sha256": "84e76c24c3cbec9f791738b621f0c72338d8c895e89e34b1b205cfd2a32288de"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/checks-initial.json",
+    "bytes": 1323,
+    "sha256": "7504c3550a133ddfdc08de6f68c1c710f9264bb8c357e6dcf667803ea33b1bfa"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/checks.json",
+    "bytes": 1835,
+    "sha256": "933e5d69216d28bc495c9f229196b27eeba013862d28e0d3249bab0a2c1954d9"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/city-lights-check.json",
+    "bytes": 9740,
+    "sha256": "d659b27d2e1a0b1127ef238095a2abb32a25fe078af8d197b1659e0f8942a66b"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/external-source-baseline.json",
+    "bytes": 12647,
+    "sha256": "72b2d7c67fcf3aec980cd6abeca6c3045c2b63d3542c0c935b7411df3295e1c5"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/final-receipt.json",
+    "bytes": 7016,
+    "sha256": "1fcea36357032ea57035dacd90e137b48fd032aaf18909e44cb846fdbe63a112"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/git-before.json",
+    "bytes": 16917,
+    "sha256": "d5f401c23d5696adf4c0ce571d89d385c3eff9f45e2ea213587c833dad58fcc5"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/preservation-check.json",
+    "bytes": 2258,
+    "sha256": "4efdb9ac70733b8b8382fb344a4f8b9794f736c12e17cb24086f8dd0ffc4ecd5"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/regression-tests-initial.txt",
+    "bytes": 6633,
+    "sha256": "036a65129f16c3a7f7afb7816219aa11c11086a1d816920b338bd4693ac22d3f"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/regression-tests.txt",
+    "bytes": 2587,
+    "sha256": "8dfabae809404d85cd0d2449b3de6158cf6f1867a76a64118a754db8619efc3c"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/slow-days-check.json",
+    "bytes": 9749,
+    "sha256": "a36442486879f77e54585c8459214fd038d62e7dc7353f9e1003aaa965738c96"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/task-changes.patch",
+    "bytes": 28820,
+    "sha256": "970b1884cef428319c5c58177301719f3efb2089392ffd16b2602af9d820f71c"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/version-inventory.json",
+    "bytes": 20650,
+    "sha256": "44e259a2c4521452772983410e7247915ef673926533d9ee96ec6b41199fc6a1"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/working-tree-before.patch",
+    "bytes": 26909,
+    "sha256": "bd99d09fc123cec48c46842fedf104c66ddf9067d0c8ecda179cceb939eb7577"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/before/.vercelignore",
+    "bytes": 93,
+    "sha256": "701973318a52935c458d59f2b7b5256469a8bc7b3d2017144c9604b53fac1458"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/before/albumData.js",
+    "bytes": 61869,
+    "sha256": "bcd4942070cc5cc829d60cb514901c36cb10848aafb295db6113877887130231"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/before/README.md",
+    "bytes": 11242,
+    "sha256": "9b05e66058525bbb91e65308aadd7c7e99afd316961cc52824f792e536800fca"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/before/albums/city-lights/verify-public.cjs",
+    "bytes": 2123,
+    "sha256": "2060ede6cf46407b1b4d96feda982e95f1b6cd276d4a6d0a642d2e0ff08bf24b"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/before/albums/city-lights/verify-release.cjs",
+    "bytes": 1414,
+    "sha256": "13756dfb67db4235cf6c4b8ef9bc7dd19d7f7143a1c4d0bc5d6814f09a98ffcb"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/before/albums/slow-days/verify-public.cjs",
+    "bytes": 2022,
+    "sha256": "54cfd69e35531fcc9b5db4c21e650914fa728a2b3fc9e11e9ff0f5efa466c061"
+  },
+  {
+    "path": "reports/maintenance/20261015T112939Z/before/albums/slow-days/verify-release.cjs",
+    "bytes": 1410,
+    "sha256": "7765457708e0b206284ad9fb88dd4253d35ee6fb78402a2bbc180b96b0141f72"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/baseline.json",
+    "bytes": 142211,
+    "sha256": "89b11aab4ab0b6bc0e0c7ef1aee90c925819e79170c2d5443ddcf6c0c563a9d7"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/github-state.json",
+    "bytes": 1993,
+    "sha256": "322b7ff0a386e2957c2801cb57df1767b1b8fa218fec8b7666bc1f305804cb6d"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/outgoing-objects.json",
+    "bytes": 67757,
+    "sha256": "2192bd914ddb7c6e50b1a045bb307e5cc756a8a31c6aa44d72db3ba588046d53"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/PUSH_PLAN.md",
+    "bytes": 8216,
+    "sha256": "c815d9f691cb1ad0d51a972381258f6c50225eea39efe9d281e6eded6319f24b"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/push-plan.json",
+    "bytes": 6739,
+    "sha256": "9f28d2f20f67e657d344d6221e59360abb638c39fa509df386c1e0bf3e70107c"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/status-before.txt",
+    "bytes": 102,
+    "sha256": "91442d19c8b3731a57103d9f7312650c978ca8be078f243a0159923efdb795eb"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/validation.json",
+    "bytes": 2742,
+    "sha256": "8c836e249e693057424b48fda9bf7040a36f63e4844859134c495d26b48d9a16"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/vercel-final-readback.json",
+    "bytes": 655,
+    "sha256": "e27200ff6ed9351943c6ec29cbe024484e1eee4c6dbfdeb31b10e2f1e007c08c"
+  },
+  {
+    "path": "reports/push-plan/20261015T121913Z/vercel-state.json",
+    "bytes": 3804,
+    "sha256": "d945eb291a50df9329b6834c351871fd409581638446559b3ba348d16b16f5e2"
+  },
+  {
+    "path": "scripts/lib/release-validation.cjs",
+    "bytes": 9703,
+    "sha256": "78a1a45ed4627d60147c9a52c99f95155bbb0d0bbb2508bdb0d71ad814437c52"
+  },
+  {
+    "path": "tests/release-validation.test.cjs",
+    "bytes": 9067,
+    "sha256": "e8e6e396c3d5b2b74623ebab718545220489c56a336d7f42d51324e6b5a34416"
+  }
+]

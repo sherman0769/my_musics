@@ -1,0 +1,1345 @@
+{
+  "createdAt": "2026-10-16T10:19:53.610Z",
+  "supersedes": "delivery-manifest.json",
+  "files": [
+    {
+      "path": "albums/places-to-go/20首歌詞與提示詞.md",
+      "bytes": 32165,
+      "sha256": "e7d3de70f03d2d676711d443d7e6dd3adc01515e9704ac7bb235cfda39adab08"
+    },
+    {
+      "path": "albums/places-to-go/album.json",
+      "bytes": 121765,
+      "sha256": "29fe27f89f3cc6cac3997f709ee6704a5f6f985e139b4fef59ed6980efdf5266"
+    },
+    {
+      "path": "albums/places-to-go/downloads/01/01-A-8e4848f3-4c81-4e76-ba98-f3af54c2540c.mp3",
+      "bytes": 4315076,
+      "sha256": "0cb9be7fa036444c97bc4612a405399486db0da84bf807d4134b7055c74e88c1"
+    },
+    {
+      "path": "albums/places-to-go/downloads/02/02-A-93e7edd9-efd4-40e0-b805-a861686cb4d6.mp3",
+      "bytes": 3080939,
+      "sha256": "be1eb1a34a42641f796d645ab2233d35e902888d1dc1917f0adb8f9fff3c7e01"
+    },
+    {
+      "path": "albums/places-to-go/downloads/03/03-A-a43fedaf-7b32-4b3d-bca6-8cb5b46f1616.mp3",
+      "bytes": 3908833,
+      "sha256": "3e223608fc83ac173067717425fca28af2881d54e390ce8f19401ac44962dfe2"
+    },
+    {
+      "path": "albums/places-to-go/downloads/04/04-A-e68aa7ef-91f4-411c-aecf-6fd3766d2114.mp3",
+      "bytes": 3982373,
+      "sha256": "798b8ecd26a1048070677395840e1f2e6c3cb4a0327b126d14116debc7de527c"
+    },
+    {
+      "path": "albums/places-to-go/downloads/05/05-A-ba63778c-466f-4604-ac9d-5ec6c51e83fc.mp3",
+      "bytes": 4118909,
+      "sha256": "97945452e60e154a71a9f49773ca53d5b525dc148ea774ff79232ad876643fe9"
+    },
+    {
+      "path": "albums/places-to-go/downloads/06/06-A-af4e3c1d-c72b-47c7-af0c-70443a242950.mp3",
+      "bytes": 4069827,
+      "sha256": "fae70b31649303ce0639fe89a8fd94b322b96860a0cd15376ea5a57a31672dab"
+    },
+    {
+      "path": "albums/places-to-go/downloads/07/07-A-bdd8d92e-f610-406f-87e3-b2a30176c0a4.mp3",
+      "bytes": 4432670,
+      "sha256": "7ac686598c0f5445142d19666c53fdc7b9199cc3189c9f87aa84bd985ad665c5"
+    },
+    {
+      "path": "albums/places-to-go/downloads/08/08-A-1c1e484a-710a-42c3-99e7-98785fa50ea3.mp3",
+      "bytes": 3243907,
+      "sha256": "1b3d25d3978df3c07c74ef040f72b7351e0dddf144acf2d98f18b2aa0c8a62d6"
+    },
+    {
+      "path": "albums/places-to-go/downloads/09/09-A-e6d67229-da44-4304-850a-b9986ea2fea5.mp3",
+      "bytes": 4489724,
+      "sha256": "18c9748eaae9a9d66cd20ed2219455d37400557c2dec29984d1e574376b6f592"
+    },
+    {
+      "path": "albums/places-to-go/downloads/10/10-A-5fd0d7d5-5e3d-4592-8939-ba56301a29c9.mp3",
+      "bytes": 4808164,
+      "sha256": "00d891a62bfd4da9bd3cd67fd245f335ced0101d69f2f1a8486f466d0926180d"
+    },
+    {
+      "path": "albums/places-to-go/downloads/11/11-A-ba5a3979-3300-4d70-bed9-18954ddd74d9.mp3",
+      "bytes": 4250576,
+      "sha256": "ff4930ea9e14eafdae712f1cd461caa18bd15396f8433fa46a806769cef285d0"
+    },
+    {
+      "path": "albums/places-to-go/downloads/12/12-A-41a5f06b-9338-4aac-8eeb-8ce9c83f817f.mp3",
+      "bytes": 4163808,
+      "sha256": "3d990c1516fe5881f6b211d095d4bd224863c3b667f452f8179f9c3883721fdf"
+    },
+    {
+      "path": "albums/places-to-go/downloads/13/13-A-75f77910-a858-484c-abc2-99a0f6c2438c.mp3",
+      "bytes": 4295429,
+      "sha256": "d139ac9018662aa3d756fd48dfff04be7ef60c687b0fdbfeaa26c18d75504a9e"
+    },
+    {
+      "path": "albums/places-to-go/downloads/14/14-A-0f01926a-46e5-4d04-b2bb-9e0d19c7ab7a.mp3",
+      "bytes": 4304419,
+      "sha256": "5841292e4fc01892eb3ee75486b0701dfad160c0e1ab5cbf633ecd737273b030"
+    },
+    {
+      "path": "albums/places-to-go/downloads/15/15-A-a5495bf9-a283-490c-ac96-30b0c6aed4f1.mp3",
+      "bytes": 4327078,
+      "sha256": "cf345ac618e9ebc916d01aaf5323be2b9cc2470d076f78166f75c87ff85f1abb"
+    },
+    {
+      "path": "albums/places-to-go/downloads/16/16-A-1536239f-3328-4709-9106-8938a74c5cd1.mp3",
+      "bytes": 4404636,
+      "sha256": "df424be522a66a20b16ed145b4be9cdef189ebb73b44292882d76c182b8845af"
+    },
+    {
+      "path": "albums/places-to-go/downloads/17/17-A-8d01e7da-2966-4fcf-b889-e312d967fbc6.mp3",
+      "bytes": 4142071,
+      "sha256": "1dce651fc3bfd19f7d8e783e5648d4b44880f5ca11642433deb113e65f85b34c"
+    },
+    {
+      "path": "albums/places-to-go/downloads/18/18-A-4a6b7013-4c3c-4807-bb97-6cae67bd575d.mp3",
+      "bytes": 4446824,
+      "sha256": "50a2873727e150daaece0a823ca6c93492a4bb7a7cbc4ad37e6bbe32bf29cf47"
+    },
+    {
+      "path": "albums/places-to-go/downloads/19/19-A-657132d4-2275-4dc1-b454-7cba888fe037.mp3",
+      "bytes": 3773226,
+      "sha256": "1f02a32e41cfdb6a51dfd066052dba0869d5cf0bb48bc2adcd85f43f6face586"
+    },
+    {
+      "path": "albums/places-to-go/downloads/20/20-A-c1311eae-bcac-4d82-802c-beeaaf8f7e9b.mp3",
+      "bytes": 3952342,
+      "sha256": "cb901f453efa428bf5ceadf7621cd182efa789dabbc84bb91f82bb719fea6063"
+    },
+    {
+      "path": "albums/places-to-go/transactions/01-download-intent.json",
+      "bytes": 309,
+      "sha256": "f0a31e3821704df45291dd20ed8b031ae378d1e03b7e24f4010776a8565535b5"
+    },
+    {
+      "path": "albums/places-to-go/transactions/01-download-receipt.json",
+      "bytes": 796,
+      "sha256": "ef574794ed19cfb53561f65a5d69820886f06d4f709e8eaeca353f3023ac6b19"
+    },
+    {
+      "path": "albums/places-to-go/transactions/01-generation-intent.json",
+      "bytes": 2163,
+      "sha256": "41a0bb53e7d911686b859d3e0ece45b5fb116f948fa75ebff20688bec0d40f80"
+    },
+    {
+      "path": "albums/places-to-go/transactions/01-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "8b524abbae555f45c5b2eccb0a64673d034902474a1dcb737b0f0d7f85cac56f"
+    },
+    {
+      "path": "albums/places-to-go/transactions/02-download-intent.json",
+      "bytes": 309,
+      "sha256": "ad6fcc89d7933510174dd034a7ff2a87b22a078b9f5da6b9dac47899fb1b8db3"
+    },
+    {
+      "path": "albums/places-to-go/transactions/02-download-receipt.json",
+      "bytes": 788,
+      "sha256": "791e286bd0dd3f94d43ee3f4a20ade7d71ca4f1ea8af8e3fb35f4e4d52416cc8"
+    },
+    {
+      "path": "albums/places-to-go/transactions/02-generation-intent.json",
+      "bytes": 2050,
+      "sha256": "23978ab7a8137d406e79536092cb37e9ee46a1267ecf21a73d492c4922a6ab28"
+    },
+    {
+      "path": "albums/places-to-go/transactions/02-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "12037edf2d306c0a1ce2ebd879cefa3c1ce51f298a7e1316bb23efeb269b44f8"
+    },
+    {
+      "path": "albums/places-to-go/transactions/03-download-intent.json",
+      "bytes": 309,
+      "sha256": "9e98f8375a203f1a1fdd6a37581210d3c35c2418afa048182b85e08dcdf4fa27"
+    },
+    {
+      "path": "albums/places-to-go/transactions/03-download-receipt.json",
+      "bytes": 796,
+      "sha256": "fbee12c13c44eb02f8684478796c8ed7bc6bba6747e69fb835d7d7c4d36d57f9"
+    },
+    {
+      "path": "albums/places-to-go/transactions/03-generation-intent.json",
+      "bytes": 2129,
+      "sha256": "17e55dda290da6d89f2f3e35eb91ea5ed962f52a05a4795a31bb2cddb185d727"
+    },
+    {
+      "path": "albums/places-to-go/transactions/03-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "6bfed433823d38ac1af339f51615281c195607c8727cefb83d8b046b0071d251"
+    },
+    {
+      "path": "albums/places-to-go/transactions/04-download-intent.json",
+      "bytes": 309,
+      "sha256": "241fab1dc3177719c19537a6ad2221f6acb8a046d0affd62663e008612db23bd"
+    },
+    {
+      "path": "albums/places-to-go/transactions/04-download-receipt.json",
+      "bytes": 793,
+      "sha256": "d294a822b4cd3f6d21befd936cdbec04b8531037bcd06186df3fc66f11f81717"
+    },
+    {
+      "path": "albums/places-to-go/transactions/04-generation-intent.json",
+      "bytes": 2064,
+      "sha256": "750f9c6235dfb66716328ba91d96ae624860e18630183b83ca530466770d90b1"
+    },
+    {
+      "path": "albums/places-to-go/transactions/04-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "2534c2da227696663b05e9310e4393bead191a2b7ade1827eb703db5339eea11"
+    },
+    {
+      "path": "albums/places-to-go/transactions/05-download-intent.json",
+      "bytes": 309,
+      "sha256": "8e7c37db33afac4adfad29d8da6ff001509aad0eebff40902a961717e7bea0eb"
+    },
+    {
+      "path": "albums/places-to-go/transactions/05-download-receipt.json",
+      "bytes": 787,
+      "sha256": "a85b0ce4e47f5cc815d952a4c4ffb3683c38d94c6548a93f0ba080f356915d19"
+    },
+    {
+      "path": "albums/places-to-go/transactions/05-generation-intent.json",
+      "bytes": 2106,
+      "sha256": "19bff2197d21b76144a0e56ecab05e2f8a9aa8a1248abb506579ec727f7b23b8"
+    },
+    {
+      "path": "albums/places-to-go/transactions/05-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "54a025f08f8ac54df793015fcc39153e4de6d70da240c44f8374b9e980934879"
+    },
+    {
+      "path": "albums/places-to-go/transactions/06-download-intent.json",
+      "bytes": 309,
+      "sha256": "ad398c45ac9c1a9befa83d141ff0820ec1d8ef94b5352293d71f05a5fc3d3b7a"
+    },
+    {
+      "path": "albums/places-to-go/transactions/06-download-receipt.json",
+      "bytes": 790,
+      "sha256": "6d37b4ab8a40c6db1e1167c9e334dc2b1638106e9940cc58cae859bbeca120f5"
+    },
+    {
+      "path": "albums/places-to-go/transactions/06-generation-intent.json",
+      "bytes": 2089,
+      "sha256": "9cccb76402eb681baba420e70c09afadec56bf760b7c341d729c47978d2a51c1"
+    },
+    {
+      "path": "albums/places-to-go/transactions/06-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "43d2f703aa99b7a4b9f8e461a7fc82767a5ba392eca52c3834fd62ba9a16a318"
+    },
+    {
+      "path": "albums/places-to-go/transactions/07-download-intent.json",
+      "bytes": 309,
+      "sha256": "bda04d0356cef6a034956ab4954c7464223f2997c88cf8d668e01725783e7a83"
+    },
+    {
+      "path": "albums/places-to-go/transactions/07-download-receipt.json",
+      "bytes": 793,
+      "sha256": "de3f7b3d69fbb676e7fa3ffa8d44739ce3be4ae03dafa4f16c00671b2a8abcd1"
+    },
+    {
+      "path": "albums/places-to-go/transactions/07-generation-intent.json",
+      "bytes": 2022,
+      "sha256": "63f8171b3974d34299999bcc2870dc5206cac5275ffc90111752f86f9609f263"
+    },
+    {
+      "path": "albums/places-to-go/transactions/07-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "5ae7ff144e84c86a09113c01aefd5859de593f86f4d8e3a55ba0fb661bdb52a7"
+    },
+    {
+      "path": "albums/places-to-go/transactions/08-download-intent.json",
+      "bytes": 309,
+      "sha256": "be677b7450acc733e81a98035acd830994912c12904772ba0718c89354288e73"
+    },
+    {
+      "path": "albums/places-to-go/transactions/08-download-receipt.json",
+      "bytes": 793,
+      "sha256": "44c24c8e7efc7ece35e1f9cab8b6bce10086b82b2122177267075e214c6236f6"
+    },
+    {
+      "path": "albums/places-to-go/transactions/08-generation-intent.json",
+      "bytes": 2086,
+      "sha256": "2eb79434cdd75bb055f6fc04f985a978c92fabb9393033a2b6c4273ecfff7dfb"
+    },
+    {
+      "path": "albums/places-to-go/transactions/08-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "486313f729931ec5c1bfaaaa7cbd537ddd1f55caa705024b75c80de8071e4237"
+    },
+    {
+      "path": "albums/places-to-go/transactions/09-download-intent.json",
+      "bytes": 309,
+      "sha256": "b4552a7511287a6504a2c0d39e44f4749b2d1744dad97df9df91e3b01321fe13"
+    },
+    {
+      "path": "albums/places-to-go/transactions/09-download-receipt.json",
+      "bytes": 790,
+      "sha256": "0114cd398f66b78c44fb63c366542e4d4c84f6a7643ae0e0058d2751f6c99215"
+    },
+    {
+      "path": "albums/places-to-go/transactions/09-generation-intent.json",
+      "bytes": 2079,
+      "sha256": "ea9d934766f1470e2ce47276a36cc4eb545deda8492e4487d263aae599b681d3"
+    },
+    {
+      "path": "albums/places-to-go/transactions/09-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "35780de01a0b4053e92aeda8c279d328e0a5601013bae32a029142b0391e208f"
+    },
+    {
+      "path": "albums/places-to-go/transactions/10-download-intent.json",
+      "bytes": 310,
+      "sha256": "34632ffbbff36bfc70e6199d142fe5c2ebb5df15f951012ae76930949dad8aba"
+    },
+    {
+      "path": "albums/places-to-go/transactions/10-download-receipt.json",
+      "bytes": 799,
+      "sha256": "54e855285a222b738b271d21435be540440526f8b80607ab6d99ebe52811438e"
+    },
+    {
+      "path": "albums/places-to-go/transactions/10-generation-intent.json",
+      "bytes": 2161,
+      "sha256": "1e796096890a4c3ccbc8c320623b9dcdbf23eee76fd8fb1feebfe851069807ae"
+    },
+    {
+      "path": "albums/places-to-go/transactions/10-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "561e0d6ae4adc7a144f71a57387dbb0ab523698099035f751411325ee30fcfb1"
+    },
+    {
+      "path": "albums/places-to-go/transactions/11-download-intent.json",
+      "bytes": 310,
+      "sha256": "a0d9f8540617320b4d4bf608a71d140feb96a88b9ae1776bcd255bdd5c6adba3"
+    },
+    {
+      "path": "albums/places-to-go/transactions/11-download-receipt.json",
+      "bytes": 799,
+      "sha256": "676a57630f1c693fba2151acf705e7651701c106d2774a2f2a181c19416241b0"
+    },
+    {
+      "path": "albums/places-to-go/transactions/11-generation-intent.json",
+      "bytes": 2167,
+      "sha256": "1405b4214459cc4a952a1920dcec1724513411690eb5844f38b2fbf008a202f4"
+    },
+    {
+      "path": "albums/places-to-go/transactions/11-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "92011f69e1fa675a263a6e2437f4322cd26034f1801c9495274936e7364111e2"
+    },
+    {
+      "path": "albums/places-to-go/transactions/12-download-intent.json",
+      "bytes": 310,
+      "sha256": "cb365005babb3e98f8187d315160d651e8f189c086c14fa10575557be20fdb9d"
+    },
+    {
+      "path": "albums/places-to-go/transactions/12-download-receipt.json",
+      "bytes": 793,
+      "sha256": "40ffe13a59ba24b95751526505d70e0c913d2fdc434c44197cd90bf3dd84b190"
+    },
+    {
+      "path": "albums/places-to-go/transactions/12-generation-intent.json",
+      "bytes": 2138,
+      "sha256": "2bc12ae6e163f5e77f70511ca788eae7d168c92401120b3b7aa78e2b68589f6f"
+    },
+    {
+      "path": "albums/places-to-go/transactions/12-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "4e60ea68b694c44af3241ce56d21d371a2e7fd01cf3ac40cf846d3e31361e0e1"
+    },
+    {
+      "path": "albums/places-to-go/transactions/13-download-intent.json",
+      "bytes": 310,
+      "sha256": "b9a29c7044a32850681bf86341433f29d01c450720549c631bcb977ea728cef6"
+    },
+    {
+      "path": "albums/places-to-go/transactions/13-download-receipt.json",
+      "bytes": 795,
+      "sha256": "c9a2ca22e3298baa0b5dc0ebdbcd9f341943a3c854d49f16d7f8bc695663be2a"
+    },
+    {
+      "path": "albums/places-to-go/transactions/13-generation-intent.json",
+      "bytes": 2107,
+      "sha256": "005f1b2abff6ac6e2de72dc5d3c9470d02e5c2d5d0623a587a8fd3f8b7aa3c75"
+    },
+    {
+      "path": "albums/places-to-go/transactions/13-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "707488af1e79fda0f0c4ef99a4fbbf79a8fd1549cd83f352502cf082b776d341"
+    },
+    {
+      "path": "albums/places-to-go/transactions/14-download-intent.json",
+      "bytes": 310,
+      "sha256": "fc38418d6f39ca71bb2970952351b5c8e716689c85f1c8fba628588cc76b7c37"
+    },
+    {
+      "path": "albums/places-to-go/transactions/14-download-receipt.json",
+      "bytes": 793,
+      "sha256": "bfe84c39d888f21b3a04a408e5f5b2141b4a7c3d5c7dd8f79e8818890f95e19f"
+    },
+    {
+      "path": "albums/places-to-go/transactions/14-generation-intent.json",
+      "bytes": 2097,
+      "sha256": "19827b84b40adbc5e75b4294c9ad2053657840013809662ac88a3e1728750851"
+    },
+    {
+      "path": "albums/places-to-go/transactions/14-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "223d909342d4e7046faeb290a4281b6f4b3a8431976a5bef010f96889e05ab1b"
+    },
+    {
+      "path": "albums/places-to-go/transactions/15-download-intent.json",
+      "bytes": 310,
+      "sha256": "a1298c5b637f07578991ea37b4850e98102513257278e0ae4ab435d461e0da88"
+    },
+    {
+      "path": "albums/places-to-go/transactions/15-download-receipt.json",
+      "bytes": 795,
+      "sha256": "9497d9567b7e84f6f3825ea0e6d05ae58451f5b9c520323edea2eb4245d3526f"
+    },
+    {
+      "path": "albums/places-to-go/transactions/15-generation-intent.json",
+      "bytes": 2113,
+      "sha256": "ae2aab12ea096bddcc2678b85a99d9fa6ded81e6b837f112c3f872a69f715bb5"
+    },
+    {
+      "path": "albums/places-to-go/transactions/15-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "9b7b4f08b5282b5bbdd26742128aeccbc39880af1fa3263abc4d7918d72bf5a3"
+    },
+    {
+      "path": "albums/places-to-go/transactions/16-download-intent.json",
+      "bytes": 310,
+      "sha256": "05b228033cb80caa7cc3fc4686a69a314743b552ac6b6c2e72cd323047798913"
+    },
+    {
+      "path": "albums/places-to-go/transactions/16-download-receipt.json",
+      "bytes": 789,
+      "sha256": "2c43a98c03782a71e6b56aa1d9e588e2470c146c7720e97d42a505caef8766b4"
+    },
+    {
+      "path": "albums/places-to-go/transactions/16-generation-intent.json",
+      "bytes": 2155,
+      "sha256": "f6b3261a163f546f9a9488ae32b53ce7fa1c0c6a0c19163164b52b5a53450a03"
+    },
+    {
+      "path": "albums/places-to-go/transactions/16-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "b4787b2a06ec8e57afa6351c69aad7ae1c32d0bf67e93fdb12765106c1901b99"
+    },
+    {
+      "path": "albums/places-to-go/transactions/17-download-intent.json",
+      "bytes": 310,
+      "sha256": "48b8bbede23fce6a7c307a5c120ea06d4a0da4e8f03a6377b318a535c77e3c17"
+    },
+    {
+      "path": "albums/places-to-go/transactions/17-download-receipt.json",
+      "bytes": 796,
+      "sha256": "7b97d2ebba775e0f33bcd7fc8e60bde3f3dde00c83b4e3a3e6a71c805f698efb"
+    },
+    {
+      "path": "albums/places-to-go/transactions/17-generation-intent.json",
+      "bytes": 2101,
+      "sha256": "d40f543a27babd984d4ce3e82bbc1a71393e492bced84c4dfdc70a632bdcc9cd"
+    },
+    {
+      "path": "albums/places-to-go/transactions/17-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "09eff15b6865e8bc14ad9647dbe57c34f73da8eb4dd6deef823431bce32e67ae"
+    },
+    {
+      "path": "albums/places-to-go/transactions/18-download-intent.json",
+      "bytes": 310,
+      "sha256": "d9363f618b4c12146b312287e86cc9ef5ab1a38c20c4985efa9e0c0bc6d592a4"
+    },
+    {
+      "path": "albums/places-to-go/transactions/18-download-receipt.json",
+      "bytes": 790,
+      "sha256": "e9f34633b8e6a2f522141e2329f9017ec3a029daafbd0801ef1a8117acc1f278"
+    },
+    {
+      "path": "albums/places-to-go/transactions/18-generation-intent.json",
+      "bytes": 2050,
+      "sha256": "78bf8f1ccfc3df03ec229f28b66959694c9c67070d5005a796940b91817de98d"
+    },
+    {
+      "path": "albums/places-to-go/transactions/18-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "8119f9308dae67385a5ed321417451a81753610eba5a2b45e81b857807a55add"
+    },
+    {
+      "path": "albums/places-to-go/transactions/19-download-intent.json",
+      "bytes": 310,
+      "sha256": "48b4001fc1556b12ca8bb9c3053a5f1cc6ac0d64d68e65b08d68e099f9cd1c13"
+    },
+    {
+      "path": "albums/places-to-go/transactions/19-download-receipt.json",
+      "bytes": 798,
+      "sha256": "15523a2e6609b6538d2710d877b7aa5e8bf5019427049658d26bd2c5f432e6bd"
+    },
+    {
+      "path": "albums/places-to-go/transactions/19-generation-intent.json",
+      "bytes": 2141,
+      "sha256": "d5271747bd4a0eea4c501e14320380d929a5f88df863517a21123bee05be5f1e"
+    },
+    {
+      "path": "albums/places-to-go/transactions/19-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "21a5d4dccb7a9924a7e618a530b7adb98dbe895fd0675273824c57dd97aa96d8"
+    },
+    {
+      "path": "albums/places-to-go/transactions/20-download-intent.json",
+      "bytes": 310,
+      "sha256": "93f38d4fd7654aa9ca09b30d5c6b345ad81e2ff8c8c6a90a5491b1ff1fbbe784"
+    },
+    {
+      "path": "albums/places-to-go/transactions/20-download-receipt.json",
+      "bytes": 795,
+      "sha256": "ebd057c3249b98e3b7f572392c1906cb4c85b1ab0590accbe85720d6e98a9560"
+    },
+    {
+      "path": "albums/places-to-go/transactions/20-generation-intent.json",
+      "bytes": 2170,
+      "sha256": "ee5c1bdd6dab3e7aafb0c7d60ce20f2617adb05dcf0eebaefba1c76373b1a0c6"
+    },
+    {
+      "path": "albums/places-to-go/transactions/20-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "90270fc54658ea0beecbe4332e65778807822d7e8f616234a86b5725d8b5d225"
+    },
+    {
+      "path": "albums/places-to-go/verify-release.cjs",
+      "bytes": 105,
+      "sha256": "d6cc9e88d265989200ca7430d9a00012827bc26209b7fd85c1834f008d2104a5"
+    },
+    {
+      "path": "albums/places-to-go/歌曲連結與進度.md",
+      "bytes": 3654,
+      "sha256": "d77a63ea0d32f41ae137b08fc0372f1fcf876daf04b7674f68d9fa0e4d0f46c6"
+    },
+    {
+      "path": "albums/places-to-go/生成備註.jsonl",
+      "bytes": 127327,
+      "sha256": "d58c4cc96f2c98a2dad98e2ad5ac98af3542e1653b7aa0749e2f60b5f31c8794"
+    },
+    {
+      "path": "albums/words-to-say/20首歌詞與提示詞.md",
+      "bytes": 33552,
+      "sha256": "ce46bab7beb6faabade1365652a6590abc769f83047de296681e4f3127a040d5"
+    },
+    {
+      "path": "albums/words-to-say/album.json",
+      "bytes": 125183,
+      "sha256": "86e71d5b5bebb65bc6d55b567d7a656860058c1382a93953d8f96d2afddf05ad"
+    },
+    {
+      "path": "albums/words-to-say/downloads/01/01-A-9913e3b6-f224-4306-a2bd-0ce627dacf8b.mp3",
+      "bytes": 5009563,
+      "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc"
+    },
+    {
+      "path": "albums/words-to-say/downloads/02/02-A-6b829b1d-cac2-42e9-b1ea-643b8882595b.mp3",
+      "bytes": 4121432,
+      "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a"
+    },
+    {
+      "path": "albums/words-to-say/downloads/03/03-A-cf105c78-ad27-46fa-9944-4574cd683818.mp3",
+      "bytes": 3586022,
+      "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5"
+    },
+    {
+      "path": "albums/words-to-say/downloads/04/04-A-3fb54616-8c2f-4b6b-b43e-7020c958b449.mp3",
+      "bytes": 3850927,
+      "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111"
+    },
+    {
+      "path": "albums/words-to-say/downloads/05/05-A-968c0f1f-1310-4f81-bc94-1bf2509be161.mp3",
+      "bytes": 4117392,
+      "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8"
+    },
+    {
+      "path": "albums/words-to-say/downloads/06/06-A-1638dc59-0df2-43d2-9cb2-9ef1aeb62826.mp3",
+      "bytes": 3965592,
+      "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756"
+    },
+    {
+      "path": "albums/words-to-say/downloads/07/07-A-16bd1bca-600e-4e7d-b716-bef2d8272829.mp3",
+      "bytes": 4324055,
+      "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1"
+    },
+    {
+      "path": "albums/words-to-say/downloads/08/08-A-9b62a8f6-f881-4b13-8a15-bea4dc7aea5e.mp3",
+      "bytes": 4527033,
+      "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e"
+    },
+    {
+      "path": "albums/words-to-say/downloads/09/09-A-85563c8a-6d79-4d4f-8290-a00c2e03d564.mp3",
+      "bytes": 4017861,
+      "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d"
+    },
+    {
+      "path": "albums/words-to-say/downloads/10/10-A-8fa40bef-8db5-4281-a3d8-301db7e39659.mp3",
+      "bytes": 4811749,
+      "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302"
+    },
+    {
+      "path": "albums/words-to-say/downloads/11/11-A-44698155-4756-469b-ae0f-336f19422780.mp3",
+      "bytes": 4875146,
+      "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd"
+    },
+    {
+      "path": "albums/words-to-say/downloads/12/12-A-9c4c0604-7411-4c82-9cb1-c49d4934d5f3.mp3",
+      "bytes": 4557603,
+      "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7"
+    },
+    {
+      "path": "albums/words-to-say/downloads/13/13-A-c685c4aa-50bf-4524-8417-9db09fc5f5f1.mp3",
+      "bytes": 3813862,
+      "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98"
+    },
+    {
+      "path": "albums/words-to-say/downloads/14/14-A-ee1abf39-b13a-44f5-b48d-606aadea18df.mp3",
+      "bytes": 4414964,
+      "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92"
+    },
+    {
+      "path": "albums/words-to-say/downloads/15/15-A-cc0631a9-f18a-4fe9-aebc-c403969da1d8.mp3",
+      "bytes": 4379990,
+      "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391"
+    },
+    {
+      "path": "albums/words-to-say/downloads/16/16-A-cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a.mp3",
+      "bytes": 4058253,
+      "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70"
+    },
+    {
+      "path": "albums/words-to-say/downloads/17/17-A-e0089ba8-9b60-4778-82fd-0a85f6a60c76.mp3",
+      "bytes": 4445436,
+      "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff"
+    },
+    {
+      "path": "albums/words-to-say/downloads/18/18-A-d2617a47-2166-46d5-a69c-254adb5469b5.mp3",
+      "bytes": 4152559,
+      "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2"
+    },
+    {
+      "path": "albums/words-to-say/downloads/19/19-A-d9f7e9f5-8f2d-44c1-a108-da6159178ff0.mp3",
+      "bytes": 3952566,
+      "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc"
+    },
+    {
+      "path": "albums/words-to-say/downloads/20/20-A-b05df30e-fd74-4edb-a244-a2600d708abb.mp3",
+      "bytes": 4823011,
+      "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d"
+    },
+    {
+      "path": "albums/words-to-say/transactions/01-download-intent.json",
+      "bytes": 310,
+      "sha256": "6e7802a4918b99e3be8d0b140c045cb5bb9a932fb36826fa298f138a92292e97"
+    },
+    {
+      "path": "albums/words-to-say/transactions/01-download-receipt.json",
+      "bytes": 798,
+      "sha256": "11cecc8550642ef10ded67f9612c4a48d0c9a005ebead18a61b0dfbef4fcb7e3"
+    },
+    {
+      "path": "albums/words-to-say/transactions/01-generation-intent.json",
+      "bytes": 2207,
+      "sha256": "da59515e186a28379a5938807014e5c116906ebc94bb451916a31326e706a039"
+    },
+    {
+      "path": "albums/words-to-say/transactions/01-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "9b6e4b4415d835cfba5a15f69648416184c694063c1595fe1f423f205449b4ca"
+    },
+    {
+      "path": "albums/words-to-say/transactions/02-download-intent.json",
+      "bytes": 310,
+      "sha256": "375ef22819c4ca27a25685d0056a1aecc00d1cb4274c005a1cb4d9932c1b59c3"
+    },
+    {
+      "path": "albums/words-to-say/transactions/02-download-receipt.json",
+      "bytes": 799,
+      "sha256": "4a899d10b28b0536a0e64e4c8a92a327d823150f2993df8bd867cf9b8018ce28"
+    },
+    {
+      "path": "albums/words-to-say/transactions/02-generation-intent.json",
+      "bytes": 2158,
+      "sha256": "2fb68e36cfc85d9802c9cad42da73e5b6c75d5bb8abb80c651cd94206937c030"
+    },
+    {
+      "path": "albums/words-to-say/transactions/02-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "4a5be1fd93f54b0b12c44be986734a0d1104f99b99a1c278e86a3ccd227a968d"
+    },
+    {
+      "path": "albums/words-to-say/transactions/03-download-intent.json",
+      "bytes": 310,
+      "sha256": "1793275d4afd44e470994065533f1b72b578f6e2454e852846d5ba7a4097052c"
+    },
+    {
+      "path": "albums/words-to-say/transactions/03-download-receipt.json",
+      "bytes": 790,
+      "sha256": "322baddd63047be2853833f1ac13b7c5db92287c053564f54e6460d1a47cdf6e"
+    },
+    {
+      "path": "albums/words-to-say/transactions/03-generation-intent.json",
+      "bytes": 2134,
+      "sha256": "d66e175115b202e249063b3061ea366595f7ec2ef931316682e45745d092c843"
+    },
+    {
+      "path": "albums/words-to-say/transactions/03-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "9497ba18b19bba7fa9ccc63a7f1d9df1e5e26b4c8dcea5a265644e4ae2ebd04c"
+    },
+    {
+      "path": "albums/words-to-say/transactions/04-download-intent.json",
+      "bytes": 310,
+      "sha256": "132e9c370e6a9d21623b8524d396cdbacac9045a81977af2bc675619a5f4e901"
+    },
+    {
+      "path": "albums/words-to-say/transactions/04-download-receipt.json",
+      "bytes": 796,
+      "sha256": "2f0cdc456d0557be2cd938be3e9e2dec6e3e99927d2009e4cbe6afa49833aeb8"
+    },
+    {
+      "path": "albums/words-to-say/transactions/04-generation-intent.json",
+      "bytes": 2119,
+      "sha256": "1fbb64b6e2c0ae888ba26fba894dc89aff0c896b1c2fa970026ebbc0c44edcdd"
+    },
+    {
+      "path": "albums/words-to-say/transactions/04-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "9e74f1bf9529bbca6c82fed2595ae594ae5c77cbdf00139239b65e218994d87e"
+    },
+    {
+      "path": "albums/words-to-say/transactions/05-download-intent.json",
+      "bytes": 310,
+      "sha256": "0073a87f8852a5e9f120845b8e6c1abdbff67cf77a9fe71c7a38b38cc24319f8"
+    },
+    {
+      "path": "albums/words-to-say/transactions/05-download-receipt.json",
+      "bytes": 802,
+      "sha256": "5ff6f1fa372831a428875ebe9d8c220c3d2a5140bccaecc30cc3627f6d085505"
+    },
+    {
+      "path": "albums/words-to-say/transactions/05-generation-intent.json",
+      "bytes": 2179,
+      "sha256": "1e3666ec5dd1821a313d39cebecdbead1ce68a8904416fd612660f98a7413b12"
+    },
+    {
+      "path": "albums/words-to-say/transactions/05-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "1fc93ea855d8b41e46e9f1da24ea3d6ab39cca70350c6fb6c22decaab1df6be9"
+    },
+    {
+      "path": "albums/words-to-say/transactions/06-download-intent.json",
+      "bytes": 310,
+      "sha256": "39e2ff66583221e20cfc44ff2491fdc6e68ac4cef13ba5dbad879675fe4198a2"
+    },
+    {
+      "path": "albums/words-to-say/transactions/06-download-receipt.json",
+      "bytes": 792,
+      "sha256": "f05887377abbfe859221d1e646b9b7a42318fd5e10f19588dfd78e33588d508f"
+    },
+    {
+      "path": "albums/words-to-say/transactions/06-download-recovery-intent.json",
+      "bytes": 494,
+      "sha256": "6b7c03528b49f0ddcbaef21161a5a5d4f1e27b189dbf69cf86f1e8345a3f74b1"
+    },
+    {
+      "path": "albums/words-to-say/transactions/06-generation-intent.json",
+      "bytes": 2136,
+      "sha256": "4465b4a12e67ec01e7494e3e91e38bba3d08c6f3b76750c1e9b81e0423655f11"
+    },
+    {
+      "path": "albums/words-to-say/transactions/06-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "d4d58a271f48ca70cddb2d9ad959f49cb47f19c41e799714046099f02a853cf7"
+    },
+    {
+      "path": "albums/words-to-say/transactions/07-download-intent.json",
+      "bytes": 310,
+      "sha256": "9f2cabc26b5e56568342a0187bd6af0b9cdef1445c0e80214d1d36783331ef65"
+    },
+    {
+      "path": "albums/words-to-say/transactions/07-download-receipt.json",
+      "bytes": 792,
+      "sha256": "f90bf3829a60ccf42bfd79f8124fef25020db3d709d882856795313d77002fcd"
+    },
+    {
+      "path": "albums/words-to-say/transactions/07-generation-intent.json",
+      "bytes": 2142,
+      "sha256": "8936be3b576e41cb369e1d2b6653fd4b7284d92ef5e0caa521f52dd4d1fe843d"
+    },
+    {
+      "path": "albums/words-to-say/transactions/07-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "2ecea501f3fee2334a2d96259481a87ed368b0e4fedc085f0b6fd6f74a6ca2eb"
+    },
+    {
+      "path": "albums/words-to-say/transactions/08-download-intent.json",
+      "bytes": 310,
+      "sha256": "16770b3f8adc89df8cf29177d2f8c543e594487c494edaeef5bfe84f31f50121"
+    },
+    {
+      "path": "albums/words-to-say/transactions/08-download-receipt.json",
+      "bytes": 793,
+      "sha256": "b3a684c6f75a6a8faa9ba94141cbd7ab15892037a5955f7904e587aef19fc6ec"
+    },
+    {
+      "path": "albums/words-to-say/transactions/08-generation-intent.json",
+      "bytes": 2106,
+      "sha256": "c825dc1d2de4606666aacaaa6f7b8d07d7ea4b88604223c39a41b3dd93140de7"
+    },
+    {
+      "path": "albums/words-to-say/transactions/08-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "089efad93693131f6814cb793b2bba1361f6277b3d72553bdd61a20544674132"
+    },
+    {
+      "path": "albums/words-to-say/transactions/09-download-intent.json",
+      "bytes": 310,
+      "sha256": "b6d89c42ff243402be879b37b6320e65d379762a7ff30b24d4d76a7d04480d7d"
+    },
+    {
+      "path": "albums/words-to-say/transactions/09-download-receipt.json",
+      "bytes": 788,
+      "sha256": "e39d5fc265b1c55a9fa245e79fb764246f6a50258d8f686eed29ae9824a88e3e"
+    },
+    {
+      "path": "albums/words-to-say/transactions/09-generation-intent.json",
+      "bytes": 2096,
+      "sha256": "4a374884cd61629e6b479482b145f194024fa4313bcfeeb0c5642b840a49c1e5"
+    },
+    {
+      "path": "albums/words-to-say/transactions/09-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "b2ac5d41a53a051424a456415c24a411eb0d3100cba0b32b48326853677c6b4f"
+    },
+    {
+      "path": "albums/words-to-say/transactions/10-download-intent.json",
+      "bytes": 310,
+      "sha256": "3fca6bed6921de3c618175538c887505e79cd42aa254b1e0d6d318d88883c162"
+    },
+    {
+      "path": "albums/words-to-say/transactions/10-download-receipt.json",
+      "bytes": 799,
+      "sha256": "2b5528cd57cb4f4c0358b5ca431fa86ac3bf644f87b90c8075897e2c53c720a8"
+    },
+    {
+      "path": "albums/words-to-say/transactions/10-generation-intent.json",
+      "bytes": 2215,
+      "sha256": "e0b594df810d1e5ebc653eb4074f78d346e3f183d89ef772805ca4e80267d6d2"
+    },
+    {
+      "path": "albums/words-to-say/transactions/10-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "440e9603f1b6f82c8cb5eec2cf890323a2aa4b078f55eb14d828a140c6bd6479"
+    },
+    {
+      "path": "albums/words-to-say/transactions/11-download-intent.json",
+      "bytes": 310,
+      "sha256": "7169ca4324ecba14460b4222e174402df6ccb241f49b3c7d513bd5ac2e30cb80"
+    },
+    {
+      "path": "albums/words-to-say/transactions/11-download-receipt.json",
+      "bytes": 795,
+      "sha256": "2caec4fce4bba737ea00eed1c5d5dd4e6e5ae02f3f0102a13dcb9f7f374fb8be"
+    },
+    {
+      "path": "albums/words-to-say/transactions/11-generation-intent.json",
+      "bytes": 2233,
+      "sha256": "4dbdb9d1f97118971958321b818911231462e41d198f963432ef395d2f472861"
+    },
+    {
+      "path": "albums/words-to-say/transactions/11-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "08f899dfdd6c2cf84b4ca370d2410510236917157a0de11c0e8a84396dc3c03e"
+    },
+    {
+      "path": "albums/words-to-say/transactions/12-download-intent.json",
+      "bytes": 310,
+      "sha256": "c0cff911344c27ae5a6f27cbb3bf714b1784a0d8d90389dcbeba1840ed5b73c7"
+    },
+    {
+      "path": "albums/words-to-say/transactions/12-download-receipt.json",
+      "bytes": 799,
+      "sha256": "34c86b02286ea450d10a7e043bc9db4bb3fbab9d59aa25524ca8306da8e9e6ee"
+    },
+    {
+      "path": "albums/words-to-say/transactions/12-generation-intent.json",
+      "bytes": 2229,
+      "sha256": "1b827b05a7ad193ddcd44650edf167a03eedc514aa20f49e5a8bd04fe3dba1da"
+    },
+    {
+      "path": "albums/words-to-say/transactions/12-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "9d80092436b88923842ac03d29e29e2bf9d961bfda9a0d125f1fab1082dff03f"
+    },
+    {
+      "path": "albums/words-to-say/transactions/13-download-intent.json",
+      "bytes": 310,
+      "sha256": "58e3ea341d87bb56149f2e7b3f59049ea41978196eb11fa19cee05d47a63a0db"
+    },
+    {
+      "path": "albums/words-to-say/transactions/13-download-receipt.json",
+      "bytes": 796,
+      "sha256": "0f69f7e5614de4c849fc6f91ffeda13fa141a3d3af4e1b586fc5309864bef99c"
+    },
+    {
+      "path": "albums/words-to-say/transactions/13-generation-intent.json",
+      "bytes": 2162,
+      "sha256": "83c6f5c0eff596ac5c68be631f2b96b616b83424a7f945cb4ae9dd45c3245a7b"
+    },
+    {
+      "path": "albums/words-to-say/transactions/13-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "bf90c78a77a5b6beabe22244242db237f56b19b0ac2a4e715a290b2fb5f00e0a"
+    },
+    {
+      "path": "albums/words-to-say/transactions/14-download-intent.json",
+      "bytes": 310,
+      "sha256": "142e56bf68638d199c03a007b91a2999ccac6bb8767c90941535ba74cae0825f"
+    },
+    {
+      "path": "albums/words-to-say/transactions/14-download-receipt.json",
+      "bytes": 795,
+      "sha256": "27920b89dd5a3db41dd0131bed2f570e82b5473edc5131b9aa1d95caba4f1402"
+    },
+    {
+      "path": "albums/words-to-say/transactions/14-generation-intent.json",
+      "bytes": 2200,
+      "sha256": "b48bcadb232320d1d5d811e634165a04a7ef2c47e0f23c25ec76a7cf1467d6f6"
+    },
+    {
+      "path": "albums/words-to-say/transactions/14-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "e10dc4e6830826d13d46d9f8a89b3f57f9edb99157746bbbf621e2bb23672e9f"
+    },
+    {
+      "path": "albums/words-to-say/transactions/15-download-intent.json",
+      "bytes": 310,
+      "sha256": "f27cd157c5d1c15e2b60cc68a67a658273dfe9e6f91372f3a653c600991d520c"
+    },
+    {
+      "path": "albums/words-to-say/transactions/15-download-receipt.json",
+      "bytes": 796,
+      "sha256": "7659bdb94a169940652fd31fb9fc84139de10c63db19d96bf10c1cfbfc52555d"
+    },
+    {
+      "path": "albums/words-to-say/transactions/15-generation-intent.json",
+      "bytes": 2244,
+      "sha256": "6679f3222f6e627804f8760a29bfcac0d66a83fa7c4b99f4632153dff6d4f4ec"
+    },
+    {
+      "path": "albums/words-to-say/transactions/15-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "1a91092f8049eb0c6af74499af396bf184a7f8065e87f15049a0cb9d8c508916"
+    },
+    {
+      "path": "albums/words-to-say/transactions/16-download-intent.json",
+      "bytes": 310,
+      "sha256": "cd069b54f8a0fbb5203b5d1cd3c5d4603097e04d2e9224992f7ce3dbffc2d853"
+    },
+    {
+      "path": "albums/words-to-say/transactions/16-download-receipt.json",
+      "bytes": 793,
+      "sha256": "77f5549d8c994a449e2ecae8253dc2c8f186320ee9eafc0d95b0e55c9bcdae6e"
+    },
+    {
+      "path": "albums/words-to-say/transactions/16-generation-intent.json",
+      "bytes": 2161,
+      "sha256": "951415b77dfb6aace21cd27ef8a7d42dedd2c2fc628f84c0f6b8d910887113fc"
+    },
+    {
+      "path": "albums/words-to-say/transactions/16-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "4b53db71ae5e256044da21c28855613633f52f9fcf8c5ab4d45081a768936fa4"
+    },
+    {
+      "path": "albums/words-to-say/transactions/17-download-intent.json",
+      "bytes": 310,
+      "sha256": "01505b8e28786e8d6b07f623b1548832ed03f854797242b1ef1a51a66a0d5b75"
+    },
+    {
+      "path": "albums/words-to-say/transactions/17-download-receipt.json",
+      "bytes": 792,
+      "sha256": "1107f87c10ef9b060a31e6608bdca73fc6fed22fd667aa171c67139933eda2a3"
+    },
+    {
+      "path": "albums/words-to-say/transactions/17-generation-intent.json",
+      "bytes": 2213,
+      "sha256": "1b840f91ca21d59f05bf6a344c1274f1ad79f1e64f8868691c79143779c4845c"
+    },
+    {
+      "path": "albums/words-to-say/transactions/17-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "ed40ffb698f3b3000d5579c72fba036bb8c2b2d7644616fabae0a3e3a8b0f4f9"
+    },
+    {
+      "path": "albums/words-to-say/transactions/18-download-intent.json",
+      "bytes": 310,
+      "sha256": "545211af1c2df2cc6faaf2f2ccea89c3dfe372f428e0bbcc94534c90660b4b11"
+    },
+    {
+      "path": "albums/words-to-say/transactions/18-download-receipt.json",
+      "bytes": 796,
+      "sha256": "04612bf1bab19593a870e64f317ccfc238033dcd3b7e60bf3d35eea22709f412"
+    },
+    {
+      "path": "albums/words-to-say/transactions/18-generation-intent.json",
+      "bytes": 2214,
+      "sha256": "cee1e9eeda96908c2f0fb85e1bad20d7ba4a698b1b535d7c014c28792e111ccb"
+    },
+    {
+      "path": "albums/words-to-say/transactions/18-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "e514ac37ab01e306ef5fd1a0a4c2a62e87f98a89ebde7e37845203afa0608689"
+    },
+    {
+      "path": "albums/words-to-say/transactions/19-download-intent.json",
+      "bytes": 310,
+      "sha256": "48c0fd96ace0c40f13af946d88ef6a58a23eefdb950dfd35be6a133bc7626501"
+    },
+    {
+      "path": "albums/words-to-say/transactions/19-download-receipt.json",
+      "bytes": 791,
+      "sha256": "7e97a4f72f410c01cb4aa2dab04c738400b29be6c5bffe9ce23c543e0eff8b55"
+    },
+    {
+      "path": "albums/words-to-say/transactions/19-generation-intent.json",
+      "bytes": 2147,
+      "sha256": "a9a6a4cbf957d7e0dac2cf9f43343576efbf08122165afc0894c081e659f292f"
+    },
+    {
+      "path": "albums/words-to-say/transactions/19-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "e417152de9f0d45a6bef1b39f42758ec8065f3d80ec7acfe5fcbde7b6a4e748f"
+    },
+    {
+      "path": "albums/words-to-say/transactions/20-download-intent.json",
+      "bytes": 310,
+      "sha256": "3f46ba71de72cf6f0972d5287d84165884255104dfd4094ee83731a288e93072"
+    },
+    {
+      "path": "albums/words-to-say/transactions/20-download-receipt.json",
+      "bytes": 799,
+      "sha256": "174fd07ac1a073a4da168d16bd2e81f3e0e98ac40609e0ef9f475c9419b75be5"
+    },
+    {
+      "path": "albums/words-to-say/transactions/20-generation-intent.json",
+      "bytes": 2277,
+      "sha256": "b5240fe71bd450ba3140c04b8813a58b4eba088d556d828e5c7ce4de19ae060e"
+    },
+    {
+      "path": "albums/words-to-say/transactions/20-generation-receipt.json",
+      "bytes": 685,
+      "sha256": "bce9f5f90570a2184b51a51b0ee5c0b355e2b7fbb5b7648cb770ec5fb28f4e5d"
+    },
+    {
+      "path": "albums/words-to-say/verify-release.cjs",
+      "bytes": 105,
+      "sha256": "d6cc9e88d265989200ca7430d9a00012827bc26209b7fd85c1834f008d2104a5"
+    },
+    {
+      "path": "albums/words-to-say/歌曲連結與進度.md",
+      "bytes": 3696,
+      "sha256": "8f3080c5874503bb81068a361c4e6a717deea56b47a5819c51d6161a9b92d3be"
+    },
+    {
+      "path": "albums/words-to-say/生成備註.jsonl",
+      "bytes": 130375,
+      "sha256": "d29302e7259d0733f3665f5ca951a7a6c89f3b108f5741bdbbb647cd6326efde"
+    },
+    {
+      "path": "assets/audio/places-to-go/places-to-go-album.zip",
+      "bytes": 82552538,
+      "sha256": "0334786324935403065a1580b59c818f9361f7aeb9a4ac8e06a4435406035a06"
+    },
+    {
+      "path": "assets/audio/places-to-go/track01.mp3",
+      "bytes": 4315076,
+      "sha256": "0cb9be7fa036444c97bc4612a405399486db0da84bf807d4134b7055c74e88c1"
+    },
+    {
+      "path": "assets/audio/places-to-go/track02.mp3",
+      "bytes": 3080939,
+      "sha256": "be1eb1a34a42641f796d645ab2233d35e902888d1dc1917f0adb8f9fff3c7e01"
+    },
+    {
+      "path": "assets/audio/places-to-go/track03.mp3",
+      "bytes": 3908833,
+      "sha256": "3e223608fc83ac173067717425fca28af2881d54e390ce8f19401ac44962dfe2"
+    },
+    {
+      "path": "assets/audio/places-to-go/track04.mp3",
+      "bytes": 3982373,
+      "sha256": "798b8ecd26a1048070677395840e1f2e6c3cb4a0327b126d14116debc7de527c"
+    },
+    {
+      "path": "assets/audio/places-to-go/track05.mp3",
+      "bytes": 4118909,
+      "sha256": "97945452e60e154a71a9f49773ca53d5b525dc148ea774ff79232ad876643fe9"
+    },
+    {
+      "path": "assets/audio/places-to-go/track06.mp3",
+      "bytes": 4069827,
+      "sha256": "fae70b31649303ce0639fe89a8fd94b322b96860a0cd15376ea5a57a31672dab"
+    },
+    {
+      "path": "assets/audio/places-to-go/track07.mp3",
+      "bytes": 4432670,
+      "sha256": "7ac686598c0f5445142d19666c53fdc7b9199cc3189c9f87aa84bd985ad665c5"
+    },
+    {
+      "path": "assets/audio/places-to-go/track08.mp3",
+      "bytes": 3243907,
+      "sha256": "1b3d25d3978df3c07c74ef040f72b7351e0dddf144acf2d98f18b2aa0c8a62d6"
+    },
+    {
+      "path": "assets/audio/places-to-go/track09.mp3",
+      "bytes": 4489724,
+      "sha256": "18c9748eaae9a9d66cd20ed2219455d37400557c2dec29984d1e574376b6f592"
+    },
+    {
+      "path": "assets/audio/places-to-go/track10.mp3",
+      "bytes": 4808164,
+      "sha256": "00d891a62bfd4da9bd3cd67fd245f335ced0101d69f2f1a8486f466d0926180d"
+    },
+    {
+      "path": "assets/audio/places-to-go/track11.mp3",
+      "bytes": 4250576,
+      "sha256": "ff4930ea9e14eafdae712f1cd461caa18bd15396f8433fa46a806769cef285d0"
+    },
+    {
+      "path": "assets/audio/places-to-go/track12.mp3",
+      "bytes": 4163808,
+      "sha256": "3d990c1516fe5881f6b211d095d4bd224863c3b667f452f8179f9c3883721fdf"
+    },
+    {
+      "path": "assets/audio/places-to-go/track13.mp3",
+      "bytes": 4295429,
+      "sha256": "d139ac9018662aa3d756fd48dfff04be7ef60c687b0fdbfeaa26c18d75504a9e"
+    },
+    {
+      "path": "assets/audio/places-to-go/track14.mp3",
+      "bytes": 4304419,
+      "sha256": "5841292e4fc01892eb3ee75486b0701dfad160c0e1ab5cbf633ecd737273b030"
+    },
+    {
+      "path": "assets/audio/places-to-go/track15.mp3",
+      "bytes": 4327078,
+      "sha256": "cf345ac618e9ebc916d01aaf5323be2b9cc2470d076f78166f75c87ff85f1abb"
+    },
+    {
+      "path": "assets/audio/places-to-go/track16.mp3",
+      "bytes": 4404636,
+      "sha256": "df424be522a66a20b16ed145b4be9cdef189ebb73b44292882d76c182b8845af"
+    },
+    {
+      "path": "assets/audio/places-to-go/track17.mp3",
+      "bytes": 4142071,
+      "sha256": "1dce651fc3bfd19f7d8e783e5648d4b44880f5ca11642433deb113e65f85b34c"
+    },
+    {
+      "path": "assets/audio/places-to-go/track18.mp3",
+      "bytes": 4446824,
+      "sha256": "50a2873727e150daaece0a823ca6c93492a4bb7a7cbc4ad37e6bbe32bf29cf47"
+    },
+    {
+      "path": "assets/audio/places-to-go/track19.mp3",
+      "bytes": 3773226,
+      "sha256": "1f02a32e41cfdb6a51dfd066052dba0869d5cf0bb48bc2adcd85f43f6face586"
+    },
+    {
+      "path": "assets/audio/places-to-go/track20.mp3",
+      "bytes": 3952342,
+      "sha256": "cb901f453efa428bf5ceadf7621cd182efa789dabbc84bb91f82bb719fea6063"
+    },
+    {
+      "path": "assets/audio/places-to-go/歌曲與來源.json",
+      "bytes": 5670,
+      "sha256": "a38085e5cd6f11542522119ef16933afa815f5d3f582819382425de35cc7e8e8"
+    },
+    {
+      "path": "assets/audio/words-to-say/track01.mp3",
+      "bytes": 5009563,
+      "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc"
+    },
+    {
+      "path": "assets/audio/words-to-say/track02.mp3",
+      "bytes": 4121432,
+      "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a"
+    },
+    {
+      "path": "assets/audio/words-to-say/track03.mp3",
+      "bytes": 3586022,
+      "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5"
+    },
+    {
+      "path": "assets/audio/words-to-say/track04.mp3",
+      "bytes": 3850927,
+      "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111"
+    },
+    {
+      "path": "assets/audio/words-to-say/track05.mp3",
+      "bytes": 4117392,
+      "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8"
+    },
+    {
+      "path": "assets/audio/words-to-say/track06.mp3",
+      "bytes": 3965592,
+      "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756"
+    },
+    {
+      "path": "assets/audio/words-to-say/track07.mp3",
+      "bytes": 4324055,
+      "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1"
+    },
+    {
+      "path": "assets/audio/words-to-say/track08.mp3",
+      "bytes": 4527033,
+      "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e"
+    },
+    {
+      "path": "assets/audio/words-to-say/track09.mp3",
+      "bytes": 4017861,
+      "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d"
+    },
+    {
+      "path": "assets/audio/words-to-say/track10.mp3",
+      "bytes": 4811749,
+      "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302"
+    },
+    {
+      "path": "assets/audio/words-to-say/track11.mp3",
+      "bytes": 4875146,
+      "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd"
+    },
+    {
+      "path": "assets/audio/words-to-say/track12.mp3",
+      "bytes": 4557603,
+      "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7"
+    },
+    {
+      "path": "assets/audio/words-to-say/track13.mp3",
+      "bytes": 3813862,
+      "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98"
+    },
+    {
+      "path": "assets/audio/words-to-say/track14.mp3",
+      "bytes": 4414964,
+      "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92"
+    },
+    {
+      "path": "assets/audio/words-to-say/track15.mp3",
+      "bytes": 4379990,
+      "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391"
+    },
+    {
+      "path": "assets/audio/words-to-say/track16.mp3",
+      "bytes": 4058253,
+      "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70"
+    },
+    {
+      "path": "assets/audio/words-to-say/track17.mp3",
+      "bytes": 4445436,
+      "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff"
+    },
+    {
+      "path": "assets/audio/words-to-say/track18.mp3",
+      "bytes": 4152559,
+      "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2"
+    },
+    {
+      "path": "assets/audio/words-to-say/track19.mp3",
+      "bytes": 3952566,
+      "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc"
+    },
+    {
+      "path": "assets/audio/words-to-say/track20.mp3",
+      "bytes": 4823011,
+      "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d"
+    },
+    {
+      "path": "assets/audio/words-to-say/words-to-say-album.zip",
+      "bytes": 85848182,
+      "sha256": "be4fb0d0d4dbdeaa107bab5500b9856032cbd48e0789fd7214923649e6635db7"
+    },
+    {
+      "path": "assets/audio/words-to-say/歌曲與來源.json",
+      "bytes": 5712,
+      "sha256": "d9358905cc3b8197e899250842de7251cb7101de144a5c481e608dfd63e13ea2"
+    },
+    {
+      "path": "assets/images/places-to-go/cover.svg",
+      "bytes": 946,
+      "sha256": "5ea0507d187012ca6d0fa9a36ba6efbc7899342e0eebd9e6b8576569c48eaabb"
+    },
+    {
+      "path": "assets/images/words-to-say/cover.svg",
+      "bytes": 898,
+      "sha256": "8e5bd0f3e07eac650b1b1fe5878da1ba049d29206623da57dba41f2136195ae4"
+    },
+    {
+      "path": "placesToGoAlbum.js",
+      "bytes": 52035,
+      "sha256": "808d02ce8e0548ac7ad02a02367ccd16f966629717eef058905202d913900a9d"
+    },
+    {
+      "path": "wordsToSayAlbum.js",
+      "bytes": 53795,
+      "sha256": "a05fdaf781b381d02531c672ce1ff201b998dea0afb2d938dcc899624f5907b6"
+    },
+    {
+      "path": "places-to-go-downloads.html",
+      "bytes": 6768,
+      "sha256": "6bbbd68962afd654301962f3cd052cbfa3bde33d25fd25f50ac06d7ae50b89a0"
+    },
+    {
+      "path": "words-to-say-downloads.html",
+      "bytes": 6849,
+      "sha256": "f4b10c979d79ca6d2667409c61f8660f1de039c3b0dc2d7b92e46e408420b8a0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8231,
+      "sha256": "5d149d2febf1d79fd6398c1c4268c4d1e416ac272a06788e686f893b76c77abe"
+    },
+    {
+      "path": "albumData.js",
+      "bytes": 62114,
+      "sha256": "09d798607388a7322cfc345ee807900745249704a6ddea5d163a6869268a03f7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 23720,
+      "sha256": "2c98cf2c093bfbe1e07ca7c5c52005c71fb2850062c294bfe311d4a412ff4dc8"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2130,
+      "sha256": "9a6c84f37bef5b9fccf220599442abec24d98515fd75447f4ea09668cf3a7022"
+    },
+    {
+      "path": "albums/places-to-go/交付報告.md",
+      "bytes": 287,
+      "sha256": "6af84014e7954caa5c36c196f7c8aebff08c3001f1102a1455a6d1fb515991a8"
+    },
+    {
+      "path": "albums/words-to-say/交付報告.md",
+      "bytes": 287,
+      "sha256": "2e15117612fa6311b2495f85f4926c2ac7e5c5f98fae08c4647386b2b9e1c59e"
+    }
+  ],
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "deployed": false
+}

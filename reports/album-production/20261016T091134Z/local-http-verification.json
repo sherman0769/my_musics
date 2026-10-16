@@ -1,0 +1,392 @@
+{
+  "verifiedAt": "2026-10-16T10:15:16.820Z",
+  "scope": "loopback_preview_only_not_vercel",
+  "base": "http://127.0.0.1:8771/",
+  "albumCount": 6,
+  "totalTracks": 120,
+  "originalAlbumsUnchanged": true,
+  "originalAlbumCount": 4,
+  "audio": [
+    {
+      "album": "places-to-go",
+      "track": 1,
+      "path": "assets/audio/places-to-go/track01.mp3",
+      "status": 200,
+      "bytes": 4315076
+    },
+    {
+      "album": "places-to-go",
+      "track": 2,
+      "path": "assets/audio/places-to-go/track02.mp3",
+      "status": 200,
+      "bytes": 3080939
+    },
+    {
+      "album": "places-to-go",
+      "track": 3,
+      "path": "assets/audio/places-to-go/track03.mp3",
+      "status": 200,
+      "bytes": 3908833
+    },
+    {
+      "album": "places-to-go",
+      "track": 4,
+      "path": "assets/audio/places-to-go/track04.mp3",
+      "status": 200,
+      "bytes": 3982373
+    },
+    {
+      "album": "places-to-go",
+      "track": 5,
+      "path": "assets/audio/places-to-go/track05.mp3",
+      "status": 200,
+      "bytes": 4118909
+    },
+    {
+      "album": "places-to-go",
+      "track": 6,
+      "path": "assets/audio/places-to-go/track06.mp3",
+      "status": 200,
+      "bytes": 4069827
+    },
+    {
+      "album": "places-to-go",
+      "track": 7,
+      "path": "assets/audio/places-to-go/track07.mp3",
+      "status": 200,
+      "bytes": 4432670
+    },
+    {
+      "album": "places-to-go",
+      "track": 8,
+      "path": "assets/audio/places-to-go/track08.mp3",
+      "status": 200,
+      "bytes": 3243907
+    },
+    {
+      "album": "places-to-go",
+      "track": 9,
+      "path": "assets/audio/places-to-go/track09.mp3",
+      "status": 200,
+      "bytes": 4489724
+    },
+    {
+      "album": "places-to-go",
+      "track": 10,
+      "path": "assets/audio/places-to-go/track10.mp3",
+      "status": 200,
+      "bytes": 4808164
+    },
+    {
+      "album": "places-to-go",
+      "track": 11,
+      "path": "assets/audio/places-to-go/track11.mp3",
+      "status": 200,
+      "bytes": 4250576
+    },
+    {
+      "album": "places-to-go",
+      "track": 12,
+      "path": "assets/audio/places-to-go/track12.mp3",
+      "status": 200,
+      "bytes": 4163808
+    },
+    {
+      "album": "places-to-go",
+      "track": 13,
+      "path": "assets/audio/places-to-go/track13.mp3",
+      "status": 200,
+      "bytes": 4295429
+    },
+    {
+      "album": "places-to-go",
+      "track": 14,
+      "path": "assets/audio/places-to-go/track14.mp3",
+      "status": 200,
+      "bytes": 4304419
+    },
+    {
+      "album": "places-to-go",
+      "track": 15,
+      "path": "assets/audio/places-to-go/track15.mp3",
+      "status": 200,
+      "bytes": 4327078
+    },
+    {
+      "album": "places-to-go",
+      "track": 16,
+      "path": "assets/audio/places-to-go/track16.mp3",
+      "status": 200,
+      "bytes": 4404636
+    },
+    {
+      "album": "places-to-go",
+      "track": 17,
+      "path": "assets/audio/places-to-go/track17.mp3",
+      "status": 200,
+      "bytes": 4142071
+    },
+    {
+      "album": "places-to-go",
+      "track": 18,
+      "path": "assets/audio/places-to-go/track18.mp3",
+      "status": 200,
+      "bytes": 4446824
+    },
+    {
+      "album": "places-to-go",
+      "track": 19,
+      "path": "assets/audio/places-to-go/track19.mp3",
+      "status": 200,
+      "bytes": 3773226
+    },
+    {
+      "album": "places-to-go",
+      "track": 20,
+      "path": "assets/audio/places-to-go/track20.mp3",
+      "status": 200,
+      "bytes": 3952342
+    },
+    {
+      "album": "words-to-say",
+      "track": 1,
+      "path": "assets/audio/words-to-say/track01.mp3",
+      "status": 200,
+      "bytes": 5009563
+    },
+    {
+      "album": "words-to-say",
+      "track": 2,
+      "path": "assets/audio/words-to-say/track02.mp3",
+      "status": 200,
+      "bytes": 4121432
+    },
+    {
+      "album": "words-to-say",
+      "track": 3,
+      "path": "assets/audio/words-to-say/track03.mp3",
+      "status": 200,
+      "bytes": 3586022
+    },
+    {
+      "album": "words-to-say",
+      "track": 4,
+      "path": "assets/audio/words-to-say/track04.mp3",
+      "status": 200,
+      "bytes": 3850927
+    },
+    {
+      "album": "words-to-say",
+      "track": 5,
+      "path": "assets/audio/words-to-say/track05.mp3",
+      "status": 200,
+      "bytes": 4117392
+    },
+    {
+      "album": "words-to-say",
+      "track": 6,
+      "path": "assets/audio/words-to-say/track06.mp3",
+      "status": 200,
+      "bytes": 3965592
+    },
+    {
+      "album": "words-to-say",
+      "track": 7,
+      "path": "assets/audio/words-to-say/track07.mp3",
+      "status": 200,
+      "bytes": 4324055
+    },
+    {
+      "album": "words-to-say",
+      "track": 8,
+      "path": "assets/audio/words-to-say/track08.mp3",
+      "status": 200,
+      "bytes": 4527033
+    },
+    {
+      "album": "words-to-say",
+      "track": 9,
+      "path": "assets/audio/words-to-say/track09.mp3",
+      "status": 200,
+      "bytes": 4017861
+    },
+    {
+      "album": "words-to-say",
+      "track": 10,
+      "path": "assets/audio/words-to-say/track10.mp3",
+      "status": 200,
+      "bytes": 4811749
+    },
+    {
+      "album": "words-to-say",
+      "track": 11,
+      "path": "assets/audio/words-to-say/track11.mp3",
+      "status": 200,
+      "bytes": 4875146
+    },
+    {
+      "album": "words-to-say",
+      "track": 12,
+      "path": "assets/audio/words-to-say/track12.mp3",
+      "status": 200,
+      "bytes": 4557603
+    },
+    {
+      "album": "words-to-say",
+      "track": 13,
+      "path": "assets/audio/words-to-say/track13.mp3",
+      "status": 200,
+      "bytes": 3813862
+    },
+    {
+      "album": "words-to-say",
+      "track": 14,
+      "path": "assets/audio/words-to-say/track14.mp3",
+      "status": 200,
+      "bytes": 4414964
+    },
+    {
+      "album": "words-to-say",
+      "track": 15,
+      "path": "assets/audio/words-to-say/track15.mp3",
+      "status": 200,
+      "bytes": 4379990
+    },
+    {
+      "album": "words-to-say",
+      "track": 16,
+      "path": "assets/audio/words-to-say/track16.mp3",
+      "status": 200,
+      "bytes": 4058253
+    },
+    {
+      "album": "words-to-say",
+      "track": 17,
+      "path": "assets/audio/words-to-say/track17.mp3",
+      "status": 200,
+      "bytes": 4445436
+    },
+    {
+      "album": "words-to-say",
+      "track": 18,
+      "path": "assets/audio/words-to-say/track18.mp3",
+      "status": 200,
+      "bytes": 4152559
+    },
+    {
+      "album": "words-to-say",
+      "track": 19,
+      "path": "assets/audio/words-to-say/track19.mp3",
+      "status": 200,
+      "bytes": 3952566
+    },
+    {
+      "album": "words-to-say",
+      "track": 20,
+      "path": "assets/audio/words-to-say/track20.mp3",
+      "status": 200,
+      "bytes": 4823011
+    }
+  ],
+  "downloadPages": {
+    "eachAudioElements": 20,
+    "eachMp3Links": 20,
+    "zipHeadMatched": true
+  },
+  "range206BothAlbums": true,
+  "cache": [
+    {
+      "path": "./",
+      "status": 200
+    },
+    {
+      "path": "./index.html",
+      "status": 200
+    },
+    {
+      "path": "./style.css?v=9",
+      "status": 200
+    },
+    {
+      "path": "./albumData.js?v=7",
+      "status": 200
+    },
+    {
+      "path": "./placesToGoAlbum.js?v=1",
+      "status": 200
+    },
+    {
+      "path": "./wordsToSayAlbum.js?v=1",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/places-to-go/cover.svg",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/words-to-say/cover.svg",
+      "status": 200
+    },
+    {
+      "path": "./cityLightsAlbum.js?v=1",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/city-lights/cover.png",
+      "status": 200
+    },
+    {
+      "path": "./slowDaysAlbum.js?v=1",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/slow-days/cover.png",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/zeguoxixiang-girl/cover.webp",
+      "status": 200
+    },
+    {
+      "path": "./app.js?v=12",
+      "status": 200
+    },
+    {
+      "path": "./manifest.json?v=2",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/singer_3.jpg",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/icon-180.png?v=2",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/icon-192.png?v=2",
+      "status": 200
+    },
+    {
+      "path": "./assets/images/icon-512.png?v=2",
+      "status": 200
+    }
+  ],
+  "internalRecordsExcludedOnThisPreviewServerOnly": [
+    {
+      "path": "AGENTS.md",
+      "status": 404
+    },
+    {
+      "path": "albums/places-to-go/album.json",
+      "status": 404
+    },
+    {
+      "path": "reports/album-production/20261016T091134Z/authorization.json",
+      "status": 404
+    }
+  ],
+  "playbackPerformed": false,
+  "listeningPerformed": false,
+  "passed": true
+}

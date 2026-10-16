@@ -1,0 +1,18 @@
+{
+  "observedAt": "2026-10-16T10:08:12.496Z",
+  "account": "subliminalsongbirds009",
+  "creditsBefore": 9934,
+  "creditsAfter": 9534,
+  "creditsUsed": 400,
+  "downloadsBefore": 46,
+  "downloadsAfter": 6,
+  "distinctSongsUnlocked": 40,
+  "nativeUnlockClicks": 40,
+  "sameUnlockedSongRecoveryDownloads": 1,
+  "purchasedCredits": 0,
+  "purchasedDownloads": 0,
+  "downloadRefreshDateDisplayed": "10/17/26",
+  "refreshExactTime": null,
+  "evidence": "browser-evidence-2026-10-16T10-08-23-757Z.json",
+  "screenshot": "production-2026-10-16T10-08-23-757Z.png"
+}

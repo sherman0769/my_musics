@@ -1,0 +1,1849 @@
+{
+  "createdAt": "2026-10-16T10:09:15.586Z",
+  "status": "local_pending_only",
+  "assets": [
+    {
+      "key": "places-to-go/01",
+      "title": "我還想去的地方",
+      "provider": "Suno",
+      "providerId": "8e4848f3-4c81-4e76-ba98-f3af54c2540c",
+      "sourceUrl": "https://suno.com/song/8e4848f3-4c81-4e76-ba98-f3af54c2540c",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\01\\01-A-8e4848f3-4c81-4e76-ba98-f3af54c2540c.mp3",
+      "bytes": 4315076,
+      "sha256": "0cb9be7fa036444c97bc4612a405399486db0da84bf807d4134b7055c74e88c1",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 183.024,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/02",
+      "title": "把導航關掉",
+      "provider": "Suno",
+      "providerId": "93e7edd9-efd4-40e0-b805-a861686cb4d6",
+      "sourceUrl": "https://suno.com/song/93e7edd9-efd4-40e0-b805-a861686cb4d6",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\02\\02-A-93e7edd9-efd4-40e0-b805-a861686cb4d6.mp3",
+      "bytes": 3080939,
+      "sha256": "be1eb1a34a42641f796d645ab2233d35e902888d1dc1917f0adb8f9fff3c7e01",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 126.6,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/03",
+      "title": "副駕駛座的地圖",
+      "provider": "Suno",
+      "providerId": "a43fedaf-7b32-4b3d-bca6-8cb5b46f1616",
+      "sourceUrl": "https://suno.com/song/a43fedaf-7b32-4b3d-bca6-8cb5b46f1616",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\03\\03-A-a43fedaf-7b32-4b3d-bca6-8cb5b46f1616.mp3",
+      "bytes": 3908833,
+      "sha256": "3e223608fc83ac173067717425fca28af2881d54e390ce8f19401ac44962dfe2",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 163.632,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/04",
+      "title": "下一個交流道",
+      "provider": "Suno",
+      "providerId": "e68aa7ef-91f4-411c-aecf-6fd3766d2114",
+      "sourceUrl": "https://suno.com/song/e68aa7ef-91f4-411c-aecf-6fd3766d2114",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\04\\04-A-e68aa7ef-91f4-411c-aecf-6fd3766d2114.mp3",
+      "bytes": 3982373,
+      "sha256": "798b8ecd26a1048070677395840e1f2e6c3cb4a0327b126d14116debc7de527c",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 166.824,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/05",
+      "title": "海線往南",
+      "provider": "Suno",
+      "providerId": "ba63778c-466f-4604-ac9d-5ec6c51e83fc",
+      "sourceUrl": "https://suno.com/song/ba63778c-466f-4604-ac9d-5ec6c51e83fc",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\05\\05-A-ba63778c-466f-4604-ac9d-5ec6c51e83fc.mp3",
+      "bytes": 4118909,
+      "sha256": "97945452e60e154a71a9f49773ca53d5b525dc148ea774ff79232ad876643fe9",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 175.632,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/06",
+      "title": "不為誰打卡",
+      "provider": "Suno",
+      "providerId": "af4e3c1d-c72b-47c7-af0c-70443a242950",
+      "sourceUrl": "https://suno.com/song/af4e3c1d-c72b-47c7-af0c-70443a242950",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\06\\06-A-af4e3c1d-c72b-47c7-af0c-70443a242950.mp3",
+      "bytes": 4069827,
+      "sha256": "fae70b31649303ce0639fe89a8fd94b322b96860a0cd15376ea5a57a31672dab",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 165.624,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/07",
+      "title": "山路轉彎以後",
+      "provider": "Suno",
+      "providerId": "bdd8d92e-f610-406f-87e3-b2a30176c0a4",
+      "sourceUrl": "https://suno.com/song/bdd8d92e-f610-406f-87e3-b2a30176c0a4",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\07\\07-A-bdd8d92e-f610-406f-87e3-b2a30176c0a4.mp3",
+      "bytes": 4432670,
+      "sha256": "7ac686598c0f5445142d19666c53fdc7b9199cc3189c9f87aa84bd985ad665c5",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 188.424,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/08",
+      "title": "一張單程車票",
+      "provider": "Suno",
+      "providerId": "1c1e484a-710a-42c3-99e7-98785fa50ea3",
+      "sourceUrl": "https://suno.com/song/1c1e484a-710a-42c3-99e7-98785fa50ea3",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\08\\08-A-1c1e484a-710a-42c3-99e7-98785fa50ea3.mp3",
+      "bytes": 3243907,
+      "sha256": "1b3d25d3978df3c07c74ef040f72b7351e0dddf144acf2d98f18b2aa0c8a62d6",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 138.024,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/09",
+      "title": "漁港六點半",
+      "provider": "Suno",
+      "providerId": "e6d67229-da44-4304-850a-b9986ea2fea5",
+      "sourceUrl": "https://suno.com/song/e6d67229-da44-4304-850a-b9986ea2fea5",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\09\\09-A-e6d67229-da44-4304-850a-b9986ea2fea5.mp3",
+      "bytes": 4489724,
+      "sha256": "18c9748eaae9a9d66cd20ed2219455d37400557c2dec29984d1e574376b6f592",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 186.024,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/10",
+      "title": "在陌生小鎮住一晚",
+      "provider": "Suno",
+      "providerId": "5fd0d7d5-5e3d-4592-8939-ba56301a29c9",
+      "sourceUrl": "https://suno.com/song/5fd0d7d5-5e3d-4592-8939-ba56301a29c9",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\10\\10-A-5fd0d7d5-5e3d-4592-8939-ba56301a29c9.mp3",
+      "bytes": 4808164,
+      "sha256": "00d891a62bfd4da9bd3cd67fd245f335ced0101d69f2f1a8486f466d0926180d",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 202.392,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/11",
+      "title": "背包裡沒帶走的事",
+      "provider": "Suno",
+      "providerId": "ba5a3979-3300-4d70-bed9-18954ddd74d9",
+      "sourceUrl": "https://suno.com/song/ba5a3979-3300-4d70-bed9-18954ddd74d9",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\11\\11-A-ba5a3979-3300-4d70-bed9-18954ddd74d9.mp3",
+      "bytes": 4250576,
+      "sha256": "ff4930ea9e14eafdae712f1cd461caa18bd15396f8433fa46a806769cef285d0",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 179.712,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/12",
+      "title": "老同學的民宿",
+      "provider": "Suno",
+      "providerId": "41a5f06b-9338-4aac-8eeb-8ce9c83f817f",
+      "sourceUrl": "https://suno.com/song/41a5f06b-9338-4aac-8eeb-8ce9c83f817f",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\12\\12-A-41a5f06b-9338-4aac-8eeb-8ce9c83f817f.mp3",
+      "bytes": 4163808,
+      "sha256": "3d990c1516fe5881f6b211d095d4bd224863c3b667f452f8179f9c3883721fdf",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 174.432,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/13",
+      "title": "修車師傅的午休",
+      "provider": "Suno",
+      "providerId": "75f77910-a858-484c-abc2-99a0f6c2438c",
+      "sourceUrl": "https://suno.com/song/75f77910-a858-484c-abc2-99a0f6c2438c",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\13\\13-A-75f77910-a858-484c-abc2-99a0f6c2438c.mp3",
+      "bytes": 4295429,
+      "sha256": "d139ac9018662aa3d756fd48dfff04be7ef60c687b0fdbfeaa26c18d75504a9e",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 176.04,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/14",
+      "title": "山頂沒有訊號",
+      "provider": "Suno",
+      "providerId": "0f01926a-46e5-4d04-b2bb-9e0d19c7ab7a",
+      "sourceUrl": "https://suno.com/song/0f01926a-46e5-4d04-b2bb-9e0d19c7ab7a",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\14\\14-A-0f01926a-46e5-4d04-b2bb-9e0d19c7ab7a.mp3",
+      "bytes": 4304419,
+      "sha256": "5841292e4fc01892eb3ee75486b0701dfad160c0e1ab5cbf633ecd737273b030",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 174.792,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/15",
+      "title": "風比答案先抵達",
+      "provider": "Suno",
+      "providerId": "a5495bf9-a283-490c-ac96-30b0c6aed4f1",
+      "sourceUrl": "https://suno.com/song/a5495bf9-a283-490c-ac96-30b0c6aed4f1",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\15\\15-A-a5495bf9-a283-490c-ac96-30b0c6aed4f1.mp3",
+      "bytes": 4327078,
+      "sha256": "cf345ac618e9ebc916d01aaf5323be2b9cc2470d076f78166f75c87ff85f1abb",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 183.24,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/16",
+      "title": "繞遠路的人",
+      "provider": "Suno",
+      "providerId": "1536239f-3328-4709-9106-8938a74c5cd1",
+      "sourceUrl": "https://suno.com/song/1536239f-3328-4709-9106-8938a74c5cd1",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\16\\16-A-1536239f-3328-4709-9106-8938a74c5cd1.mp3",
+      "bytes": 4404636,
+      "sha256": "df424be522a66a20b16ed145b4be9cdef189ebb73b44292882d76c182b8845af",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 182.76,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/17",
+      "title": "不必每站都下車",
+      "provider": "Suno",
+      "providerId": "8d01e7da-2966-4fcf-b889-e312d967fbc6",
+      "sourceUrl": "https://suno.com/song/8d01e7da-2966-4fcf-b889-e312d967fbc6",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\17\\17-A-8d01e7da-2966-4fcf-b889-e312d967fbc6.mp3",
+      "bytes": 4142071,
+      "sha256": "1dce651fc3bfd19f7d8e783e5648d4b44880f5ca11642433deb113e65f85b34c",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 172.824,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/18",
+      "title": "回程換我開",
+      "provider": "Suno",
+      "providerId": "4a6b7013-4c3c-4807-bb97-6cae67bd575d",
+      "sourceUrl": "https://suno.com/song/4a6b7013-4c3c-4807-bb97-6cae67bd575d",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\18\\18-A-4a6b7013-4c3c-4807-bb97-6cae67bd575d.mp3",
+      "bytes": 4446824,
+      "sha256": "50a2873727e150daaece0a823ca6c93492a4bb7a7cbc4ad37e6bbe32bf29cf47",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 188.832,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/19",
+      "title": "還有一段路想陪你",
+      "provider": "Suno",
+      "providerId": "657132d4-2275-4dc1-b454-7cba888fe037",
+      "sourceUrl": "https://suno.com/song/657132d4-2275-4dc1-b454-7cba888fe037",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\19\\19-A-657132d4-2275-4dc1-b454-7cba888fe037.mp3",
+      "bytes": 3773226,
+      "sha256": "1f02a32e41cfdb6a51dfd066052dba0869d5cf0bb48bc2adcd85f43f6face586",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 161.52,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "places-to-go/20",
+      "title": "下次從這裡出發",
+      "provider": "Suno",
+      "providerId": "c1311eae-bcac-4d82-802c-beeaaf8f7e9b",
+      "sourceUrl": "https://suno.com/song/c1311eae-bcac-4d82-802c-beeaaf8f7e9b",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\places-to-go\\downloads\\20\\20-A-c1311eae-bcac-4d82-802c-beeaaf8f7e9b.mp3",
+      "bytes": 3952342,
+      "sha256": "cb901f453efa428bf5ceadf7621cd182efa789dabbc84bb91f82bb719fea6063",
+      "kind": "song",
+      "primary_genre": "folk_rock",
+      "genre": [
+        "Mandarin pop",
+        "folk rock",
+        "country pop"
+      ],
+      "mood": [
+        "hopeful",
+        "travel"
+      ],
+      "instrument": [
+        "acoustic guitar",
+        "electric guitar",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 168.84,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/01",
+      "title": "有些話，現在想說",
+      "provider": "Suno",
+      "providerId": "9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+      "sourceUrl": "https://suno.com/song/9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\01\\01-A-9913e3b6-f224-4306-a2bd-0ce627dacf8b.mp3",
+      "bytes": 5009563,
+      "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 212.04,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/02",
+      "title": "你叫我名字的時候",
+      "provider": "Suno",
+      "providerId": "6b829b1d-cac2-42e9-b1ea-643b8882595b",
+      "sourceUrl": "https://suno.com/song/6b829b1d-cac2-42e9-b1ea-643b8882595b",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\02\\02-A-6b829b1d-cac2-42e9-b1ea-643b8882595b.mp3",
+      "bytes": 4121432,
+      "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 168.024,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/03",
+      "title": "第二次約會",
+      "provider": "Suno",
+      "providerId": "cf105c78-ad27-46fa-9944-4574cd683818",
+      "sourceUrl": "https://suno.com/song/cf105c78-ad27-46fa-9944-4574cd683818",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\03\\03-A-cf105c78-ad27-46fa-9944-4574cd683818.mp3",
+      "bytes": 3586022,
+      "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 150.744,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/04",
+      "title": "把喜歡說得清楚",
+      "provider": "Suno",
+      "providerId": "3fb54616-8c2f-4b6b-b43e-7020c958b449",
+      "sourceUrl": "https://suno.com/song/3fb54616-8c2f-4b6b-b43e-7020c958b449",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\04\\04-A-3fb54616-8c2f-4b6b-b43e-7020c958b449.mp3",
+      "bytes": 3850927,
+      "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 162.384,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/05",
+      "title": "你的習慣，我的例外",
+      "provider": "Suno",
+      "providerId": "968c0f1f-1310-4f81-bc94-1bf2509be161",
+      "sourceUrl": "https://suno.com/song/968c0f1f-1310-4f81-bc94-1bf2509be161",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\05\\05-A-968c0f1f-1310-4f81-bc94-1bf2509be161.mp3",
+      "bytes": 4117392,
+      "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 172.392,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/06",
+      "title": "兩個人的時差",
+      "provider": "Suno",
+      "providerId": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+      "sourceUrl": "https://suno.com/song/1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\06\\06-A-1638dc59-0df2-43d2-9cb2-9ef1aeb62826.mp3",
+      "bytes": 3965592,
+      "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 162.12,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/07",
+      "title": "我們不是不相愛",
+      "provider": "Suno",
+      "providerId": "16bd1bca-600e-4e7d-b716-bef2d8272829",
+      "sourceUrl": "https://suno.com/song/16bd1bca-600e-4e7d-b716-bef2d8272829",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\07\\07-A-16bd1bca-600e-4e7d-b716-bef2d8272829.mp3",
+      "bytes": 4324055,
+      "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 186,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/08",
+      "title": "那句話說重了",
+      "provider": "Suno",
+      "providerId": "9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+      "sourceUrl": "https://suno.com/song/9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\08\\08-A-9b62a8f6-f881-4b13-8a15-bea4dc7aea5e.mp3",
+      "bytes": 4527033,
+      "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 197.064,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/09",
+      "title": "先聽你說完",
+      "provider": "Suno",
+      "providerId": "85563c8a-6d79-4d4f-8290-a00c2e03d564",
+      "sourceUrl": "https://suno.com/song/85563c8a-6d79-4d4f-8290-a00c2e03d564",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\09\\09-A-85563c8a-6d79-4d4f-8290-a00c2e03d564.mp3",
+      "bytes": 4017861,
+      "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 166.8,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/10",
+      "title": "對不起，不加但是",
+      "provider": "Suno",
+      "providerId": "8fa40bef-8db5-4281-a3d8-301db7e39659",
+      "sourceUrl": "https://suno.com/song/8fa40bef-8db5-4281-a3d8-301db7e39659",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\10\\10-A-8fa40bef-8db5-4281-a3d8-301db7e39659.mp3",
+      "bytes": 4811749,
+      "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 202.392,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/11",
+      "title": "如果當時抱住你",
+      "provider": "Suno",
+      "providerId": "44698155-4756-469b-ae0f-336f19422780",
+      "sourceUrl": "https://suno.com/song/44698155-4756-469b-ae0f-336f19422780",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\11\\11-A-44698155-4756-469b-ae0f-336f19422780.mp3",
+      "bytes": 4875146,
+      "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 214.68,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/12",
+      "title": "分開以後的星期五",
+      "provider": "Suno",
+      "providerId": "9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+      "sourceUrl": "https://suno.com/song/9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\12\\12-A-9c4c0604-7411-4c82-9cb1-c49d4934d5f3.mp3",
+      "bytes": 4557603,
+      "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 193.224,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/13",
+      "title": "不再借朋友問你",
+      "provider": "Suno",
+      "providerId": "c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+      "sourceUrl": "https://suno.com/song/c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\13\\13-A-c685c4aa-50bf-4524-8417-9db09fc5f5f1.mp3",
+      "bytes": 3813862,
+      "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 153.192,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/14",
+      "title": "祝福還需要練習",
+      "provider": "Suno",
+      "providerId": "ee1abf39-b13a-44f5-b48d-606aadea18df",
+      "sourceUrl": "https://suno.com/song/ee1abf39-b13a-44f5-b48d-606aadea18df",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\14\\14-A-ee1abf39-b13a-44f5-b48d-606aadea18df.mp3",
+      "bytes": 4414964,
+      "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 195.24,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/15",
+      "title": "我也值得被喜歡",
+      "provider": "Suno",
+      "providerId": "cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+      "sourceUrl": "https://suno.com/song/cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\15\\15-A-cc0631a9-f18a-4fe9-aebc-c403969da1d8.mp3",
+      "bytes": 4379990,
+      "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 184.824,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/16",
+      "title": "再靠近一點點",
+      "provider": "Suno",
+      "providerId": "cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+      "sourceUrl": "https://suno.com/song/cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\16\\16-A-cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a.mp3",
+      "bytes": 4058253,
+      "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 166.584,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/17",
+      "title": "和你商量以後",
+      "provider": "Suno",
+      "providerId": "e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+      "sourceUrl": "https://suno.com/song/e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\17\\17-A-e0089ba8-9b60-4778-82fd-0a85f6a60c76.mp3",
+      "bytes": 4445436,
+      "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 192.72,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/18",
+      "title": "平常也說我愛你",
+      "provider": "Suno",
+      "providerId": "d2617a47-2166-46d5-a69c-254adb5469b5",
+      "sourceUrl": "https://suno.com/song/d2617a47-2166-46d5-a69c-254adb5469b5",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\18\\18-A-d2617a47-2166-46d5-a69c-254adb5469b5.mp3",
+      "bytes": 4152559,
+      "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 171.984,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/19",
+      "title": "下次吵架以前",
+      "provider": "Suno",
+      "providerId": "d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+      "sourceUrl": "https://suno.com/song/d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\19\\19-A-d9f7e9f5-8f2d-44c1-a108-da6159178ff0.mp3",
+      "bytes": 3952566,
+      "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 166.8,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    },
+    {
+      "key": "words-to-say/20",
+      "title": "我願意，再說一次",
+      "provider": "Suno",
+      "providerId": "b05df30e-fd74-4edb-a244-a2600d708abb",
+      "sourceUrl": "https://suno.com/song/b05df30e-fd74-4edb-a244-a2600d708abb",
+      "path": "D:\\MyGitHub\\my_musics\\albums\\words-to-say\\downloads\\20\\20-A-b05df30e-fd74-4edb-a244-a2600d708abb.mp3",
+      "bytes": 4823011,
+      "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d",
+      "kind": "song",
+      "primary_genre": "soul_pop",
+      "genre": [
+        "Mandarin pop",
+        "piano ballad",
+        "soul"
+      ],
+      "mood": [
+        "intimate",
+        "reflective"
+      ],
+      "instrument": [
+        "piano",
+        "Rhodes",
+        "bass",
+        "drums"
+      ],
+      "use_case": [
+        "album",
+        "listening"
+      ],
+      "vocals": "unknown",
+      "audio_presence": "unknown",
+      "language": "zh-TW",
+      "duration_seconds": 198.024,
+      "license": "unknown",
+      "label_evidence": {
+        "genre_mood_instrument_language": "Requested generation prompt and original lyric specification; not listening-confirmed",
+        "duration_seconds": "FFprobe measurement",
+        "provider": "Observed Suno account and actual result URLs",
+        "vocals": "Unknown: user requested no listening review"
+      },
+      "status": "pending_library_reconciliation",
+      "cloudIndexDedup": "not_run",
+      "cloudUpload": "not_run",
+      "formalLibraryReady": false
+    }
+  ],
+  "cloudIndexRead": false,
+  "cloudUpload": false,
+  "notes": "Local intake candidates only. Complete cloud index/READY dedup and classification review are still required before formal library intake."
+}

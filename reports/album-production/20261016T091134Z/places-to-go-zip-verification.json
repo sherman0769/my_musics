@@ -1,0 +1,147 @@
+{
+  "album": "places-to-go",
+  "path": "D:\\MyGitHub\\my_musics\\assets\\audio\\places-to-go\\places-to-go-album.zip",
+  "bytes": 82552538,
+  "sha256": "0334786324935403065a1580b59c818f9361f7aeb9a4ac8e06a4435406035a06",
+  "entries": [
+    {
+      "name": "01-我還想去的地方.mp3",
+      "bytes": 4315076,
+      "sha256": "0cb9be7fa036444c97bc4612a405399486db0da84bf807d4134b7055c74e88c1",
+      "matches": true
+    },
+    {
+      "name": "02-把導航關掉.mp3",
+      "bytes": 3080939,
+      "sha256": "be1eb1a34a42641f796d645ab2233d35e902888d1dc1917f0adb8f9fff3c7e01",
+      "matches": true
+    },
+    {
+      "name": "03-副駕駛座的地圖.mp3",
+      "bytes": 3908833,
+      "sha256": "3e223608fc83ac173067717425fca28af2881d54e390ce8f19401ac44962dfe2",
+      "matches": true
+    },
+    {
+      "name": "04-下一個交流道.mp3",
+      "bytes": 3982373,
+      "sha256": "798b8ecd26a1048070677395840e1f2e6c3cb4a0327b126d14116debc7de527c",
+      "matches": true
+    },
+    {
+      "name": "05-海線往南.mp3",
+      "bytes": 4118909,
+      "sha256": "97945452e60e154a71a9f49773ca53d5b525dc148ea774ff79232ad876643fe9",
+      "matches": true
+    },
+    {
+      "name": "06-不為誰打卡.mp3",
+      "bytes": 4069827,
+      "sha256": "fae70b31649303ce0639fe89a8fd94b322b96860a0cd15376ea5a57a31672dab",
+      "matches": true
+    },
+    {
+      "name": "07-山路轉彎以後.mp3",
+      "bytes": 4432670,
+      "sha256": "7ac686598c0f5445142d19666c53fdc7b9199cc3189c9f87aa84bd985ad665c5",
+      "matches": true
+    },
+    {
+      "name": "08-一張單程車票.mp3",
+      "bytes": 3243907,
+      "sha256": "1b3d25d3978df3c07c74ef040f72b7351e0dddf144acf2d98f18b2aa0c8a62d6",
+      "matches": true
+    },
+    {
+      "name": "09-漁港六點半.mp3",
+      "bytes": 4489724,
+      "sha256": "18c9748eaae9a9d66cd20ed2219455d37400557c2dec29984d1e574376b6f592",
+      "matches": true
+    },
+    {
+      "name": "10-在陌生小鎮住一晚.mp3",
+      "bytes": 4808164,
+      "sha256": "00d891a62bfd4da9bd3cd67fd245f335ced0101d69f2f1a8486f466d0926180d",
+      "matches": true
+    },
+    {
+      "name": "11-背包裡沒帶走的事.mp3",
+      "bytes": 4250576,
+      "sha256": "ff4930ea9e14eafdae712f1cd461caa18bd15396f8433fa46a806769cef285d0",
+      "matches": true
+    },
+    {
+      "name": "12-老同學的民宿.mp3",
+      "bytes": 4163808,
+      "sha256": "3d990c1516fe5881f6b211d095d4bd224863c3b667f452f8179f9c3883721fdf",
+      "matches": true
+    },
+    {
+      "name": "13-修車師傅的午休.mp3",
+      "bytes": 4295429,
+      "sha256": "d139ac9018662aa3d756fd48dfff04be7ef60c687b0fdbfeaa26c18d75504a9e",
+      "matches": true
+    },
+    {
+      "name": "14-山頂沒有訊號.mp3",
+      "bytes": 4304419,
+      "sha256": "5841292e4fc01892eb3ee75486b0701dfad160c0e1ab5cbf633ecd737273b030",
+      "matches": true
+    },
+    {
+      "name": "15-風比答案先抵達.mp3",
+      "bytes": 4327078,
+      "sha256": "cf345ac618e9ebc916d01aaf5323be2b9cc2470d076f78166f75c87ff85f1abb",
+      "matches": true
+    },
+    {
+      "name": "16-繞遠路的人.mp3",
+      "bytes": 4404636,
+      "sha256": "df424be522a66a20b16ed145b4be9cdef189ebb73b44292882d76c182b8845af",
+      "matches": true
+    },
+    {
+      "name": "17-不必每站都下車.mp3",
+      "bytes": 4142071,
+      "sha256": "1dce651fc3bfd19f7d8e783e5648d4b44880f5ca11642433deb113e65f85b34c",
+      "matches": true
+    },
+    {
+      "name": "18-回程換我開.mp3",
+      "bytes": 4446824,
+      "sha256": "50a2873727e150daaece0a823ca6c93492a4bb7a7cbc4ad37e6bbe32bf29cf47",
+      "matches": true
+    },
+    {
+      "name": "19-還有一段路想陪你.mp3",
+      "bytes": 3773226,
+      "sha256": "1f02a32e41cfdb6a51dfd066052dba0869d5cf0bb48bc2adcd85f43f6face586",
+      "matches": true
+    },
+    {
+      "name": "20-下次從這裡出發.mp3",
+      "bytes": 3952342,
+      "sha256": "cb901f453efa428bf5ceadf7621cd182efa789dabbc84bb91f82bb719fea6063",
+      "matches": true
+    },
+    {
+      "name": "專輯封面.svg",
+      "bytes": 946,
+      "sha256": "5ea0507d187012ca6d0fa9a36ba6efbc7899342e0eebd9e6b8576569c48eaabb",
+      "matches": true
+    },
+    {
+      "name": "歌曲與來源.json",
+      "bytes": 5670,
+      "sha256": "a38085e5cd6f11542522119ef16933afa815f5d3f582819382425de35cc7e8e8",
+      "matches": true
+    },
+    {
+      "name": "歌詞與創作提示詞.md",
+      "bytes": 32165,
+      "sha256": "e7d3de70f03d2d676711d443d7e6dd3adc01515e9704ac7bb235cfda39adab08",
+      "matches": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,108 @@
+diff --git a/README.md b/README.md
+index c2e02fd..76a77e0 100644
+--- a/README.md
++++ b/README.md
+@@ -2,7 +2,7 @@
+ 
+ 以黑膠唱片、歌詞手稿與創作日記呈現李詩民的音樂作品。前端使用原生 HTML、CSS、JavaScript，另有選用的 Vercel 統計 API；沒有 npm 套件或編譯步驟。
+ 
+-本文件於 2026-10-15（台灣時間）依本機檔案校正。歷史上線紀錄與本輪本機驗收分開保存；文件更新不代表已重新部署。
++本文件於 2026-10-16（台灣時間）更新第五、六張專輯；維護基礎文件於 2026-10-15 校正。歷史上線紀錄與本輪本機驗收分開保存；文件更新不代表已重新部署。
+ 
+ 專案已正式採用「驗證預設唯讀、報告獨佔建立、前後雜湊驗收」，完整規則見 [AGENTS.md](AGENTS.md)。精確提交候選與保存分類見 [Git 提交清單](docs/GIT_COMMIT_PLAN.md)；清單不代表已暫存、提交或推送。
+ 
+@@ -14,21 +14,27 @@
+ | `zeguoxixiang-girl` | 澤國西鄉的女孩 | 20 | 33:28.704 | 20 個有聲 MP3，並非靜音佔位；發行日期、來源與演唱內容待確認 |
+ | `slow-days` | 把日子唱慢一點 | 20 | 64:24.696 | 來源帳本、下載副本、正式 MP3、封面、下載頁與 ZIP 齊全 |
+ | `city-lights` | 城市替我們留燈 | 20 | 64:05.328 | 來源帳本、下載副本、正式 MP3、封面、下載頁與 ZIP 齊全 |
++| `places-to-go` | 我還想去的地方 | 20 | 57:39.192 | 2026-10-16 本機製作；Suno V6、本人 Voice；未試聽、未發布 |
++| `words-to-say` | 有些話，現在想說 | 20 | 60:17.232 | 2026-10-16 本機製作；Suno V6、本人 Voice；未試聽、未發布 |
+ 
+-80 首均有歌詞、故事與創作提示。後兩張帳本記錄使用 Suno V6 與當時經本人確認的 Voice；這是歷史來源紀錄，不代表本輪重新核對供應商帳號或聲音身分。音訊有聲與是否有人聲分開記錄；逐首聽感、實際演唱歌詞及藝術接受仍需聽審。
++六張共 120 首均有歌詞、故事與創作提示。第三、四張保留歷史 Suno V6 與本人 Voice 紀錄；第五、六張於 2026-10-16 核對登入帳號與既有本人 Voice，保存 80 個候選來源、40 首選定原始 MP3。依使用者要求未試聽，每首任選一個版本下載。本輪使用 400 點生成額度及 40 首下載額度，完成後帳號剩 9,534 點、6 首下載；這是當時讀值，後續查額度須重新讀回。音訊有聲與是否有人聲分開記錄；技術通過不代表逐首聽感、實際歌詞、聲音身分或藝術接受通過。
+ 
+ ## 目錄與現有功能
+ 
+ ```text
+ index.html / style.css / app.js    播放器、黑膠動畫、響應式介面與分享
+-albumData.js                       第一、二張資料及四張專輯入口
++albumData.js                       第一、二張資料及六張專輯入口
+ slowDaysAlbum.js / cityLightsAlbum.js
+                                    第三、四張供播放器讀取的資料
++placesToGoAlbum.js / wordsToSayAlbum.js
++                                   第五、六張供播放器讀取的資料
+ assets/audio/                      第一張正式音檔
+-assets/audio/<album-id>/            其他專輯正式音檔；後兩張另含 ZIP 與來源清單
++assets/audio/<album-id>/            其他專輯正式音檔；第三至六張另含 ZIP 與來源清單
+ assets/images/                     歌手照片、專輯封面、逐曲插圖與 App 圖示
+ albums/slow-days/ / albums/city-lights/
+                                    製作帳本、交易、下載副本、歷史報告及製作工具
++albums/places-to-go/ / albums/words-to-say/
++                                   新專輯帳本、生成備註、交易及原始下載保存副本
+ api/stats.js                       瀏覽與播放統計 API（需要 Redis 設定）
+ manifest.json / sw.js               PWA 安裝資訊與靜態資源快取
+ scripts/lib/                       共用驗證工具
+@@ -37,7 +43,9 @@ docs/                              維護、保存與驗收說明
+ reports/maintenance/                每輪基線、修改前備份及新增驗收結果
+ ```
+ 
+-播放器已有專輯切換、播放與暫停、上下首、隨機與循環、進度拖曳、音量、歌詞與故事頁籤、創作提示複製，以及單曲／專輯分享。後兩張專輯提供單曲下載及整張 ZIP。
++播放器已有專輯切換、播放與暫停、上下首、隨機與循環、進度拖曳、音量、歌詞與故事頁籤、創作提示複製，以及單曲／專輯分享。第三至六張專輯提供單曲下載及整張 ZIP。
++
++2026-10-16 新增專輯的交付與驗收見 [雙專輯交付報告](reports/album-production/20261016T091134Z/交付與驗收.md)。本輪僅在本機加入第五、六張，未暫存、未新增 Git 提交、未推送、未部署；保留所有既有音檔、ZIP 與歷史紀錄。新專輯驗證入口：`node albums/places-to-go/verify-release.cjs`、`node albums/words-to-say/verify-release.cjs`，沿用唯讀預設及新檔名獨佔輸出規則。
+ 
+ PWA 快取主要保存介面資源，不等於已支援全專輯離線播放。統計 API 需要 `KV_REST_API_URL` / `KV_REST_API_TOKEN` 或對應的 `UPSTASH_REDIS_REST_*` 環境變數；未設定或服務失效時，前端使用本機統計。不可在前端或版本庫放入憑證。
+ 
+diff --git a/albumData.js b/albumData.js
+index bd70379..2051945 100644
+--- a/albumData.js
++++ b/albumData.js
+@@ -1499,7 +1499,9 @@ const albumsData = [
+   albumData,
+   zeguoxixiangAlbumData,
+   typeof module !== 'undefined' && module.exports ? require('./slowDaysAlbum.js') : window.slowDaysAlbumData,
+-  typeof module !== 'undefined' && module.exports ? require('./cityLightsAlbum.js') : window.cityLightsAlbumData
++  typeof module !== 'undefined' && module.exports ? require('./cityLightsAlbum.js') : window.cityLightsAlbumData,
++  typeof module !== 'undefined' && module.exports ? require('./placesToGoAlbum.js') : window.placesToGoAlbumData,
++  typeof module !== 'undefined' && module.exports ? require('./wordsToSayAlbum.js') : window.wordsToSayAlbumData
+ ];
+ 
+ // 匯出資料庫，供 app.js 使用。新增專輯時，將 album 物件加入 albumsData 即可。
+diff --git a/index.html b/index.html
+index fb8fe70..7bf63fb 100644
+--- a/index.html
++++ b/index.html
+@@ -391,7 +391,9 @@
+   <!-- 載入資料與控制邏輯 -->
+   <script src="slowDaysAlbum.js?v=1"></script>
+   <script src="cityLightsAlbum.js?v=1"></script>
+-  <script src="albumData.js?v=6"></script>
++  <script src="placesToGoAlbum.js?v=1"></script>
++  <script src="wordsToSayAlbum.js?v=1"></script>
++  <script src="albumData.js?v=7"></script>
+   <script src="app.js?v=12"></script>
+ </body>
+ </html>
+diff --git a/sw.js b/sw.js
+index a7559c1..5fb1f2e 100644
+--- a/sw.js
++++ b/sw.js
+@@ -1,12 +1,16 @@
+ // sw.js - 服務工作線程 (Service Worker)
+ // 這是使手機瀏覽器支援 PWA (可安裝成手機 App) 的核心檔案
+ 
+-const CACHE_NAME = 'glimmer-boundaries-v18';
++const CACHE_NAME = 'glimmer-boundaries-v19';
+ const ASSETS_TO_CACHE = [
+   './',
+   './index.html',
+   './style.css?v=9',
+-  './albumData.js?v=6',
++  './albumData.js?v=7',
++  './placesToGoAlbum.js?v=1',
++  './wordsToSayAlbum.js?v=1',
++  './assets/images/places-to-go/cover.svg',
++  './assets/images/words-to-say/cover.svg',
+   './cityLightsAlbum.js?v=1',
+   './assets/images/city-lights/cover.png',
+   './slowDaysAlbum.js?v=1',

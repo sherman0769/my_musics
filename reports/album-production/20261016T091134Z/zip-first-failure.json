@@ -1,0 +1,7 @@
+{
+  "bytes": 82527249,
+  "signature": "PowerShell 5.1: Illegal characters in path while reading UTF-8 script with Chinese paths",
+  "sha256": "84e0e44802f0c376b1a2356084eb2de0728e56f736a0388aca0840cfe40f996f",
+  "recovery": "Retain failed ZIP and original script; use PowerShell 7 with UTF-8 support",
+  "retainedAt": "D:\\MyGitHub\\my_musics\\reports\\album-production\\20261016T091134Z\\failed-places-to-go-first-package.zip"
+}

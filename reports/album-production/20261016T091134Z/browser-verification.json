@@ -1,0 +1,175 @@
+{
+  "evidence": "browser-evidence-2026-10-16T10-14-30-820Z.json",
+  "albumCards": 6,
+  "playerPages": [
+    {
+      "images": [
+        {
+          "complete": true,
+          "src": "assets/images/singer_3.jpg",
+          "width": 571
+        },
+        {
+          "complete": true,
+          "src": "assets/images/zeguoxixiang-girl/cover.webp",
+          "width": 1024
+        },
+        {
+          "complete": true,
+          "src": "assets/images/slow-days/cover.png",
+          "width": 1254
+        },
+        {
+          "complete": true,
+          "src": "assets/images/city-lights/cover.png",
+          "width": 1254
+        },
+        {
+          "complete": true,
+          "src": "assets/images/places-to-go/cover.svg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "src": "assets/images/words-to-say/cover.svg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "src": "assets/images/places-to-go/cover.svg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "src": "assets/images/places-to-go/cover.svg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "src": "assets/images/singer_3.jpg",
+          "width": 571
+        }
+      ],
+      "media": [
+        {
+          "currentTime": 0,
+          "duration": 183,
+          "paused": true,
+          "src": "http://127.0.0.1:8771/assets/audio/places-to-go/track01.mp3"
+        }
+      ],
+      "page": "http://127.0.0.1:8771/?album=places-to-go&track=1",
+      "title": "微光邊界 - 李詩民《我還想去的地方》｜《我還想去的地方》",
+      "trackRows": 20,
+      "viewport": {
+        "scrollWidth": 1342,
+        "width": 1342
+      }
+    },
+    {
+      "images": [
+        {
+          "complete": true,
+          "src": "assets/images/singer_3.jpg",
+          "width": 571
+        },
+        {
+          "complete": true,
+          "src": "assets/images/zeguoxixiang-girl/cover.webp",
+          "width": 1024
+        },
+        {
+          "complete": true,
+          "src": "assets/images/slow-days/cover.png",
+          "width": 1254
+        },
+        {
+          "complete": true,
+          "src": "assets/images/city-lights/cover.png",
+          "width": 1254
+        },
+        {
+          "complete": true,
+          "src": "assets/images/places-to-go/cover.svg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "src": "assets/images/words-to-say/cover.svg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "src": "assets/images/words-to-say/cover.svg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "src": "assets/images/words-to-say/cover.svg",
+          "width": 1200
+        },
+        {
+          "complete": true,
+          "src": "assets/images/singer_3.jpg",
+          "width": 571
+        }
+      ],
+      "media": [
+        {
+          "currentTime": 0,
+          "duration": null,
+          "paused": true,
+          "src": "http://127.0.0.1:8771/assets/audio/words-to-say/track01.mp3"
+        }
+      ],
+      "page": "http://127.0.0.1:8771/?album=words-to-say&track=1",
+      "title": "微光邊界 - 李詩民《有些話，現在想說》｜《有些話，現在想說》",
+      "trackRows": 20,
+      "viewport": {
+        "scrollWidth": 1327,
+        "width": 1342
+      }
+    },
+    {
+      "media": [
+        {
+          "currentTime": 0,
+          "duration": 198,
+          "paused": true,
+          "src": "http://127.0.0.1:8771/assets/audio/words-to-say/track20.mp3"
+        }
+      ],
+      "page": "http://127.0.0.1:8771/?album=words-to-say&track=20",
+      "title": "微光邊界 - 李詩民《我願意，再說一次》｜《有些話，現在想說》",
+      "trackRows": 20,
+      "viewport": {
+        "scrollWidth": 1342,
+        "width": 1342
+      }
+    }
+  ],
+  "verifiedDownloadPages": [
+    {
+      "allPaused": true,
+      "audioElements": 20,
+      "images": [
+        {
+          "complete": true,
+          "width": 1200
+        }
+      ],
+      "mp3DownloadLinks": 20,
+      "page": "http://127.0.0.1:8771/words-to-say-downloads.html",
+      "title": "有些話，現在想說｜李詩民",
+      "viewport": {
+        "scrollWidth": 1327,
+        "width": 1342
+      },
+      "zipLinks": 1
+    }
+  ],
+  "intermediateObservationsRetainedInRawEvidence": true,
+  "screenshot": "production-2026-10-16T10-14-30-820Z.png",
+  "playbackPerformed": false,
+  "listeningPerformed": false
+}

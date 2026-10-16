@@ -1,0 +1,20 @@
+{
+  "dateTaiwan": "2026-10-16",
+  "request": "正式採用本機歌詞與紀錄橋接，整理兩張新專輯與本次修改 Git 提交清單；不要暫存、提交、推送或部署。",
+  "modifiedWhitelist": [
+    "AGENTS.md",
+    "README.md",
+    "docs/MAINTENANCE.md",
+    "docs/GIT_COMMIT_PLAN.md"
+  ],
+  "newWhitelist": [
+    "docs/LOCAL_ALBUM_BRIDGE.md",
+    "docs/GIT_COMMIT_PLAN_20261016.md",
+    "reports/git-preparation/20261016T120028Z/"
+  ],
+  "historicalEvidence": "reports/album-production/20261016T091134Z/",
+  "noStage": true,
+  "noCommit": true,
+  "noPush": true,
+  "noDeploy": true
+}

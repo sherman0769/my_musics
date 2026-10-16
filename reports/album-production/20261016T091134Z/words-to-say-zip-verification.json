@@ -1,0 +1,147 @@
+{
+  "album": "words-to-say",
+  "path": "D:\\MyGitHub\\my_musics\\assets\\audio\\words-to-say\\words-to-say-album.zip",
+  "bytes": 85848182,
+  "sha256": "be4fb0d0d4dbdeaa107bab5500b9856032cbd48e0789fd7214923649e6635db7",
+  "entries": [
+    {
+      "name": "01-有些話，現在想說.mp3",
+      "bytes": 5009563,
+      "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc",
+      "matches": true
+    },
+    {
+      "name": "02-你叫我名字的時候.mp3",
+      "bytes": 4121432,
+      "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a",
+      "matches": true
+    },
+    {
+      "name": "03-第二次約會.mp3",
+      "bytes": 3586022,
+      "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5",
+      "matches": true
+    },
+    {
+      "name": "04-把喜歡說得清楚.mp3",
+      "bytes": 3850927,
+      "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111",
+      "matches": true
+    },
+    {
+      "name": "05-你的習慣，我的例外.mp3",
+      "bytes": 4117392,
+      "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8",
+      "matches": true
+    },
+    {
+      "name": "06-兩個人的時差.mp3",
+      "bytes": 3965592,
+      "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756",
+      "matches": true
+    },
+    {
+      "name": "07-我們不是不相愛.mp3",
+      "bytes": 4324055,
+      "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1",
+      "matches": true
+    },
+    {
+      "name": "08-那句話說重了.mp3",
+      "bytes": 4527033,
+      "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e",
+      "matches": true
+    },
+    {
+      "name": "09-先聽你說完.mp3",
+      "bytes": 4017861,
+      "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d",
+      "matches": true
+    },
+    {
+      "name": "10-對不起，不加但是.mp3",
+      "bytes": 4811749,
+      "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302",
+      "matches": true
+    },
+    {
+      "name": "11-如果當時抱住你.mp3",
+      "bytes": 4875146,
+      "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd",
+      "matches": true
+    },
+    {
+      "name": "12-分開以後的星期五.mp3",
+      "bytes": 4557603,
+      "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7",
+      "matches": true
+    },
+    {
+      "name": "13-不再借朋友問你.mp3",
+      "bytes": 3813862,
+      "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98",
+      "matches": true
+    },
+    {
+      "name": "14-祝福還需要練習.mp3",
+      "bytes": 4414964,
+      "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92",
+      "matches": true
+    },
+    {
+      "name": "15-我也值得被喜歡.mp3",
+      "bytes": 4379990,
+      "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391",
+      "matches": true
+    },
+    {
+      "name": "16-再靠近一點點.mp3",
+      "bytes": 4058253,
+      "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70",
+      "matches": true
+    },
+    {
+      "name": "17-和你商量以後.mp3",
+      "bytes": 4445436,
+      "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff",
+      "matches": true
+    },
+    {
+      "name": "18-平常也說我愛你.mp3",
+      "bytes": 4152559,
+      "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2",
+      "matches": true
+    },
+    {
+      "name": "19-下次吵架以前.mp3",
+      "bytes": 3952566,
+      "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc",
+      "matches": true
+    },
+    {
+      "name": "20-我願意，再說一次.mp3",
+      "bytes": 4823011,
+      "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d",
+      "matches": true
+    },
+    {
+      "name": "專輯封面.svg",
+      "bytes": 898,
+      "sha256": "8e5bd0f3e07eac650b1b1fe5878da1ba049d29206623da57dba41f2136195ae4",
+      "matches": true
+    },
+    {
+      "name": "歌曲與來源.json",
+      "bytes": 5712,
+      "sha256": "d9358905cc3b8197e899250842de7251cb7101de144a5c481e608dfd63e13ea2",
+      "matches": true
+    },
+    {
+      "name": "歌詞與創作提示詞.md",
+      "bytes": 33552,
+      "sha256": "ce46bab7beb6faabade1365652a6590abc769f83047de296681e4f3127a040d5",
+      "matches": true
+    }
+  ],
+  "passed": true
+}

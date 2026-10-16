@@ -1,0 +1,4 @@
+const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process');
+const albums=['places-to-go','words-to-say'];let count=0;
+for(const id of albums){const p=path.join('albums',id,'album.json'),a=JSON.parse(fs.readFileSync(p,'utf8'));for(const t of a.tracks){if(t.downloads.length){count++;continue;}const intent=path.join('albums',id,'transactions',t.id+'-download-intent.json'),source=path.join('C:/Users/User/Downloads',t.submissionTitle+'.mp3');if(!fs.existsSync(intent)||!fs.existsSync(source)||Date.now()-fs.statSync(source).mtimeMs<3000)continue;const r=cp.spawnSync(process.execPath,[path.join(__dirname,'ledger.cjs'),'collect',id,t.id,source],{encoding:'utf8'});if(r.status!==0)throw Error(r.stderr);const d=JSON.parse(r.stdout);console.log(JSON.stringify({album:id,track:t.id,bytes:d.bytes,duration:d.duration,sha256:d.sha256,fullDecodeExit:d.fullDecodeExit}));count++;}}
+console.log(JSON.stringify({collected:count,total:40}));

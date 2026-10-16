@@ -1,0 +1,42 @@
+{
+  "status": "local_complete_technical_pass_unreviewed_unpublished",
+  "generationRequests": 40,
+  "candidates": 80,
+  "downloadedSongs": 40,
+  "creditsUsed": 400,
+  "creditsRemaining": 9534,
+  "downloadAllowanceRemaining": 6,
+  "audioFullDecodePassed": 40,
+  "zipEntriesHashMatched": 46,
+  "regressionTestsPassed": 15,
+  "originalAlbumsUnchanged": true,
+  "originalBaselinePreserved": 484,
+  "approvedModifiedFiles": 4,
+  "backupCheck": [
+    {
+      "path": "README.md",
+      "backupMatchesBaseline": true
+    },
+    {
+      "path": "albumData.js",
+      "backupMatchesBaseline": true
+    },
+    {
+      "path": "index.html",
+      "backupMatchesBaseline": true
+    },
+    {
+      "path": "sw.js",
+      "backupMatchesBaseline": true
+    }
+  ],
+  "indexEntriesUnchanged": true,
+  "gitHeadUnchanged": true,
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "deployed": false,
+  "screenshot": "production-2026-10-16T10-14-30-820Z.png",
+  "previewServer": "http://127.0.0.1:8771/",
+  "sourceAndEvidenceServersStopped": true
+}

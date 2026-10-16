@@ -1,0 +1,100 @@
+{
+  "createdAt": "2026-10-16T12:05:08.424Z",
+  "passed": true,
+  "status": "prepared_not_staged",
+  "groups": [
+    {
+      "id": "01",
+      "count": 53,
+      "normalFileBytes": 336937204,
+      "message": "feat(albums): add places-to-go and words-to-say releases"
+    },
+    {
+      "id": "02",
+      "count": 213,
+      "normalFileBytes": 169052162,
+      "message": "chore(archive): preserve new album generation records"
+    },
+    {
+      "id": "03",
+      "count": 116,
+      "normalFileBytes": 87353541,
+      "message": "chore(workflow): adopt local album bridge and preserve verification evidence"
+    }
+  ],
+  "totalPaths": 382,
+  "uniquePaths": 382,
+  "normalFileHashChecks": 374,
+  "normalFilesAllMatch": true,
+  "controls": [
+    {
+      "path": "reports/git-preparation/20261016T120028Z/commit-plan.json",
+      "bytes": 158312,
+      "sha256": "58737f1f319d72960bcbc99e8c7a07085511561e69466dafaca02f13060a5e46"
+    },
+    {
+      "path": "reports/git-preparation/20261016T120028Z/commit-01-paths.txt",
+      "bytes": 1910,
+      "sha256": "694661a75cd6456a2aa3abaf485d56bf9b21cd03009e684b3663a0d6a23a769d"
+    },
+    {
+      "path": "reports/git-preparation/20261016T120028Z/commit-01-paths.nul",
+      "bytes": 1910,
+      "sha256": "7423ea724199430960f41ab6bb3e76c0ff2771c9d44b4d8a8bb5111f1fa54361"
+    },
+    {
+      "path": "reports/git-preparation/20261016T120028Z/commit-02-paths.txt",
+      "bytes": 13060,
+      "sha256": "135a540d6c6d8ed5f2c5a7d963e422ac562ed9764b1b075a518de13efccad5b7"
+    },
+    {
+      "path": "reports/git-preparation/20261016T120028Z/commit-02-paths.nul",
+      "bytes": 13060,
+      "sha256": "a57abd2390d0ea7806b3c8af65adfe365dc89ec43e6e1d7ab00275ae361806cf"
+    },
+    {
+      "path": "reports/git-preparation/20261016T120028Z/commit-03-paths.txt",
+      "bytes": 8046,
+      "sha256": "0e5789d528e7a47526477d2d2bece310f7a7f0669ac5eae4d2081103ddf32918"
+    },
+    {
+      "path": "reports/git-preparation/20261016T120028Z/commit-03-paths.nul",
+      "bytes": 8046,
+      "sha256": "80a4f516226afa710c78995f4dfdb4ee62576abd3d2ca7ad7b9b4c3c767c673b"
+    }
+  ],
+  "selfHash": null,
+  "selfHashReason": "No circular self-hash claimed. Rehash before any future staging.",
+  "maxFile": {
+    "path": "assets/audio/words-to-say/words-to-say-album.zip",
+    "bytes": 85848182,
+    "sha256": "be4fb0d0d4dbdeaa107bab5500b9856032cbd48e0789fd7214923649e6635db7"
+  },
+  "candidateIgnoreCheckPassed": true,
+  "pathListsReadbackPassed": true,
+  "unclassifiedChangedFiles": [],
+  "deferredFiles": 55,
+  "preservationSummary": {
+    "baseline": 836,
+    "unchanged": 832,
+    "modifiedWhitelist": [
+      "AGENTS.md",
+      "docs/GIT_COMMIT_PLAN.md",
+      "docs/MAINTENANCE.md",
+      "README.md"
+    ],
+    "mp3": 200,
+    "zip": 5,
+    "externalOriginals": 40
+  },
+  "fullDecodePerformedThisRun": false,
+  "regressionTestsRunThisRun": false,
+  "head": "559d1db3944a35b8e21dbfd6c1f5be3fe806ccfd",
+  "indexEntriesUnchanged": true,
+  "rawIndexUnchanged": true,
+  "indexEmpty": true,
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "deployed": false
+}

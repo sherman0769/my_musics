@@ -1,0 +1,365 @@
+{
+  "passed": true,
+  "tracks": [
+    {
+      "album": "places-to-go",
+      "track": "01",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行01｜我還想去的地方.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "8e4848f3-4c81-4e76-ba98-f3af54c2540c",
+      "sha256": "0cb9be7fa036444c97bc4612a405399486db0da84bf807d4134b7055c74e88c1"
+    },
+    {
+      "album": "places-to-go",
+      "track": "02",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行02｜把導航關掉.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "93e7edd9-efd4-40e0-b805-a861686cb4d6",
+      "sha256": "be1eb1a34a42641f796d645ab2233d35e902888d1dc1917f0adb8f9fff3c7e01"
+    },
+    {
+      "album": "places-to-go",
+      "track": "03",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行03｜副駕駛座的地圖.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "a43fedaf-7b32-4b3d-bca6-8cb5b46f1616",
+      "sha256": "3e223608fc83ac173067717425fca28af2881d54e390ce8f19401ac44962dfe2"
+    },
+    {
+      "album": "places-to-go",
+      "track": "04",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行04｜下一個交流道.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "e68aa7ef-91f4-411c-aecf-6fd3766d2114",
+      "sha256": "798b8ecd26a1048070677395840e1f2e6c3cb4a0327b126d14116debc7de527c"
+    },
+    {
+      "album": "places-to-go",
+      "track": "05",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行05｜海線往南.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "ba63778c-466f-4604-ac9d-5ec6c51e83fc",
+      "sha256": "97945452e60e154a71a9f49773ca53d5b525dc148ea774ff79232ad876643fe9"
+    },
+    {
+      "album": "places-to-go",
+      "track": "06",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行06｜不為誰打卡.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "af4e3c1d-c72b-47c7-af0c-70443a242950",
+      "sha256": "fae70b31649303ce0639fe89a8fd94b322b96860a0cd15376ea5a57a31672dab"
+    },
+    {
+      "album": "places-to-go",
+      "track": "07",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行07｜山路轉彎以後.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "bdd8d92e-f610-406f-87e3-b2a30176c0a4",
+      "sha256": "7ac686598c0f5445142d19666c53fdc7b9199cc3189c9f87aa84bd985ad665c5"
+    },
+    {
+      "album": "places-to-go",
+      "track": "08",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行08｜一張單程車票.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "1c1e484a-710a-42c3-99e7-98785fa50ea3",
+      "sha256": "1b3d25d3978df3c07c74ef040f72b7351e0dddf144acf2d98f18b2aa0c8a62d6"
+    },
+    {
+      "album": "places-to-go",
+      "track": "09",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行09｜漁港六點半.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "e6d67229-da44-4304-850a-b9986ea2fea5",
+      "sha256": "18c9748eaae9a9d66cd20ed2219455d37400557c2dec29984d1e574376b6f592"
+    },
+    {
+      "album": "places-to-go",
+      "track": "10",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行10｜在陌生小鎮住一晚.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "5fd0d7d5-5e3d-4592-8939-ba56301a29c9",
+      "sha256": "00d891a62bfd4da9bd3cd67fd245f335ced0101d69f2f1a8486f466d0926180d"
+    },
+    {
+      "album": "places-to-go",
+      "track": "11",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行11｜背包裡沒帶走的事.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "ba5a3979-3300-4d70-bed9-18954ddd74d9",
+      "sha256": "ff4930ea9e14eafdae712f1cd461caa18bd15396f8433fa46a806769cef285d0"
+    },
+    {
+      "album": "places-to-go",
+      "track": "12",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行12｜老同學的民宿.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "41a5f06b-9338-4aac-8eeb-8ce9c83f817f",
+      "sha256": "3d990c1516fe5881f6b211d095d4bd224863c3b667f452f8179f9c3883721fdf"
+    },
+    {
+      "album": "places-to-go",
+      "track": "13",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行13｜修車師傅的午休.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "75f77910-a858-484c-abc2-99a0f6c2438c",
+      "sha256": "d139ac9018662aa3d756fd48dfff04be7ef60c687b0fdbfeaa26c18d75504a9e"
+    },
+    {
+      "album": "places-to-go",
+      "track": "14",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行14｜山頂沒有訊號.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "0f01926a-46e5-4d04-b2bb-9e0d19c7ab7a",
+      "sha256": "5841292e4fc01892eb3ee75486b0701dfad160c0e1ab5cbf633ecd737273b030"
+    },
+    {
+      "album": "places-to-go",
+      "track": "15",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行15｜風比答案先抵達.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "a5495bf9-a283-490c-ac96-30b0c6aed4f1",
+      "sha256": "cf345ac618e9ebc916d01aaf5323be2b9cc2470d076f78166f75c87ff85f1abb"
+    },
+    {
+      "album": "places-to-go",
+      "track": "16",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行16｜繞遠路的人.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "1536239f-3328-4709-9106-8938a74c5cd1",
+      "sha256": "df424be522a66a20b16ed145b4be9cdef189ebb73b44292882d76c182b8845af"
+    },
+    {
+      "album": "places-to-go",
+      "track": "17",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行17｜不必每站都下車.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "8d01e7da-2966-4fcf-b889-e312d967fbc6",
+      "sha256": "1dce651fc3bfd19f7d8e783e5648d4b44880f5ca11642433deb113e65f85b34c"
+    },
+    {
+      "album": "places-to-go",
+      "track": "18",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行18｜回程換我開.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "4a6b7013-4c3c-4807-bb97-6cae67bd575d",
+      "sha256": "50a2873727e150daaece0a823ca6c93492a4bb7a7cbc4ad37e6bbe32bf29cf47"
+    },
+    {
+      "album": "places-to-go",
+      "track": "19",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行19｜還有一段路想陪你.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "657132d4-2275-4dc1-b454-7cba888fe037",
+      "sha256": "1f02a32e41cfdb6a51dfd066052dba0869d5cf0bb48bc2adcd85f43f6face586"
+    },
+    {
+      "album": "places-to-go",
+      "track": "20",
+      "sourcePath": "C:\\Users\\User\\Downloads\\遠行20｜下次從這裡出發.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "c1311eae-bcac-4d82-802c-beeaaf8f7e9b",
+      "sha256": "cb901f453efa428bf5ceadf7621cd182efa789dabbc84bb91f82bb719fea6063"
+    },
+    {
+      "album": "words-to-say",
+      "track": "01",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語01｜有些話，現在想說.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+      "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc"
+    },
+    {
+      "album": "words-to-say",
+      "track": "02",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語02｜你叫我名字的時候.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "6b829b1d-cac2-42e9-b1ea-643b8882595b",
+      "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a"
+    },
+    {
+      "album": "words-to-say",
+      "track": "03",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語03｜第二次約會.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "cf105c78-ad27-46fa-9944-4574cd683818",
+      "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5"
+    },
+    {
+      "album": "words-to-say",
+      "track": "04",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語04｜把喜歡說得清楚.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "3fb54616-8c2f-4b6b-b43e-7020c958b449",
+      "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111"
+    },
+    {
+      "album": "words-to-say",
+      "track": "05",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語05｜你的習慣，我的例外.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "968c0f1f-1310-4f81-bc94-1bf2509be161",
+      "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8"
+    },
+    {
+      "album": "words-to-say",
+      "track": "06",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語06｜兩個人的時差.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+      "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756"
+    },
+    {
+      "album": "words-to-say",
+      "track": "07",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語07｜我們不是不相愛.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "16bd1bca-600e-4e7d-b716-bef2d8272829",
+      "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1"
+    },
+    {
+      "album": "words-to-say",
+      "track": "08",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語08｜那句話說重了.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+      "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e"
+    },
+    {
+      "album": "words-to-say",
+      "track": "09",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語09｜先聽你說完.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "85563c8a-6d79-4d4f-8290-a00c2e03d564",
+      "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d"
+    },
+    {
+      "album": "words-to-say",
+      "track": "10",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語10｜對不起，不加但是.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "8fa40bef-8db5-4281-a3d8-301db7e39659",
+      "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302"
+    },
+    {
+      "album": "words-to-say",
+      "track": "11",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語11｜如果當時抱住你.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "44698155-4756-469b-ae0f-336f19422780",
+      "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd"
+    },
+    {
+      "album": "words-to-say",
+      "track": "12",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語12｜分開以後的星期五.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+      "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7"
+    },
+    {
+      "album": "words-to-say",
+      "track": "13",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語13｜不再借朋友問你.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+      "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98"
+    },
+    {
+      "album": "words-to-say",
+      "track": "14",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語14｜祝福還需要練習.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "ee1abf39-b13a-44f5-b48d-606aadea18df",
+      "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92"
+    },
+    {
+      "album": "words-to-say",
+      "track": "15",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語15｜我也值得被喜歡.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+      "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391"
+    },
+    {
+      "album": "words-to-say",
+      "track": "16",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語16｜再靠近一點點.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+      "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70"
+    },
+    {
+      "album": "words-to-say",
+      "track": "17",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語17｜和你商量以後.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+      "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff"
+    },
+    {
+      "album": "words-to-say",
+      "track": "18",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語18｜平常也說我愛你.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "d2617a47-2166-46d5-a69c-254adb5469b5",
+      "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2"
+    },
+    {
+      "album": "words-to-say",
+      "track": "19",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語19｜下次吵架以前.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+      "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc"
+    },
+    {
+      "album": "words-to-say",
+      "track": "20",
+      "sourcePath": "C:\\Users\\User\\Downloads\\心語20｜我願意，再說一次.mp3",
+      "absentBeforeBatch": true,
+      "modifiedAfterReserved": true,
+      "providerId": "b05df30e-fd74-4edb-a244-a2600d708abb",
+      "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d"
+    }
+  ]
+}

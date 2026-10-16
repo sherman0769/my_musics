@@ -1,0 +1,327 @@
+{
+  "supplements": "music-library-pending.json",
+  "formalLibraryReady": false,
+  "verifiedAt": "2026-10-16T10:10:27.054Z",
+  "assets": [
+    {
+      "key": "places-to-go/01",
+      "sha256": "0cb9be7fa036444c97bc4612a405399486db0da84bf807d4134b7055c74e88c1",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/02",
+      "sha256": "be1eb1a34a42641f796d645ab2233d35e902888d1dc1917f0adb8f9fff3c7e01",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/03",
+      "sha256": "3e223608fc83ac173067717425fca28af2881d54e390ce8f19401ac44962dfe2",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/04",
+      "sha256": "798b8ecd26a1048070677395840e1f2e6c3cb4a0327b126d14116debc7de527c",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/05",
+      "sha256": "97945452e60e154a71a9f49773ca53d5b525dc148ea774ff79232ad876643fe9",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/06",
+      "sha256": "fae70b31649303ce0639fe89a8fd94b322b96860a0cd15376ea5a57a31672dab",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/07",
+      "sha256": "7ac686598c0f5445142d19666c53fdc7b9199cc3189c9f87aa84bd985ad665c5",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/08",
+      "sha256": "1b3d25d3978df3c07c74ef040f72b7351e0dddf144acf2d98f18b2aa0c8a62d6",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/09",
+      "sha256": "18c9748eaae9a9d66cd20ed2219455d37400557c2dec29984d1e574376b6f592",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/10",
+      "sha256": "00d891a62bfd4da9bd3cd67fd245f335ced0101d69f2f1a8486f466d0926180d",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/11",
+      "sha256": "ff4930ea9e14eafdae712f1cd461caa18bd15396f8433fa46a806769cef285d0",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/12",
+      "sha256": "3d990c1516fe5881f6b211d095d4bd224863c3b667f452f8179f9c3883721fdf",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/13",
+      "sha256": "d139ac9018662aa3d756fd48dfff04be7ef60c687b0fdbfeaa26c18d75504a9e",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/14",
+      "sha256": "5841292e4fc01892eb3ee75486b0701dfad160c0e1ab5cbf633ecd737273b030",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/15",
+      "sha256": "cf345ac618e9ebc916d01aaf5323be2b9cc2470d076f78166f75c87ff85f1abb",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/16",
+      "sha256": "df424be522a66a20b16ed145b4be9cdef189ebb73b44292882d76c182b8845af",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/17",
+      "sha256": "1dce651fc3bfd19f7d8e783e5648d4b44880f5ca11642433deb113e65f85b34c",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/18",
+      "sha256": "50a2873727e150daaece0a823ca6c93492a4bb7a7cbc4ad37e6bbe32bf29cf47",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/19",
+      "sha256": "1f02a32e41cfdb6a51dfd066052dba0869d5cf0bb48bc2adcd85f43f6face586",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "places-to-go/20",
+      "sha256": "cb901f453efa428bf5ceadf7621cd182efa789dabbc84bb91f82bb719fea6063",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/01",
+      "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/02",
+      "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/03",
+      "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/04",
+      "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/05",
+      "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/06",
+      "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/07",
+      "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/08",
+      "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/09",
+      "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/10",
+      "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/11",
+      "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/12",
+      "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/13",
+      "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/14",
+      "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/15",
+      "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/16",
+      "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/17",
+      "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/18",
+      "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/19",
+      "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    },
+    {
+      "key": "words-to-say/20",
+      "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d",
+      "audio_presence": "has_sound",
+      "vocals": "unknown",
+      "listeningPerformed": false,
+      "fullDecodeExit": 0
+    }
+  ]
+}

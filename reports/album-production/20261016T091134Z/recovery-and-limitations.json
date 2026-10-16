@@ -1,0 +1,14 @@
+{
+  "downloadAllowance": {"before":46,"after":6,"used":40,"distinctSelectedSongs":40,"unlockActions":40,"sameUnlockedSongRecoveryActions":1},
+  "generationCredits": {"before":9934,"after":9534,"used":400,"generationRequests":40,"candidatesObserved":80,"createPageBadgeStaleFromSecondAlbum":true,"authoritativeFinalSource":"Reloaded https://suno.com/account", "initialStaleObservationsRetained":true},
+  "downloadFailure": {"track":"words-to-say/06","providerId":"1638dc59-0df2-43d2-9cb2-9ef1aeb62826","message":"Download failed, please try again.","initialLocalFileAndPartialFile":"absent","readback":"You've unlocked this song. You can return and download at any time.","recovery":"One native Download action for the same unlocked song","newUnlock":false,"regeneration":false,"result":"original MP3 saved and full decode passed"},
+  "nativeDownloadEvents":"Event listeners timed out although native files generally completed; filesystem, exact title, bytes, SHA-256 and decode are the completion evidence. No generic retry loops.",
+  "packageFailure":{"file":"zip-first-failure.json","retainedZip":"failed-places-to-go-first-package.zip","retainedScript":"package-first-powershell5.ps1","recovery":"PowerShell 7; both final ZIPs verified entry by entry"},
+  "listeningPerformed":false,
+  "vocals":"unknown: selected vocal Voice is verified in UI, actual performance not listened to",
+  "publicVerification":"not_run",
+  "cloudMusicLibrary":"local pending manifests only; cloud index dedup, upload and READY not run",
+  "newLocalUiBridgeTrial":{"purpose":"Transfer saved approved lyrics/styles into the browser and save observed receipts without manual retyping","binding":"127.0.0.1 only","evidenceWrites":"exclusive new filenames; local form Origin checked","result":"passed","sourceAndEvidenceServersStopped":true,"adoptedAsProjectRule":false},
+  "git":{"stage":false,"commit":false,"push":false},
+  "deployment":false
+}

@@ -1,0 +1,16 @@
+{
+  "authorizedAtTaiwanDate": "2026-10-16",
+  "scope": "Two original vocal albums, 20 tracks each, using Li Shih-Min's existing Suno Voice",
+  "accountObserved": "subliminalsongbirds009",
+  "voiceObserved": {"name":"2026/03/27","id":"b0593d92-dd06-4602-80fa-e701e89ee2d7","verifiedInCreateForm":true},
+  "modelObserved": "v6",
+  "creditsBefore": 9934,
+  "downloadsBefore": 46,
+  "maxDistinctSongDownloads": 40,
+  "selection": "Choose one candidate per track without listening, as explicitly requested by user",
+  "listeningReview": "waived_for_selection_not_performed",
+  "push": false,
+  "deployment": false,
+  "purchase": false,
+  "voiceSelectionIncident": "Initial unfiltered Voice click read back a different Voice. No generation submitted. Removed it, searched exact name, then read back matching existing owner-confirmed Voice ID. No credits consumed by this correction."
+}

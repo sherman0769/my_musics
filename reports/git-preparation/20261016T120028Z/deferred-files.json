@@ -1,0 +1,335 @@
+{
+  "reason": "既有其他輪次未追蹤 Git 操作／推送規劃報告；原檔保留，不納本次兩專輯候選。",
+  "files": [
+    {
+      "path": "reports/git-commits/20261015T120421Z/baseline.json",
+      "bytes": 156162,
+      "sha256": "ac6ebd40d358b8a3f4b1e503a06ace5f26afb8618d13a83de6e0dadf82b953b3",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/city-lights-check.json",
+      "bytes": 9740,
+      "sha256": "8938f3b59a1dd2fdf47b7fa43caee40f127f24b487c846a12d47bb3f0576f2d2",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/COMMIT_RESULT.md",
+      "bytes": 2903,
+      "sha256": "52bcf179e62e6c70f79ab1d728d60faa4386426ad53b2378b7afb2b745b975ac",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-01-dry-run.json",
+      "bytes": 4650,
+      "sha256": "908badf77f612e8fce66e153026f5476cbb7c9701f16da61e3ec48ec8cb056df",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-01-intent.json",
+      "bytes": 363,
+      "sha256": "eb7e1cbb925f9dd7e43d81f167df83f052dfefbf98e29c0a678e7f135b4c02ed",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-01-message.txt",
+      "bytes": 206,
+      "sha256": "37cbc3bdb1d64b4fd69fd371cf30a03f64e8130c438a1c059f61b957a9286c5b",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-01-result.json",
+      "bytes": 2678,
+      "sha256": "6e4e96c311128196d514513eea420dc4b96920be2967038d42b782bbd27afa5a",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-02-dry-run.json",
+      "bytes": 24264,
+      "sha256": "30e31ba09d90866be3a8b7c9a0a0ff3c5413c839a1eb08289d87a9a1d0510382",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-02-intent.json",
+      "bytes": 364,
+      "sha256": "bb7caa69d855772fe9f0547cb7b433f3429f6938adb8b12b719eab520a4ce5ec",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-02-message.txt",
+      "bytes": 184,
+      "sha256": "aa12407f3911c4f15a79bedb9a1d2cb1364babd231421e2b5341b0ef7cc3d056",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-02-result.json",
+      "bytes": 14530,
+      "sha256": "ef302228f163c59fee9d4cc44ee20f789e15fbb90dc090c91de026c58282a97a",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-03-dry-run.json",
+      "bytes": 4867,
+      "sha256": "ffebf53cc170ee6be41d5326ba17fb507caa794a53183bfd056cdcd13a6c1c9c",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-03-intent.json",
+      "bytes": 363,
+      "sha256": "35dac1d19f69559b84707ea97235faf90805d9d2e52bc4c2fcfeded003dd4643",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-03-message.txt",
+      "bytes": 202,
+      "sha256": "48c9ed6e6f69d3d1eb8f09eeb79dc509d056c83fa52680d39642e967d27fdf4e",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-03-result.json",
+      "bytes": 3312,
+      "sha256": "835ee2212a1d63a1043f316ae49a62a7a26168c3dd05916efba43bd7e451e214",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/commit-log.txt",
+      "bytes": 408,
+      "sha256": "3a30c05a58cacb9caae0a0c376af0929f1431dcad5e72134a82e1f962c96f22f",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/committed-content-verification.json",
+      "bytes": 123242,
+      "sha256": "77de25aa358c9a99858235411c316128c52ea87bfc244018ae6dd5bf4a39597d",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/final-receipt.json",
+      "bytes": 4829,
+      "sha256": "09579a3adf3fd229d4e525542afbb4d89b61b1fd0283ed5c053e9908b8c36c7f",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/index-before.bin",
+      "bytes": 48323,
+      "sha256": "d55c36d3c1923db834dda866fb6e4f6419d452508e0086da7661758746752876",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/preflight.json",
+      "bytes": 1077,
+      "sha256": "3e7d2f4f333f7ae91158ee48fa305a7b23c2a3884d5904a4674d1d8284c40d7c",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/slow-days-check.json",
+      "bytes": 9749,
+      "sha256": "6f07e35146234d4f92e70bee30d863f2be21ade1ad717a433923ca134511cd95",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/status-after.txt",
+      "bytes": 2637,
+      "sha256": "50d56680c468b89cceb6f9c204f4c24a3649934832510635e04275545b59b626",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/syntax.json",
+      "bytes": 818,
+      "sha256": "e4815b1eb021a9be991dc776670beaff62847ae112ec869d8c4c9b0aa56b2098",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-commits/20261015T120421Z/tests.txt",
+      "bytes": 2590,
+      "sha256": "160572fe0ba63db53424a4dc2e7d09fddff9dbb32173026f95bc48050be13ceb",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/attributes-before.json",
+      "bytes": 180508,
+      "sha256": "010cb60a4d5a5c9aec17dd026cd7049bddc4db3e9735dacfcf8bd9ec0e6a6207",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/baseline.json",
+      "bytes": 96829,
+      "sha256": "c7f3c4fb21608bba0ba2291494b14254a405c8b711be222d29319b80d79436ac",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/cached-diff-check.txt",
+      "bytes": 2525115,
+      "sha256": "821f79cba57bf88e3a9b99b967ce5c926e12f451869a34ce21225f13088c8a4b",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/checks.json",
+      "bytes": 4368885,
+      "sha256": "a53c6e7abe5669deb58447d91b584fffc08e2c374a8bd5fbb7a3394364424efe",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/city-lights-check.json",
+      "bytes": 9740,
+      "sha256": "5a93ebed5be0b1ff7d4457bcf66a488f66c57ab13991c34037efbc330da86f45",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/expected-git-blobs.json",
+      "bytes": 102457,
+      "sha256": "542635e45a66cfd3d0d3c43560de49afd5fd0c466a3af30d87c4d42cad267de7",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/final-receipt.json",
+      "bytes": 2714,
+      "sha256": "8d87bf3902d9bcbee3c03ea4c073e1887589fd91a2ade342a0e5c5b8e0087c1c",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/index-before.bin",
+      "bytes": 8835,
+      "sha256": "d2e464471d590c99a1461e2f6b17531027bfc14d82c2e51c8b90266f1c7147d3",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/index-content-verification.json",
+      "bytes": 185642,
+      "sha256": "ec542be7f58b34368d87075aedb1fb5446887a95101eaf87bb7b3dfd0f152b55",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/preflight.json",
+      "bytes": 79041,
+      "sha256": "e6a1a7aee73a10d69efa989bac9adff9e6899a318af0262df79de8edc8edf6d0",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/slow-days-check.json",
+      "bytes": 9749,
+      "sha256": "af7a8e2a7a2e4d4e89bf94c94080880b974af7df622df8d23cda3cfe4ea3d7bc",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/stage-01-result.json",
+      "bytes": 196,
+      "sha256": "2b82b5652c897e78309936800e1d77a37d3330223e089f41f80183d88c29b313",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/stage-02-result.json",
+      "bytes": 199,
+      "sha256": "8107973e708971921ce0484ebbf2e1dc991513dbf17d452a02f0140c327836ad",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/stage-03-result.json",
+      "bytes": 198,
+      "sha256": "f5f1b511adef1ba67c5c5b80aada1bc80a48692bc08d438de8d62ff38fef76f9",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/stage-intent.json",
+      "bytes": 613,
+      "sha256": "189f943803b5533aa3f629038d71612d904d848d5f11138679b166db2839595a",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/staged-index-entries.z",
+      "bytes": 41127,
+      "sha256": "9d6961fb7d035e1a8277e56a64cf5545feb707a503fdc681bdab9e70ab05854e",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/staged-name-status.tsv",
+      "bytes": 18140,
+      "sha256": "d1ebbb5ff88dc7de157a0f54e016727d9d498cb0230378c7384621c77e72f345",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/STAGING_RESULT.md",
+      "bytes": 3092,
+      "sha256": "ef185d3e4f6a0af6b2d8f1c330425f75933dd013202db575c51d1899e3ffa688",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/status-after.txt",
+      "bytes": 18863,
+      "sha256": "b01afc8dfadcfbc42a3e7404f6e98b8c6fcdd07457345661526d9a292e44c399",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/tests.txt",
+      "bytes": 2588,
+      "sha256": "cc53246762d92c7ead1eff0e13712d2a7fa61de53b67aa3d0dea2127350c8b76",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/whitespace-classification.json",
+      "bytes": 6651,
+      "sha256": "58aa8bb6dc0f96b15a15843cab31ca102756e107d02cd32530787d3b1e6d47e1",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/git-staging/20261015T115106Z/working-tree-before.patch",
+      "bytes": 46640,
+      "sha256": "6863b918bc29e4d62e4e8e1a6f6dd4ccab36b8474815618d3b9e8399e622d8d1",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/baseline.json",
+      "bytes": 142211,
+      "sha256": "89b11aab4ab0b6bc0e0c7ef1aee90c925819e79170c2d5443ddcf6c0c563a9d7",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/github-state.json",
+      "bytes": 1993,
+      "sha256": "322b7ff0a386e2957c2801cb57df1767b1b8fa218fec8b7666bc1f305804cb6d",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/outgoing-objects.json",
+      "bytes": 67757,
+      "sha256": "2192bd914ddb7c6e50b1a045bb307e5cc756a8a31c6aa44d72db3ba588046d53",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/PUSH_PLAN.md",
+      "bytes": 8216,
+      "sha256": "c815d9f691cb1ad0d51a972381258f6c50225eea39efe9d281e6eded6319f24b",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/push-plan.json",
+      "bytes": 6739,
+      "sha256": "9f28d2f20f67e657d344d6221e59360abb638c39fa509df386c1e0bf3e70107c",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/status-before.txt",
+      "bytes": 102,
+      "sha256": "91442d19c8b3731a57103d9f7312650c978ca8be078f243a0159923efdb795eb",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/validation.json",
+      "bytes": 2742,
+      "sha256": "8c836e249e693057424b48fda9bf7040a36f63e4844859134c495d26b48d9a16",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/vercel-final-readback.json",
+      "bytes": 655,
+      "sha256": "e27200ff6ed9351943c6ec29cbe024484e1eee4c6dbfdeb31b10e2f1e007c08c",
+      "git": "untracked"
+    },
+    {
+      "path": "reports/push-plan/20261015T121913Z/vercel-state.json",
+      "bytes": 3804,
+      "sha256": "d945eb291a50df9329b6834c351871fd409581638446559b3ba348d16b16f5e2",
+      "git": "untracked"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+ {"stage":"voice_selection","sideEffects":"No generation or credit charge","signature":"Unfiltered exact text click selected different virtualized Voice row","recovery":"Removed wrong Voice, filtered exact name, selected and verified existing owner-confirmed Voice URL before any generation"},
+ {"stage":"first_download_format","sideEffects":"No download, balance remained 46, no new local file","signature":"MP3 was already default-selected; clicking it toggled selection off and disabled Unlock & Download. Click attempt rejected while disabled","recovery":"Observed disabled button and unchanged quota; selected MP3 once, confirmed enabled, then made one actual unlock click"},
+ {"stage":"first_native_download","signature":"waitForEvent(download) timed out after 15000ms","outcome":"Native MP3 completed as C:/Users/User/Downloads/遠行01｜我還想去的地方.mp3, 4315076 bytes. Preserved exact copy; SHA and full decode passed. No repeat unlock or download","browserDownloadFinalized":true}
+]

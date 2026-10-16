@@ -1,0 +1,4 @@
+?? reports/album-production/
+?? reports/git-commits/
+?? reports/git-staging/
+?? reports/push-plan/

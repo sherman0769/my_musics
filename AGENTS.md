@@ -29,6 +29,19 @@ node --test tests/release-validation.test.cjs
 - `release-validation.json`、`public-verification.json`、`album.json` 與既有交付文件是歷史證據，不作為反覆覆寫的新驗收出口。
 - `create-album`、`collect-ready`、`verify-download`、`finalize-ledger`、`build-release`、`integrate-site`、`complete-release` 屬製作／寫入流程，不能當成唯讀驗證重跑。
 
+## 本機歌詞與紀錄橋接製作規則（2026-10-16 正式採用）
+
+使用者已正式採用本次雙專輯通過的橋接方式，作為本專案可選的製作輔助流程。完整操作與驗收見 [docs/LOCAL_ALBUM_BRIDGE.md](docs/LOCAL_ALBUM_BRIDGE.md)。採用流程不等於授權下一批生成、額度消耗、雲端入庫或發布。
+
+- 先將當批專輯 ID、曲目 ID、完整歌詞／提示詞、Voice、模型、帳號別名及額度上限保存於本機帳本；每次外部生成、解鎖與下載分別先寫交易意圖。產生候選後逐一記錄實際作品 ID／頁面，不以本機橋接回覆判定供應商成功。
+- 歌詞來源服務只讀取當批明列檔案，以可見頁面供瀏覽器讀取；證據服務只接收當批實際觀察資料，以可見表單保存。兩者只綁定 `127.0.0.1`，證據 POST 須核對精確 Origin、限制大小、解析及核對批次欄位，輸出以 `wx` 獨佔新檔建立。不得用橋接讀取憑證、隱藏狀態、私人 API 或操作未授權檔案。
+- 歌詞／Styles／Title 仍填入 Suno 原生可見控制項，送出前讀回比對；只容許已記錄的換行正規化，不可漏字改詞。Voice 必須精確篩選並核對實際身分 ID，生成後再核對每個候選的模型／Voice 證據；缺值與不符保留待查，不猜造或付費重生。
+- 每曲選用版本須以 `selectedResult` 對應候選與下載交易；任選及免試聽只適用當批明確授權，不能變成後續預設接受。生成成功但下載未完成也必須保留逐候選備註。
+- 原生下載先掛事件再按一次；事件逾時先核對同作品的 UI、原檔及暫存檔，不盲目重按。只有明確失敗、無檔案／進行中下載、同作品已解鎖，且恢復仍在當批授權內時，才能保存恢復意圖後做一次同作品原生下載。未知狀態或安全拒絕須停止相依操作。
+- 額度以重新載入的帳號權威頁讀回前後值；快取徽章與實際扣額分開記錄。重置日期沒有時間／時區時保持未知。下載事件不等於完成；原始下載、專案保存副本與正式音檔須逐檔核對 bytes／完整 SHA-256，並按專輯驗證規則完成新一輪完整解碼。
+- 歌曲有聲、是否有人聲、Voice 設定、實際聲音身分及人工接受分開記錄；免試聽不等於藝術驗收通過。保留第一次失敗、恢復意圖、未完成候選、原始音檔、失敗 ZIP 與重驗證據。
+- 使用中文路徑的已驗證打包路徑為 PowerShell 7；新 ZIP 獨佔建立，逐項核對數量、路徑與內容 SHA。歷史批次腳本的專輯 ID、端口及 40 首上限不是通用預設，重用前須按當批授權檢查。收尾只停止本輪自建橋接服務，確認端口關閉並留紀錄。
+
 ## 驗收邊界與失敗保存
 
 - 音訊有聲與是否有人聲分欄：`audio_presence=has_sound|silent_or_near_silent|unknown`，`vocals=vocal|instrumental|unknown`。未聽審時人聲維持 `unknown`；ASR 無歌詞不等於純音樂。
@@ -52,3 +65,4 @@ node --test tests/release-validation.test.cjs
 
 - 首次驗收：`reports/maintenance/20261015T112939Z/驗收結果.md`，80 首正式曲目完整解碼、120 個既有 MP3 與兩個 ZIP 雜湊保留、15 項回歸測試通過。
 - 正式採用與 Git 清單：`docs/GIT_COMMIT_PLAN.md` 及 `reports/git-preparation/20261015T114229Z/`。舊報告中「待使用者決定」保留為歷史狀態，以本檔與當次明確採用指示為現行規則。
+- 本機橋接採用：2026-10-16 使用者明確要求正式納入。試行證據為 `reports/album-production/20261016T091134Z/交付與驗收.md`、逐次 `browser-evidence-*.json`、`quota-receipt.json`、`final-audio-and-preservation.json` 及 `final-summary.json`；40 曲、80 候選、40 首下載的紀錄保留。該歷史報告的「尚未升級」描述不回寫，由本條記錄後續正式採用。
