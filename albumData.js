@@ -1499,7 +1499,9 @@ const albumsData = [
   albumData,
   zeguoxixiangAlbumData,
   typeof module !== 'undefined' && module.exports ? require('./slowDaysAlbum.js') : window.slowDaysAlbumData,
-  typeof module !== 'undefined' && module.exports ? require('./cityLightsAlbum.js') : window.cityLightsAlbumData
+  typeof module !== 'undefined' && module.exports ? require('./cityLightsAlbum.js') : window.cityLightsAlbumData,
+  typeof module !== 'undefined' && module.exports ? require('./placesToGoAlbum.js') : window.placesToGoAlbumData,
+  typeof module !== 'undefined' && module.exports ? require('./wordsToSayAlbum.js') : window.wordsToSayAlbumData
 ];
 
 // 匯出資料庫，供 app.js 使用。新增專輯時，將 album 物件加入 albumsData 即可。

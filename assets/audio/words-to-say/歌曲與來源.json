@@ -1,0 +1,150 @@
+{
+  "album": "有些話，現在想說",
+  "artist": "李詩民",
+  "provider": "Suno",
+  "model": "v6",
+  "listeningPerformed": false,
+  "status": "local_unpublished_unreviewed",
+  "tracks": [
+    {
+      "title": "有些話，現在想說",
+      "filename": "track01.mp3",
+      "sourceUrl": "https://suno.com/song/9913e3b6-f224-4306-a2bd-0ce627dacf8b",
+      "sha256": "eb3099d94034eab5889b91e105bbe6fe80b00aa3024ba1b613f74528748010fc",
+      "duration": "3:32"
+    },
+    {
+      "title": "你叫我名字的時候",
+      "filename": "track02.mp3",
+      "sourceUrl": "https://suno.com/song/6b829b1d-cac2-42e9-b1ea-643b8882595b",
+      "sha256": "88ed2636ec3b3287e05dfa1cc08803045e08f959b04f533bba775c208cf3f14a",
+      "duration": "2:48"
+    },
+    {
+      "title": "第二次約會",
+      "filename": "track03.mp3",
+      "sourceUrl": "https://suno.com/song/cf105c78-ad27-46fa-9944-4574cd683818",
+      "sha256": "d11e80a751e98dd64a9b29ba985f5e182320060f664056c6952780a08d39a2b5",
+      "duration": "2:31"
+    },
+    {
+      "title": "把喜歡說得清楚",
+      "filename": "track04.mp3",
+      "sourceUrl": "https://suno.com/song/3fb54616-8c2f-4b6b-b43e-7020c958b449",
+      "sha256": "262edb9abf1a3ea1a2457f31a074cca4c6d5872cf9f99bd02c32a5f87c680111",
+      "duration": "2:42"
+    },
+    {
+      "title": "你的習慣，我的例外",
+      "filename": "track05.mp3",
+      "sourceUrl": "https://suno.com/song/968c0f1f-1310-4f81-bc94-1bf2509be161",
+      "sha256": "f83705b19b0485d56cfde67d8ba659f1e7e366b20076e3dcb1a35ba1acd6fca8",
+      "duration": "2:52"
+    },
+    {
+      "title": "兩個人的時差",
+      "filename": "track06.mp3",
+      "sourceUrl": "https://suno.com/song/1638dc59-0df2-43d2-9cb2-9ef1aeb62826",
+      "sha256": "922bbee3b8464a96030f4ea6792c30883ff9825bf48dea45ea89c8b1c76e6756",
+      "duration": "2:42"
+    },
+    {
+      "title": "我們不是不相愛",
+      "filename": "track07.mp3",
+      "sourceUrl": "https://suno.com/song/16bd1bca-600e-4e7d-b716-bef2d8272829",
+      "sha256": "56ae1dc2a5d0315c2b686109f1602831b00f6279858baff97abe4e6971e4fff1",
+      "duration": "3:06"
+    },
+    {
+      "title": "那句話說重了",
+      "filename": "track08.mp3",
+      "sourceUrl": "https://suno.com/song/9b62a8f6-f881-4b13-8a15-bea4dc7aea5e",
+      "sha256": "77b0ef900d16b5c28a0f3b7e4071d9e0451cc11fcb82ebc4a414a69a2b10a75e",
+      "duration": "3:17"
+    },
+    {
+      "title": "先聽你說完",
+      "filename": "track09.mp3",
+      "sourceUrl": "https://suno.com/song/85563c8a-6d79-4d4f-8290-a00c2e03d564",
+      "sha256": "3c87f50a3360864cbd1e7e0a0807486e5bdde34282c34975b0c565883a51f28d",
+      "duration": "2:47"
+    },
+    {
+      "title": "對不起，不加但是",
+      "filename": "track10.mp3",
+      "sourceUrl": "https://suno.com/song/8fa40bef-8db5-4281-a3d8-301db7e39659",
+      "sha256": "a2bd3624d3fa569404872b35ef8e4cb717d65ee7ad904f8cbc5164be1b703302",
+      "duration": "3:22"
+    },
+    {
+      "title": "如果當時抱住你",
+      "filename": "track11.mp3",
+      "sourceUrl": "https://suno.com/song/44698155-4756-469b-ae0f-336f19422780",
+      "sha256": "7c4df4accae8d842fd0c52efc04f35e173dd9bb36378155b6192c804a3b2cefd",
+      "duration": "3:35"
+    },
+    {
+      "title": "分開以後的星期五",
+      "filename": "track12.mp3",
+      "sourceUrl": "https://suno.com/song/9c4c0604-7411-4c82-9cb1-c49d4934d5f3",
+      "sha256": "243efef8c8cc3cc355647be58f2ecf37651e35f831ee5ca76bb6d1a4a00551a7",
+      "duration": "3:13"
+    },
+    {
+      "title": "不再借朋友問你",
+      "filename": "track13.mp3",
+      "sourceUrl": "https://suno.com/song/c685c4aa-50bf-4524-8417-9db09fc5f5f1",
+      "sha256": "bf39d2c1ad8f561b0eafa3515dd11efa80994bb6c4e4e2cf35841fd64422ab98",
+      "duration": "2:33"
+    },
+    {
+      "title": "祝福還需要練習",
+      "filename": "track14.mp3",
+      "sourceUrl": "https://suno.com/song/ee1abf39-b13a-44f5-b48d-606aadea18df",
+      "sha256": "39f05f25a27a62f7f8c052d950c328a85e87e8a82f243334abc98e0973920d92",
+      "duration": "3:15"
+    },
+    {
+      "title": "我也值得被喜歡",
+      "filename": "track15.mp3",
+      "sourceUrl": "https://suno.com/song/cc0631a9-f18a-4fe9-aebc-c403969da1d8",
+      "sha256": "45fb9e879db906a26b342c2a1f19bb84a2a1f045c1c5a6f13a5827312a9a1391",
+      "duration": "3:05"
+    },
+    {
+      "title": "再靠近一點點",
+      "filename": "track16.mp3",
+      "sourceUrl": "https://suno.com/song/cfc7f8c7-1bb4-421f-b356-123a2bcdfc9a",
+      "sha256": "edce12c62c40334f015f4d22d25207072b5b9ae75ba1082775aaaac8b3a78c70",
+      "duration": "2:47"
+    },
+    {
+      "title": "和你商量以後",
+      "filename": "track17.mp3",
+      "sourceUrl": "https://suno.com/song/e0089ba8-9b60-4778-82fd-0a85f6a60c76",
+      "sha256": "d8f4c5a6e29a8e740dbf1e6c9f1889588443109ec532b798fbdd92d39090e2ff",
+      "duration": "3:13"
+    },
+    {
+      "title": "平常也說我愛你",
+      "filename": "track18.mp3",
+      "sourceUrl": "https://suno.com/song/d2617a47-2166-46d5-a69c-254adb5469b5",
+      "sha256": "28c0f0ce7530b7cacc8f2eb7f6934f6650558ceb3b2e22fb8b9e8822d2d978a2",
+      "duration": "2:52"
+    },
+    {
+      "title": "下次吵架以前",
+      "filename": "track19.mp3",
+      "sourceUrl": "https://suno.com/song/d9f7e9f5-8f2d-44c1-a108-da6159178ff0",
+      "sha256": "0443b39df2dc53eb76b0f0e6fcdd2b9cfa9bd5bd0e79a992bc768068049700fc",
+      "duration": "2:47"
+    },
+    {
+      "title": "我願意，再說一次",
+      "filename": "track20.mp3",
+      "sourceUrl": "https://suno.com/song/b05df30e-fd74-4edb-a244-a2600d708abb",
+      "sha256": "1b1da9079ded9e99086bd7ade3c0461604f061723d057ffc78ae7ab7d9b5d69d",
+      "duration": "3:18"
+    }
+  ]
+}

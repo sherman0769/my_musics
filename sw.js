@@ -1,12 +1,16 @@
 // sw.js - 服務工作線程 (Service Worker)
 // 這是使手機瀏覽器支援 PWA (可安裝成手機 App) 的核心檔案
 
-const CACHE_NAME = 'glimmer-boundaries-v18';
+const CACHE_NAME = 'glimmer-boundaries-v19';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './style.css?v=9',
-  './albumData.js?v=6',
+  './albumData.js?v=7',
+  './placesToGoAlbum.js?v=1',
+  './wordsToSayAlbum.js?v=1',
+  './assets/images/places-to-go/cover.svg',
+  './assets/images/words-to-say/cover.svg',
   './cityLightsAlbum.js?v=1',
   './assets/images/city-lights/cover.png',
   './slowDaysAlbum.js?v=1',
