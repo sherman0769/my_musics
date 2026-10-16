@@ -8,13 +8,13 @@ const placesToGoAlbumData = {
   "coverImage": "assets/images/places-to-go/cover.svg",
   "labelImage": "assets/images/places-to-go/cover.svg",
   "artistImage": "assets/images/singer_3.jpg",
-  "releaseDate": "2026-10-16（本機製作，未發布）",
+  "releaseDate": "2026-10-16",
   "status": "available",
   "audioBasePath": "assets/audio/places-to-go",
   "downloadPage": "places-to-go-downloads.html",
   "tagline": "把想去的地方，走成今天的方向。",
   "changelogTitle": "Album Diary / 我還想去的地方",
-  "changelogIntro": "20 首原創國語歌曲，使用既有李詩民 Voice 進行 AI 輔助創作。依本人要求每首任選一個候選下載，未試聽；本機技術驗證不代表聽審或公開發布。",
+  "changelogIntro": "20 首原創國語歌曲，使用李詩民本人提供的 Voice 進行 AI 輔助創作，於 2026 年 10 月 16 日公開。沿著台灣的公路、海岸與山城，把仍想出發的心情唱成故事。",
   "tracks": [
     {
       "id": 1,

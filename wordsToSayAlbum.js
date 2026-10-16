@@ -8,13 +8,13 @@ const wordsToSayAlbumData = {
   "coverImage": "assets/images/words-to-say/cover.svg",
   "labelImage": "assets/images/words-to-say/cover.svg",
   "artistImage": "assets/images/singer_3.jpg",
-  "releaseDate": "2026-10-16（本機製作，未發布）",
+  "releaseDate": "2026-10-16",
   "status": "available",
   "audioBasePath": "assets/audio/words-to-say",
   "downloadPage": "words-to-say-downloads.html",
   "tagline": "有些話，今天開始好好說。",
   "changelogTitle": "Album Diary / 有些話，現在想說",
-  "changelogIntro": "20 首原創國語歌曲，使用既有李詩民 Voice 進行 AI 輔助創作。依本人要求每首任選一個候選下載，未試聽；本機技術驗證不代表聽審或公開發布。",
+  "changelogIntro": "20 首原創國語歌曲，使用李詩民本人提供的 Voice 進行 AI 輔助創作，於 2026 年 10 月 16 日公開。從親人、朋友到相伴的人，把那些來不及說的話，慢慢唱給你聽。",
   "tracks": [
     {
       "id": 1,
